@@ -17,7 +17,6 @@ Hava durumu niyeti, Azure Maps ile Türkiye’deki hava durumlarını şehre, ta
 
 - Ankara hava durumu
 - Ankara'da hava nasıl?
-- Ankara'da yarın hava nasıl?
 - Ankara hava, Ankara hava durumu
 
 sorularına cevap olarak hava durumu kartını getirir;
@@ -31,9 +30,20 @@ sorularına cevap olarak hava durumu kartını getirir;
 
 gibi sorular için ise, ilk olarak hangi şehrin hava durumunu öğrenmek istediğinizi sorar ve cevabınıza göre şehrin hava durumu kartını getirir.
 
-Yarın hava durumunu öğrenmek isterseniz 
-Bugün hava durumu
-Haftalık hava durumu
+Yarın hava durumunu öğrenmek isterseniz ve örnek olarak yarın Ankara'da hava nasıl? diye sorarsanız yarının hava durumu kartını getirir;
+
+<img width="200" alt="yarın" src="https://user-images.githubusercontent.com/89071165/129952912-77b0278b-7349-44f2-9fc8-7015091e6ae8.png">
+
+Ayrıca hava durumu için haftalık sorgu da yapabilirsiniz.
+
+- haftalık hava durumu
+- İzmir'de haftalık hava
+- İzmir'de bu hafta hava nasıl?
+
+gibi sorularınız da haftalık hava durumu kartını getirir;
+
+<img width="200" alt="haftalık" src="https://user-images.githubusercontent.com/89071165/129953284-1f9a0dba-b371-4436-bb70-53a6ca1de4e2.png">
+
 
 
 **2. Döviz:**
@@ -97,7 +107,8 @@ Bing Search ile Wikipedia'ya erişerek merak ettiklerinizi öğrenebilirsiniz.
 Türkçe olarak oluşturduğumuz soru seti havuzunu kullanarak mico ile günlük konuşmalar gerçekleştirebilirsiniz.
 
 - Mutsuz olduğunuzu ya da kötü bir gün geçirdiğinizi söylerseniz size sanal bir kucaklaşma gönderir.
-- Seni seviyorum, evlenelim mi? dediğiniz zaman bunu hiç beklemediğini söyler.
+- Seni seviyorum, evlenelim mi? dediğiniz zaman buna şaşırır.
+- Yaşın kaç? Yetişkin misin? gibi sorular sorduğunuzda yaşı olmadığını söyler.
 
 Chitcat dosyasını attachment kısmında bulabilirsiniz.
 
