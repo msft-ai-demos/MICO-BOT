@@ -3,7 +3,7 @@
 
 Miço, sizin Microsoft Teams'deki sanal asistanınız.
 
-Türkiye’deki hava durumlarını şehre ve tarihe göre sorgulayabilirsiniz. Piyasa bilgisini sorgulayabilir, kurlar arası dönüşüm yapabilirsiniz. Güncel haberleri veya bir konu ile ilgili haberleri, okuyabilirsiniz. Merak ettiğiniz çoğu şeyi, Miço Wikipedia’dan öğrenir ve size getirir.
+Türkiye’deki hava durumlarını şehre göre bugün, yarın, haftalık şeklinde sorgulayabilirsiniz. Piyasa bilgisini sorgulayabilirsiniz, amerikan doları, euro, ingiliz sterlini, japon yeni ve isveç frangı kurlarının güncel rakamlarını görebilirsiniz. Bu kurlar arasında dönüşümler yapabilirsiniz. Güncel haberleri, özel bir konu veya kurum ile ilgili haberleri okuyabilirsiniz. Merak ettiğiniz çoğu şeyi Miço'ya sorabilirisiniz. Miço sizin için Wikipedia’dan öğrenir ve size getirir.
 
 Chitchat dosyasını kullanarak miço ile günlük konuşmalar yapabilirsiniz. Aynı zamanda Miço fıkra da anlatabiliyor!
 
@@ -31,6 +31,10 @@ sorularına cevap olarak hava durumu kartını getirir;
 
 gibi sorular için ise, ilk olarak hangi şehrin hava durumunu öğrenmek istediğinizi sorar ve cevabınıza göre şehrin hava durumu kartını getirir.
 
+Yarın hava durumunu öğrenmek isterseniz 
+Bugün hava durumu
+Haftalık hava durumu
+
 
 **2. Döviz:**
 
@@ -52,7 +56,7 @@ gibi tek kur sorularınız için, hem tl karşılığını hemde alış, satış
 <img width="250" alt="döv" src="https://user-images.githubusercontent.com/89071165/129861869-2df83a2e-7488-45eb-9109-afdf03716f1e.PNG">
 
 - dolar kaç euro?
-- 3 dolar kaç euro?
+- 5 dolar kaç euro?
 
 sorularınıza ise kurlar arası dönüşüm yapan kartı getirir;
 
@@ -61,7 +65,7 @@ sorularınıza ise kurlar arası dönüşüm yapan kartı getirir;
 
 **3. Bing News:**
 
-Bing News ile güncel haberlere veya bir konu ile ilgili haberlere erişebilirsiniz.
+Bing News ile güncel haberlere veya bir kurum, konu ile ilgili haberlere erişebilirsiniz.
 
 - gündem
 - güncel haberler
@@ -70,7 +74,8 @@ Bing News ile güncel haberlere veya bir konu ile ilgili haberlere erişebilirsi
 veya 
 
 - Microsoft haberleri
-- Microsoft ile ilgili haberler
+- spor ile ilgili haberler
+- ekonomi haberleri
 
 gibi haber sorgularına karşılık olarak haber kartını getirir;
 
@@ -89,7 +94,12 @@ Bing Search ile Wikipedia'ya erişerek merak ettiklerinizi öğrenebilirsiniz.
 
 ## QnA Maker Chitchat 
 
-Türkçe olarak oluşturduğumuz soru seti havuzunu kullanarak mico ile günlük konuşmalar gerçekleştirebilirsiniz. Dosyayı attachment kısmında bulabilirsiniz.
+Türkçe olarak oluşturduğumuz soru seti havuzunu kullanarak mico ile günlük konuşmalar gerçekleştirebilirsiniz.
+
+- Mutsuz olduğunuzu ya da kötü bir gün geçirdiğinizi söylerseniz size sanal bir kucaklaşma gönderir.
+- Ona, Miço bana bir soru sor dediğiniz zaman soru sormayabilir çünkü soruları cevaplamakta daha iyidir.
+
+Chitcat dosyasını attachment kısmında bulabilirsiniz.
 
 ## Publish
 
