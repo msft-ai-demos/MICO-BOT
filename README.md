@@ -97,7 +97,7 @@ Bing Search ile Wikipedia'ya erişerek merak ettiklerinizi öğrenebilirsiniz.
 Türkçe olarak oluşturduğumuz soru seti havuzunu kullanarak mico ile günlük konuşmalar gerçekleştirebilirsiniz.
 
 - Mutsuz olduğunuzu ya da kötü bir gün geçirdiğinizi söylerseniz size sanal bir kucaklaşma gönderir.
-- Ona, Miço bana bir soru sor dediğiniz zaman soru sormayabilir çünkü soruları cevaplamakta daha iyidir.
+- Seni seviyorum, evlenelim mi? dediğiniz zaman bunu hiç beklemediğini söyler.
 
 Chitcat dosyasını attachment kısmında bulabilirsiniz.
 
