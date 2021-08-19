@@ -49,7 +49,7 @@ Soru-Cevap Oluşturma Servisi, bilgileri kategorilere ayırarak konuşma bağlam
 
 **7. Bing Haritalar**
 
-Bing Haritalar, bir web harita hizmeti arama motorudur. [Bing Haritalar](https://docs.microsoft.com/en-us/bingmaps/getting-started/bing-maps-dev-center-help/creating-a-bing-maps-account)'ı kullanmaya başlayın.
+Bing Haritalar, bir web harita hizmeti arama motorudur. [Bing Haritaları](https://docs.microsoft.com/en-us/bingmaps/getting-started/bing-maps-dev-center-help/creating-a-bing-maps-account) kullanmaya başlayın.
 
 
  **8. Bing Haberler**
