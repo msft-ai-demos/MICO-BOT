@@ -18,6 +18,7 @@ Create one for free : https://azure.microsoft.com/free/cognitive-services/
 
 **2. Download Composer**
 
+[Download Composer](https://docs.microsoft.com/en-us/composer/install-composer?tabs=windows#download-composer) to go to my Quora profile. 
 
 Use the tabs below to select an operating system and download Composer : https://docs.microsoft.com/en-us/composer/install-composer?tabs=windows#download-composer
 
