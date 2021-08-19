@@ -31,7 +31,7 @@ Node.js JavaScript platformunu ve npm paketini yüklemeniz Composer'ın Node.js 
 **4. .NET Core SDK**
 
 
-.Net Core SDK, Composer'ın C# modellerini çalıştırabilmesine imkan tanır. [.NET Core SDK 3.1](https://dotnet.microsoft.com/download/dotnet-core/3.1)'ı indirin. C# dilini kullanarak bot oluşturmayı planlıyorsanz bu gereksinim zorunludur.
+.Net Core SDK, Composer'ın C# modellerini çalıştırabilmesine imkan tanır. [.NET Core SDK 3.1](https://dotnet.microsoft.com/download/dotnet-core/3.1)'ı indirin. C# dilini kullanarak botunuzu oluşturabilmeniz için bu servis gereklidir.
 
 
 **5. Language Understanding Service (LUIS)**
