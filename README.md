@@ -9,6 +9,8 @@ Chitchat dosyasını kullanarak miço ile günlük konuşmalar yapabilirsiniz. A
 
 ## Prerequistes (bot composer download, Azure subscripiton, luis, bing apilar oluşturma)
 
+Prerequisites
+An Azure subscription - Create one for free : https://azure.microsoft.com/free/cognitive-services/
 
 ## Bot Diyalog
 **1. Hava Durumu:**
