@@ -18,17 +18,15 @@ Create one for free : https://azure.microsoft.com/free/cognitive-services/
 
 **2. Download Composer**
 
-[Download Composer](https://docs.microsoft.com/en-us/composer/install-composer?tabs=windows#download-composer) to go to my Quora profile. 
 
-Use the tabs below to select an operating system and download Composer : https://docs.microsoft.com/en-us/composer/install-composer?tabs=windows#download-composer
-
+Use the tabs below to select an operating system and [Download Composer](https://docs.microsoft.com/en-us/composer/install-composer?tabs=windows#download-composer) 
 
 **3. Install Node.js with npm**
 
 
 The Node.js JavaScript runtime with the npm package manager ensures Composer supports Node.js templates.
 
-Install Node.js LTS 14.x with npm : https://nodejs.org/
+Install [Node.js LTS 14.x](https://nodejs.org/) with npm : 
 
 This is a mandatory requirement for use of Composer.
 
@@ -38,7 +36,7 @@ This is a mandatory requirement for use of Composer.
 
 For C# template support, Composer requires the .NET Core SDK.
 
-Install .NET Core SDK 3.1 or later : https://dotnet.microsoft.com/download/dotnet-core/3.1
+Install [.NET Core SDK 3.1](https://dotnet.microsoft.com/download/dotnet-core/3.1) or later : 
 
 This .NET requirement must be addressed if you plan to build bots with C#.
 
@@ -64,27 +62,18 @@ https://docs.microsoft.com/en-us/bingmaps/getting-started/bing-maps-dev-center-h
  **8.Create Bing News**
 
 
-Once you have your Azure subscription, create a Bing Search resource in the Azure portal to get your key and endpoint. After it deploys, click Go to resource.
-https://portal.azure.com/#create/Microsoft.CognitiveServicesBingSearch-v7
+Once you have your Azure subscription, create a [Bing Search resource](https://portal.azure.com/#create/Microsoft.CognitiveServicesBingSearch-v7) in the Azure portal to get your key and endpoint. After it deploys, click Go to resource.
+
 
 
 **9. Create Bing Search**
 
 
+In Azure Portal under Marketplace in the search results, select the Bing service you're interested in Bing Search
+Then create your [Bing](https://docs.microsoft.com/en-us/bing/search-apis/bing-web-search/create-bing-search-service-resource#create-your-bing-resource) resource by following link
 
-Go to Azure Portal and sign in with your Microsoft account. If you don't have a Microsoft account, click Create one!.
 
-From the portal, type Bing in the search box.
 
-Under Marketplace in the search results, select the Bing service you're interested in (for example, Bing Search or Bing Custom Search).
-
-If you have a free trial or pay account, skip to Create your Bing resource.
-
-On the Create a free account splash screen, click Start free.
-
-Next, you have the option of continuing with the free trial (click Start free again) or paying for an Azure subscription (click Or buy now). You can always start with the free trial and pay for a subscription later.
-
-https://docs.microsoft.com/en-us/bing/search-apis/bing-web-search/create-bing-search-service-resource#create-your-bing-resource
 
 
  
