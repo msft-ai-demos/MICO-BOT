@@ -13,13 +13,13 @@ Chitchat dosyasını kullanarak miço ile günlük konuşmalar yapabilirsiniz. A
 **1. An Azure subscription**
 
 
-Create one for free : https://azure.microsoft.com/free/cognitive-services/
+Ücretsiz [Azure hesabı](https://azure.microsoft.com/en-us/free/cognitive-services/) oluşturun.
 
 
 **2. Download Composer**
 
 
-Use the tabs below to select an operating system and [Download Composer](https://docs.microsoft.com/en-us/composer/install-composer?tabs=windows#download-composer) 
+Uygun işletim sistemini seçin ve [Bot Composer](https://docs.microsoft.com/en-us/composer/install-composer?tabs=windows#download-composer)'ı indirin.
 
 **3. Install Node.js with npm**
 
