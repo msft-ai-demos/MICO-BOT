@@ -21,24 +21,23 @@ Chitchat dosyasını kullanarak miço ile günlük konuşmalar yapabilirsiniz. A
 
 Uygun işletim sistemini seçin ve [Bot Composer](https://docs.microsoft.com/en-us/composer/install-composer?tabs=windows#download-composer)'ı indirin.
 
-**3. Install Node.js with npm**
+**3. Node.js ve npm**
 
 
-The Node.js JavaScript runtime with the npm package manager ensures Composer supports Node.js templates.
+Node.js JavaScript platformunu ve npm paketini yüklemeniz Composer'ın Node.js modellerini çalıştırabilmesine imkan tanır.
 
-Install [Node.js LTS 14.x](https://nodejs.org/) with npm : 
+[Node.js LTS 14.x](https://nodejs.org/)'i npm ile birlikte indirin. 
 
 Bu Composer'ı kullanabilmek için zorunlu bir servistir.
 
 
-**4. Install .NET Core SDK**
+**4. .NET Core SDK**
 
+.Net Core SDK, Composer'ın C# modellerini çalıştırabilmesine imkan tanır.
 
-For C# template support, Composer requires the .NET Core SDK.
+[.NET Core SDK 3.1](https://dotnet.microsoft.com/download/dotnet-core/3.1)'ı indirin.
 
-Install [.NET Core SDK 3.1](https://dotnet.microsoft.com/download/dotnet-core/3.1) or later : 
-
-This .NET requirement must be addressed if you plan to build bots with C#.
+C# dilini kullanarak bot oluşturmayı planlıyorsanz bu gereksinim zorunludur.
 
 
 **5. Create LUIS (Language Understanding Service)**
