@@ -21,58 +21,49 @@ Chitchat dosyasını kullanarak miço ile günlük konuşmalar yapabilirsiniz. A
 
 Size uygun işletim sistemini seçin ve [Bot Composer](https://docs.microsoft.com/en-us/composer/install-composer?tabs=windows#download-composer)'ı indirin.
 
+
 **3. Node.js ve npm**
 
 
-Node.js JavaScript platformunu ve npm paketini yüklemeniz Composer'ın Node.js modellerini çalıştırabilmesine imkan tanır.
-
-[Node.js LTS 14.x](https://nodejs.org/)'i npm ile birlikte indirin. 
-
-Bu Composer'ı kullanabilmek için zorunlu bir servistir.
+Node.js JavaScript platformunu ve npm paketini yüklemeniz Composer'ın Node.js modellerini çalıştırabilmesine imkan tanır. [Node.js LTS 14.x](https://nodejs.org/)'i npm ile birlikte indirin. Bu Composer'ı kullanabilmek için zorunlu bir servistir.
 
 
 **4. .NET Core SDK**
 
-.Net Core SDK, Composer'ın C# modellerini çalıştırabilmesine imkan tanır.
 
-[.NET Core SDK 3.1](https://dotnet.microsoft.com/download/dotnet-core/3.1)'ı indirin.
-
-C# dilini kullanarak bot oluşturmayı planlıyorsanz bu gereksinim zorunludur.
+.Net Core SDK, Composer'ın C# modellerini çalıştırabilmesine imkan tanır. [.NET Core SDK 3.1](https://dotnet.microsoft.com/download/dotnet-core/3.1)'ı indirin. C# dilini kullanarak bot oluşturmayı planlıyorsanz bu gereksinim zorunludur.
 
 
 **5. Language Understanding Service (LUIS)**
 
-Language Understanding (LUIS), kullanıcıların doğal dil kullanarak uygulamalarınız, botlarınız ve IoT cihazlarınızla etkileşim kurmasına olanak sağlayan bir doğal dil anlama (NLU) yapay zeka hizmetidir.
 
-[LUIS] (https://docs.microsoft.com/en-us/azure/cognitive-services/luis/sign-in-luis-portal) hizmetini kullanmaya başlayın.
+Language Understanding (LUIS), kullanıcıların doğal dil kullanarak uygulamalarınız, botlarınız ve IoT cihazlarınızla etkileşim kurmasına olanak sağlayan bir doğal dil anlama (NLU) yapay zeka hizmetidir. [LUIS] (https://docs.microsoft.com/en-us/azure/cognitive-services/luis/sign-in-luis-portal) hizmetini kullanmaya başlayın.
 
 
 **6. Soru-Cevap Oluşturma Servisi**
 
-Soru-Cevap Oluşturma Servisi, bilgileri kategorilere ayırarak konuşma bağlamında kullanılabilen ve kolayca bulunabilen yanıtlar elde edilmesini sağlar.
 
-[Soru-Cevap Oluşturma Servisini](https://docs.microsoft.com/en-us/azure/cognitive-services/QnAMaker/how-to/set-up-qnamaker-service-azure?tabs=v1) kullanmaya başlayın.
+Soru-Cevap Oluşturma Servisi, bilgileri kategorilere ayırarak konuşma bağlamında kullanılabilen ve kolayca bulunabilen yanıtlar elde edilmesini sağlar. [Soru-Cevap Oluşturma Servisini](https://docs.microsoft.com/en-us/azure/cognitive-services/QnAMaker/how-to/set-up-qnamaker-service-azure?tabs=v1) kullanmaya başlayın.
 
 
 
 **7. Bing Haritalar**
 
-Bing Haritalar, bir web harita hizmeti arama motorudur.
-[Bing Haritalar](https://docs.microsoft.com/en-us/bingmaps/getting-started/bing-maps-dev-center-help/creating-a-bing-maps-account)'ı kullanmaya başlayın.
+Bing Haritalar, bir web harita hizmeti arama motorudur. [Bing Haritalar](https://docs.microsoft.com/en-us/bingmaps/getting-started/bing-maps-dev-center-help/creating-a-bing-maps-account)'ı kullanmaya başlayın.
 
 
- **8.Create Bing News**
+ **8. Bing News**
 
 
-Once you have your Azure subscription, create a [Bing Search resource](https://portal.azure.com/#create/Microsoft.CognitiveServicesBingSearch-v7) in the Azure portal to get your key and endpoint. After it deploys, click Go to resource.
+Bing News, Bing arama motorunun haber derleme ve kullanıcılarla buluşturma işlevlerini yürüten servisidir. Azure hesabını oluşturduktan sonra, key ve endpointlerinize ulaşabilmek için Azure portal üzerinden bir [Bing Arama Kaynağı](https://portal.azure.com/#create/Microsoft.CognitiveServicesBingSearch-v7) oluşturun. 
 
 
 
-**9. Create Bing Search**
+**9. Bing Arama**
 
 
-In Azure Portal under Marketplace in the search results, select the Bing service you're interested in Bing Search
-Then create your [Bing](https://docs.microsoft.com/en-us/bing/search-apis/bing-web-search/create-bing-search-service-resource#create-your-bing-resource) resource by following link
+Bing, Microsoft'un çoklu dilde hizmet veren arama motorudur. Bing'i botunuzda kullanabilmek için Azure Portal üzerinden [Bing Arama Kaynağı](https://docs.microsoft.com/en-us/bing/search-apis/bing-web-search/create-bing-search-service-resource#create-your-bing-resource)'nı oluşturun.
+
 
 
 
