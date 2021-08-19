@@ -10,7 +10,7 @@ Chitchat dosyasını kullanarak miço ile günlük konuşmalar yapabilirsiniz. A
 ## Gereksinimler
 
 
-**1. Bir Azure hesabı**
+**1. Azure hesabı**
 
 
 Ücretsiz [Azure hesabı](https://azure.microsoft.com/en-us/free/cognitive-services/) oluşturun.
@@ -40,16 +40,19 @@ Bu Composer'ı kullanabilmek için zorunlu bir servistir.
 C# dilini kullanarak bot oluşturmayı planlıyorsanz bu gereksinim zorunludur.
 
 
-**5. Create LUIS (Language Understanding Service)**
+**5. LUIS (Language Understanding Service)**
+
+Language Understanding (LUIS), kullanıcıların doğal dil kullanarak uygulamalarınız, botlarınız ve IoT cihazlarınızla etkileşim kurmasına olanak sağlayan bir doğal dil anlama (NLU) yapay zeka hizmetidir.
+
+[LUIS] (https://docs.microsoft.com/en-us/azure/cognitive-services/luis/sign-in-luis-portal) hizmetini kullanmaya başlayın.
 
 
-https://docs.microsoft.com/en-us/azure/cognitive-services/luis/sign-in-luis-portal
+**6. Soru-Cevap Oluşturma Servisi**
 
+Soru-Cevap Oluşturma Servisi, bilgileri kategorilere ayırarak konuşma bağlamında kullanılabilen ve kolayca bulunabilen yanıtlar elde edilmesini sağlar.
 
-**6. Create QnA Maker Service**
+[Soru-Cevap Oluşturma Servisini](https://docs.microsoft.com/en-us/azure/cognitive-services/QnAMaker/how-to/set-up-qnamaker-service-azure?tabs=v1) kullanmaya başlayın.
 
-
-https://docs.microsoft.com/en-us/azure/cognitive-services/QnAMaker/how-to/set-up-qnamaker-service-azure?tabs=v1
 
 
 **7. Create Bing Maps**
