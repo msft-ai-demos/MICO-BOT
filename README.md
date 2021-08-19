@@ -7,16 +7,16 @@ Türkiye’deki hava durumlarını şehre göre bugün, yarın, haftalık şekli
 
 Chitchat dosyasını kullanarak miço ile günlük konuşmalar yapabilirsiniz. Aynı zamanda Miço fıkra da anlatabiliyor!
 
-## Prerequistes 
+## Gereksinimler
 
 
-**1. An Azure subscription**
+**1. Bir Azure hesabı **
 
 
 Ücretsiz [Azure hesabı](https://azure.microsoft.com/en-us/free/cognitive-services/) oluşturun.
 
 
-**2. Download Composer**
+**2. Bot Composer **
 
 
 Uygun işletim sistemini seçin ve [Bot Composer](https://docs.microsoft.com/en-us/composer/install-composer?tabs=windows#download-composer)'ı indirin.
@@ -28,7 +28,7 @@ The Node.js JavaScript runtime with the npm package manager ensures Composer sup
 
 Install [Node.js LTS 14.x](https://nodejs.org/) with npm : 
 
-This is a mandatory requirement for use of Composer.
+Bu Composer'ı kullanabilmek için zorunlu bir servistir.
 
 
 **4. Install .NET Core SDK**
