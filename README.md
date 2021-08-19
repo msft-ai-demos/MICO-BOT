@@ -52,7 +52,7 @@ Soru-Cevap Oluşturma Servisi, bilgileri kategorilere ayırarak konuşma bağlam
 Bing Haritalar, bir web harita hizmeti arama motorudur. [Bing Haritalar](https://docs.microsoft.com/en-us/bingmaps/getting-started/bing-maps-dev-center-help/creating-a-bing-maps-account)'ı kullanmaya başlayın.
 
 
- **8. Bing News**
+ **8. Bing Haberler**
 
 
 Bing News, Bing arama motorunun haber derleme ve kullanıcılarla buluşturma işlevlerini yürüten servisidir. Azure hesabını oluşturduktan sonra, key ve endpointlerinize ulaşabilmek için Azure portal üzerinden bir [Bing Arama Kaynağı](https://portal.azure.com/#create/Microsoft.CognitiveServicesBingSearch-v7) oluşturun. 
