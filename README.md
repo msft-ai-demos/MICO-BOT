@@ -70,6 +70,7 @@ https://portal.azure.com/#create/Microsoft.CognitiveServicesBingSearch-v7
 9. Create Bing Search
 
 
+
 Go to Azure Portal and sign in with your Microsoft account. If you don't have a Microsoft account, click Create one!.
 
 From the portal, type Bing in the search box.
@@ -86,13 +87,6 @@ https://docs.microsoft.com/en-us/bing/search-apis/bing-web-search/create-bing-se
 
 
  
-
-Install .NET Core SDK
-For C# template support, Composer requires the .NET Core SDK.
-
-Install .NET Core SDK 3.1 or later.
-
-This .NET requirement must be addressed if you plan to build bots with C#.
 
 ## Bot Diyalog
 **1. Hava Durumu:**
