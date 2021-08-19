@@ -10,19 +10,19 @@ Chitchat dosyasını kullanarak miço ile günlük konuşmalar yapabilirsiniz. A
 ## Prerequistes 
 
 
-1. **An Azure subscription**
+**1. An Azure subscription**
 
 
 Create one for free : https://azure.microsoft.com/free/cognitive-services/
 
 
-2. **Download Composer**
+**2. Download Composer**
 
 
 Use the tabs below to select an operating system and download Composer : https://docs.microsoft.com/en-us/composer/install-composer?tabs=windows#download-composer
 
 
-3. **Install Node.js with npm**
+**3. Install Node.js with npm**
 
 
 The Node.js JavaScript runtime with the npm package manager ensures Composer supports Node.js templates.
@@ -32,7 +32,7 @@ Install Node.js LTS 14.x with npm : https://nodejs.org/
 This is a mandatory requirement for use of Composer.
 
 
-4. **Install .NET Core SDK**
+**4. Install .NET Core SDK**
 
 
 For C# template support, Composer requires the .NET Core SDK.
@@ -42,32 +42,32 @@ Install .NET Core SDK 3.1 or later : https://dotnet.microsoft.com/download/dotne
 This .NET requirement must be addressed if you plan to build bots with C#.
 
 
-5. **Create LUIS (Language Understanding Service)**
+**5. Create LUIS (Language Understanding Service)**
 
 
 https://docs.microsoft.com/en-us/azure/cognitive-services/luis/sign-in-luis-portal
 
 
-6. **Create QnA Maker Service**
+**6. Create QnA Maker Service**
 
 
 https://docs.microsoft.com/en-us/azure/cognitive-services/QnAMaker/how-to/set-up-qnamaker-service-azure?tabs=v1
 
 
-7. **Create Bing Maps**
+**7. Create Bing Maps**
 
 
 https://docs.microsoft.com/en-us/bingmaps/getting-started/bing-maps-dev-center-help/getting-a-bing-maps-key#:~:text=If%20you%20have%20a%20Bing%20Maps%20account%2C%20sign,Select%20the%20option%20to%20create%20a%20new%20key.
 
 
-8. **Create Bing News**
+ **8.Create Bing News**
 
 
 Once you have your Azure subscription, create a Bing Search resource in the Azure portal to get your key and endpoint. After it deploys, click Go to resource.
 https://portal.azure.com/#create/Microsoft.CognitiveServicesBingSearch-v7
 
 
-9. **Create Bing Search**
+**9. Create Bing Search**
 
 
 
