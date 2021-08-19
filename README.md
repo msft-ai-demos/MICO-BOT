@@ -40,7 +40,7 @@ Bu Composer'ı kullanabilmek için zorunlu bir servistir.
 C# dilini kullanarak bot oluşturmayı planlıyorsanz bu gereksinim zorunludur.
 
 
-**5. LUIS (Language Understanding Service)**
+**5. Language Understanding Service (LUIS)**
 
 Language Understanding (LUIS), kullanıcıların doğal dil kullanarak uygulamalarınız, botlarınız ve IoT cihazlarınızla etkileşim kurmasına olanak sağlayan bir doğal dil anlama (NLU) yapay zeka hizmetidir.
 
@@ -55,10 +55,10 @@ Soru-Cevap Oluşturma Servisi, bilgileri kategorilere ayırarak konuşma bağlam
 
 
 
-**7. Create Bing Maps**
+**7. Bing Haritalar**
 
-
-https://docs.microsoft.com/en-us/bingmaps/getting-started/bing-maps-dev-center-help/getting-a-bing-maps-key#:~:text=If%20you%20have%20a%20Bing%20Maps%20account%2C%20sign,Select%20the%20option%20to%20create%20a%20new%20key.
+Bing Haritalar, bir web harita hizmeti arama motorudur.
+[Bing Haritalar](https://docs.microsoft.com/en-us/bingmaps/getting-started/bing-maps-dev-center-help/creating-a-bing-maps-account)'ı kullanmaya başlayın.
 
 
  **8.Create Bing News**
