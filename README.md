@@ -10,13 +10,13 @@ Chitchat dosyasını kullanarak miço ile günlük konuşmalar yapabilirsiniz. A
 ## Gereksinimler
 
 
-**1. Bir Azure hesabı **
+**1. Bir Azure hesabı**
 
 
 Ücretsiz [Azure hesabı](https://azure.microsoft.com/en-us/free/cognitive-services/) oluşturun.
 
 
-**2. Bot Composer **
+**2. Bot Composer**
 
 
 Uygun işletim sistemini seçin ve [Bot Composer](https://docs.microsoft.com/en-us/composer/install-composer?tabs=windows#download-composer)'ı indirin.
