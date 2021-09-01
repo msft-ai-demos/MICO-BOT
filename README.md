@@ -10,15 +10,24 @@ Chitchat dosyasını kullanarak miço ile günlük konuşmalar yapabilirsiniz. A
 ## Gereksinimler
 *Miço'yu kullanabilmeniz için gerekli servisler*
 
-1. Azure hesabı [Go to 1. Azure Hesabı Oluşturma](##1.-azure-hesabı-oluşturma)
-2. Bot Composer
-3. Node.js ve npm
-4. .NET Core SDK
-5. Language Understanding Service (LUIS)
-6. QnA Maker
-7. Bing Maps
-8. Bing Search
+1. [Azure Hesabı](#1-azure-hesabı-oluşturma)
+2. [Bot Composer](#2-bot-composer)
+3. [Node.js ve npm](#3-node.js-ve-npm)
+4. [.NET Core SDK](#4-.net-core-sdk)
+5. [Language Understanding Service (LUIS)](#5-Language-Understanding-Service-(LUIS))
+6. [QnA Maker](#6-qna-maker)
+7. [Bing Maps](#7-bing-maps)
+8. [Bing Search](#8-bing-search)
 
 # Miço'yu Nasıl Kurabilirim?
 
 ## 1. Azure Hesabı Oluşturma
+
+## 2. Bot Composer
+## 3. Node.js ve npm
+## 4. .NET Core SDK
+## 5. Language Understanding Service (LUIS)
+## 6. QnA Maker
+## 7. Bing Maps
+## 8. Bing Search
+
