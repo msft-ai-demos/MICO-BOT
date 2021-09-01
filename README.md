@@ -39,7 +39,19 @@ Daha sonra Bot Composer'ı indirip kurabilirsiniz.
 Node.js JavaScript platformunu ve npm paketini yüklemeniz Composer'ın Node.js modellerini çalıştırabilmesine imkan tanır. [Node.js LTS 14.x](https://nodejs.org/)'i npm ile birlikte indirin. Bu Composer'ı kullanabilmek için zorunlu bir servistir.
 
 ### 2.2. .NET Core SDK
-(https://dotnet.microsoft.com/download/dotnet-core/3.1)'ı indirin. C# dilini kullanarak botunuzu oluşturabilmeniz için bu servis gereklidir.
+[.NET Core SDK](https://dotnet.microsoft.com/download/dotnet-core/3.1)'ı indirin. C# dilini kullanarak botunuzu oluşturabilmeniz için bu servis gereklidir.
+
+Bot Composer'ı çalıştırın.
+
+<img src="https://raw.githubusercontent.com/msft-ai-demos/MICO-BOT/main/Additional/ss2.png" width=25% height=25%>
+
+## Ek Aksiyon: Miço'yu Kurun
+
+Bot Composer'ı başarılı bir şekilde indirdikten sonra, artık Miço'yu kurmak için yapmanız gerekenlere başlayabilirsiniz.
+İlk olarak bu repository'de yer alan Mico-Bot isimli Bot klasörünü lokalinize indirin veya bu repository'yi klonlayın.
+
+Daha Sonra Miço'yu Bot Composer içerisinden açabilmelisiniz.
+
 
 ## 3. Language Understanding Service (LUIS)
 Language Understanding (LUIS), kullanıcıların doğal dil kullanarak uygulamalarınız, botlarınız ve IoT cihazlarınızla etkileşim kurmasına olanak sağlayan bir doğal dil anlama (NLU) yapay zeka hizmetidir. [LUIS](https://docs.microsoft.com/en-us/azure/cognitive-services/luis/sign-in-luis-portal) hizmetini kullanmaya başlayın.
