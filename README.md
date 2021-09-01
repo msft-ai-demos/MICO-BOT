@@ -10,7 +10,7 @@ Miço sana bir çok konuda yardımcı olabilecek ve seninle sohbet edebilecek bi
 <img src="https://raw.githubusercontent.com/msft-ai-demos/MICO-BOT/main/Mico%20Teams%20Screenshots/mico_teamsmobile1.jpeg" width=25% height=25%>
 
 ## Gereksinimler
-*Miço'yu kullanabilmeniz için gerekli servisler*
+*Miço'yu kullanabilmeniz için gerekli servisler.*
 
 1. [Azure Hesabı](#1-azure-hesabı-oluşturma)
 2. [Bot Composer](#2-bot-composer)
@@ -23,10 +23,15 @@ Miço sana bir çok konuda yardımcı olabilecek ve seninle sohbet edebilecek bi
 6. [Bing Search](#6-bing-search)
 7. [Translate](#7-translate)
 
-[Miço'yu Kurun!](#miçoyu-kurun)
+
+## Kurulum
+*Miço kurulum aşamaları.*
+1. [Miço'yu Kurun!](#1-miçoyu-kurun)
+2. [Miço'yu Publish Edin](#2-miçoyu-publish-edin)
+3. [Miço'yu Teams'e Ekleyin](#3-miçoyu-teamse-ekleyin)
 
 
-# Miço'yu Nasıl Kullanabilirim?
+# Miço'yu Nasıl Kullanabilirim: Gereksinimler
 
 ## 1. Azure Hesabı Oluşturma
 Ücretsiz [Azure hesabı](https://azure.microsoft.com/en-us/free/cognitive-services/) oluşturun.
@@ -63,14 +68,22 @@ Bing, Microsoft'un çoklu dilde hizmet veren arama motorudur. Bing'i botunuzda k
 ## 7. Translate
 
 
-# Miço'yu Kurun!
+# Miço'yu Nasıl Kullanabilirim : Kurulum
 
-Bot Composer'ı başarılı bir şekilde indirdikten sonra, artık Miço'yu kurmak için yapmanız gerekenlere başlayabilirsiniz.
+## 1. Miço'yu Kurun!
+Bot Composer'ı başarılı bir şekilde indirdikten ve gerekli sevisleri oluşturduktan sonra, artık Miço'yu kurmak ve çalıştırmak için yapmanız gerekenlere başlayabilirsiniz.
 İlk olarak bu repository'de yer alan Mico-Bot isimli Bot klasörünü lokalinize indirin veya bu repository'yi klonlayın.
 
 Daha Sonra Miço'yu Bot Composer içerisinden açabilmelisiniz.
 
 <img src="https://user-images.githubusercontent.com/14835957/131674595-f2622de3-92e8-46e5-a790-972f8dcf9d56.png" width=50% height=50%>
+
+
+## 2. Miço'yu Publish Edin
+
+
+## 3. Miço'yu Teams'e Ekleyin
+
 
 
 
