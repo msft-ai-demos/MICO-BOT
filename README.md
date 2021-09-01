@@ -43,7 +43,7 @@ Node.js JavaScript platformunu ve npm paketini yüklemeniz Composer'ın Node.js 
 
 Bot Composer'ı çalıştırın.
 
-<img src="https://raw.githubusercontent.com/msft-ai-demos/MICO-BOT/main/Additional/ss2.png" width=30% height=30%>
+<img src="https://raw.githubusercontent.com/msft-ai-demos/MICO-BOT/main/Additional/ss2.png" width=50% height=50%>
 
 ## Ek Aksiyon: Miço'yu Kurun
 
@@ -51,6 +51,8 @@ Bot Composer'ı başarılı bir şekilde indirdikten sonra, artık Miço'yu kurm
 İlk olarak bu repository'de yer alan Mico-Bot isimli Bot klasörünü lokalinize indirin veya bu repository'yi klonlayın.
 
 Daha Sonra Miço'yu Bot Composer içerisinden açabilmelisiniz.
+
+<img src="https://user-images.githubusercontent.com/14835957/131674595-f2622de3-92e8-46e5-a790-972f8dcf9d56.png" width=50% height=50%>
 
 
 ## 3. Language Understanding Service (LUIS)
