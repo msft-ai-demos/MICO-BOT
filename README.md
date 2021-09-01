@@ -29,7 +29,7 @@ Miço sana bir çok konuda yardımcı olabilecek ve seninle sohbet edebilecek bi
 Ücretsiz [Azure hesabı](https://azure.microsoft.com/en-us/free/cognitive-services/) oluşturun.
 
 ## 2. Bot Composer Kurulum
-Size uygun işletim sistemini seçerek [Bot Composer](https://docs.microsoft.com/en-us/composer/install-composer?tabs=windows)'ı indirmek için önce [Node.js LTS 14.x](https://nodejs.org/)'i npm ile birlikte ve (https://dotnet.microsoft.com/download/dotnet-core/3.1)'ı indirmelisiniz.
+Size uygun işletim sistemini seçerek [Bot Composer](https://docs.microsoft.com/en-us/composer/install-composer?tabs=windows)'ı indirmek için önce [Node.js LTS 14.x](https://nodejs.org/)'i npm ile birlikte ve [.NET Core SDK](https://dotnet.microsoft.com/download/dotnet-core/3.1)'ı indirmelisiniz.
 
 Daha sonra Bot Composer'ı indirip kurabilirsiniz.
 
