@@ -24,7 +24,7 @@ Miço sana bir çok konuda yardımcı olabilecek ve seninle sohbet edebilecek bi
 7. [Translate](#7-translate)
 
 
-## [Kurulum](#miçoyu-nasıl-kullanabilirim-kurulum)
+## [Kurulum](#miçoyu-nasıl-kullanabilirim--kurulum)
 *Miço kurulum aşamaları.*
 1. [Miço'yu Kurun!](#1-miçoyu-kurun)
 2. [Miço'yu Publish Edin](#2-miçoyu-publish-edin)
