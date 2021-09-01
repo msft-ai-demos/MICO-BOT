@@ -14,9 +14,6 @@ Miço sana bir çok konuda yardımcı olabilecek ve seninle sohbet edebilecek bi
 
 1. [Azure Hesabı](#1-azure-hesabı-oluşturma)
 2. [Bot Composer](#2-bot-composer)
-* [Node.js ve npm]
-* [.NET Core SDK]
-
 3. [Language Understanding Service (LUIS)](#3-language-understanding-service-luis)
 4. [QnA Maker](#4-qna-maker)
 5. [Bing Maps](#5-bing-maps)
