@@ -3,9 +3,11 @@
 
 Miço, sizin Microsoft Teams'deki sanal asistanınız.
 
-Miço sana bir çok konuda yardımcı olabilecek ve seninle sohbet edebilecek bir sanal asistandır. Ona Türkiye'deki hava durumu bilgilerinden, döviz kurlarına ve dönüşümlerine; güncel haberlerden, ansiklopedi tanımını merak ettiğin bir konuya, kişiye, eşyaya kadar bir çok şeyi sorabilirsin. Üstelik Miço'yu kendi Teams'ine de kurabilirsin. 
-![This is an image](https://raw.githubusercontent.com/msft-ai-demos/MICO-BOT/main/micologo_small_png.png)
+<img src="https://raw.githubusercontent.com/msft-ai-demos/MICO-BOT/main/micologo_small_png.png" width=15% height=15%>
 
+Miço sana bir çok konuda yardımcı olabilecek ve seninle sohbet edebilecek bir sanal asistandır. Ona Türkiye'deki hava durumu bilgilerinden, döviz kurlarına ve dönüşümlerine; güncel haberlerden, ansiklopedi tanımını merak ettiğin bir konuya, kişiye, eşyaya kadar bir çok şeyi sorabilirsin. Üstelik Miço'yu kendi Teams'ine de kurabilirsin. 
+
+<img src="https://raw.githubusercontent.com/msft-ai-demos/MICO-BOT/main/micologo_small_png.png" width=15% height=15%>
 
 ## Gereksinimler
 *Miço'yu kullanabilmeniz için gerekli servisler*
@@ -18,6 +20,7 @@ Miço sana bir çok konuda yardımcı olabilecek ve seninle sohbet edebilecek bi
 6. [QnA Maker](#6-qna-maker)
 7. [Bing Maps](#7-bing-maps)
 8. [Bing Search](#8-bing-search)
+9. [Translate](#9-translate)
 
 # Miço'yu Nasıl Kurabilirim?
 
@@ -30,4 +33,5 @@ Miço sana bir çok konuda yardımcı olabilecek ve seninle sohbet edebilecek bi
 ## 6. QnA Maker
 ## 7. Bing Maps
 ## 8. Bing Search
+## 9. Translate
 
