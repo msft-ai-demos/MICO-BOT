@@ -18,6 +18,7 @@ Miço sana bir çok konuda yardımcı olabilecek ve seninle sohbet edebilecek bi
 * [.NET Core SDK]
 
 [EK: Miço'yu Kurun](#ek-aksiyon-miçoyu-kurun)
+
 3. [Language Understanding Service (LUIS)](#3-language-understanding-service-luis)
 4. [QnA Maker](#4-qna-maker)
 5. [Bing Maps](#5-bing-maps)
