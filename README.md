@@ -16,7 +16,7 @@ Miço sana bir çok konuda yardımcı olabilecek ve seninle sohbet edebilecek bi
 2. [Bot Composer](#2-bot-composer)
 * [Node.js ve npm]
 * [.NET Core SDK]
-
+[EK: Miço'yu Kurun](#ek-aksiyon-miçoyu-kurun)
 3. [Language Understanding Service (LUIS)](#3-language-understanding-service-luis)
 4. [QnA Maker](#4-qna-maker)
 5. [Bing Maps](#5-bing-maps)
@@ -43,7 +43,7 @@ Node.js JavaScript platformunu ve npm paketini yüklemeniz Composer'ın Node.js 
 
 Bot Composer'ı çalıştırın.
 
-<img src="https://raw.githubusercontent.com/msft-ai-demos/MICO-BOT/main/Additional/ss2.png" width=25% height=25%>
+<img src="https://raw.githubusercontent.com/msft-ai-demos/MICO-BOT/main/Additional/ss2.png" width=30% height=30%>
 
 ## Ek Aksiyon: Miço'yu Kurun
 
