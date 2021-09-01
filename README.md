@@ -37,4 +37,7 @@ Size uygun işletim sistemini seçerek [Bot Composer](https://docs.microsoft.com
 ## 7. Bing Maps
 ## 8. Bing Search
 ## 9. Translate
+## 10. Miço'yu Özelleştirin!
+# Farklı Niyetler Ekleme
+
 
