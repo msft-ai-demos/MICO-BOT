@@ -14,30 +14,45 @@ Miço sana bir çok konuda yardımcı olabilecek ve seninle sohbet edebilecek bi
 
 1. [Azure Hesabı](#1-azure-hesabı-oluşturma)
 2. [Bot Composer](#2-bot-composer)
-3. [Node.js ve npm](#3-nodejs-ve-npm)
-4. [.NET Core SDK](#4-net-core-sdk)
-5. [Language Understanding Service (LUIS)](#5-language-understanding-service-luis)
-6. [QnA Maker](#6-qna-maker)
-7. [Bing Maps](#7-bing-maps)
-8. [Bing Search](#8-bing-search)
-9. [Translate](#9-translate)
+* [Node.js ve npm]
+* [.NET Core SDK]
+
+3. [Language Understanding Service (LUIS)](#3-language-understanding-service-luis)
+4. [QnA Maker](#4-qna-maker)
+5. [Bing Maps](#5-bing-maps)
+6. [Bing Search](#6-bing-search)
+7. [Translate](#7-translate)
 
 # Miço'yu Nasıl Kurabilirim?
 
 ## 1. Azure Hesabı Oluşturma
 Ücretsiz [Azure hesabı](https://azure.microsoft.com/en-us/free/cognitive-services/) oluşturun.
 
-## 2. Bot Composer
+## 2. Bot Composer Kurulum
 Size uygun işletim sistemini seçerek [Bot Composer](https://docs.microsoft.com/en-us/composer/install-composer?tabs=windows#download-composer)'ı indirin.
 
-## 3. Node.js ve npm
-## 4. .NET Core SDK
-## 5. Language Understanding Service (LUIS)
-## 6. QnA Maker
-## 7. Bing Maps
-## 8. Bing Search
-## 9. Translate
-## 10. Miço'yu Özelleştirin!
-## Farklı Niyetler Ekleme
+### 2.1. Node.js ve npm
+Node.js JavaScript platformunu ve npm paketini yüklemeniz Composer'ın Node.js modellerini çalıştırabilmesine imkan tanır. [Node.js LTS 14.x](https://nodejs.org/)'i npm ile birlikte indirin. Bu Composer'ı kullanabilmek için zorunlu bir servistir.
+
+### 2.2. .NET Core SDK
+(https://dotnet.microsoft.com/download/dotnet-core/3.1)'ı indirin. C# dilini kullanarak botunuzu oluşturabilmeniz için bu servis gereklidir.
+
+## 3. Language Understanding Service (LUIS)
+Language Understanding (LUIS), kullanıcıların doğal dil kullanarak uygulamalarınız, botlarınız ve IoT cihazlarınızla etkileşim kurmasına olanak sağlayan bir doğal dil anlama (NLU) yapay zeka hizmetidir. [LUIS](https://docs.microsoft.com/en-us/azure/cognitive-services/luis/sign-in-luis-portal) hizmetini kullanmaya başlayın.
+
+## 4. QnA Maker
+Soru-Cevap Oluşturma Servisi, bilgileri kategorilere ayırarak konuşma bağlamında kullanılabilen ve kolayca bulunabilen yanıtlar elde edilmesini sağlar. [Soru-Cevap Oluşturma Servisini](https://docs.microsoft.com/en-us/azure/cognitive-services/QnAMaker/how-to/set-up-qnamaker-service-azure?tabs=v1) kullanmaya başlayın.
+
+## 5. Bing Maps
+Bing Haritalar, bir web harita hizmeti arama motorudur. [Bing Haritaları](https://docs.microsoft.com/en-us/bingmaps/getting-started/bing-maps-dev-center-help/creating-a-bing-maps-account) kullanmaya başlayın.
+
+## 6. Bing Search
+Bing, Microsoft'un çoklu dilde hizmet veren arama motorudur. Bing'i botunuzda kullanabilmek için Azure Portal üzerinden [Bing Arama Kaynağı](https://docs.microsoft.com/en-us/bing/search-apis/bing-web-search/create-bing-search-service-resource#create-your-bing-resource)'nı oluşturun.
+
+## 7. Translate
+
+## 8. Miço'yu Özelleştirin!
+
+## 8.1. Farklı Niyetler Ekleme
 
 
