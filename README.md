@@ -12,9 +12,9 @@ Chitchat dosyasını kullanarak miço ile günlük konuşmalar yapabilirsiniz. A
 
 1. [Azure Hesabı](#1-azure-hesabı-oluşturma)
 2. [Bot Composer](#2-bot-composer)
-3. [Node.js ve npm](#3-node.js-ve-npm)
-4. [.NET Core SDK](#4-.net-core-sdk)
-5. [Language Understanding Service (LUIS)](#5-Language-Understanding-Service-(LUIS))
+3. [Node.js ve npm](#3-nodejs-ve-npm)
+4. [.NET Core SDK](#4-net-core-sdk)
+5. [Language Understanding Service (LUIS)](#5-language-understanding-service-luis)
 6. [QnA Maker](#6-qna-maker)
 7. [Bing Maps](#7-bing-maps)
 8. [Bing Search](#8-bing-search)
