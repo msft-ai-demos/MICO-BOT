@@ -9,7 +9,7 @@ Miço sana bir çok konuda yardımcı olabilecek ve seninle sohbet edebilecek bi
 
 <img src="https://raw.githubusercontent.com/msft-ai-demos/MICO-BOT/main/Mico%20Teams%20Screenshots/mico_teamsmobile1.jpeg" width=25% height=25%>
 
-## Gereksinimler
+## [Gereksinimler](#miçoyu-nasıl-kullanabilirim-gereksinimler)
 *Miço'yu kullanabilmeniz için gerekli servisler.*
 
 1. [Azure Hesabı](#1-azure-hesabı-oluşturma)
@@ -24,7 +24,7 @@ Miço sana bir çok konuda yardımcı olabilecek ve seninle sohbet edebilecek bi
 7. [Translate](#7-translate)
 
 
-## Kurulum
+## [Kurulum](#miçoyu-nasıl-kullanabilirim-kurulum)
 *Miço kurulum aşamaları.*
 1. [Miço'yu Kurun!](#1-miçoyu-kurun)
 2. [Miço'yu Publish Edin](#2-miçoyu-publish-edin)
