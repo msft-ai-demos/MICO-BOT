@@ -17,13 +17,14 @@ Miço sana bir çok konuda yardımcı olabilecek ve seninle sohbet edebilecek bi
 * [Node.js ve npm]
 * [.NET Core SDK]
 
-[EK: Miço'yu Kurun](#ek-aksiyon-miçoyu-kurun)
-
 3. [Language Understanding Service (LUIS)](#3-language-understanding-service-luis)
 4. [QnA Maker](#4-qna-maker)
 5. [Bing Maps](#5-bing-maps)
 6. [Bing Search](#6-bing-search)
 7. [Translate](#7-translate)
+
+[Miço'yu Kurun!](#miçoyu-kurun)
+
 
 # Miço'yu Nasıl Kurabilirim?
 
@@ -47,16 +48,6 @@ Bot Composer'ı çalıştırın.
 
 <img src="https://raw.githubusercontent.com/msft-ai-demos/MICO-BOT/main/Additional/ss2.png" width=50% height=50%>
 
-## Ek Aksiyon: Miço'yu Kurun
-
-Bot Composer'ı başarılı bir şekilde indirdikten sonra, artık Miço'yu kurmak için yapmanız gerekenlere başlayabilirsiniz.
-İlk olarak bu repository'de yer alan Mico-Bot isimli Bot klasörünü lokalinize indirin veya bu repository'yi klonlayın.
-
-Daha Sonra Miço'yu Bot Composer içerisinden açabilmelisiniz.
-
-<img src="https://user-images.githubusercontent.com/14835957/131674595-f2622de3-92e8-46e5-a790-972f8dcf9d56.png" width=50% height=50%>
-
-
 ## 3. Language Understanding Service (LUIS)
 Language Understanding (LUIS), kullanıcıların doğal dil kullanarak uygulamalarınız, botlarınız ve IoT cihazlarınızla etkileşim kurmasına olanak sağlayan bir doğal dil anlama (NLU) yapay zeka hizmetidir. [LUIS](https://docs.microsoft.com/en-us/azure/cognitive-services/luis/sign-in-luis-portal) hizmetini kullanmaya başlayın.
 
@@ -71,8 +62,16 @@ Bing, Microsoft'un çoklu dilde hizmet veren arama motorudur. Bing'i botunuzda k
 
 ## 7. Translate
 
-## 8. Miço'yu Özelleştirin!
 
-## 8.1. Farklı Niyetler Ekleme
+# Miço'yu Kurun!
+
+Bot Composer'ı başarılı bir şekilde indirdikten sonra, artık Miço'yu kurmak için yapmanız gerekenlere başlayabilirsiniz.
+İlk olarak bu repository'de yer alan Mico-Bot isimli Bot klasörünü lokalinize indirin veya bu repository'yi klonlayın.
+
+Daha Sonra Miço'yu Bot Composer içerisinden açabilmelisiniz.
+
+<img src="https://user-images.githubusercontent.com/14835957/131674595-f2622de3-92e8-46e5-a790-972f8dcf9d56.png" width=50% height=50%>
+
+
 
 
