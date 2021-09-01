@@ -25,8 +25,11 @@ Miço sana bir çok konuda yardımcı olabilecek ve seninle sohbet edebilecek bi
 # Miço'yu Nasıl Kurabilirim?
 
 ## 1. Azure Hesabı Oluşturma
+Ücretsiz [Azure hesabı](https://azure.microsoft.com/en-us/free/cognitive-services/) oluşturun.
 
 ## 2. Bot Composer
+Size uygun işletim sistemini seçerek [Bot Composer](https://docs.microsoft.com/en-us/composer/install-composer?tabs=windows#download-composer)'ı indirin.
+
 ## 3. Node.js ve npm
 ## 4. .NET Core SDK
 ## 5. Language Understanding Service (LUIS)
