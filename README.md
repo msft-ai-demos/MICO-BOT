@@ -26,7 +26,7 @@ Miço sana bir çok konuda yardımcı olabilecek ve seninle sohbet edebilecek bi
 [Miço'yu Kurun!](#miçoyu-kurun)
 
 
-# Miço'yu Nasıl Kurabilirim?
+# Miço'yu Nasıl Kullanabilirim?
 
 ## 1. Azure Hesabı Oluşturma
 Ücretsiz [Azure hesabı](https://azure.microsoft.com/en-us/free/cognitive-services/) oluşturun.
