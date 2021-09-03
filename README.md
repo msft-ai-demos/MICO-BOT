@@ -15,10 +15,9 @@ Miço sana bir çok konuda yardımcı olabilecek ve seninle sohbet edebilecek bi
 1. [Azure Hesabı](#1-azure-hesabı-oluşturma)
 2. [Bot Composer](#2-bot-composer)
 3. [Language Understanding Service (LUIS)](#3-language-understanding-service-luis)
-4. [QnA Maker](#4-qna-maker)
+4. [QnA Maker - Optional](#4-qna-maker)
 5. [Bing Maps](#5-bing-maps)
 6. [Bing Search](#6-bing-search)
-7. [Translate](#7-translate)
 
 
 ## [Kurulum](#miçoyu-nasıl-kullanabilirim--kurulum)
@@ -53,7 +52,7 @@ Bot Composer'ı çalıştırın.
 ## 3. Language Understanding Service (LUIS)
 Language Understanding (LUIS), kullanıcıların doğal dil kullanarak uygulamalarınız, botlarınız ve IoT cihazlarınızla etkileşim kurmasına olanak sağlayan bir doğal dil anlama (NLU) yapay zeka hizmetidir. [LUIS](https://docs.microsoft.com/en-us/azure/cognitive-services/luis/sign-in-luis-portal) hizmetini kullanmaya başlayın.
 
-## 4. QnA Maker
+## 4. QnA Maker - Optional
 Soru-Cevap Oluşturma Servisi, bilgileri kategorilere ayırarak konuşma bağlamında kullanılabilen ve kolayca bulunabilen yanıtlar elde edilmesini sağlar. [Soru-Cevap Oluşturma Servisini](https://docs.microsoft.com/en-us/azure/cognitive-services/QnAMaker/how-to/set-up-qnamaker-service-azure?tabs=v1) kullanmaya başlayın.
 
 ## 5. Bing Maps
@@ -62,7 +61,7 @@ Bing Haritalar, bir web harita hizmeti arama motorudur. [Bing Haritaları](https
 ## 6. Bing Search
 Bing, Microsoft'un çoklu dilde hizmet veren arama motorudur. Bing'i botunuzda kullanabilmek için Azure Portal üzerinden [Bing Arama Kaynağı](https://docs.microsoft.com/en-us/bing/search-apis/bing-web-search/create-bing-search-service-resource#create-your-bing-resource)'nı oluşturun.
 
-## 7. Translate
+
 
 
 # Miço'yu Nasıl Kullanabilirim : Kurulum
