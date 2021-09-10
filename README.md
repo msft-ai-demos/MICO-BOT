@@ -85,8 +85,15 @@ Daha Sonra Miço'yu Bot Composer içerisinden açabilmelisiniz.
 
 
 
-# Yeni Bir Niyet Nasıl Eklenir?
-## Örnek: Hava Durumu Niyeti
+# Yeni Bir Niyet ve Dialog Nasıl Eklenir?
+## Örnek: Hava Durumu Niyeti ve Dialoğu
 
-Miço'yu kullanırken
+Miço'yu kullanırken ona farklı özellikler eklemek isteyebilirsiniz. Bunun için ilk olarak bu özellikle ilişkilendirilecek niyeti belirlemeniz gerekmektedir. Örnek olarak, Miço'ya hava durumunu söyleme yetisi eklemek istediğinizde, burada anlamanız gereken niyet, hava durumudur. Kullanıcıdan gelebilecek hava durumu ile ilgili sorular, Miço'nun doğal dil anlama yeteneği ile ayrıştırılıp, Hava Durumu Niyetini tetiklemelidir. 
 
+Niyeti oluşturup kullanıcıdan gelen talepleri doğru anlarken, bir yandan da dialogu oluşturmaya başlayabilirsiniz. Niyet içerisinden ayıklayabileceğiniz entity'ler, dialoğunuzun akışını da şekillendirecektir.
+
+Miço'ya yeni bir özellik eklerken ilerleyişiniz konusunda rehber olması için, hava durumu niyetini ve dialoğunu baştan nasıl oluşturabileceğimizi aşağıda bulabilirsiniz.
+
+### 1. Niyet : Hava Durumu Niyeti
+
+### 2. Dialog : Hava Durumu Dialoğu
