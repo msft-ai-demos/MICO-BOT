@@ -27,6 +27,8 @@ Miço sana bir çok konuda yardımcı olabilecek ve seninle sohbet edebilecek bi
 3. [Miço'yu Teams'e Ekleyin](#3-miçoyu-teamse-ekleyin)
 
 
+## [Yeni Bir Niyet Nasıl Eklenir?](#yeni-bir-niyet-nasıl-eklenir)
+
 # Miço'yu Nasıl Kullanabilirim: Gereksinimler
 
 ## 1. Azure Hesabı Oluşturma
@@ -83,4 +85,8 @@ Daha Sonra Miço'yu Bot Composer içerisinden açabilmelisiniz.
 
 
 
+# Yeni Bir Niyet Nasıl Eklenir?
+## Örnek: Hava Durumu Niyeti
+
+Miço'yu kullanırken
 
