@@ -102,7 +102,7 @@ Niyetleri oluştururken ister Bot Composer içerisinden, ister LUIS'in kendi ara
 
 Luis Portalı içerisinde yapmanız gereken ilk şey, +New App diyerek yeni bir proje oluşturmak. MicoIntents isimli bir proje oluşturabilirsiniz. Bu app i oluştururken sizden Azure Portal üzerinden açmış olduğunuz LUIS servisine dair LUIS Prediction Resource'unu seçmeniz istenecek. 
 
-Projeyioluşturduktan sonra, artık Intent, yani niywtimizi yaratabiliriz. + Intent diyerek 'HavaDurumu' isminde bir niyet ekleyiniz. 
+Projeyi oluşturduktan sonra, artık Intent, yani niywtimizi yaratabiliriz. + Intent diyerek 'HavaDurumu' isminde bir niyet ekleyiniz. 
 
 
 ### 2. Dialog : Hava Durumu Dialoğu
