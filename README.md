@@ -102,8 +102,26 @@ Niyetleri oluştururken ister Bot Composer içerisinden, ister LUIS'in kendi ara
 
 Luis Portalı içerisinde yapmanız gereken ilk şey, +New App diyerek yeni bir proje oluşturmak. MicoIntents isimli bir proje oluşturabilirsiniz. Bu app i oluştururken sizden Azure Portal üzerinden açmış olduğunuz LUIS servisine dair LUIS Prediction Resource'unu seçmeniz istenecek. 
 
-Projeyi oluşturduktan sonra, artık Intent, yani niywtimizi yaratabiliriz. + Intent diyerek 'HavaDurumu' isminde bir niyet ekleyiniz. 
+Projeyi oluşturduktan sonra, artık Intent, yani niyet yaratabiliriz. + Intent diyerek 'HavaDurumu' isminde bir niyet ekleyiniz. 
 
+1) Niyeti oluşturduktan sonra, ilk olarak kullanıcılardangelebilecek bir kaç örnek cümleyi ekleyelim.
+
+- Hava nasıl?
+- Hava durumu nedir
+- Hava nasıl olacak
+- hava durumu
+
+![image](https://user-images.githubusercontent.com/14835957/133099693-1d87d82a-c3d5-48c9-bbe6-22dbb7518d55.png)
+
+Kullanıcıdan gelen cümleler bu şekilde direkt hava durumunu soruyorsa, onlara şehri biz sorabiliriz. Dialoğumuzun akışını da bu şekilde oluşturmamız gerekecek. Bu birinci duruma Dialog kısmında değineceğiz.
+
+2) Eğer kullanıcı, şehri de belirterek hava durumunu soruyorsa, onlara bir daha bu soruyu sormamak için, gelen cümledeki şehir kavramını yakalamalıyız.
+Bunun için bir entity oluşturmalıyız.
+
+Soldaki Entities kısmına gelerek, + Create Entity diyebiliriz.
+![image](https://user-images.githubusercontent.com/14835957/133101481-441377b8-f5a1-4fa0-9c83-b20dcaea36c8.png)
+
+Burada karşımıza bir kaç seçenek çıkmakta.
 
 ### 2. Dialog : Hava Durumu Dialoğu
 
