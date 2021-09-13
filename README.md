@@ -92,8 +92,19 @@ Miço'yu kullanırken ona farklı özellikler eklemek isteyebilirsiniz. Bunun i�
 
 Niyeti oluşturup kullanıcıdan gelen talepleri doğru anlarken, bir yandan da dialogu oluşturmaya başlayabilirsiniz. Niyet içerisinden ayıklayabileceğiniz entity'ler, dialoğunuzun akışını da şekillendirecektir.
 
-Miço'ya yeni bir özellik eklerken ilerleyişiniz konusunda rehber olması için, hava durumu niyetini ve dialoğunu baştan nasıl oluşturabileceğimizi aşağıda bulabilirsiniz.
+Miço'ya yeni bir özellik eklerken ilerleyişiniz konusunda rehber olması için, hava durumu niyetini ve dialoğunu baştan nasıl oluşturabileceğinizi aşağıda bulabilirsiniz.
 
 ### 1. Niyet : Hava Durumu Niyeti
 
+Niyetleri oluştururken ister Bot Composer içerisinden, ister LUIS'in kendi arayüzünden oluşturabilirsiniz. Bu örnekte Hava Durumu niyeti LUIS'in kendi arayüzü olan luis.ai sitesi üzerinden oluşturulacaktır. [LUIS.AI](https://www.luis.ai)
+
+![image](https://user-images.githubusercontent.com/14835957/133092774-0df8fd6d-915b-4fdd-a7a5-10f23a56593a.png)
+
+Luis Portalı içerisinde yapmanız gereken ilk şey, +New App diyerek yeni bir proje oluşturmak. MicoIntents isimli bir proje oluşturabilirsiniz. Bu app i oluştururken sizden Azure Portal üzerinden açmış olduğunuz LUIS servisine dair LUIS Prediction Resource'unu seçmeniz istenecek. 
+
+Projeyioluşturduktan sonra, artık Intent, yani niywtimizi yaratabiliriz. + Intent diyerek 'HavaDurumu' isminde bir niyet ekleyiniz. 
+
+
 ### 2. Dialog : Hava Durumu Dialoğu
+
+
