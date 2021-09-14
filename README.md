@@ -121,10 +121,11 @@ Bunun için bir entity oluşturmalıyız.
 Soldaki Entities kısmına gelerek, + Create Entity diyebiliriz.
 <img src="https://user-images.githubusercontent.com/14835957/133101481-441377b8-f5a1-4fa0-9c83-b20dcaea36c8.png" width=25% height=25%>
 Burada karşımıza bir kaç seçenek çıkmakta.
-- [Machine Learned Entity](https://docs.microsoft.com/tr-tr/azure/cognitive-services/luis/luis-concept-entity-types#machine-learned-ml-entity):
-- [List Entity](https://docs.microsoft.com/tr-tr/azure/cognitive-services/luis/luis-concept-entity-types#list-entity): Sabit ve kapalı bir ilgili sözcük kümesini eş anlamlılarıyla birlikte temsil eder. Birden çok eş anlamlı veya çeşitlemeyi tanımak ve bunlara yönelik normalleştirilmiş bir çıktıyı ayıklamak için liste varlıklarını kullanabilirsiniz. 
-- [Regex Entity](https://docs.microsoft.com/tr-tr/azure/cognitive-services/luis/luis-concept-entity-types#regex-entity):
-- [Pattern Entity]():
+
+- [List Entity](https://docs.microsoft.com/tr-tr/azure/cognitive-services/luis/luis-concept-entity-types#list-entity): Sabit ve kapalı bir ilgili sözcük kümesini eş anlamlılarıyla birlikte temsil eder. Birden çok eş anlamlı veya çeşitlemeyi tanımak ve bunlara yönelik normalleştirilmiş bir çıktıyı ayıklamak için liste varlıklarını kullanabilirsiniz. Örnek: Haftanın Günleri.
+- [Regex Entity](https://docs.microsoft.com/tr-tr/azure/cognitive-services/luis/luis-concept-entity-types#regex-entity): Normal ifade, yapılandırılmış metin veya belirli bir biçimde beklenen, önceden tanımlanmış alfasayısal değerler dizisi için idealdir. Örnek: Uçuş Numaraları, Kimlik Numaraları ...
+- [Machine Learned Entity](https://docs.microsoft.com/tr-tr/azure/cognitive-services/luis/luis-concept-entity-types#machine-learned-ml-entity): Makine tarafından öğrenilen varlık, etiketlenmiş örneklere göre varlıkları ayıklamak için bağlamını kullanır. Makine öğrenimi algoritmalarını kullanır ve etiketlemeye, uygulamanıza başarıyla uyarlanmasını gerektirir. Örnek: Kişi isimleri.
+- [Daha Fazlası](https://docs.microsoft.com/tr-tr/azure/cognitive-services/luis/luis-concept-entity-types)
 
 ### 2. Dialog : Hava Durumu Dialoğu
 
