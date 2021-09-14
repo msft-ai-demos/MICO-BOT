@@ -133,7 +133,7 @@ Burada karşımıza bir kaç seçenek çıkmakta.
 
 <img src="https://user-images.githubusercontent.com/14835957/133231586-f520fdf8-154d-45f4-af52-614dfce67475.png" width=50% height=50%>
 
-4. Bir sonraki enity'miz ise, kullanıcının hava durumunu sorarken şehri de belirtme ihtimaline karşın üreteceğimiz Şehir entity'si olacak. Bu entity'yi Machine Learned entity tipinde oluşturacağız, bu sayde, kullanıcının girebileceği tüm şehir örneklerini LUIS'e vermeden, onun öğrenme yeteneğinden faydalanarak, sadece bir kaç örnekle ona şehir kısmını yakalamayı öğretebiliriz.
+4. Bir sonraki enity'miz ise, kullanıcının hava durumunu sorarken şehri de belirtme ihtimaline karşın üreteceğimiz Şehir entity'si olacak. Bu entity'yi Machine Learned entity tipinde oluşturacağız, bu sayede, kullanıcının girebileceği tüm şehir örneklerini LUIS'e vermeden, onun öğrenme yeteneğinden faydalanarak, sadece bir kaç örnekle ona şehir kısmını yakalamayı öğretebiliriz.
 
 Tekrar HavaDurumu Intent'ine gidip örnek phraseler girmeye başlayalım. Bu sefer içlerinde şehir de olsun. Daha sonra bu şehirleri seçip, oluşturduğumuz Machine Learned Şehir entity'si ile eşleştirelim.
 
