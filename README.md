@@ -150,3 +150,10 @@ Miçodaki intentlerin tamamına ilgili dosyalardan ulaşabilirsiniz.
 ### 2. Dialog : Hava Durumu Dialoğu
 
 
+turn regognized entities
+
+if elseler ile koşullar
+city zaman
+
+soru sorma dialogu
+
