@@ -129,6 +129,24 @@ Burada karşımıza bir kaç seçenek çıkmakta.
 - [Machine Learned Entity](https://docs.microsoft.com/tr-tr/azure/cognitive-services/luis/luis-concept-entity-types#machine-learned-ml-entity): Makine tarafından öğrenilen varlık, etiketlenmiş örneklere göre varlıkları ayıklamak için bağlamını kullanır. Makine öğrenimi algoritmalarını kullanır ve etiketlemeye, uygulamanıza başarıyla uyarlanmasını gerektirir. Örnek: Kişi isimleri.
 - [Daha Fazlası](https://docs.microsoft.com/tr-tr/azure/cognitive-services/luis/luis-concept-entity-types)
 
+3. Miçoya ekleyeceğimiz ilk Entity, kullanıcıdan gelebilecek zaman aralığı olacak. Kullanıcı cümle içinde bir zaman aralığı vermezse, ona bugünün ve sonraki günlerin hava durumunu verebiliriz. Ama kullanıcı yarını öğrenmek istiyorsa, ya da haftalık detaylı sonuçları görmek istiyorsa, bunu da anlamalıyız. Zaman aralığı entitysi için Liste tipinde entity oluşturacağız. Liste'nin üç elemanı olacak: Bugün, Yarın, Haftalık.
+
+<img src="https://user-images.githubusercontent.com/14835957/133231586-f520fdf8-154d-45f4-af52-614dfce67475.png" width=50% height=50%>
+
+4. Bir sonraki enity'miz ise, kullanıcının hava durumunu sorarken şehri de belirtme ihtimaline karşın üreteceğimiz Şehir entity'si olacak. Bu entity'yi Machine Learned entity tipinde oluşturacağız, bu sayde, kullanıcının girebileceği tüm şehir örneklerini LUIS'e vermeden, onun öğrenme yeteneğinden faydalanarak, sadece bir kaç örnekle ona şehir kısmını yakalamayı öğretebiliriz.
+
+Tekrar HavaDurumu Intent'ine gidip örnek phraseler girmeye başlayalım. Bu sefer içlerinde şehir de olsun. Daha sonra bu şehirleri seçip, oluşturduğumuz Machine Learned Şehir entity'si ile eşleştirelim.
+
+<img src="https://user-images.githubusercontent.com/14835957/133232461-f139ef04-81da-4ba9-a3f8-16ba2b79909b.png" width=50% height=50%>
+
+Bir kaç örnekle daha çeşitlendirdikten sonra, sağ üst köşeden Train diyip, sonrasında örnek cümlelerle test edebilirsiniz.
+
+Intent ve entity'lerimizi tamamladıktan sonra, artık bu formatı Bot Composer içerisine de ekleyebiliriz. Bunun için LUIS portal anasayfasına gidip, app'inizi seçip, export as .lu file demelisiniz. 
+
+<img src="https://user-images.githubusercontent.com/14835957/133232861-0e8190e6-b14f-4cf9-9dd7-788cb3f5a19b.png" width=50% height=50%>
+
+Miçodaki intentlerin tamamına ilgili dosyalardan ulaşabilirsiniz.
+
 ### 2. Dialog : Hava Durumu Dialoğu
 
 
