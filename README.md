@@ -219,19 +219,17 @@ Niyetleri anladıktan sonra artık gelen cümlelerden ayıkladığımız entity'
 
 Dialog oluştururken üzerinde durmamız gereken 2 konu olacak, ilki, gelen zaman ve şehir bilgisine göre bir akış oluşturmak. İkincisi ise, API Request'i bot içerisinden atmak.
 
-###2.1. Şehir ve Zaman Bilgisine göre Ayrışmalar: If-Else
+### 2.1. Şehir ve Zaman Bilgisine göre Ayrışmalar: If-Else
 
 Kullanıcıdan cümle içerisinde gelen entityleri, bizim durumumuzda varsa şehir ve zaman bilgisini, recognized entities başlığında almaktayız. Kullanıcının hava durumuna bakmak istediğini anladıktan sonra, ilk kontrol etmemiz gereken şey bu olacak. Bu, bot composer içerisinden bir fonksiyon ile çekebilmekteyiz. 
 
-###'turn.recognized.entities'
+### 'turn.recognized.entities'
 
 <img src="https://user-images.githubusercontent.com/14835957/133773097-467e6abe-f854-4239-86ba-bb85a5dc1f2d.png" width=60% height=60%>
 
 ### Kullanıcı Şehir Bilgisi Girmiş mi?
 
 'turn.recognized.entities' kavramını, dialog.entity isimli bir property'ye atadıktan sonra, bu şekilde de kontrol edebiliriz. Şimdi yapmamız gereken, bir If-Else koşulu oluşturmak.
-
-### Kullanıcı Zamar Aralığı Belirtmiş mi?
 
 ![image](https://user-images.githubusercontent.com/14835957/133773313-8073613b-ee49-412e-9202-9192996d6942.png)
 
@@ -243,13 +241,33 @@ Kullanıcı şehir bilgisi vermediyse, yani False'a girdiysek, hangi şehrin hav
 
 ![image](https://user-images.githubusercontent.com/14835957/133773790-517af25a-e7c3-47ba-b513-98087a00931e.png)
 
-
-###2.2. Hava Durumu Bilgisini Çekmek: API Request
+### Kullanıcı Zamar Aralığı Belirtmiş mi?
 
 Kontrol etmemiz gereken ikinci varlık, kullanıcının zaman belirtip belirtmediği. İlk olarak Şehir durumuna baktığımız için, Zaman kontrolünü iki yerde de yapmalıyız, Şehir kontrolünden True dönüyorsa da, False dönüyorsa da.
 
 ![image](https://user-images.githubusercontent.com/14835957/133773569-bd04dc82-d6e5-4bc9-b7c7-8063e1184eab.png)
 
 ![image](https://user-images.githubusercontent.com/14835957/133773610-efb69123-f368-4ea1-b122-e18787f9cd2f.png)
+
+Kullanıcı zaman aralığı belirtmediyse, ona bir daha sormamıza gerek yok. Bugünün ve ilerleyen günlerin hava durumunu ona dönebiliriz.
+
+
+### 2.2. Hava Durumu Bilgisini Çekmek: API Request
+
+Dialog akışımızı oturttuktan sonra, artık her durum için Azure Maps'ten hava durumu bilgisini çekebiliriz.
+
+Bu kısım için [Azure Maps API Dökümantasyonu](https://docs.microsoft.com/en-us/azure/azure-maps/) referans alınmıştır. 
+
+İlk olarak gelen şehir bilgisinden, bu şehrin koordinatları çekilmekte.
+
+![image](https://user-images.githubusercontent.com/14835957/133774679-72c8852f-2c84-4a47-b7de-f27f3b4ea9ed.png)
+
+Koordinatlar elde edildikten sonra, bu koordinat bilgisi ile hava durumuna sorgu atabiliriz.
+
+![image](https://user-images.githubusercontent.com/14835957/133774824-e4d57c5c-ba64-4d4c-91a7-7f7ac95b5fc5.png)
+
+
+
+
 
 
