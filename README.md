@@ -213,11 +213,43 @@ Bu dosyanın içeriğini ilgili dosyadan bulabilirsiniz. Örnek yapı aşağıda
 
 ### 2. Dialog : Hava Durumu Dialoğu
 
+Niyetleri anladıktan sonra artık gelen cümlelerden ayıkladığımız entity'leri de kullanarak dialoğumuzu oluşturmaya başlayabiliriz.
 
-turn regognized entities
+<img src="https://user-images.githubusercontent.com/14835957/133772337-04526d3f-f172-417a-99c4-9d23ee409acf.png" width=80% height=80%>
 
-if elseler ile koşullar
-city zaman
+Dialog oluştururken üzerinde durmamız gereken 2 konu olacak, ilki, gelen zaman ve şehir bilgisine göre bir akış oluşturmak. İkincisi ise, API Request'i bot içerisinden atmak.
 
-soru sorma dialogu
+###2.1. Şehir ve Zaman Bilgisine göre Ayrışmalar: If-Else
+
+Kullanıcıdan cümle içerisinde gelen entityleri, bizim durumumuzda varsa şehir ve zaman bilgisini, recognized entities başlığında almaktayız. Kullanıcının hava durumuna bakmak istediğini anladıktan sonra, ilk kontrol etmemiz gereken şey bu olacak. Bu, bot composer içerisinden bir fonksiyon ile çekebilmekteyiz. 
+
+###'turn.recognized.entities'
+
+<img src="https://user-images.githubusercontent.com/14835957/133773097-467e6abe-f854-4239-86ba-bb85a5dc1f2d.png" width=60% height=60%>
+
+### Kullanıcı Şehir Bilgisi Girmiş mi?
+
+'turn.recognized.entities' kavramını, dialog.entity isimli bir property'ye atadıktan sonra, bu şekilde de kontrol edebiliriz. Şimdi yapmamız gereken, bir If-Else koşulu oluşturmak.
+
+### Kullanıcı Zamar Aralığı Belirtmiş mi?
+
+![image](https://user-images.githubusercontent.com/14835957/133773313-8073613b-ee49-412e-9202-9192996d6942.png)
+
+Bu blok, True dönüyorsa, tanınan entitylerimiz Şehir bilgisi içeriyor, False dönüyorsa, Şehir bilgisi içermiyor demektir. Aşağıdaki akışımızı buna göre düzenleyebiliriz.
+
+Kullanıcı şehir bilgisi vermediyse, yani False'a girdiysek, hangi şehrin hava durumuna bakmak isteediğini biz ona sormalıyız, belki bir kaç öneri ile!
+
+![image](https://user-images.githubusercontent.com/14835957/133773753-084b5d4d-ca52-4b13-a29e-8f653c26ccaf.png)
+
+![image](https://user-images.githubusercontent.com/14835957/133773790-517af25a-e7c3-47ba-b513-98087a00931e.png)
+
+
+###2.2. Hava Durumu Bilgisini Çekmek: API Request
+
+Kontrol etmemiz gereken ikinci varlık, kullanıcının zaman belirtip belirtmediği. İlk olarak Şehir durumuna baktığımız için, Zaman kontrolünü iki yerde de yapmalıyız, Şehir kontrolünden True dönüyorsa da, False dönüyorsa da.
+
+![image](https://user-images.githubusercontent.com/14835957/133773569-bd04dc82-d6e5-4bc9-b7c7-8063e1184eab.png)
+
+![image](https://user-images.githubusercontent.com/14835957/133773610-efb69123-f368-4ea1-b122-e18787f9cd2f.png)
+
 
