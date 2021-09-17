@@ -145,7 +145,71 @@ Intent ve entity'lerimizi tamamladıktan sonra, artık bu formatı Bot Composer 
 
 <img src="https://user-images.githubusercontent.com/14835957/133232861-0e8190e6-b14f-4cf9-9dd7-788cb3f5a19b.png" width=50% height=50%>
 
-Miçodaki intentlerin tamamına ilgili dosyalardan ulaşabilirsiniz.
+Export ettiğimiz .lu dosyasının içeriğini, bot içerisindeki havadurumu triggerında kullanmalıyız. 
+
+<img src="https://user-images.githubusercontent.com/14835957/133771647-380d4f4d-0365-47c9-a6ff-77b0b5764f0b.png" width=50% height=50%>
+
+Bu dosyanın içeriğini ilgili dosyadan bulabilirsiniz. Örnek yapı aşağıdaki gibidir:
+
+  - {@city=bodrum} hava nasıl
+  - {@city=bodrum} yarın hava
+  - {@city=bodrum} yarın hava
+  - {@city=kayseri} haftalık hava
+  - {@city=aksaray} bugün hava nasıl?
+  - {@city=erzurum}'da haftaya hava nasıl?
+  - {@city=elazig}'da hava nasıl?
+  - {@city=aksaray}'da yarın hava nasıl
+  - {@city=denizli} hava
+  - {@city=denizli} hava durumu nedir
+  - {@city=edirne} sisli mi bugun
+  - haftaya hava
+  - haftaya hava nasıl olacak {@city=istanbulda}
+  - haftaya {@city=istanbul} güneşli mi?
+  - haftaya soguk mu olacak?
+  - hava
+  - hava durumu
+  - hava durumu bu hafta
+  - hava durumu haftalık
+  - hava durumu {@city=istanbul}
+  - hava durumu nasıl
+  - hava durumu nasıl {@city=samsun}
+  - hava durumu yarın
+  - hava {@city=istanbul}
+  - hava nasıl
+  - hava nasıl {@city=izmir}
+  - hava nasıl olacak yarın
+  - bu hafta hava nasıl olacak?
+  - bu hafta hava {@city=istanbul}'da nasıl olacak?
+
+  @ ml city
+
+  @ list zaman = 
+    - bugun :
+      - bugun
+      - bugün
+      - bugünkü
+      - bugunun
+      - bugünün
+      - suan
+      - şuan
+      - simdi
+      - şimdi
+    - yarin :
+      - yarın
+      - yarin
+    - haftalik :
+      - bu hafta
+      - haftaya
+      - haftalık
+      - haftalik
+      - haftasonu
+      - hafta sonu
+      - hafta içi
+      - haftaiçi
+      - haftanın
+      - haftaici
+
+
 
 ### 2. Dialog : Hava Durumu Dialoğu
 
