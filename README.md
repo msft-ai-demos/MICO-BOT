@@ -3,12 +3,16 @@
 
 Miço, sizin Microsoft Teams'deki sanal asistanınız.
 
+
 <img src="https://raw.githubusercontent.com/msft-ai-demos/MICO-BOT/main/micologo_small_png.png" width=15% height=15%>
 
 Miço sana bir çok konuda yardımcı olabilecek ve seninle sohbet edebilecek bir sanal asistandır. Ona Türkiye'deki hava durumu bilgilerinden, döviz kurlarına ve dönüşümlerine; güncel haberlerden, ansiklopedi tanımını merak ettiğin bir konuya, kişiye, eşyaya kadar bir çok şeyi sorabilirsin. Onunla Teams'den çıkmadan kısa çeviriler yapabilir, ve ona feedback verebilirsin. Üstelik Miço'yu kendi Teams'ine de kurabilirsin. 
 
-Beyaz ekran eklenecek
-<img src="https://raw.githubusercontent.com/msft-ai-demos/MICO-BOT/main/Mico%20Teams%20Screenshots/mico_teamsmobile1.jpeg" width=25% height=25%>
+<img src="https://user-images.githubusercontent.com/14835957/133957964-bb5dc633-1aa5-4924-affc-0d50433030b9.jpeg" width=25% height=25%>
+<img src="https://user-images.githubusercontent.com/14835957/133957977-61e3c06c-6e31-4b71-b36a-adc002e70fe8.jpeg" width=25% height=25%>
+<img src="https://user-images.githubusercontent.com/14835957/133957989-b65c0daa-d799-4b90-9acf-147d525bc60e.jpeg" width=25% height=25%>
+<img src="https://user-images.githubusercontent.com/14835957/133958000-b8bac881-d2cb-4b77-a27c-c8c0075b09c5.jpeg" width=25% height=25%>
+<img src="https://user-images.githubusercontent.com/14835957/133958007-8dff7f60-0c35-4545-acf8-c974dc00e0a0.jpeg" width=25% height=25%>
 
 ## [Gereksinimler](#miçoyu-nasıl-kullanabilirim-gereksinimler)
 *Miço'yu kullanabilmeniz için gerekli servisler.*
@@ -73,6 +77,8 @@ Bing, Microsoft'un çoklu dilde hizmet veren arama motorudur. Bing'i botunuzda k
 Bot Composer'ı başarılı bir şekilde indirdikten ve gerekli sevisleri oluşturduktan sonra, artık Miço'yu kurmak ve çalıştırmak için yapmanız gerekenlere başlayabilirsiniz.
 İlk olarak bu repository'de yer alan Mico-Bot isimli Bot klasörünü lokalinize indirin veya bu repository'yi klonlayın.
 
+Extract ettiğiniz bot dosyasını composerı açarak, composer içerisinden seçip bulun.
+
 Daha Sonra Miço'yu Bot Composer içerisinden açabilmelisiniz.
 
 <img src="https://user-images.githubusercontent.com/14835957/131674595-f2622de3-92e8-46e5-a790-972f8dcf9d56.png" width=50% height=50%>
@@ -80,9 +86,13 @@ Daha Sonra Miço'yu Bot Composer içerisinden açabilmelisiniz.
 
 ## 2. Miço'yu Publish Edin
 
+Miço'yu publish edebilmek için yapmanız gereken ilk şey, bir Publishing Profile oluşturmak. Bu adımı tamamen composer içerisinden tamamlayabilirsiniz.
+![image](https://user-images.githubusercontent.com/14835957/133958169-b4069ba8-4acd-4053-887f-b2daf5faeac3.png)
+
 
 ## 3. Miço'yu Teams'e Ekleyin
 
+Publish etmiş olduğunuz botu Teams'e ekleyebilmeniz için tamamlamanız gereken bir kaç adım kaldı. Bu adımları Azure Portal içerisinden tamamlayacağız.
 
 
 
