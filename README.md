@@ -33,8 +33,8 @@ Miço sana bir çok konuda yardımcı olabilecek ve seninle sohbet edebilecek bi
 
 
 ## [Yeni Bir Niyet Nasıl Eklenir?](#yeni-bir-niyet-ve-dialog-nasıl-eklenir)
-1. [Hava Durumu Niyeti](#1-niyet-hava-durumu-niyeti)
-2. [Hava Durumu Dialoğu](#2-dialog-hava-durumu-dialoğu)
+1. [Hava Durumu Niyeti](#1-niyet--hava-durumu-niyeti)
+2. [Hava Durumu Dialoğu](#2-dialog--hava-durumu-dialoğu)
 
 # Miço'yu Nasıl Kullanabilirim: Gereksinimler
 
