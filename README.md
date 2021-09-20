@@ -18,9 +18,9 @@ Miço sana bir çok konuda yardımcı olabilecek ve seninle sohbet edebilecek bi
 *Miço'yu kullanabilmeniz için gerekli servisler.*
 
 1. [Azure Hesabı](#1-azure-hesabı-oluşturma)
-2. [Bot Composer](#2-bot-composer)
+2. [Bot Composer](#2-bot-composer-kurulum)
 3. [Language Understanding Service (LUIS)](#3-language-understanding-service-luis)
-4. [QnA Maker - Optional](#4-qna-maker)
+4. [QnA Maker - Optional](#4-qna-maker-optional)
 5. [Bing Maps](#5-bing-maps)
 6. [Bing Search](#6-bing-search)
 
@@ -33,6 +33,8 @@ Miço sana bir çok konuda yardımcı olabilecek ve seninle sohbet edebilecek bi
 
 
 ## [Yeni Bir Niyet Nasıl Eklenir?](#yeni-bir-niyet-ve-dialog-nasıl-eklenir)
+1. [Hava Durumu Niyeti](#1-niyet-hava-durumu-niyeti)
+2. [Hava Durumu Dialoğu](#2-dialog-hava-durumu-dialoğu)
 
 # Miço'yu Nasıl Kullanabilirim: Gereksinimler
 
