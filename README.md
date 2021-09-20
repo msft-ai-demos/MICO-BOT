@@ -36,6 +36,7 @@ Miço sana bir çok konuda yardımcı olabilecek ve seninle sohbet edebilecek bi
 1. [Hava Durumu Niyeti](#1-niyet--hava-durumu-niyeti)
 2. [Hava Durumu Dialoğu](#2-dialog--hava-durumu-dialoğu)
 
+
 # Miço'yu Nasıl Kullanabilirim: Gereksinimler
 
 ## 1. Azure Hesabı Oluşturma
