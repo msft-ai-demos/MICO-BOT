@@ -1,0 +1,79 @@
+[import](common.lg)
+
+# SendActivity_R439bJ_attachment_jnhGWa()
+> To learn more Adaptive Cards format, read the documentation at
+> https://docs.microsoft.com/en-us/adaptive-cards/getting-started/bots
+- ```{
+    "type": "AdaptiveCard",
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "version": "1.3",
+    "body": [
+        {
+            "type": "TextBlock",
+            "wrap": true,
+            "text": " "
+        },
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.gun} ${dialog.ayarray[int(dialog.ay)]} ${dialog.yil} ${dialog.haftaarray[dialog.dayoftheweek]}",
+                            "wrap": true,
+                            "size": "Large",
+                            "weight": "Bolder",
+                            "spacing": "Medium"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "- ${dialog.corba}",
+                            "wrap": true,
+                            "size": "Medium"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "- ${dialog.anayemek}",
+                            "wrap": true,
+                            "size": "Medium"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "wrap": true,
+                            "text": "- ${dialog.yan1}",
+                            "size": "Medium"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "- ${dialog.yan2}",
+                            "wrap": true,
+                            "size": "Medium"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "backgroundImage": {
+        "url": "https://media.istockphoto.com/photos/traditional-french-breakfast-background-copy-space-picture-id865839662?k=6&m=865839662&s=612x612&w=0&h=STVvXBn7T8QwuecrMJq2Z8eIO-xEYCWwrsBhUMhkHDM="
+    }
+}```
+# SendActivity_R439bJ()
+[Activity
+    Text = Bugünün yemek menüsü:
+    Attachments = ${json(SendActivity_R439bJ_attachment_jnhGWa())}
+]

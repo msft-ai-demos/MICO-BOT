@@ -1,0 +1,208 @@
+{
+  "$kind": "Microsoft.AdaptiveDialog",
+  "$designer": {
+    "id": "jwgRpC",
+    "name": "hrhelp",
+    "description": ""
+  },
+  "autoEndDialog": true,
+  "defaultResultProperty": "dialog.result",
+  "triggers": [
+    {
+      "$kind": "Microsoft.OnBeginDialog",
+      "$designer": {
+        "name": "BeginDialog",
+        "description": "",
+        "id": "lFpoZc"
+      },
+      "actions": [
+        {
+          "$kind": "Microsoft.SetProperties",
+          "$designer": {
+            "id": "UcpLGh"
+          },
+          "assignments": [
+            {
+              "property": "dialog.isim",
+              "value": "=turn.recognized.entities.hrisim[0]"
+            },
+            {
+              "property": "dialog.ay",
+              "value": "=turn.recognized.entities.hray[0][0]"
+            },
+            {
+              "property": "dialog.tip",
+              "value": "=turn.recognized.entities.hrtip[0][0]"
+            }
+          ]
+        },
+        {
+          "$kind": "Microsoft.SwitchCondition",
+          "$designer": {
+            "id": "qcqWVS"
+          },
+          "condition": "=dialog.tip",
+          "cases": [
+            {
+              "value": "izin",
+              "actions": [
+                {
+                  "$kind": "Microsoft.IfCondition",
+                  "$designer": {
+                    "id": "IRZyCF"
+                  },
+                  "condition": "=contains(turn.recognized.entities, \"hrisim\")",
+                  "elseActions": [
+                    {
+                      "$kind": "Microsoft.TextInput",
+                      "$designer": {
+                        "id": "msJkXl"
+                      },
+                      "disabled": false,
+                      "maxTurnCount": 3,
+                      "alwaysPrompt": false,
+                      "allowInterruptions": false,
+                      "prompt": "${TextInput_Prompt_msJkXl()}",
+                      "unrecognizedPrompt": "",
+                      "invalidPrompt": "",
+                      "defaultValueResponse": "",
+                      "property": "dialog.input_isim"
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "$kind": "Microsoft.SetProperty",
+                      "$designer": {
+                        "id": "SRM9cg"
+                      },
+                      "property": "dialog.input_isim",
+                      "value": "=dialog.isim"
+                    }
+                  ]
+                },
+                {
+                  "$kind": "Microsoft.SetProperties",
+                  "$designer": {
+                    "id": "1NMS32"
+                  },
+                  "assignments": [
+                    {
+                      "value": "=rand(5, 20)",
+                      "property": "dialog.random1"
+                    },
+                    {
+                      "property": "dialog.random2",
+                      "value": "=sub(dialog.random1, 3)"
+                    }
+                  ]
+                },
+                {
+                  "$kind": "Microsoft.SendActivity",
+                  "$designer": {
+                    "id": "Kwr2Zd"
+                  },
+                  "activity": "${SendActivity_Kwr2Zd()}"
+                }
+              ]
+            },
+            {
+              "value": "payroll",
+              "actions": [
+                {
+                  "$kind": "Microsoft.IfCondition",
+                  "$designer": {
+                    "id": "Ee4BDv"
+                  },
+                  "condition": "=contains(turn.recognized.entities, \"hrisim\")",
+                  "elseActions": [
+                    {
+                      "$kind": "Microsoft.TextInput",
+                      "$designer": {
+                        "id": "QKNPcE"
+                      },
+                      "disabled": false,
+                      "maxTurnCount": 3,
+                      "alwaysPrompt": false,
+                      "allowInterruptions": false,
+                      "prompt": "${TextInput_Prompt_QKNPcE()}",
+                      "unrecognizedPrompt": "",
+                      "invalidPrompt": "",
+                      "defaultValueResponse": "",
+                      "property": "dialog.input_isim"
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "$kind": "Microsoft.SetProperty",
+                      "$designer": {
+                        "id": "MuZ2Nm"
+                      },
+                      "property": "dialog.input_isim",
+                      "value": "=dialog.isim"
+                    }
+                  ]
+                },
+                {
+                  "$kind": "Microsoft.IfCondition",
+                  "$designer": {
+                    "id": "67kAix"
+                  },
+                  "condition": "=contains(turn.recognized.entities, \"hray\")",
+                  "elseActions": [
+                    {
+                      "$kind": "Microsoft.TextInput",
+                      "$designer": {
+                        "id": "7zTuNi"
+                      },
+                      "disabled": false,
+                      "maxTurnCount": 3,
+                      "alwaysPrompt": false,
+                      "allowInterruptions": false,
+                      "prompt": "${TextInput_Prompt_7zTuNi()}",
+                      "unrecognizedPrompt": "",
+                      "invalidPrompt": "",
+                      "defaultValueResponse": "",
+                      "property": "dialog.input_ay"
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "$kind": "Microsoft.SetProperty",
+                      "$designer": {
+                        "id": "0lphgf"
+                      },
+                      "property": "dialog.input_ay",
+                      "value": "=dialog.ay"
+                    }
+                  ]
+                },
+                {
+                  "$kind": "Microsoft.SetProperties",
+                  "$designer": {
+                    "id": "5INGH6"
+                  },
+                  "assignments": [
+                    {
+                      "value": "=rand(3000, 5000)",
+                      "property": "dialog.random3"
+                    }
+                  ]
+                },
+                {
+                  "$kind": "Microsoft.SendActivity",
+                  "$designer": {
+                    "id": "NfyMJl"
+                  },
+                  "activity": "${SendActivity_NfyMJl()}"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "generator": "hrhelp.lg",
+  "recognizer": "hrhelp.lu.qna",
+  "id": "hrhelp"
+}

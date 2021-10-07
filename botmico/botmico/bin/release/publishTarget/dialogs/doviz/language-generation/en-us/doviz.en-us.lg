@@ -1,0 +1,1573 @@
+[import](common.lg)
+
+# SendActivity_cJhBQF()
+[Activity
+    Text = ${SendActivity_cJhBQF_text()}
+]
+
+# SendActivity_BDt12m()
+[Activity
+    Text = Hay Aksi! Bir şeyler ters gitti. Merkez Bankası'na ulaşamıyorum.
+]
+
+# SendActivity_B6f4Qz()
+[Activity
+    Text = Hay Aksi! Bir şeyler ters gitti. Merkez Bankası'na ulaşamıyorum.
+]
+
+# SendActivity_P05Whx()
+[Activity
+    Attachments = ${json(SendActivity_P05Whx_attachment_OxP6WD())}
+]
+
+# SendActivity_P05Whx_attachment_OxP6WD()
+> To learn more Adaptive Cards format, read the documentation at
+> https://docs.microsoft.com/en-us/adaptive-cards/getting-started/bots
+- ```{
+    "type": "AdaptiveCard",
+    "body": [
+        {
+            "type": "TextBlock",
+            "text": "${dialog.bugun}",
+            "wrap": true,
+            "horizontalAlignment": "Right",
+            "fontType": "Default",
+            "weight": "Bolder"
+        },
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "items": [
+                        {
+                            "type": "Image",
+                            "url": "https://clipartart.com/images/american-flag-small-clipart-8.jpg",
+                            "size": "Small"
+                        }
+                    ],
+                    "width": "auto",
+                    "style": "emphasis"
+                },
+                {
+                    "type": "Column",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "spacing": "None",
+                            "text": "Amerikan Doları",
+                            "isSubtle": true,
+                            "wrap": true
+                        },
+                        {
+                            "type": "TextBlock",
+                            "weight": "Bolder",
+                            "text": "1 USD = ${dialog.usd_value} TL",
+                            "wrap": true,
+                            "spacing": "None"
+                        }
+                    ],
+                    "width": "stretch",
+                    "style": "emphasis"
+                }
+            ]
+        },
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": "auto",
+                    "items": [
+                        {
+                            "type": "Image",
+                            "url": "https://www.bayrak.com.tr/imajlar/duyururesim/h5she-avrupa-birligi-bayragi-ve-anlami.png",
+                            "size": "Small"
+                        }
+                    ],
+                    "style": "accent"
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "Euro",
+                            "wrap": true,
+                            "isSubtle": true,
+                            "spacing": "None"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "1 EUR = ${dialog.eur_value} TL",
+                            "wrap": true,
+                            "color": "Dark",
+                            "weight": "Bolder",
+                            "spacing": "None"
+                        }
+                    ],
+                    "style": "accent"
+                }
+            ]
+        },
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": "auto",
+                    "items": [
+                        {
+                            "type": "Image",
+                            "url": "https://st3.myideasoft.com/idea/dk/71/myassets/products/261/280154233.png?revision=1554974040",
+                            "size": "Small"
+                        }
+                    ],
+                    "style": "emphasis"
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "İngiliz Sterlini",
+                            "wrap": true,
+                            "isSubtle": true,
+                            "spacing": "None"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "1 GBP = ${dialog.gbp_value} TL",
+                            "wrap": true,
+                            "color": "Dark",
+                            "weight": "Bolder",
+                            "height": "stretch",
+                            "spacing": "None"
+                        }
+                    ],
+                    "style": "emphasis"
+                }
+            ],
+            "height": "stretch"
+        },
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": "auto",
+                    "items": [
+                        {
+                            "type": "Image",
+                            "size": "Small",
+                            "url": "https://ih1.redbubble.net/image.550059227.2854/st%2Csmall%2C215x235-pad%2C210x230%2Cf8f8f8.lite-1.jpg"
+                        }
+                    ],
+                    "style": "accent"
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "Japon Yeni",
+                            "wrap": true,
+                            "isSubtle": true,
+                            "spacing": "None"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "1 JPY = ${dialog.jpy_value} TL",
+                            "wrap": true,
+                            "weight": "Bolder",
+                            "color": "Dark",
+                            "spacing": "None"
+                        }
+                    ],
+                    "style": "accent"
+                }
+            ]
+        },
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": "auto",
+                    "items": [
+                        {
+                            "type": "Image",
+                            "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnYYTm7AhNCYmNn658ZzBmwgO6sSDdATcMdA&usqp=CAU",
+                            "size": "Small"
+                        }
+                    ],
+                    "style": "emphasis"
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "İsviçre Frangı",
+                            "isSubtle": true,
+                            "wrap": true
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "1 CHF= ${dialog.chf_value} TL",
+                            "wrap": true,
+                            "weight": "Bolder",
+                            "color": "Dark",
+                            "spacing": "None"
+                        }
+                    ],
+                    "style": "emphasis"
+                }
+            ]
+        }
+    ],
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "version": "1.3"
+}```
+# SendActivity_noCCrh()
+[Activity
+    Text = Hay Aksi! Bir şeyler ters gitti. Merkez Bankası'na ulaşamıyorum.
+]
+
+# SendActivity_YrWdG7()
+[Activity
+    Text = Hay Aksi! Bir şeyler ters gitti. Merkez Bankası'na ulaşamıyorum.
+]
+
+# SendActivity_OzchRZ()
+[Activity
+    Text = Hay Aksi! Bir şeyler ters gitti. Merkez Bankası'na ulaşamıyorum.
+]
+
+# SendActivity_pj2GnR()
+[Activity
+    Text = Hay aksi! Merkez Bankası'nın USD verisine ulaşamadım, tekrar denemek ister misin?
+]
+
+# SendActivity_KXkNM0()
+[Activity
+    Text = Hay aksi! Merkez Bankası'nın Euro verisine ulaşamadım, tekrar denemek ister misin?
+]
+
+# SendActivity_3QchVp()
+[Activity
+    Text = Hay aksi! Merkez Bankası'nın GBP verisine ulaşamadım, tekrar denemek ister misin?
+]
+
+# SendActivity_kggR13()
+[Activity
+    Text = Hay aksi! Merkez Bankası'nın JPY verisine ulaşamadım, tekrar denemek ister misin?
+]
+
+# SendActivity_I3xwfv()
+[Activity
+    Text = Hay aksi! Merkez Bankası'nın CHF verisine ulaşamadım, tekrar denemek ister misin?
+]
+
+# SendActivity_lpu5DZ()
+[Activity
+    Attachments = ${json(SendActivity_lpu5DZ_attachment_PgNxTK())}
+]
+
+# SendActivity_lpu5DZ_attachment_PgNxTK()
+> To learn more Adaptive Cards format, read the documentation at
+> https://docs.microsoft.com/en-us/adaptive-cards/getting-started/bots
+- ```{
+    "type": "AdaptiveCard",
+    "body": [
+        {
+            "type": "TextBlock",
+            "text": "${dialog.bugun}",
+            "wrap": true,
+            "horizontalAlignment": "Right",
+            "fontType": "Default",
+            "weight": "Bolder"
+        },
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "items": [
+                        {
+                            "type": "Image",
+                            "url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Flag_of_the_United_States.svg",
+                            "size": "Small"
+                        }
+                    ],
+                    "width": "auto",
+                    "style": "emphasis"
+                },
+                {
+                    "type": "Column",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "spacing": "None",
+                            "text": "Amerikan Doları",
+                            "isSubtle": true,
+                            "wrap": true
+                        },
+                        {
+                            "type": "TextBlock",
+                            "weight": "Bolder",
+                            "text": "${dialog.miktar} TL = ${dialog.usd_carpim} USD",
+                            "wrap": true,
+                            "spacing": "None"
+                        }
+                    ],
+                    "width": "stretch",
+                    "style": "emphasis"
+                }
+            ]
+        },
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": "auto",
+                    "items": [
+                        {
+                            "type": "Image",
+                            "url": "https://www.bayrak.com.tr/imajlar/duyururesim/h5she-avrupa-birligi-bayragi-ve-anlami.png",
+                            "size": "Small"
+                        }
+                    ],
+                    "style": "accent"
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "Euro",
+                            "wrap": true,
+                            "spacing": "None",
+                            "isSubtle": true
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.miktar} TL = ${dialog.eur_carpim} EUR",
+                            "wrap": true,
+                            "color": "Dark",
+                            "weight": "Bolder",
+                            "spacing": "None"
+                        }
+                    ],
+                    "style": "accent"
+                }
+            ]
+        },
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": "auto",
+                    "items": [
+                        {
+                            "type": "Image",
+                            "url": "https://st3.myideasoft.com/idea/dk/71/myassets/products/261/280154233.png?revision=1554974040",
+                            "size": "Small"
+                        }
+                    ],
+                    "style": "emphasis"
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "İngiliz Sterlini",
+                            "wrap": true,
+                            "spacing": "None",
+                            "isSubtle": true
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.miktar} TL = ${dialog.gbp_carpim} GBP",
+                            "wrap": true,
+                            "color": "Dark",
+                            "weight": "Bolder",
+                            "height": "stretch",
+                            "spacing": "None"
+                        }
+                    ],
+                    "style": "emphasis"
+                }
+            ],
+            "height": "stretch"
+        },
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": "auto",
+                    "items": [
+                        {
+                            "type": "Image",
+                            "size": "Small",
+                            "url": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Flag_of_Japan.svg"
+                        }
+                    ],
+                    "style": "accent"
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "Japon Yeni",
+                            "wrap": true,
+                            "spacing": "None",
+                            "isSubtle": true
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.miktar} TL  = ${dialog.jpy_carpim} JPY",
+                            "wrap": true,
+                            "weight": "Bolder",
+                            "color": "Dark",
+                            "spacing": "None"
+                        }
+                    ],
+                    "style": "accent"
+                }
+            ]
+        },
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": "auto",
+                    "items": [
+                        {
+                            "type": "Image",
+                            "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnYYTm7AhNCYmNn658ZzBmwgO6sSDdATcMdA&usqp=CAU",
+                            "size": "Small"
+                        }
+                    ],
+                    "style": "emphasis"
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "İsviçre Frangı",
+                            "wrap": true,
+                            "isSubtle": true
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.miktar} TL = ${dialog.chf_carpim}  CHF",
+                            "wrap": true,
+                            "weight": "Bolder",
+                            "color": "Dark",
+                            "spacing": "None"
+                        }
+                    ],
+                    "style": "emphasis"
+                }
+            ]
+        }
+    ],
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "version": "1.3"
+}```
+# SendActivity_T1wd7r()
+[Activity
+    Text = Hay aksi! Merkez Bankası'na ulaşamadım. Tekrar denemek ister misin?
+]
+
+# SendActivity_Par0dZ()
+[Activity
+    Attachments = ${json(SendActivity_Par0dZ_attachment_sxBbSV())}
+]
+
+# SendActivity_Par0dZ_attachment_sxBbSV()
+> To learn more Adaptive Cards format, read the documentation at
+> https://docs.microsoft.com/en-us/adaptive-cards/getting-started/bots
+- ```{
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "type": "AdaptiveCard",
+    "version": "1.3",
+    "body": [
+        {
+            "type": "Container",
+            "items": [
+                {
+                    "type": "TextBlock",
+                    "text": "${dialog.bugun}",
+                    "wrap": true,
+                    "height": "stretch",
+                    "color": "Dark",
+                    "weight": "Bolder"
+                }
+            ]
+        },
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": "auto",
+                    "items": [
+                        {
+                            "type": "Image",
+                            "url": "https://botmicosa.blob.core.windows.net/currency/${dialog.kur1}.png",
+                            "size": "Small",
+                            "width": "30px",
+                            "height": "30px"
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "${diaog.miktar} ${dialog.kur1} eşittir",
+                            "wrap": true
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.miktar} ${dialog.kur1} = ${dialog.carpim} TL",
+                            "size": "Large",
+                            "wrap": true,
+                            "color": "Good",
+                            "spacing": "None"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}```
+# SendActivity_8dQJIA()
+[Activity
+    Text = Hay aksi! Merkez Bankası'nın USD verisine ulaşamadım, tekrar denemek ister misin?
+]
+
+# SendActivity_CeiZU3()
+[Activity
+    Text = Hay aksi! Merkez Bankası'nın Euro verisine ulaşamadım, tekrar denemek ister misin?
+]
+
+# SendActivity_o5UL6t()
+[Activity
+    Text = Hay aksi! Merkez Bankası'nın GBP verisine ulaşamadım, tekrar denemek ister misin?
+]
+
+# SendActivity_rzqlMM()
+[Activity
+    Text = Hay aksi! Merkez Bankası'nın JPY verisine ulaşamadım, tekrar denemek ister misin?
+]
+
+# SendActivity_vERqOx()
+[Activity
+    Text = Hay aksi! Merkez Bankası'nın CHF verisine ulaşamadım, tekrar denemek ister misin?
+]
+
+# SendActivity_ef2wJC_attachment_PgNxTK()
+> To learn more Adaptive Cards format, read the documentation at
+> https://docs.microsoft.com/en-us/adaptive-cards/getting-started/bots
+- ```{
+    "type": "AdaptiveCard",
+    "body": [
+        {
+            "type": "TextBlock",
+            "text": "${dialog.bugun}",
+            "wrap": true,
+            "horizontalAlignment": "Right",
+            "fontType": "Default",
+            "weight": "Bolder"
+        },
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "items": [
+                        {
+                            "type": "Image",
+                            "url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Flag_of_the_United_States.svg",
+                            "size": "Small"
+                        }
+                    ],
+                    "width": "auto",
+                    "style": "emphasis"
+                },
+                {
+                    "type": "Column",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "spacing": "None",
+                            "text": "Amerikan Doları",
+                            "isSubtle": true,
+                            "wrap": true
+                        },
+                        {
+                            "type": "TextBlock",
+                            "weight": "Bolder",
+                            "text": "${dialog.miktar} TL = ${dialog.usd_carpim} USD",
+                            "wrap": true,
+                            "spacing": "None"
+                        }
+                    ],
+                    "width": "stretch",
+                    "style": "emphasis"
+                }
+            ]
+        },
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": "auto",
+                    "items": [
+                        {
+                            "type": "Image",
+                            "url": "https://www.bayrak.com.tr/imajlar/duyururesim/h5she-avrupa-birligi-bayragi-ve-anlami.png",
+                            "size": "Small"
+                        }
+                    ],
+                    "style": "accent"
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "Euro",
+                            "wrap": true,
+                            "spacing": "None",
+                            "color": "Light"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.miktar} TL = ${dialog.eur_carpim} EUR",
+                            "wrap": true,
+                            "color": "Dark",
+                            "weight": "Bolder",
+                            "spacing": "None"
+                        }
+                    ],
+                    "style": "accent"
+                }
+            ]
+        },
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": "auto",
+                    "items": [
+                        {
+                            "type": "Image",
+                            "url": "https://st3.myideasoft.com/idea/dk/71/myassets/products/261/280154233.png?revision=1554974040",
+                            "size": "Small"
+                        }
+                    ],
+                    "style": "emphasis"
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "İngiliz Sterlini",
+                            "wrap": true,
+                            "spacing": "None",
+                            "color": "Light"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.miktar} TL = ${dialog.gbp_carpim} GBP",
+                            "wrap": true,
+                            "color": "Dark",
+                            "weight": "Bolder",
+                            "height": "stretch",
+                            "spacing": "None"
+                        }
+                    ],
+                    "style": "emphasis"
+                }
+            ],
+            "height": "stretch"
+        },
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": "auto",
+                    "items": [
+                        {
+                            "type": "Image",
+                            "size": "Small",
+                            "url": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Flag_of_Japan.svg"
+                        }
+                    ],
+                    "style": "accent"
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "Japon Yeni",
+                            "wrap": true,
+                            "spacing": "None",
+                            "color": "Light"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.miktar} TL  = ${dialog.jpy_carpim} JPY",
+                            "wrap": true,
+                            "weight": "Bolder",
+                            "color": "Dark",
+                            "spacing": "None"
+                        }
+                    ],
+                    "style": "accent"
+                }
+            ]
+        },
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": "auto",
+                    "items": [
+                        {
+                            "type": "Image",
+                            "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnYYTm7AhNCYmNn658ZzBmwgO6sSDdATcMdA&usqp=CAU",
+                            "size": "Small"
+                        }
+                    ],
+                    "style": "emphasis"
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "İsviçre Frangı",
+                            "wrap": true,
+                            "color": "Light"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.miktar} TL = ${dialog.chf_carpim}  CHF",
+                            "wrap": true,
+                            "weight": "Bolder",
+                            "color": "Dark",
+                            "spacing": "None"
+                        }
+                    ],
+                    "style": "emphasis"
+                }
+            ]
+        }
+    ],
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "version": "1.3"
+}```
+# SendActivity_ef2wJC()
+[Activity
+    Attachments = ${json(SendActivity_ef2wJC_attachment_PgNxTK())}
+]
+
+# SendActivity_hK7Jt4()
+[Activity
+    Text = Hay aksi! Merkez Bankası'na ulaşamadım. Tekrar denemek ister misin?
+]
+
+# SendActivity_nmJ8tC_attachment_sxBbSV()
+> To learn more Adaptive Cards format, read the documentation at
+> https://docs.microsoft.com/en-us/adaptive-cards/getting-started/bots
+- ```{
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "type": "AdaptiveCard",
+    "version": "1.3",
+    "body": [
+        {
+            "type": "Container",
+            "items": [
+                {
+                    "type": "TextBlock",
+                    "text": "${dialog.bugun}",
+                    "wrap": true,
+                    "height": "stretch",
+                    "color": "Dark",
+                    "weight": "Bolder"
+                }
+            ]
+        },
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": "auto",
+                    "items": [
+                        {
+                            "type": "Image",
+                            "url": "https://micosa.blob.core.windows.net/currency/${dialog.kur1}.png",
+                            "size": "Small",
+                            "width": "30px",
+                            "height": "30px"
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "${diaog.miktar} ${dialog.kur1} eşittir",
+                            "wrap": true
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.miktar} ${dialog.kur1} = ${dialog.carpim} TL",
+                            "size": "Large",
+                            "wrap": true,
+                            "color": "Good",
+                            "spacing": "None"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}```
+# SendActivity_nmJ8tC()
+[Activity
+    Attachments = ${json(SendActivity_nmJ8tC_attachment_sxBbSV())}
+]
+
+# SendActivity_8xMyC5()
+[Activity
+    Text = Hay aksi! Merkez Bankası'nın USD verisine ulaşamadım, tekrar denemek ister misin?
+]
+
+# SendActivity_WZEN01()
+[Activity
+    Text = Hay aksi! Merkez Bankası'nın Euro verisine ulaşamadım, tekrar denemek ister misin?
+]
+
+# SendActivity_6CoaZ1()
+[Activity
+    Text = Hay aksi! Merkez Bankası'nın GBP verisine ulaşamadım, tekrar denemek ister misin?
+]
+
+# SendActivity_AE49SZ()
+[Activity
+    Text = Hay aksi! Merkez Bankası'nın JPY verisine ulaşamadım, tekrar denemek ister misin?
+]
+
+# SendActivity_n4xaVi()
+[Activity
+    Text = Hay aksi! Merkez Bankası'nın CHF verisine ulaşamadım, tekrar denemek ister misin?
+]
+
+# SendActivity_gShe7I_attachment_PgNxTK()
+> To learn more Adaptive Cards format, read the documentation at
+> https://docs.microsoft.com/en-us/adaptive-cards/getting-started/bots
+- ```{
+    "type": "AdaptiveCard",
+    "body": [
+        {
+            "type": "TextBlock",
+            "text": "${dialog.bugun}",
+            "wrap": true,
+            "horizontalAlignment": "Right",
+            "fontType": "Default",
+            "weight": "Bolder"
+        },
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "items": [
+                        {
+                            "type": "Image",
+                            "url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Flag_of_the_United_States.svg",
+                            "size": "Small"
+                        }
+                    ],
+                    "width": "auto",
+                    "style": "emphasis"
+                },
+                {
+                    "type": "Column",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "spacing": "None",
+                            "text": "Amerikan Doları",
+                            "isSubtle": true,
+                            "wrap": true
+                        },
+                        {
+                            "type": "TextBlock",
+                            "weight": "Bolder",
+                            "text": "${dialog.miktar} TL = ${dialog.usd_carpim} USD",
+                            "wrap": true,
+                            "spacing": "None"
+                        }
+                    ],
+                    "width": "stretch",
+                    "style": "emphasis"
+                }
+            ]
+        },
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": "auto",
+                    "items": [
+                        {
+                            "type": "Image",
+                            "url": "https://www.bayrak.com.tr/imajlar/duyururesim/h5she-avrupa-birligi-bayragi-ve-anlami.png",
+                            "size": "Small"
+                        }
+                    ],
+                    "style": "accent"
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "Euro",
+                            "wrap": true,
+                            "spacing": "None",
+                            "isSubtle": true,
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.miktar} TL = ${dialog.eur_carpim} EUR",
+                            "wrap": true,
+                            "color": "Dark",
+                            "weight": "Bolder",
+                            "spacing": "None"
+                        }
+                    ],
+                    "style": "accent"
+                }
+            ]
+        },
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": "auto",
+                    "items": [
+                        {
+                            "type": "Image",
+                            "url": "https://st3.myideasoft.com/idea/dk/71/myassets/products/261/280154233.png?revision=1554974040",
+                            "size": "Small"
+                        }
+                    ],
+                    "style": "emphasis"
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "İngiliz Sterlini",
+                            "wrap": true,
+                            "spacing": "None",
+                            "color": "Light"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.miktar} TL = ${dialog.gbp_carpim} GBP",
+                            "wrap": true,
+                            "color": "Dark",
+                            "weight": "Bolder",
+                            "height": "stretch",
+                            "spacing": "None"
+                        }
+                    ],
+                    "style": "emphasis"
+                }
+            ],
+            "height": "stretch"
+        },
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": "auto",
+                    "items": [
+                        {
+                            "type": "Image",
+                            "size": "Small",
+                            "url": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Flag_of_Japan.svg"
+                        }
+                    ],
+                    "style": "accent"
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "Japon Yeni",
+                            "wrap": true,
+                            "spacing": "None",
+                            "isSubtle": true,
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.miktar} TL  = ${dialog.jpy_carpim} JPY",
+                            "wrap": true,
+                            "weight": "Bolder",
+                            "color": "Dark",
+                            "spacing": "None"
+                        }
+                    ],
+                    "style": "accent"
+                }
+            ]
+        },
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": "auto",
+                    "items": [
+                        {
+                            "type": "Image",
+                            "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnYYTm7AhNCYmNn658ZzBmwgO6sSDdATcMdA&usqp=CAU",
+                            "size": "Small"
+                        }
+                    ],
+                    "style": "emphasis"
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "İsviçre Frangı",
+                            "wrap": true,
+                            "isSubtle": true,
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.miktar} TL = ${dialog.chf_carpim}  CHF",
+                            "wrap": true,
+                            "weight": "Bolder",
+                            "color": "Dark",
+                            "spacing": "None"
+                        }
+                    ],
+                    "style": "emphasis"
+                }
+            ]
+        }
+    ],
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "version": "1.3"
+}```
+# SendActivity_gShe7I()
+[Activity
+    Attachments = ${json(SendActivity_gShe7I_attachment_PgNxTK())}
+]
+
+# SendActivity_OoFNrY()
+[Activity
+    Text = Hay aksi! Merkez Bankası'na ulaşamadım. Tekrar denemek ister misin?
+]
+
+# SendActivity_08NZxP()
+[Activity
+    Text = Hay aksi! Merkez Bankası'na ulaşamadım. Tekrar denemek ister misin?
+]
+
+# SendActivity_xhGvuZ()
+[Activity
+    Text = Hay aksi! Merkez Bankası'nın ${dialog.kur1} verisine ulaşamadım, tekrar denemek ister misin?
+]
+
+# SendActivity_kR1oB5()
+[Activity
+    Text = Hay aksi! Merkez Bankası'nın ${dialog.kur1} verisine ulaşamadım, tekrar denemek ister misin?
+]
+
+# SendActivity_Q6Cg4b()
+[Activity
+    Text = Hay aksi! Merkez Bankası'nın ${dialog.kur1} verisine ulaşamadım, tekrar denemek ister misin?
+]
+
+# SendActivity_pcwkjU()
+[Activity
+    Text = Hay aksi! Merkez Bankası'nın ${dialog.kur1} verisine ulaşamadım, tekrar denemek ister misin?
+]
+
+# SendActivity_oMbO5b_attachment_nN7VBI()
+> To learn more Adaptive Cards format, read the documentation at
+> https://docs.microsoft.com/en-us/adaptive-cards/getting-started/bots
+- ```{
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "type": "AdaptiveCard",
+    "version": "1.3",
+    "body": [
+        {
+            "type": "Container",
+            "items": [
+                {
+                    "type": "TextBlock",
+                    "text": "${dialog.bugun}",
+                    "height": "stretch",
+                    "color": "Dark",
+                    "weight": "Bolder",
+                    "spacing": "Small",
+                    "wrap": true
+                }
+            ]
+        },
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": "auto",
+                    "items": [
+                        {
+                            "type": "Image",
+                            "url": "https://botmicosa.blob.core.windows.net/currency/${dialog.kur1}.png",
+                            "width": "40px",
+                            "height": "40px",
+                            "spacing": "Small"
+                        }
+                    ],
+                    "height": "stretch"
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.miktar} ${dialog.kur1} eşittir ",
+                            "wrap": true,
+                            "spacing": "None",
+                            "horizontalAlignment": "Center",
+                            "color": "Dark"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.miktar} ${dialog.kur1} = ${dialog.carpim} ${dialog.kur2}",
+                            "size": "Large",
+                            "color": "Good",
+                            "horizontalAlignment": "Center",
+                            "wrap": true,
+                            "height": "stretch",
+                            "spacing": "None"
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "auto",
+                    "items": [
+                        {
+                            "type": "Image",
+                            "url": "https://botmicosa.blob.core.windows.net/currency/${dialog.kur2}.png",
+                            "width": "40px",
+                            "height": "40px",
+                            "size": "Small"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}```
+# SendActivity_oMbO5b()
+[Activity
+    Attachments = ${json(SendActivity_oMbO5b_attachment_nN7VBI())}
+]
+
+# SendActivity_k9jJCQ()
+[Activity
+    Text = Hay aksi! Merkez Bankası'nın ${dialog.kur1} verisine ulaşamadım, tekrar denemek ister misin?
+]
+
+# SendActivity_Y9S1L7_attachment_USUc5a()
+> To learn more Adaptive Cards format, read the documentation at
+> https://docs.microsoft.com/en-us/adaptive-cards/getting-started/bots
+- ```{
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "type": "AdaptiveCard",
+    "version": "1.3",
+    "body": [
+        {
+            "type": "Container",
+            "items": [
+                {
+                    "type": "TextBlock",
+                    "text": "${dialog.bugun}",
+                    "height": "stretch",
+                    "color": "Dark",
+                    "weight": "Bolder",
+                    "spacing": "Small",
+                    "wrap": true
+                }
+            ]
+        },
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": "auto",
+                    "items": [
+                        {
+                            "type": "Image",
+                            "url": "https://botmicosa.blob.core.windows.net/currency/${dialog.kur1}.png",
+                            "width": "40px",
+                            "height": "40px",
+                            "spacing": "Small"
+                        }
+                    ],
+                    "height": "stretch"
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.miktar} ${dialog.kur1} eşittir ",
+                            "wrap": true,
+                            "spacing": "None",
+                            "horizontalAlignment": "Center",
+                            "color": "Dark"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.miktar} ${dialog.kur1} = ${dialog.carpim} ${dialog.kur2}",
+                            "size": "Large",
+                            "color": "Good",
+                            "horizontalAlignment": "Center",
+                            "wrap": true,
+                            "height": "stretch",
+                            "spacing": "None"
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "auto",
+                    "items": [
+                        {
+                            "type": "Image",
+                            "url": "https://botmicosa.blob.core.windows.net/currency/${dialog.kur2}.png",
+                            "width": "40px",
+                            "height": "40px",
+                            "size": "Small"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}```
+# SendActivity_Y9S1L7()
+[Activity
+    Attachments = ${json(SendActivity_Y9S1L7_attachment_USUc5a())}
+]
+
+# SendActivity_vnCH6F()
+[Activity
+    Text = Hay aksi! Merkez Bankası'nın ${dialog.kur1} verisine ulaşamadım, tekrar denemek ister misin?
+]
+
+# SendActivity_YCwpbr_attachment_nN7VBI()
+> To learn more Adaptive Cards format, read the documentation at
+> https://docs.microsoft.com/en-us/adaptive-cards/getting-started/bots
+- ```{
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "type": "AdaptiveCard",
+    "version": "1.3",
+    "body": [
+        {
+            "type": "Container",
+            "items": [
+                {
+                    "type": "TextBlock",
+                    "text": "${dialog.bugun}",
+                    "height": "stretch",
+                    "color": "Dark",
+                    "weight": "Bolder",
+                    "spacing": "Small",
+                    "wrap": true
+                }
+            ]
+        },
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": "auto",
+                    "items": [
+                        {
+                            "type": "Image",
+                            "url": "https://botmicosa.blob.core.windows.net/currency/${dialog.kur1}.png",
+                            "width": "40px",
+                            "height": "40px",
+                            "spacing": "Small"
+                        }
+                    ],
+                    "height": "stretch"
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "1 ${dialog.kur1} eşittir ",
+                            "wrap": true,
+                            "spacing": "None",
+                            "horizontalAlignment": "Center",
+                            "color": "Dark"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "1 ${dialog.kur1} = ${dialog.carpim} ${dialog.kur2}",
+                            "size": "Large",
+                            "color": "Good",
+                            "horizontalAlignment": "Center",
+                            "wrap": true,
+                            "height": "stretch",
+                            "spacing": "None"
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "auto",
+                    "items": [
+                        {
+                            "type": "Image",
+                            "url": "https://botmicosa.blob.core.windows.net/currency/${dialog.kur2}.png",
+                            "width": "40px",
+                            "height": "40px",
+                            "size": "Small"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}```
+# SendActivity_YCwpbr()
+[Activity
+    Attachments = ${json(SendActivity_YCwpbr_attachment_nN7VBI())}
+]
+
+# SendActivity_wuvP7D()
+[Activity
+    Text = Hay aksi! Merkez Bankası'nın ${dialog.kur1} verisine ulaşamadım, tekrar denemek ister misin?
+]
+
+# SendActivity_3fVe5E_attachment_USUc5a()
+> To learn more Adaptive Cards format, read the documentation at
+> https://docs.microsoft.com/en-us/adaptive-cards/getting-started/bots
+- ```{
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "type": "AdaptiveCard",
+    "version": "1.3",
+    "body": [
+        {
+            "type": "Container",
+            "items": [
+                {
+                    "type": "TextBlock",
+                    "text": "${dialog.bugun}",
+                    "height": "stretch",
+                    "color": "Dark",
+                    "weight": "Bolder",
+                    "spacing": "Small",
+                    "wrap": true
+                }
+            ]
+        },
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": "auto",
+                    "items": [
+                        {
+                            "type": "Image",
+                            "url": "https://botmicosa.blob.core.windows.net/currency/${dialog.kur1}.png",
+                            "width": "40px",
+                            "height": "40px",
+                            "spacing": "Small"
+                        }
+                    ],
+                    "height": "stretch"
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "1 ${dialog.kur1} eşittir ",
+                            "wrap": true,
+                            "spacing": "None",
+                            "horizontalAlignment": "Center",
+                            "color": "Dark"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "1 ${dialog.kur1} = ${dialog.carpim} ${dialog.kur2}",
+                            "size": "Large",
+                            "color": "Good",
+                            "horizontalAlignment": "Center",
+                            "wrap": true,
+                            "height": "stretch",
+                            "spacing": "None"
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "auto",
+                    "items": [
+                        {
+                            "type": "Image",
+                            "url": "https://botmicosa.blob.core.windows.net/currency/${dialog.kur2}.png",
+                            "width": "40px",
+                            "height": "40px",
+                            "size": "Small"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}```
+# SendActivity_3fVe5E()
+[Activity
+    Attachments = ${json(SendActivity_3fVe5E_attachment_USUc5a())}
+]
+
+# SendActivity_cJhBQF_text()
+- Tabii! Senin için Merkez Bankası piyasa bilgilerine bakabilirim.
+- İstediğin bilgileri Merkez Bankası'ndan getiriyorum...
+- Senin için Merkez Bankası kur biglierini getiriyorum...
+# SendActivity_xcldEM()
+[Activity
+    Attachments = ${json(SendActivity_xcldEM_attachment_NJVAfS())}
+]
+
+# SendActivity_xcldEM_attachment_NJVAfS()
+> To learn more Adaptive Cards format, read the documentation at
+> https://docs.microsoft.com/en-us/adaptive-cards/getting-started/bots
+- ```{
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "type": "AdaptiveCard",
+    "version": "1.3",
+    "body": [
+        {
+            "type": "Container",
+            "items": [
+                {
+                    "type": "TextBlock",
+                    "text": "${dialog.bugun}",
+                    "wrap": true,
+                    "height": "stretch",
+                    "color": "Dark",
+                    "weight": "Bolder"
+                }
+            ]
+        },
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": "auto",
+                    "items": [
+                        {
+                            "type": "Image",
+                            "url": "https://botmicosa.blob.core.windows.net/currency/${dialog.kur1}.png",
+                            "size": "Small",
+                            "width": "30px",
+                            "height": "30px"
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "1 ${dialog.kur1} eşittir",
+                            "wrap": true
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "1 ${dialog.kur1} = ${dialog.son_birim} TL",
+                            "size": "Large",
+                            "wrap": true,
+                            "color": "Good",
+                            "spacing": "None"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}```

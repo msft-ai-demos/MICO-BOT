@@ -1,0 +1,12 @@
+[import](common.lg)
+
+# SendActivity_5fkwsj()
+[Activity
+    Text = ${SendActivity_5fkwsj_text()}
+]
+
+# SendActivity_5fkwsj_text()
+- Seninle konuşmak çok güzeldi!
+- Tekrar konuşmayı iple çekiyorum
+- Tekrar konuşmak dileğiyle
+- Seninle konuşmak çok keyifliydi!

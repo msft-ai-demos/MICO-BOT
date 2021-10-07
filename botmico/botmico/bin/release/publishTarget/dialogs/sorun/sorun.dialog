@@ -1,0 +1,431 @@
+{
+  "$kind": "Microsoft.AdaptiveDialog",
+  "$designer": {
+    "id": "vLCPnb",
+    "name": "sorun",
+    "description": ""
+  },
+  "autoEndDialog": true,
+  "defaultResultProperty": "dialog.result",
+  "triggers": [
+    {
+      "$kind": "Microsoft.OnBeginDialog",
+      "$designer": {
+        "name": "BeginDialog",
+        "description": "",
+        "id": "J1e5WO"
+      },
+      "actions": [
+        {
+          "$kind": "Microsoft.SetProperties",
+          "$designer": {
+            "id": "7CRh5i"
+          },
+          "assignments": [
+            {
+              "property": "dialog.turns",
+              "value": "=turn.recognized.entities"
+            }
+          ]
+        },
+        {
+          "$kind": "Microsoft.IfCondition",
+          "$designer": {
+            "id": "0R2Uxk"
+          },
+          "condition": "=contains(dialog.turns, \"soruntopic\")",
+          "actions": [
+            {
+              "$kind": "Microsoft.SwitchCondition",
+              "$designer": {
+                "id": "GLozMe"
+              },
+              "condition": "=dialog.turns.soruntopic[0][0]",
+              "cases": [
+                {
+                  "value": "teams",
+                  "actions": [
+                    {
+                      "$kind": "Microsoft.SendActivity",
+                      "$designer": {
+                        "id": "SxpVjr"
+                      },
+                      "activity": "${SendActivity_SxpVjr()}"
+                    },
+                    {
+                      "$kind": "Microsoft.IfCondition",
+                      "$designer": {
+                        "id": "u01q0V"
+                      },
+                      "condition": "=contains(dialog.turns, \"soruntip\")",
+                      "actions": [
+                        {
+                          "$kind": "Microsoft.SwitchCondition",
+                          "$designer": {
+                            "id": "PJLBID"
+                          },
+                          "cases": [
+                            {
+                              "value": "parola",
+                              "actions": [
+                                {
+                                  "$kind": "Microsoft.SendActivity",
+                                  "$designer": {
+                                    "id": "JMTmzl"
+                                  },
+                                  "activity": "${SendActivity_JMTmzl()}"
+                                },
+                                {
+                                  "$kind": "Microsoft.SendActivity",
+                                  "$designer": {
+                                    "id": "yLAZdt"
+                                  },
+                                  "activity": "${SendActivity_yLAZdt()}"
+                                }
+                              ]
+                            },
+                            {
+                              "value": "mikrofon",
+                              "actions": [
+                                {
+                                  "$kind": "Microsoft.SendActivity",
+                                  "$designer": {
+                                    "id": "UREtbB"
+                                  },
+                                  "activity": "${SendActivity_UREtbB()}"
+                                },
+                                {
+                                  "$kind": "Microsoft.SendActivity",
+                                  "$designer": {
+                                    "id": "x3r1NA"
+                                  },
+                                  "activity": "${SendActivity_x3r1NA()}"
+                                }
+                              ]
+                            },
+                            {
+                              "value": "kamera",
+                              "actions": [
+                                {
+                                  "$kind": "Microsoft.SendActivity",
+                                  "$designer": {
+                                    "id": "fA9BIx"
+                                  },
+                                  "activity": "${SendActivity_fA9BIx()}"
+                                },
+                                {
+                                  "$kind": "Microsoft.SendActivity",
+                                  "$designer": {
+                                    "id": "6r9beP"
+                                  },
+                                  "activity": "${SendActivity_6r9beP()}"
+                                }
+                              ]
+                            }
+                          ],
+                          "condition": "=dialog.turns.soruntip[0][0]",
+                          "default": [
+                            {
+                              "$kind": "Microsoft.SendActivity",
+                              "$designer": {
+                                "id": "tV7BhO"
+                              },
+                              "activity": "${SendActivity_tV7BhO()}"
+                            },
+                            {
+                              "$kind": "Microsoft.SendActivity",
+                              "$designer": {
+                                "id": "v5b2cQ"
+                              },
+                              "activity": "${SendActivity_v5b2cQ()}"
+                            }
+                          ]
+                        }
+                      ],
+                      "elseActions": [
+                        {
+                          "$kind": "Microsoft.ChoiceInput",
+                          "$designer": {
+                            "id": "MyYPb5"
+                          },
+                          "defaultLocale": "en-us",
+                          "disabled": false,
+                          "maxTurnCount": 3,
+                          "alwaysPrompt": false,
+                          "allowInterruptions": false,
+                          "prompt": "${ChoiceInput_Prompt_MyYPb5()}",
+                          "unrecognizedPrompt": "",
+                          "invalidPrompt": "",
+                          "defaultValueResponse": "",
+                          "choiceOptions": {
+                            "includeNumbers": true,
+                            "inlineOrMore": ", or ",
+                            "inlineOr": " or "
+                          },
+                          "property": "dialog.choice1",
+                          "choices": [
+                            "parola",
+                            "mikrofon",
+                            "kamera",
+                            "diğer"
+                          ]
+                        },
+                        {
+                          "$kind": "Microsoft.SwitchCondition",
+                          "$designer": {
+                            "id": "oybSzK"
+                          },
+                          "cases": [
+                            {
+                              "value": "parola",
+                              "actions": [
+                                {
+                                  "$kind": "Microsoft.SendActivity",
+                                  "$designer": {
+                                    "id": "L6A8NV"
+                                  },
+                                  "activity": "${SendActivity_L6A8NV()}"
+                                },
+                                {
+                                  "$kind": "Microsoft.SendActivity",
+                                  "$designer": {
+                                    "id": "fdOP4k"
+                                  },
+                                  "activity": "${SendActivity_fdOP4k()}"
+                                }
+                              ]
+                            },
+                            {
+                              "value": "mikrofon",
+                              "actions": [
+                                {
+                                  "$kind": "Microsoft.SendActivity",
+                                  "$designer": {
+                                    "id": "S2bUNS"
+                                  },
+                                  "activity": "${SendActivity_S2bUNS()}"
+                                },
+                                {
+                                  "$kind": "Microsoft.SendActivity",
+                                  "$designer": {
+                                    "id": "rwUAq3"
+                                  },
+                                  "activity": "${SendActivity_rwUAq3()}"
+                                }
+                              ]
+                            },
+                            {
+                              "value": "kamera",
+                              "actions": [
+                                {
+                                  "$kind": "Microsoft.SendActivity",
+                                  "$designer": {
+                                    "id": "wMHCVS"
+                                  },
+                                  "activity": "${SendActivity_wMHCVS()}"
+                                },
+                                {
+                                  "$kind": "Microsoft.SendActivity",
+                                  "$designer": {
+                                    "id": "Xnyahj"
+                                  },
+                                  "activity": "${SendActivity_Xnyahj()}"
+                                }
+                              ]
+                            }
+                          ],
+                          "condition": "=dialog.choice1",
+                          "default": [
+                            {
+                              "$kind": "Microsoft.SendActivity",
+                              "$designer": {
+                                "id": "SI7rqt"
+                              },
+                              "activity": "${SendActivity_SI7rqt()}"
+                            },
+                            {
+                              "$kind": "Microsoft.SendActivity",
+                              "$designer": {
+                                "id": "TA5kMW"
+                              },
+                              "activity": "${SendActivity_TA5kMW()}"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "value": "outlook",
+                  "actions": [
+                    {
+                      "$kind": "Microsoft.SendActivity",
+                      "$designer": {
+                        "id": "DZSpw9"
+                      },
+                      "activity": "${SendActivity_DZSpw9()}"
+                    },
+                    {
+                      "$kind": "Microsoft.IfCondition",
+                      "$designer": {
+                        "id": "Bmi14W"
+                      },
+                      "condition": "=contains(dialog.turns, \"soruntip\")",
+                      "actions": [
+                        {
+                          "$kind": "Microsoft.SwitchCondition",
+                          "$designer": {
+                            "id": "QHBuJj"
+                          },
+                          "cases": [
+                            {
+                              "value": "parola",
+                              "actions": [
+                                {
+                                  "$kind": "Microsoft.SendActivity",
+                                  "$designer": {
+                                    "id": "BP5OiQ"
+                                  },
+                                  "activity": "${SendActivity_BP5OiQ()}"
+                                },
+                                {
+                                  "$kind": "Microsoft.SendActivity",
+                                  "$designer": {
+                                    "id": "AG81Kz"
+                                  },
+                                  "activity": "${SendActivity_AG81Kz()}"
+                                }
+                              ]
+                            },
+                            {
+                              "value": "dil",
+                              "actions": [
+                                {
+                                  "$kind": "Microsoft.SendActivity",
+                                  "$designer": {
+                                    "id": "MLnCTs"
+                                  },
+                                  "activity": "${SendActivity_MLnCTs()}"
+                                }
+                              ]
+                            }
+                          ],
+                          "condition": "=dialog.turns.soruntip[0][0]",
+                          "default": [
+                            {
+                              "$kind": "Microsoft.SendActivity",
+                              "$designer": {
+                                "id": "zpSrKu"
+                              },
+                              "activity": "${SendActivity_zpSrKu()}"
+                            },
+                            {
+                              "$kind": "Microsoft.SendActivity",
+                              "$designer": {
+                                "id": "NSJ4U5"
+                              },
+                              "activity": "${SendActivity_NSJ4U5()}"
+                            }
+                          ]
+                        }
+                      ],
+                      "elseActions": [
+                        {
+                          "$kind": "Microsoft.ChoiceInput",
+                          "$designer": {
+                            "id": "IuDThI"
+                          },
+                          "defaultLocale": "en-us",
+                          "disabled": false,
+                          "maxTurnCount": 3,
+                          "alwaysPrompt": false,
+                          "allowInterruptions": false,
+                          "prompt": "${ChoiceInput_Prompt_IuDThI()}",
+                          "unrecognizedPrompt": "",
+                          "invalidPrompt": "",
+                          "defaultValueResponse": "",
+                          "choiceOptions": {
+                            "includeNumbers": true,
+                            "inlineOrMore": ", or ",
+                            "inlineOr": " or ",
+                            "inlineSeparator": ", "
+                          },
+                          "property": "dialog.choice1",
+                          "choices": [
+                            "parola",
+                            "dil",
+                            "diğer"
+                          ]
+                        },
+                        {
+                          "$kind": "Microsoft.SwitchCondition",
+                          "$designer": {
+                            "id": "DSrVaw"
+                          },
+                          "cases": [
+                            {
+                              "value": "parola",
+                              "actions": [
+                                {
+                                  "$kind": "Microsoft.SendActivity",
+                                  "$designer": {
+                                    "id": "HUBMmJ"
+                                  },
+                                  "activity": "${SendActivity_HUBMmJ()}"
+                                },
+                                {
+                                  "$kind": "Microsoft.SendActivity",
+                                  "$designer": {
+                                    "id": "bQXOAL"
+                                  },
+                                  "activity": "${SendActivity_bQXOAL()}"
+                                }
+                              ]
+                            },
+                            {
+                              "value": "dil",
+                              "actions": [
+                                {
+                                  "$kind": "Microsoft.SendActivity",
+                                  "$designer": {
+                                    "id": "8c5pyd"
+                                  },
+                                  "activity": "${SendActivity_8c5pyd()}"
+                                }
+                              ]
+                            }
+                          ],
+                          "condition": "=dialog.choice1",
+                          "default": [
+                            {
+                              "$kind": "Microsoft.SendActivity",
+                              "$designer": {
+                                "id": "EccZEq"
+                              },
+                              "activity": "${SendActivity_EccZEq()}"
+                            },
+                            {
+                              "$kind": "Microsoft.SendActivity",
+                              "$designer": {
+                                "id": "1Zf2wo"
+                              },
+                              "activity": "${SendActivity_1Zf2wo()}"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "generator": "sorun.lg",
+  "recognizer": "sorun.lu.qna",
+  "id": "sorun"
+}

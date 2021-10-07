@@ -1,0 +1,32 @@
+{
+  "$kind": "Microsoft.AdaptiveDialog",
+  "$designer": {
+    "id": "f1pZcO",
+    "name": "fikra",
+    "description": ""
+  },
+  "autoEndDialog": true,
+  "defaultResultProperty": "dialog.result",
+  "triggers": [
+    {
+      "$kind": "Microsoft.OnBeginDialog",
+      "$designer": {
+        "name": "BeginDialog",
+        "description": "",
+        "id": "690fXr"
+      },
+      "actions": [
+        {
+          "$kind": "Microsoft.SendActivity",
+          "$designer": {
+            "id": "Hb0VFy"
+          },
+          "activity": "${SendActivity_Hb0VFy()}"
+        }
+      ]
+    }
+  ],
+  "generator": "fikra.lg",
+  "recognizer": "fikra.lu.qna",
+  "id": "fikra"
+}

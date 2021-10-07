@@ -1,0 +1,17 @@
+[import](common.lg)
+
+# SendActivity_87Jbeh()
+[Activity
+    Text = ${SendActivity_87Jbeh_text()}
+]
+
+# SendActivity_87Jbeh_text()
+- ```Sana şu konularda yardımcı olabilirim
+\- hava durumu
+\- piyasa, haberler
+\- şirketle ilgili bilgiler 
+\- yaklaşan etkinlikler
+\- izin günleri
+\- bordro bilgileri 
+\- yemekhane menüsü ve yemek tarifleri 
+Hadi bana bir şeyler sor!```
