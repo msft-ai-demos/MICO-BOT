@@ -284,7 +284,7 @@ Koordinatlar elde edildikten sonra, bu koordinat bilgisi ile hava durumuna sorgu
 
 ## Lisans
 
-Telif hakkı (c) Microsoft Corporation. Tüm hakları saklıdır.
+Telif Hakkı (c) Microsoft Corporation. Tüm hakları saklıdır.
 
 [MIT Lisansı](https://github.com/msft-ai-demos/MICO-BOT/blob/main/LICENSE.md) altında lisanslıdır. 
 
