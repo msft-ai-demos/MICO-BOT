@@ -288,6 +288,8 @@ Lİsans bilgileri için [Lisans](https://github.com/msft-ai-demos/MICO-BOT/blob/
 
 ## Kaynaklar
 Bilişsel hizmetlere ait önerileri ve demoları içeren proje sayfası: https://azure.microsoft.com/en-us/services/cognitive-services/
+
 Ücretsiz deneme için erişim linki: https://azure.microsoft.com/free/cognitive-services/
+
 Destek kanalları: Stack Overflow ve Azure Destek
 
