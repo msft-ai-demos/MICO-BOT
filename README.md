@@ -284,7 +284,9 @@ Koordinatlar elde edildikten sonra, bu koordinat bilgisi ile hava durumuna sorgu
 
 ## Lisans
 
-Lİsans bilgileri için [Lisans](https://github.com/msft-ai-demos/MICO-BOT/blob/main/LICENSE.md) kaynağını inceleyebilirsiniz.
+Telif hakkı (c) Microsoft Corporation. Tüm hakları saklıdır.
+
+[MIT Lisansı](https://github.com/msft-ai-demos/MICO-BOT/blob/main/LICENSE.md) altında lisanslıdır. 
 
 ## Kaynaklar
 Bilişsel hizmetlere ait önerileri ve demoları içeren proje sayfası: https://azure.microsoft.com/en-us/services/cognitive-services/
