@@ -1,1 +1,5 @@
-This project welcomes contributions and suggestions. Most contributions require you to agree to a Contributor License Agreement (CLA) declaring that you have the right to, and actually do, grant us the rights to use your contribution. For details, visit https://cla.opensource.microsoft.com.
+Bu proje katkı ve önerileri memnuniyetle karşılamaktadır. Katkıların çoğu, katkınızı kullanma hakkına sahip olduğunuzu ve aslında bize verdiğinizi beyan eden bir Katılımcı Lisans Sözleşmesi'ni (CLA) kabul etmenizi gerektirir. Ayrıntılar için [https://cla.opensource.microsoft.com](https://cla.opensource.microsoft.com/) adresini ziyaret edebilirsiniz.
+
+Bir pull request gönderdiğinizde, bir CLA botu otomatik olarak bir CLA sağlamanız ve PR'ı uygun şekilde dekore etmeniz gerekip gerekmediğini belirler (örneğin, durum kontrolü, yorum). Bot tarafından sağlanan talimatları izlemenız yeterlidir. Cla'mızı kullanarak tüm depolarda bunu yalnızca bir kez yapmanız gerekir.
+
+Bu proje [Microsoft Açık Kaynak Kullanım Kuralları](https://opensource.microsoft.com/codeofconduct/)'nı benimsemiştir. Daha fazla bilgi için [Kullanım Kuralları SSS](https://opensource.microsoft.com/codeofconduct/faq/) bölümüne bakabilirsiniz veya ek sorularınız veya yorumlarınız [opencode@microsoft.com](opencode@microsoft.com) başvurabilirsiniz.
