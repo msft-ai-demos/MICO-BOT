@@ -282,7 +282,16 @@ Koordinatlar elde edildikten sonra, bu koordinat bilgisi ile hava durumuna sorgu
 ![image](https://user-images.githubusercontent.com/14835957/133774824-e4d57c5c-ba64-4d4c-91a7-7f7ac95b5fc5.png)
 
 
+## Lisans
 
+Telif Hakkı (c) Microsoft Corporation. Tüm hakları saklıdır.
 
+[MIT Lisansı](https://github.com/msft-ai-demos/MICO-BOT/blob/main/LICENSE.md) altında lisanslıdır. 
 
+## Kaynaklar
+Bilişsel hizmetlere ait önerileri ve demoları içeren proje sayfası: https://azure.microsoft.com/en-us/services/cognitive-services/
+
+Ücretsiz deneme için erişim linki: https://azure.microsoft.com/free/cognitive-services/
+
+Destek kanalları: Stack Overflow ve Azure Destek
 
