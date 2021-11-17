@@ -1,0 +1,1 @@
+Please create a storage account. Inside this SA, create a Container named "bayraklar". Then upload the files in it without changing their names. You will then need to open the doviz conversation in Bot Composer. At the top, you see the storage account name property, change it to your storage account name.
