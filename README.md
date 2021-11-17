@@ -72,7 +72,8 @@ Bing Haritalar, bir web harita hizmeti arama motorudur. [Bing Haritaları](https
 ## 6. Bing Search
 Bing, Microsoft'un çoklu dilde hizmet veren arama motorudur. Bing'i botunuzda kullanabilmek için Azure Portal üzerinden [Bing Arama Kaynağı](https://docs.microsoft.com/en-us/bing/search-apis/bing-web-search/create-bing-search-service-resource#create-your-bing-resource)'nı oluşturun.
 
-
+## 7. Merkez Bankası API -Optional
+Botun güncel döviz bilgilerine ulaşabilmesi için [Merkez Bankası EVDS Web Servis Dokumantasyonu](https://evds2.tcmb.gov.tr/help/videos/EVDS_Web_Servis_Kullanim_Kilavuzu.pdf)'nu takip ederek key oluşturabilirsiniz. 
 
 
 # Miço'yu Nasıl Kullanabilirim : Kurulum
