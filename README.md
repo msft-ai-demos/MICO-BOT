@@ -90,7 +90,7 @@ Daha Sonra Miço'yu Bot Composer içerisinden açabilmelisiniz.
 
 ## 2. Miço'yu Publish Edin
 
-Miço'yu publish edebilmek için yapmanız gereken ilk şey, bir Publishing Profile oluşturmak. Bu adımı tamamen composer içerisinden tamamlayabilirsiniz. Eğer çoktan oluşturduğunuz LUIS, QnA maker gibi kaynaklar portalınızda varsa, import existing resources seçeneğinden kaynaklarınızın endpointlerini ve keylerini doldurarak bir Publishing Profile oluşturabilirsiniz. Eğer daha önce hiç kaynak açmadıysanız Create new resources seçeneğiyle bu kaynakları Bot Composer üzerinden oluşturabilirsiniz.
+Miço'yu publish edebilmek için yapmanız gereken ilk şey, bir Publishing Profile oluşturmak. Bu adımı tamamen composer içerisinden tamamlayabilirsiniz. Eğer LUIS, QnA maker gibi kaynakları Azure portal'da çoktan oluşturduysanız, import existing resources seçeneğinden kaynaklarınızın endpointlerini ve keylerini doldurarak bir Publishing Profile oluşturabilirsiniz. Eğer daha önce hiç kaynak açmadıysanız Create new resources seçeneğiyle bu kaynakları Bot Composer üzerinden oluşturabilir ve Publishing Profile'ınıza ekleyebilirsiniz.
 ![image](https://user-images.githubusercontent.com/14835957/133958169-b4069ba8-4acd-4053-887f-b2daf5faeac3.png)
 
 
