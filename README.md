@@ -14,7 +14,7 @@ Miço size bir çok konuda yardımcı olabilecek ve sohbet edebilecek bir sanal 
   <img src="https://user-images.githubusercontent.com/14835957/133957989-b65c0daa-d799-4b90-9acf-147d525bc60e.jpeg" width=32% height=32% /> 
 </p>
 
-<p align="middle">
+<p align="left">
   <img src="https://user-images.githubusercontent.com/14835957/133957964-bb5dc633-1aa5-4924-affc-0d50433030b9.jpeg" width=32% height=32% />
   <img src="https://user-images.githubusercontent.com/14835957/133958000-b8bac881-d2cb-4b77-a27c-c8c0075b09c5.jpeg" width=32% height=32% />
 </p>
