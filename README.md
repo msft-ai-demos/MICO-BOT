@@ -296,7 +296,6 @@ Koordinatlar elde edildikten sonra, bu koordinat bilgisi ile hava durumuna sorgu
 
 <img src="https://user-images.githubusercontent.com/14835957/133774824-e4d57c5c-ba64-4d4c-91a7-7f7ac95b5fc5.png" width=60% height=60% /> 
 
-![image](https://user-images.githubusercontent.com/14835957/133774824-e4d57c5c-ba64-4d4c-91a7-7f7ac95b5fc5.png)
 
 ## Not
 
