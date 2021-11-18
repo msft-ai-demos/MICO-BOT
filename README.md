@@ -127,7 +127,7 @@ Miço'ya yeni bir özellik eklerken ilerleyişiniz konusunda rehber olması içi
 
 Niyetleri oluştururken ister Bot Composer içerisinden, ister LUIS'in kendi arayüzünden oluşturabilirsiniz. Bu örnekte Hava Durumu niyeti LUIS'in kendi arayüzü olan luis.ai sitesi üzerinden oluşturulacaktır. [LUIS.AI](https://www.luis.ai)
 
-<img src="https://user-images.githubusercontent.com/14835957/133092774-0df8fd6d-915b-4fdd-a7a5-10f23a56593a.png" width=50% height=50%>
+<img src="https://user-images.githubusercontent.com/14835957/133092774-0df8fd6d-915b-4fdd-a7a5-10f23a56593a.png" width=80% height=80%>
 
 Luis Portalı içerisinde yapmanız gereken ilk şey, +New App diyerek yeni bir proje oluşturmak. MicoIntents isimli bir proje oluşturabilirsiniz. Bu app i oluştururken sizden Azure Portal üzerinden açmış olduğunuz LUIS servisine dair LUIS Prediction Resource'unu seçmeniz istenecek. 
 
@@ -149,7 +149,7 @@ Bunun için bir entity oluşturmalıyız.
 
 Soldaki Entities kısmına gelerek, + Create Entity diyebiliriz.
 
-<img src="https://user-images.githubusercontent.com/14835957/133101481-441377b8-f5a1-4fa0-9c83-b20dcaea36c8.png" width=80% height=80%>
+<img src="https://user-images.githubusercontent.com/14835957/133101481-441377b8-f5a1-4fa0-9c83-b20dcaea36c8.png" width=60% height=60%>
 
 Burada karşımıza bir kaç seçenek çıkmakta.
 
