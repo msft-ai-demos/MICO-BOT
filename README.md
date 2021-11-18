@@ -63,7 +63,7 @@ Node.js JavaScript platformunu ve npm paketini yüklemeniz Composer'ın Node.js 
 
 Bot Composer'ı çalıştırın.
 
-<img src="https://raw.githubusercontent.com/msft-ai-demos/MICO-BOT/main/Additional/ss2.png" width=70% height=70%>
+<img src="https://raw.githubusercontent.com/msft-ai-demos/MICO-BOT/main/Additional/ss2.png" width=80% height=80%>
 
 ## 3. Language Understanding Service (LUIS)
 Language Understanding (LUIS), kullanıcıların doğal dil kullanarak uygulamalarınız, botlarınız ve IoT cihazlarınızla etkileşim kurmasına olanak sağlayan bir doğal dil anlama (NLU) yapay zeka hizmetidir. [LUIS](https://docs.microsoft.com/en-us/azure/cognitive-services/luis/sign-in-luis-portal) hizmetini kullanmaya başlayın.
@@ -91,7 +91,7 @@ Extract ettiğiniz bot dosyasını composerı açarak, composer içerisinden se�
 
 Daha Sonra Miço'yu Bot Composer içerisinden açabilmelisiniz.
 
-<img src="https://user-images.githubusercontent.com/14835957/131674595-f2622de3-92e8-46e5-a790-972f8dcf9d56.png" width=50% height=50%>
+<img src="https://user-images.githubusercontent.com/14835957/131674595-f2622de3-92e8-46e5-a790-972f8dcf9d56.png" width=80% height=80%>
 
 
 ## 2. Miço'yu Publish Edin
