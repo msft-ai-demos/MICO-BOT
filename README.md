@@ -53,7 +53,7 @@ Size uygun işletim sistemini seçerek [Bot Composer](https://docs.microsoft.com
 
 Daha sonra Bot Composer'ı indirip kurabilirsiniz.
 
-<img src="https://raw.githubusercontent.com/msft-ai-demos/MICO-BOT/main/Additional/ss1.png" width=25% height=25%>
+<img src="https://raw.githubusercontent.com/msft-ai-demos/MICO-BOT/main/Additional/ss1.png" width=40% height=40%>
 
 ### 2.1. Node.js ve npm
 Node.js JavaScript platformunu ve npm paketini yüklemeniz Composer'ın Node.js modellerini çalıştırabilmesine imkan tanır. [Node.js LTS 14.x](https://nodejs.org/)'i npm ile birlikte indirin. Bu Composer'ı kullanabilmek için zorunlu bir servistir.
@@ -63,7 +63,7 @@ Node.js JavaScript platformunu ve npm paketini yüklemeniz Composer'ın Node.js 
 
 Bot Composer'ı çalıştırın.
 
-<img src="https://raw.githubusercontent.com/msft-ai-demos/MICO-BOT/main/Additional/ss2.png" width=50% height=50%>
+<img src="https://raw.githubusercontent.com/msft-ai-demos/MICO-BOT/main/Additional/ss2.png" width=70% height=70%>
 
 ## 3. Language Understanding Service (LUIS)
 Language Understanding (LUIS), kullanıcıların doğal dil kullanarak uygulamalarınız, botlarınız ve IoT cihazlarınızla etkileşim kurmasına olanak sağlayan bir doğal dil anlama (NLU) yapay zeka hizmetidir. [LUIS](https://docs.microsoft.com/en-us/azure/cognitive-services/luis/sign-in-luis-portal) hizmetini kullanmaya başlayın.
