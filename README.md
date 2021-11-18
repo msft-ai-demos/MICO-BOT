@@ -277,9 +277,9 @@ Kullanıcı şehir bilgisi vermediyse, yani False'a girdiysek, hangi şehrin hav
 ### Kullanıcı Zamar Aralığı Belirtmiş mi?
 
 Kontrol etmemiz gereken ikinci varlık, kullanıcının zaman belirtip belirtmediği. İlk olarak Şehir durumuna baktığımız için, Zaman kontrolünü iki yerde de yapmalıyız, Şehir kontrolünden True dönüyorsa da, False dönüyorsa da.
-<img src="https://user-images.githubusercontent.com/14835957/133773569-bd04dc82-d6e5-4bc9-b7c7-8063e1184eab.png" width=60% height=60%>
+<img src="https://user-images.githubusercontent.com/14835957/133773569-bd04dc82-d6e5-4bc9-b7c7-8063e1184eab.png" width=40% height=40%>
 
-<img src="https://user-images.githubusercontent.com/14835957/133773610-efb69123-f368-4ea1-b122-e18787f9cd2f.png" width=60% height=60%>
+<img src="https://user-images.githubusercontent.com/14835957/133773610-efb69123-f368-4ea1-b122-e18787f9cd2f.png" width=40% height=40%>
 
 Kullanıcı zaman aralığı belirtmediyse, ona bir daha sormamıza gerek yok. Bugünün ve ilerleyen günlerin hava durumunu ona dönebiliriz.
 
