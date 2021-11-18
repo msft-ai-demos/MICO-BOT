@@ -15,8 +15,8 @@ Miço size bir çok konuda yardımcı olabilecek ve sohbet edebilecek bir sanal 
 </p>
 
 <p float="left">
-  <img src="https://user-images.githubusercontent.com/14835957/133958000-b8bac881-d2cb-4b77-a27c-c8c0075b09c5.jpeg" width=25% height=25% />
-  <img src="https://user-images.githubusercontent.com/14835957/133958007-8dff7f60-0c35-4545-acf8-c974dc00e0a0.jpeg" width=25% height=25% /> 
+  <img src="https://user-images.githubusercontent.com/14835957/133958000-b8bac881-d2cb-4b77-a27c-c8c0075b09c5.jpeg" width=32% height=32% />
+  <img src="https://user-images.githubusercontent.com/14835957/133958007-8dff7f60-0c35-4545-acf8-c974dc00e0a0.jpeg" width=32% height=32% /> 
 </p>
 
 ## [Gereksinimler](#miçoyu-nasıl-kullanabilirim-gereksinimler)
