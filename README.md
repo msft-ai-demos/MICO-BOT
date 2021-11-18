@@ -91,9 +91,15 @@ Daha Sonra Miço'yu Bot Composer içerisinden açabilmelisiniz.
 
 ## 2. Miço'yu Publish Edin
 
-Miço'yu publish edebilmek için yapmanız gereken ilk şey, bir Publishing Profile oluşturmak. Bu adımı tamamen composer içerisinden tamamlayabilirsiniz. Eğer LUIS, QnA maker gibi kaynakları Azure Portal'da çoktan oluşturduysanız, import existing resources seçeneğinden kaynaklarınızın endpointlerini ve keylerini doldurarak bir Publishing Profile oluşturabilirsiniz. Eğer daha önce hiç kaynak açmadıysanız Create new resources seçeneğiyle bu kaynakları Bot Composer üzerinden oluşturabilir ve Publishing Profile'ınıza ekleyebilirsiniz.
+Miço'yu publish edebilmek için yapmanız gereken ilk şey, bir Publishing Profile oluşturmak. Bu adımı tamamen composer içerisinden tamamlayabilirsiniz. 
+
 ![image](https://user-images.githubusercontent.com/14835957/133958169-b4069ba8-4acd-4053-887f-b2daf5faeac3.png)
 
+Eğer LUIS, QnA maker gibi kaynakları Azure Portal'da çoktan oluşturduysanız, import existing resources seçeneğinden kaynaklarınızın endpointlerini ve keylerini doldurarak bir Publishing Profile oluşturabilirsiniz. Publishing profile oluştururken, luis bağlantısını kurmak için, görseldeki gibi "luisResource" bölümüne luis prediction resource ismini eklemelisiniz.
+
+![image](https://user-images.githubusercontent.com/25666677/142438454-9f56e3e1-f03f-4428-ada9-f3ae321347e4.png)
+
+Eğer daha önce hiç kaynak açmadıysanız Create new resources seçeneğiyle bu kaynakları Bot Composer üzerinden oluşturabilir ve Publishing Profile'ınıza ekleyebilirsiniz.
 Daha sonra Publishing Profile'ınızı seçerek Publish selected bots seçeneğine tıklamanız yeterli olacaktır. 
 
 ## 3. Miço'yu Teams'e Ekleyin
