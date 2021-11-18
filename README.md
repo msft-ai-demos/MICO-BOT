@@ -261,17 +261,17 @@ Kullanıcıdan cümle içerisinde gelen entityleri, bizim durumumuzda varsa şeh
 'turn.recognized.entities' kavramını, dialog.entity isimli bir property'ye atadıktan sonra, bu şekilde de kontrol edebiliriz. Şimdi yapmamız gereken, bir If-Else koşulu oluşturmak.
 
 
-<img src="https://user-images.githubusercontent.com/14835957/133773313-8073613b-ee49-412e-9202-9192996d6942.png" width=70% height=70%>
+<img src="https://user-images.githubusercontent.com/14835957/133773313-8073613b-ee49-412e-9202-9192996d6942.png" width=30% height=30%>
 
 
 Bu blok, True dönüyorsa, tanınan entitylerimiz Şehir bilgisi içeriyor, False dönüyorsa, Şehir bilgisi içermiyor demektir. Aşağıdaki akışımızı buna göre düzenleyebiliriz.
 
 Kullanıcı şehir bilgisi vermediyse, yani False'a girdiysek, hangi şehrin hava durumuna bakmak isteediğini biz ona sormalıyız, belki bir kaç öneri ile!
 
-<img src="https://user-images.githubusercontent.com/14835957/133773753-084b5d4d-ca52-4b13-a29e-8f653c26ccaf.png" width=30% height=30%>
+<img src="https://user-images.githubusercontent.com/14835957/133773753-084b5d4d-ca52-4b13-a29e-8f653c26ccaf.png" width=40% height=40%>
 
 
-<img src="https://user-images.githubusercontent.com/14835957/133773790-517af25a-e7c3-47ba-b513-98087a00931e.png" width=40% height=40%>
+<img src="https://user-images.githubusercontent.com/14835957/133773790-517af25a-e7c3-47ba-b513-98087a00931e.png" width=60% height=60%>
 
 
 ### Kullanıcı Zamar Aralığı Belirtmiş mi?
