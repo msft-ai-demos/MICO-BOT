@@ -6,7 +6,12 @@ Miço, sizin Microsoft Teams'deki sanal asistanınız.
 
 <img src="https://raw.githubusercontent.com/msft-ai-demos/MICO-BOT/main/micologo_small_png.png" width=15% height=15%>
 
-Miço size bir çok konuda yardımcı olabilecek ve sohbet edebilecek bir sanal asistandır. Ona Türkiye'deki hava durumu bilgilerinden, döviz kurlarına ve dönüşümlerine; güncel haberlerden, ansiklopedi tanımını merak ettiğin bir konuya, kişiye, eşyaya kadar bir çok şeyi sorabilirsin. Onunla Teams'den çıkmadan kısa çeviriler yapabilir, ve ona feedback verebilirsin. Üstelik Miço'yu kendi Teams'ine de kurabilirsin. 
+Miço size bir çok konuda yardımcı olabilecek ve sohbet edebilecek bir sanal asistandır. Ona Türkiye'deki hava durumu bilgilerinden, döviz kurlarına ve dönüşümlerine; güncel haberlerden, ansiklopedi tanımını merak ettiğiniz bir konuya, kişiye, eşyaya kadar bir çok şeyi sorabilirsiniz. Onunla Teams'den çıkmadan kısa çeviriler yapabilir, ve ona feedback verebilirsiniz. Üstelik Miço'yu kendi Teams'inizde de kurabilirsiniz. 
+
+<p float="left">
+  <img src="https://user-images.githubusercontent.com/14835957/133957964-bb5dc633-1aa5-4924-affc-0d50433030b9.jpeg" width=25% height=25% />
+  <img src="https://user-images.githubusercontent.com/14835957/133957977-61e3c06c-6e31-4b71-b36a-adc002e70fe8.jpeg" width=25% height=25% /> 
+</p>
 
 <img src="https://user-images.githubusercontent.com/14835957/133957964-bb5dc633-1aa5-4924-affc-0d50433030b9.jpeg" width=25% height=25%>
 <img src="https://user-images.githubusercontent.com/14835957/133957977-61e3c06c-6e31-4b71-b36a-adc002e70fe8.jpeg" width=25% height=25%>
