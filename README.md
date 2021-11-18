@@ -289,6 +289,8 @@ Bu kısım için [Azure Maps API Dökümantasyonu](https://docs.microsoft.com/en
 
 İlk olarak gelen şehir bilgisinden, bu şehrin koordinatları çekilmekte.
 
+<img src="https://user-images.githubusercontent.com/14835957/133774679-72c8852f-2c84-4a47-b7de-f27f3b4ea9ed.png" width=32% height=32% /> 
+
 ![image](https://user-images.githubusercontent.com/14835957/133774679-72c8852f-2c84-4a47-b7de-f27f3b4ea9ed.png)
 
 Koordinatlar elde edildikten sonra, bu koordinat bilgisi ile hava durumuna sorgu atabiliriz.
