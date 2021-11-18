@@ -1,0 +1,4663 @@
+[import](common.lg)
+
+# SendActivity_ejZvzO()
+[Activity
+    Text = Senin için hava durumuna bakabilirim!
+]
+
+# SendActivity_8ewH8r()
+[Activity
+    Text = Hay aksi! Konum bilgilerine ulaşamadım. Başka bir şekilde sormak ister misin?
+]
+
+# SendActivity_vj0EoX()
+[Activity
+    Text = Hay aksi! Hava durumu bilgilerine ulaşamadım. Tekrar denemek ister misin?
+]
+
+# SendActivity_L2SbYS()
+[Activity
+    Text = Hay aksi! Hava durumu bilgilerine ulaşamadım. Tekrar denemek ister misin?
+]
+
+# SendActivity_7kBloZ()
+[Activity
+    Text = ${dialog.phrase}
+]
+
+# SendActivity_JI6ZR0()
+[Activity
+    Text = Hay aksi! Hava durumu bilgilerine ulaşamadım. Tekrar denemek ister misin?
+]
+
+# SendActivity_qxVCqY_attachment_L8dI8M()
+> To learn more Adaptive Cards format, read the documentation at
+> https://docs.microsoft.com/en-us/adaptive-cards/getting-started/bots
+- ```{
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "type": "AdaptiveCard",
+    "version": "1.3",
+    "body": [
+        {
+            "type": "TextBlock",
+            "text": "${toUpper(dialog.sehir, 'TR-tr')}",
+            "size": "Large",
+            "wrap": true,
+            "weight": "Bolder",
+            "height": "stretch"
+        },
+        {
+            "type": "TextBlock",
+            "spacing": "None",
+            "wrap": true,
+            "text": "${dialog.formatted} ${dialog.haftaningunu}"
+        },
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": "70px",
+                    "items": [
+                        {
+                            "type": "Image",
+                            "url": "https://github.com/msft-ai-demos/MICO-BOT/blob/main/media/weathericons/${dialog.icon_day1}.png?raw=true",
+                            "size": "Medium",
+                            "width": "60px",
+                            "height": "60px",
+                            "horizontalAlignment": "Center"
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.max_day1}°C",
+                            "size": "ExtraLarge",
+                            "spacing": "None",
+                            "wrap": true
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.icon_phrase_day1}",
+                            "wrap": true,
+                            "spacing": "None",
+                            "maxLines": 2
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "ColumnSet",
+                            "columns": [
+                                {
+                                    "type": "Column",
+                                    "width": 40,
+                                    "items": [
+                                        {
+                                            "type": "TextBlock",
+                                            "text": "En yüksek",
+                                            "wrap": true,
+                                            "horizontalAlignment": "Center",
+                                            "height": "stretch",
+                                            "weight": "Bolder",
+                                            "spacing": "Medium"
+                                        },
+                                        {
+                                            "type": "TextBlock",
+                                            "text": "En düşük",
+                                            "wrap": true,
+                                            "horizontalAlignment": "Center",
+                                            "height": "stretch",
+                                            "weight": "Bolder"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "Column",
+                                    "items": [
+                                        {
+                                            "type": "TextBlock",
+                                            "text": "${dialog.max_day1}°C",
+                                            "wrap": true,
+                                            "height": "stretch"
+                                        },
+                                        {
+                                            "type": "TextBlock",
+                                            "text": "${dialog.min_day1}°C",
+                                            "wrap": true,
+                                            "height": "stretch"
+                                        }
+                                    ],
+                                    "width": 30,
+                                    "horizontalAlignment": "Center"
+                                }
+                            ]
+                        }
+                    ],
+                    "horizontalAlignment": "Center"
+                }
+            ]
+        },
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "wrap": true,
+                            "height": "stretch",
+                            "horizontalAlignment": "Center",
+                            "text": "${dialog.ilk_saat}"
+                        },
+                        {
+                            "type": "Image",
+                            "url": "https://github.com/msft-ai-demos/MICO-BOT/blob/main/media/weathericons/${dialog.ilk_icon}.png?raw=true",
+                            "size": "Medium",
+                            "width": "30px",
+                            "height": "30px",
+                            "horizontalAlignment": "Center"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.ilk_sicaklik}°C",
+                            "wrap": true,
+                            "height": "stretch",
+                            "horizontalAlignment": "Center",
+                            "weight": "Bolder"
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.ikinci_saat}",
+                            "wrap": true,
+                            "height": "stretch",
+                            "horizontalAlignment": "Center"
+                        },
+                        {
+                            "type": "Image",
+                            "url": "https://github.com/msft-ai-demos/MICO-BOT/blob/main/media/weathericons/${dialog.ikinci_icon}.png?raw=true",
+                            "size": "Medium",
+                            "width": "30px",
+                            "height": "30px",
+                            "horizontalAlignment": "Center"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.ikinci_sicaklik}°C",
+                            "wrap": true,
+                            "height": "stretch",
+                            "horizontalAlignment": "Center",
+                            "weight": "Bolder"
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.ucuncu_saat}",
+                            "wrap": true,
+                            "height": "stretch",
+                            "horizontalAlignment": "Center"
+                        },
+                        {
+                            "type": "Image",
+                            "url": "https://github.com/msft-ai-demos/MICO-BOT/blob/main/media/weathericons/${dialog.ucuncu_icon}.png?raw=true",
+                            "size": "Medium",
+                            "width": "30px",
+                            "height": "30px",
+                            "horizontalAlignment": "Center"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.ucuncu_sicaklik}°C",
+                            "wrap": true,
+                            "height": "stretch",
+                            "horizontalAlignment": "Center",
+                            "weight": "Bolder"
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.dorduncu_saat}",
+                            "wrap": true,
+                            "height": "stretch",
+                            "horizontalAlignment": "Center"
+                        },
+                        {
+                            "type": "Image",
+                            "url": "https://github.com/msft-ai-demos/MICO-BOT/blob/main/media/weathericons/${dialog.dorduncu_icon}.png?raw=true",
+                            "size": "Medium",
+                            "width": "30px",
+                            "height": "30px",
+                            "horizontalAlignment": "Center"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.dorduncu_sicaklik}°C",
+                            "wrap": true,
+                            "height": "stretch",
+                            "horizontalAlignment": "Center",
+                            "weight": "Bolder"
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.besinci_saat}",
+                            "wrap": true,
+                            "height": "stretch",
+                            "horizontalAlignment": "Center"
+                        },
+                        {
+                            "type": "Image",
+                            "url": "https://github.com/msft-ai-demos/MICO-BOT/blob/main/media/weathericons/${dialog.besinci_icon}.png?raw=true",
+                            "size": "Medium",
+                            "width": "30px",
+                            "height": "30px",
+                            "horizontalAlignment": "Center"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.besinci_sicaklik}°C",
+                            "wrap": true,
+                            "height": "stretch",
+                            "horizontalAlignment": "Center",
+                            "weight": "Bolder"
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.altinci_saat}",
+                            "wrap": true,
+                            "height": "stretch",
+                            "horizontalAlignment": "Center"
+                        },
+                        {
+                            "type": "Image",
+                            "url": "https://github.com/msft-ai-demos/MICO-BOT/blob/main/media/weathericons/${dialog.altinci_icon}.png?raw=true",
+                            "size": "Medium",
+                            "width": "30px",
+                            "height": "30px",
+                            "horizontalAlignment": "Center"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.altinci_sicaklik}°C",
+                            "wrap": true,
+                            "height": "stretch",
+                            "horizontalAlignment": "Center",
+                            "weight": "Bolder"
+                        }
+                    ]
+                }
+            ],
+            "spacing": "Medium"
+        }
+    ],
+    "backgroundImage": {
+        "url": "https://images.squarespace-cdn.com/content/53196866e4b01396b75a422a/1521239232120-AA6ZITSKVQR2Q1GFMUJL/_B9B2232.jpg?format=1000w&content-type=image%2Fjpeg"
+    }
+}```
+# SendActivity_qxVCqY()
+[Activity
+    Attachments = ${json(SendActivity_qxVCqY_attachment_L8dI8M())}
+]
+
+# SendActivity_FVGdLz()
+[Activity
+    Attachments = ${json(SendActivity_FVGdLz_attachment_X9eynC())}
+]
+
+# SendActivity_FVGdLz_attachment_X9eynC()
+> To learn more Adaptive Cards format, read the documentation at
+> https://docs.microsoft.com/en-us/adaptive-cards/getting-started/bots
+- ```{
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "type": "AdaptiveCard",
+    "version": "1.3",
+    "body": [
+        {
+            "type": "TextBlock",
+            "text": "${toUpper(dialog.sehir, 'TR-tr')}",
+            "size": "Large",
+            "wrap": true,
+            "weight": "Bolder",
+            "height": "stretch",
+            "fontType": "Default"
+        },
+        {
+            "type": "TextBlock",
+            "spacing": "None",
+            "wrap": true,
+            "text": "${dialog.formatted} ${dialog.haftaningunu}"
+        },
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": "70px",
+                    "items": [
+                        {
+                            "type": "Image",
+                            "url": "https://github.com/msft-ai-demos/MICO-BOT/blob/main/media/weathericons/${dialog.icon_day1}.png?raw=true",                            
+                            "size": "Medium",
+                            "width": "60px",
+                            "height": "60px",
+                            "horizontalAlignment": "Center"
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.max_day1}°C",
+                            "size": "ExtraLarge",
+                            "spacing": "None",
+                            "wrap": true
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.icon_phrase_day1}",
+                            "wrap": true,
+                            "spacing": "None",
+                            "maxLines": 2
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "ColumnSet",
+                            "columns": [
+                                {
+                                    "type": "Column",
+                                    "width": 40,
+                                    "items": [
+                                        {
+                                            "type": "TextBlock",
+                                            "text": "En yüksek",
+                                            "horizontalAlignment": "Center",
+                                            "height": "stretch",
+                                            "weight": "Bolder",
+                                            "wrap": true
+                                        },
+                                        {
+                                            "type": "TextBlock",
+                                            "text": "En düşük",
+                                            "horizontalAlignment": "Center",
+                                            "height": "stretch",
+                                            "weight": "Bolder",
+                                            "wrap": true
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "Column",
+                                    "width": "stretch",
+                                    "items": [
+                                        {
+                                            "type": "TextBlock",
+                                            "text": "${dialog.max_day1}°C",
+                                            "wrap": true,
+                                            "height": "stretch"
+                                        },
+                                        {
+                                            "type": "TextBlock",
+                                            "text": "${dialog.min_day1}°C",
+                                            "wrap": true,
+                                            "height": "stretch"
+                                        }
+                                    ],
+                                    "width": 30
+                                }
+                            ]
+                        }
+                    ],
+                    "horizontalAlignment": "Center"
+                }
+            ]
+        },
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.ilk_saat}",
+                            "wrap": true,
+                            "height": "stretch",
+                            "horizontalAlignment": "Center"
+                        },
+                        {
+                            "type": "Image",
+                            "url": "https://github.com/msft-ai-demos/MICO-BOT/blob/main/media/weathericons/${dialog.ilk_icon}.png?raw=true",
+                            "size": "Medium",
+                            "width": "30px",
+                            "height": "30px",
+                            "horizontalAlignment": "Center"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.ilk_sicaklik}°C",
+                            "wrap": true,
+                            "height": "stretch",
+                            "horizontalAlignment": "Center",
+                            "weight": "Bolder"
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.ikinci_saat}",
+                            "wrap": true,
+                            "height": "stretch",
+                            "horizontalAlignment": "Center"
+                        },
+                        {
+                            "type": "Image",
+                            "url": "https://github.com/msft-ai-demos/MICO-BOT/blob/main/media/weathericons/${dialog.ikinci_icon}.png?raw=true",
+                            "size": "Medium",
+                            "width": "30px",
+                            "height": "30px",
+                            "horizontalAlignment": "Center"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.ikinci_sicaklik}°C",
+                            "wrap": true,
+                            "height": "stretch",
+                            "horizontalAlignment": "Center",
+                            "weight": "Bolder"
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.ucuncu_saat}",
+                            "wrap": true,
+                            "height": "stretch",
+                            "horizontalAlignment": "Center"
+                        },
+                        {
+                            "type": "Image",
+                            "url": "https://github.com/msft-ai-demos/MICO-BOT/blob/main/media/weathericons/${dialog.ucuncu_icon}.png?raw=true",
+                            "size": "Medium",
+                            "width": "30px",
+                            "height": "30px",
+                            "horizontalAlignment": "Center"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.ucuncu_sicaklik}°C",
+                            "wrap": true,
+                            "height": "stretch",
+                            "horizontalAlignment": "Center",
+                            "weight": "Bolder"
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.dorduncu_saat}",
+                            "wrap": true,
+                            "height": "stretch",
+                            "horizontalAlignment": "Center"
+                        },
+                        {
+                            "type": "Image",
+                            "url": "https://github.com/msft-ai-demos/MICO-BOT/blob/main/media/weathericons/${dialog.dorduncu_icon}.png?raw=true",
+                            "size": "Medium",
+                            "width": "30px",
+                            "height": "30px",
+                            "horizontalAlignment": "Center"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.dorduncu_sicaklik}°C",
+                            "wrap": true,
+                            "height": "stretch",
+                            "horizontalAlignment": "Center",
+                            "weight": "Bolder"
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.besinci_saat}",
+                            "wrap": true,
+                            "height": "stretch",
+                            "horizontalAlignment": "Center"
+                        },
+                        {
+                            "type": "Image",
+                            "url": "https://github.com/msft-ai-demos/MICO-BOT/blob/main/media/weathericons/${dialog.besinci_icon}.png?raw=true",
+                            "size": "Medium",
+                            "width": "30px",
+                            "height": "30px",
+                            "horizontalAlignment": "Center"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.besinci_sicaklik}°C",
+                            "wrap": true,
+                            "height": "stretch",
+                            "horizontalAlignment": "Center",
+                            "weight": "Bolder"
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.altinci_saat}",
+                            "wrap": true,
+                            "height": "stretch",
+                            "horizontalAlignment": "Center"
+                        },
+                        {
+                            "type": "Image",
+                            "url": "https://github.com/msft-ai-demos/MICO-BOT/blob/main/media/weathericons/${dialog.altinci_icon}.png?raw=true",
+                            "size": "Medium",
+                            "width": "30px",
+                            "height": "30px",
+                            "horizontalAlignment": "Center"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.altinci_sicaklik}°C",
+                            "wrap": true,
+                            "height": "stretch",
+                            "horizontalAlignment": "Center",
+                            "weight": "Bolder"
+                        }
+                    ]
+                }
+            ],
+            "spacing": "Large"
+        },
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.gun_adi2}",
+                            "wrap": true,
+                            "height": "stretch",
+                            "horizontalAlignment": "Center",
+                            "weight": "Bolder"
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "Image",
+                            "url": "https://github.com/msft-ai-demos/MICO-BOT/blob/main/media/weathericons/${dialog.icon_day2}.png?raw=true",
+                            "size": "Medium",
+                            "width": "20px",
+                            "height": "20px",
+                            "horizontalAlignment": "Center"
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.max_day2}°C",
+                            "wrap": true,
+                            "height": "stretch",
+                            "horizontalAlignment": "Center",
+                            "weight": "Bolder"
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.min_day2}°C",
+                            "wrap": true,
+                            "height": "stretch",
+                            "horizontalAlignment": "Center"
+                        }
+                    ]
+                }
+            ],
+            "spacing": "Large"
+        },
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.gun_adi3}",
+                            "wrap": true,
+                            "height": "stretch",
+                            "horizontalAlignment": "Center",
+                            "weight": "Bolder"
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "Image",
+                            "url": "https://github.com/msft-ai-demos/MICO-BOT/blob/main/media/weathericons/${dialog.icon_day3}.png?raw=true",
+                            "size": "Medium",
+                            "width": "20px",
+                            "height": "20px",
+                            "horizontalAlignment": "Center"
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.max_day3}°C",
+                            "wrap": true,
+                            "height": "stretch",
+                            "horizontalAlignment": "Center",
+                            "weight": "Bolder"
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.min_day3}°C",
+                            "wrap": true,
+                            "height": "stretch",
+                            "horizontalAlignment": "Center"
+                        }
+                    ]
+                }
+            ],
+            "spacing": "Small"
+        },
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.gun_adi4}",
+                            "wrap": true,
+                            "height": "stretch",
+                            "horizontalAlignment": "Center",
+                            "weight": "Bolder"
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "Image",
+                            "url": "https://github.com/msft-ai-demos/MICO-BOT/blob/main/media/weathericons/${dialog.icon_day4}.png?raw=true",
+                            "size": "Medium",
+                            "width": "20px",
+                            "height": "20px",
+                            "horizontalAlignment": "Center"
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.max_day4}°C",
+                            "wrap": true,
+                            "height": "stretch",
+                            "horizontalAlignment": "Center",
+                            "weight": "Bolder"
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.min_day4}°C",
+                            "wrap": true,
+                            "height": "stretch",
+                            "horizontalAlignment": "Center"
+                        }
+                    ]
+                }
+            ],
+            "spacing": "Small"
+        },
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.gun_adi5}",
+                            "wrap": true,
+                            "height": "stretch",
+                            "horizontalAlignment": "Center",
+                            "weight": "Bolder"
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "Image",
+                            "url": "https://github.com/msft-ai-demos/MICO-BOT/blob/main/media/weathericons/${dialog.icon_day5}.png?raw=true",
+                            "size": "Medium",
+                            "width": "20px",
+                            "height": "20px",
+                            "horizontalAlignment": "Center"
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.max_day5}°C",
+                            "wrap": true,
+                            "height": "stretch",
+                            "horizontalAlignment": "Center",
+                            "weight": "Bolder"
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.min_day5}°C",
+                            "wrap": true,
+                            "height": "stretch",
+                            "horizontalAlignment": "Center"
+                        }
+                    ]
+                }
+            ],
+            "spacing": "Small"
+        }
+    ],
+    "backgroundImage": {
+        "url": "https://images.squarespace-cdn.com/content/53196866e4b01396b75a422a/1521239232120-AA6ZITSKVQR2Q1GFMUJL/_B9B2232.jpg?format=1000w&content-type=image%2Fjpeg"
+    }
+}```
+# SendActivity_iORLjP_attachment_L8dI8M()
+> To learn more Adaptive Cards format, read the documentation at
+> https://docs.microsoft.com/en-us/adaptive-cards/getting-started/bots
+- ```{
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "type": "AdaptiveCard",
+    "version": "1.3",
+    "body": [
+        {
+            "type": "TextBlock",
+            "text": "${toUpper(dialog.sehir, 'TR-tr')}",
+            "size": "Large",
+            "wrap": true,
+            "weight": "Bolder",
+            "height": "stretch"
+        },
+        {
+            "type": "TextBlock",
+            "spacing": "None",
+            "wrap": true,
+            "text": "${dialog.formatyarin} ${dialog.gunadi}"
+        },
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": "70px",
+                    "items": [
+                        {
+                            "type": "Image",
+                            "url": "https://github.com/msft-ai-demos/MICO-BOT/blob/main/media/weathericons/${dialog.icon_day2}.png?raw=true",
+                            "size": "Medium",
+                            "width": "60px",
+                            "height": "60px",
+                            "horizontalAlignment": "Center"
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.max_day2}°C",
+                            "size": "ExtraLarge",
+                            "spacing": "None",
+                            "wrap": true
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "Güneşli",
+                            "wrap": true,
+                            "spacing": "None",
+                            "maxLines": 2
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "ColumnSet",
+                            "columns": [
+                                {
+                                    "type": "Column",
+                                    "width": 40,
+                                    "items": [
+                                        {
+                                            "type": "TextBlock",
+                                            "text": "En yüksek",
+                                            "wrap": true,
+                                            "horizontalAlignment": "Center",
+                                            "height": "stretch",
+                                            "weight": "Bolder",
+                                            "spacing": "Medium"
+                                        },
+                                        {
+                                            "type": "TextBlock",
+                                            "text": "En düşük",
+                                            "wrap": true,
+                                            "horizontalAlignment": "Center",
+                                            "height": "stretch",
+                                            "weight": "Bolder"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "Column",
+                                    "items": [
+                                        {
+                                            "type": "TextBlock",
+                                            "text": "${dialog.max_day2}°C",
+                                            "wrap": true,
+                                            "height": "stretch"
+                                        },
+                                        {
+                                            "type": "TextBlock",
+                                            "text": "${dialog.min_day2}°C",
+                                            "wrap": true,
+                                            "height": "stretch"
+                                        }
+                                    ],
+                                    "width": 30,
+                                    "horizontalAlignment": "Center"
+                                }
+                            ]
+                        }
+                    ],
+                    "horizontalAlignment": "Center"
+                }
+            ]
+        },
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "wrap": true,
+                            "height": "stretch",
+                            "horizontalAlignment": "Center",
+                            "text": "${dialog.ilk_saat}"
+                        },
+                        {
+                            "type": "Image",
+                            "url": "https://github.com/msft-ai-demos/MICO-BOT/blob/main/media/weathericons/${dialog.ilk_icon}.png?raw=true",
+                            "size": "Medium",
+                            "width": "30px",
+                            "height": "30px",
+                            "horizontalAlignment": "Center"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.ilk_sicaklik}°C",
+                            "wrap": true,
+                            "height": "stretch",
+                            "horizontalAlignment": "Center",
+                            "weight": "Bolder"
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.ikinci_saat}",
+                            "wrap": true,
+                            "height": "stretch",
+                            "horizontalAlignment": "Center"
+                        },
+                        {
+                            "type": "Image",
+                            "url": "https://github.com/msft-ai-demos/MICO-BOT/blob/main/media/weathericons/${dialog.ikinci_icon}.png?raw=true",
+                            "size": "Medium",
+                            "width": "30px",
+                            "height": "30px",
+                            "horizontalAlignment": "Center"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.ikinci_sicaklik}°C",
+                            "wrap": true,
+                            "height": "stretch",
+                            "horizontalAlignment": "Center",
+                            "weight": "Bolder"
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.ucuncu_saat}",
+                            "wrap": true,
+                            "height": "stretch",
+                            "horizontalAlignment": "Center"
+                        },
+                        {
+                            "type": "Image",
+                            "url": "https://github.com/msft-ai-demos/MICO-BOT/blob/main/media/weathericons/${dialog.ucuncu_icon}.png?raw=true",
+                            "size": "Medium",
+                            "width": "30px",
+                            "height": "30px",
+                            "horizontalAlignment": "Center"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.ucuncu_sicaklik}°C",
+                            "wrap": true,
+                            "height": "stretch",
+                            "horizontalAlignment": "Center",
+                            "weight": "Bolder"
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.dorduncu_saat}",
+                            "wrap": true,
+                            "height": "stretch",
+                            "horizontalAlignment": "Center"
+                        },
+                        {
+                            "type": "Image",
+                            "url": "https://github.com/msft-ai-demos/MICO-BOT/blob/main/media/weathericons/${dialog.dorduncu_icon}.png?raw=true",
+                            "size": "Medium",
+                            "width": "30px",
+                            "height": "30px",
+                            "horizontalAlignment": "Center"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.dorduncu_sicaklik}°C",
+                            "wrap": true,
+                            "height": "stretch",
+                            "horizontalAlignment": "Center",
+                            "weight": "Bolder"
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.besinci_saat}",
+                            "wrap": true,
+                            "height": "stretch",
+                            "horizontalAlignment": "Center"
+                        },
+                        {
+                            "type": "Image",
+                            "url": "https://github.com/msft-ai-demos/MICO-BOT/blob/main/media/weathericons/${dialog.besinci_icon}.png?raw=true",
+                            "size": "Medium",
+                            "width": "30px",
+                            "height": "30px",
+                            "horizontalAlignment": "Center"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.besinci_sicaklik}°C",
+                            "wrap": true,
+                            "height": "stretch",
+                            "horizontalAlignment": "Center",
+                            "weight": "Bolder"
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.altinci_saat}",
+                            "wrap": true,
+                            "height": "stretch",
+                            "horizontalAlignment": "Center"
+                        },
+                        {
+                            "type": "Image",
+                            "url": "https://github.com/msft-ai-demos/MICO-BOT/blob/main/media/weathericons/${dialog.altinci_icon}.png?raw=true",
+                            "size": "Medium",
+                            "width": "30px",
+                            "height": "30px",
+                            "horizontalAlignment": "Center"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.altinci_sicaklik}°C",
+                            "wrap": true,
+                            "height": "stretch",
+                            "horizontalAlignment": "Center",
+                            "weight": "Bolder"
+                        }
+                    ]
+                }
+            ],
+            "spacing": "Medium"
+        }
+    ],
+    "backgroundImage": {
+        "url": "https://images.squarespace-cdn.com/content/53196866e4b01396b75a422a/1521239232120-AA6ZITSKVQR2Q1GFMUJL/_B9B2232.jpg?format=1000w&content-type=image%2Fjpeg"
+    }
+}```
+# SendActivity_iORLjP()
+[Activity
+    Attachments = ${json(SendActivity_iORLjP_attachment_L8dI8M())}
+]
+
+# SendActivity_dn6YbF()
+[Activity
+    Text = Hay aksi! Hava durumu bilgilerine ulaşamadım. Tekrar denemek ister misin?
+]
+
+# SendActivity_mdhamR()
+[Activity
+    Text = ${dialog.phrase}
+]
+
+# SendActivity_01oQeY_attachment_X9eynC()
+> To learn more Adaptive Cards format, read the documentation at
+> https://docs.microsoft.com/en-us/adaptive-cards/getting-started/bots
+- ```{
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "type": "AdaptiveCard",
+    "version": "1.3",
+    "body": [
+        {
+            "type": "TextBlock",
+            "text": "${toUpper(dialog.sehir, 'TR-tr')}",
+            "size": "Large",
+            "wrap": true,
+            "weight": "Bolder",
+            "height": "stretch",
+            "fontType": "Default"
+        },
+        {
+            "type": "TextBlock",
+            "spacing": "None",
+            "wrap": true,
+            "text": "${dialog.formatted} ${dialog.haftaningunu}"
+        },
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": "70px",
+                    "items": [
+                        {
+                            "type": "Image",
+                            "url": "https://github.com/msft-ai-demos/MICO-BOT/blob/main/media/weathericons/${dialog.icon_day1}.png?raw=true",
+                            "size": "Medium",
+                            "width": "60px",
+                            "height": "60px",
+                            "horizontalAlignment": "Center"
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.max_day1}°C",
+                            "size": "ExtraLarge",
+                            "spacing": "None",
+                            "wrap": true
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.icon_phrase_day1}",
+                            "wrap": true,
+                            "spacing": "None",
+                            "maxLines": 2
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "ColumnSet",
+                            "columns": [
+                                {
+                                    "type": "Column",
+                                    "width": 40,
+                                    "items": [
+                                        {
+                                            "type": "TextBlock",
+                                            "text": "En yüksek",
+                                            "horizontalAlignment": "Center",
+                                            "height": "stretch",
+                                            "weight": "Bolder",
+                                            "wrap": true
+                                        },
+                                        {
+                                            "type": "TextBlock",
+                                            "text": "En düşük",
+                                            "horizontalAlignment": "Center",
+                                            "height": "stretch",
+                                            "weight": "Bolder",
+                                            "wrap": true
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "Column",
+                                    "width": "stretch",
+                                    "items": [
+                                        {
+                                            "type": "TextBlock",
+                                            "text": "${dialog.max_day1}°C",
+                                            "wrap": true,
+                                            "height": "stretch"
+                                        },
+                                        {
+                                            "type": "TextBlock",
+                                            "text": "${dialog.min_day1}°C",
+                                            "wrap": true,
+                                            "height": "stretch"
+                                        }
+                                    ],
+                                    "width": 30
+                                }
+                            ]
+                        }
+                    ],
+                    "horizontalAlignment": "Center"
+                }
+            ]
+        },
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.ilk_saat}",
+                            "wrap": true,
+                            "height": "stretch",
+                            "horizontalAlignment": "Center"
+                        },
+                        {
+                            "type": "Image",
+                            "url": "https://github.com/msft-ai-demos/MICO-BOT/blob/main/media/weathericons/${dialog.ilk_icon}.png?raw=true",
+                            "size": "Medium",
+                            "width": "30px",
+                            "height": "30px",
+                            "horizontalAlignment": "Center"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.ilk_sicaklik}°C",
+                            "wrap": true,
+                            "height": "stretch",
+                            "horizontalAlignment": "Center",
+                            "weight": "Bolder"
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.ikinci_saat}",
+                            "wrap": true,
+                            "height": "stretch",
+                            "horizontalAlignment": "Center"
+                        },
+                        {
+                            "type": "Image",
+                            "url": "https://github.com/msft-ai-demos/MICO-BOT/blob/main/media/weathericons/${dialog.ikinci_icon}.png?raw=true",
+                            "size": "Medium",
+                            "width": "30px",
+                            "height": "30px",
+                            "horizontalAlignment": "Center"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.ikinci_sicaklik}°C",
+                            "wrap": true,
+                            "height": "stretch",
+                            "horizontalAlignment": "Center",
+                            "weight": "Bolder"
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.ucuncu_saat}",
+                            "wrap": true,
+                            "height": "stretch",
+                            "horizontalAlignment": "Center"
+                        },
+                        {
+                            "type": "Image",
+                            "url": "https://github.com/msft-ai-demos/MICO-BOT/blob/main/media/weathericons/${dialog.ucuncu_icon}.png?raw=true",
+                            "size": "Medium",
+                            "width": "30px",
+                            "height": "30px",
+                            "horizontalAlignment": "Center"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.ucuncu_sicaklik}°C",
+                            "wrap": true,
+                            "height": "stretch",
+                            "horizontalAlignment": "Center",
+                            "weight": "Bolder"
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.dorduncu_saat}",
+                            "wrap": true,
+                            "height": "stretch",
+                            "horizontalAlignment": "Center"
+                        },
+                        {
+                            "type": "Image",
+                            "url": "https://github.com/msft-ai-demos/MICO-BOT/blob/main/media/weathericons/${dialog.dorduncu_icon}.png?raw=true",
+                            "size": "Medium",
+                            "width": "30px",
+                            "height": "30px",
+                            "horizontalAlignment": "Center"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.dorduncu_sicaklik}°C",
+                            "wrap": true,
+                            "height": "stretch",
+                            "horizontalAlignment": "Center",
+                            "weight": "Bolder"
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.besinci_saat}",
+                            "wrap": true,
+                            "height": "stretch",
+                            "horizontalAlignment": "Center"
+                        },
+                        {
+                            "type": "Image",
+                            "url": "https://github.com/msft-ai-demos/MICO-BOT/blob/main/media/weathericons/${dialog.besinci_icon}.png?raw=true",
+                            "size": "Medium",
+                            "width": "30px",
+                            "height": "30px",
+                            "horizontalAlignment": "Center"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.besinci_sicaklik}°C",
+                            "wrap": true,
+                            "height": "stretch",
+                            "horizontalAlignment": "Center",
+                            "weight": "Bolder"
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.altinci_saat}",
+                            "wrap": true,
+                            "height": "stretch",
+                            "horizontalAlignment": "Center"
+                        },
+                        {
+                            "type": "Image",
+                            "url": "https://github.com/msft-ai-demos/MICO-BOT/blob/main/media/weathericons/${dialog.altinci_icon}.png?raw=true",
+                            "size": "Medium",
+                            "width": "30px",
+                            "height": "30px",
+                            "horizontalAlignment": "Center"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.altinci_sicaklik}°C",
+                            "wrap": true,
+                            "height": "stretch",
+                            "horizontalAlignment": "Center",
+                            "weight": "Bolder"
+                        }
+                    ]
+                }
+            ],
+            "spacing": "Large"
+        },
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.gun_adi2}",
+                            "wrap": true,
+                            "height": "stretch",
+                            "horizontalAlignment": "Center",
+                            "weight": "Bolder"
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "Image",
+                            "url": "https://github.com/msft-ai-demos/MICO-BOT/blob/main/media/weathericons/${dialog.icon_day2}.png?raw=true",
+                            "size": "Medium",
+                            "width": "20px",
+                            "height": "20px",
+                            "horizontalAlignment": "Center"
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.max_day2}°C",
+                            "wrap": true,
+                            "height": "stretch",
+                            "horizontalAlignment": "Center",
+                            "weight": "Bolder"
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.min_day2}°C",
+                            "wrap": true,
+                            "height": "stretch",
+                            "horizontalAlignment": "Center"
+                        }
+                    ]
+                }
+            ],
+            "spacing": "Large"
+        },
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.gun_adi3}",
+                            "wrap": true,
+                            "height": "stretch",
+                            "horizontalAlignment": "Center",
+                            "weight": "Bolder"
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "Image",
+                            "url": "https://github.com/msft-ai-demos/MICO-BOT/blob/main/media/weathericons/${dialog.icon_day3}.png?raw=true",
+                            "size": "Medium",
+                            "width": "20px",
+                            "height": "20px",
+                            "horizontalAlignment": "Center"
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.max_day3}°C",
+                            "wrap": true,
+                            "height": "stretch",
+                            "horizontalAlignment": "Center",
+                            "weight": "Bolder"
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.min_day3}°C",
+                            "wrap": true,
+                            "height": "stretch",
+                            "horizontalAlignment": "Center"
+                        }
+                    ]
+                }
+            ],
+            "spacing": "Small"
+        },
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.gun_adi4}",
+                            "wrap": true,
+                            "height": "stretch",
+                            "horizontalAlignment": "Center",
+                            "weight": "Bolder"
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "Image",
+                            "url": "https://github.com/msft-ai-demos/MICO-BOT/blob/main/media/weathericons/${dialog.icon_day4}.png?raw=true",
+                            "size": "Medium",
+                            "width": "20px",
+                            "height": "20px",
+                            "horizontalAlignment": "Center"
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.max_day4}°C",
+                            "wrap": true,
+                            "height": "stretch",
+                            "horizontalAlignment": "Center",
+                            "weight": "Bolder"
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.min_day4}°C",
+                            "wrap": true,
+                            "height": "stretch",
+                            "horizontalAlignment": "Center"
+                        }
+                    ]
+                }
+            ],
+            "spacing": "Small"
+        },
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.gun_adi5}",
+                            "wrap": true,
+                            "height": "stretch",
+                            "horizontalAlignment": "Center",
+                            "weight": "Bolder"
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "Image",
+                            "url": "https://github.com/msft-ai-demos/MICO-BOT/blob/main/media/weathericons/${dialog.icon_day5}.png?raw=true",
+                            "size": "Medium",
+                            "width": "20px",
+                            "height": "20px",
+                            "horizontalAlignment": "Center"
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.max_day5}°C",
+                            "wrap": true,
+                            "height": "stretch",
+                            "horizontalAlignment": "Center",
+                            "weight": "Bolder"
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.min_day5}°C",
+                            "wrap": true,
+                            "height": "stretch",
+                            "horizontalAlignment": "Center"
+                        }
+                    ]
+                }
+            ],
+            "spacing": "Small"
+        }
+    ],
+    "backgroundImage": {
+        "url": "https://images.squarespace-cdn.com/content/53196866e4b01396b75a422a/1521239232120-AA6ZITSKVQR2Q1GFMUJL/_B9B2232.jpg?format=1000w&content-type=image%2Fjpeg"
+    }
+}```
+# SendActivity_01oQeY()
+[Activity
+    Attachments = ${json(SendActivity_01oQeY_attachment_X9eynC())}
+]
+
+# SendActivity_4AnJj1()
+[Activity
+    Text = Hay aksi! Hava durumu bilgilerine ulaşamadım. Tekrar denemek ister misin?
+]
+
+# SendActivity_95OZYg()
+[Activity
+    Text = Hay aksi! Konum bilgilerine ulaşamadım. Başka bir şekilde sormak ister misin?
+]
+
+# SendActivity_LmvdcX()
+[Activity
+    Text = Hay aksi! Hava durumu bilgilerine ulaşamadım. Tekrar denemek ister misin?
+]
+
+# SendActivity_QQd1bF()
+[Activity
+    Text = ${dialog.phrase}
+]
+
+# SendActivity_ONRMGP_attachment_X9eynC()
+> To learn more Adaptive Cards format, read the documentation at
+> https://docs.microsoft.com/en-us/adaptive-cards/getting-started/bots
+- ```{
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "type": "AdaptiveCard",
+    "version": "1.3",
+    "body": [
+        {
+            "type": "TextBlock",
+            "text": "${toUpper(dialog.sehir, 'TR-tr')}",
+            "size": "Large",
+            "wrap": true,
+            "weight": "Bolder",
+            "height": "stretch",
+            "fontType": "Default"
+        },
+        {
+            "type": "TextBlock",
+            "spacing": "None",
+            "wrap": true,
+            "text": "${dialog.formatted} ${dialog.haftaningunu}"
+        },
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": "70px",
+                    "items": [
+                        {
+                            "type": "Image",
+                            "url": "https://github.com/msft-ai-demos/MICO-BOT/blob/main/media/weathericons/${dialog.icon_day1}.png?raw=true",
+                            "size": "Medium",
+                            "width": "60px",
+                            "height": "60px",
+                            "horizontalAlignment": "Center"
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.max_day1}°C",
+                            "size": "ExtraLarge",
+                            "spacing": "None",
+                            "wrap": true
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.icon_phrase_day1}",
+                            "wrap": true,
+                            "spacing": "None",
+                            "maxLines": 2
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "ColumnSet",
+                            "columns": [
+                                {
+                                    "type": "Column",
+                                    "width": 40,
+                                    "items": [
+                                        {
+                                            "type": "TextBlock",
+                                            "text": "En yüksek",
+                                            "horizontalAlignment": "Center",
+                                            "height": "stretch",
+                                            "weight": "Bolder",
+                                            "wrap": true
+                                        },
+                                        {
+                                            "type": "TextBlock",
+                                            "text": "En düşük",
+                                            "horizontalAlignment": "Center",
+                                            "height": "stretch",
+                                            "weight": "Bolder",
+                                            "wrap": true
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "Column",
+                                    "width": "stretch",
+                                    "items": [
+                                        {
+                                            "type": "TextBlock",
+                                            "text": "${dialog.max_day1}°C",
+                                            "wrap": true,
+                                            "height": "stretch"
+                                        },
+                                        {
+                                            "type": "TextBlock",
+                                            "text": "${dialog.min_day1}°C",
+                                            "wrap": true,
+                                            "height": "stretch"
+                                        }
+                                    ],
+                                    "width": 30
+                                }
+                            ]
+                        }
+                    ],
+                    "horizontalAlignment": "Center"
+                }
+            ]
+        },
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.ilk_saat}",
+                            "wrap": true,
+                            "height": "stretch",
+                            "horizontalAlignment": "Center"
+                        },
+                        {
+                            "type": "Image",
+                            "url": "https://github.com/msft-ai-demos/MICO-BOT/blob/main/media/weathericons/${dialog.ilk_icon}.png?raw=true",
+                            "size": "Medium",
+                            "width": "30px",
+                            "height": "30px",
+                            "horizontalAlignment": "Center"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.ilk_sicaklik}°C",
+                            "wrap": true,
+                            "height": "stretch",
+                            "horizontalAlignment": "Center",
+                            "weight": "Bolder"
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.ikinci_saat}",
+                            "wrap": true,
+                            "height": "stretch",
+                            "horizontalAlignment": "Center"
+                        },
+                        {
+                            "type": "Image",
+                            "url": "https://github.com/msft-ai-demos/MICO-BOT/blob/main/media/weathericons/${dialog.ikinci_icon}.png?raw=true",
+                            "size": "Medium",
+                            "width": "30px",
+                            "height": "30px",
+                            "horizontalAlignment": "Center"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.ikinci_sicaklik}°C",
+                            "wrap": true,
+                            "height": "stretch",
+                            "horizontalAlignment": "Center",
+                            "weight": "Bolder"
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.ucuncu_saat}",
+                            "wrap": true,
+                            "height": "stretch",
+                            "horizontalAlignment": "Center"
+                        },
+                        {
+                            "type": "Image",
+                            "url": "https://github.com/msft-ai-demos/MICO-BOT/blob/main/media/weathericons/${dialog.ucuncu_icon}.png?raw=true",
+                            "size": "Medium",
+                            "width": "30px",
+                            "height": "30px",
+                            "horizontalAlignment": "Center"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.ucuncu_sicaklik}°C",
+                            "wrap": true,
+                            "height": "stretch",
+                            "horizontalAlignment": "Center",
+                            "weight": "Bolder"
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.dorduncu_saat}",
+                            "wrap": true,
+                            "height": "stretch",
+                            "horizontalAlignment": "Center"
+                        },
+                        {
+                            "type": "Image",
+                            "url": "https://github.com/msft-ai-demos/MICO-BOT/blob/main/media/weathericons/${dialog.dorduncu_icon}.png?raw=true",
+                            "size": "Medium",
+                            "width": "30px",
+                            "height": "30px",
+                            "horizontalAlignment": "Center"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.dorduncu_sicaklik}°C",
+                            "wrap": true,
+                            "height": "stretch",
+                            "horizontalAlignment": "Center",
+                            "weight": "Bolder"
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.besinci_saat}",
+                            "wrap": true,
+                            "height": "stretch",
+                            "horizontalAlignment": "Center"
+                        },
+                        {
+                            "type": "Image",
+                            "url": "https://github.com/msft-ai-demos/MICO-BOT/blob/main/media/weathericons/${dialog.besinci_icon}.png?raw=true",
+                            "size": "Medium",
+                            "width": "30px",
+                            "height": "30px",
+                            "horizontalAlignment": "Center"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.besinci_sicaklik}°C",
+                            "wrap": true,
+                            "height": "stretch",
+                            "horizontalAlignment": "Center",
+                            "weight": "Bolder"
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.altinci_saat}",
+                            "wrap": true,
+                            "height": "stretch",
+                            "horizontalAlignment": "Center"
+                        },
+                        {
+                            "type": "Image",
+                            "url": "https://github.com/msft-ai-demos/MICO-BOT/blob/main/media/weathericons/${dialog.altinci_icon}.png?raw=true",
+                            "size": "Medium",
+                            "width": "30px",
+                            "height": "30px",
+                            "horizontalAlignment": "Center"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.altinci_sicaklik}°C",
+                            "wrap": true,
+                            "height": "stretch",
+                            "horizontalAlignment": "Center",
+                            "weight": "Bolder"
+                        }
+                    ]
+                }
+            ],
+            "spacing": "Large"
+        },
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.gun_adi2}",
+                            "wrap": true,
+                            "height": "stretch",
+                            "horizontalAlignment": "Center",
+                            "weight": "Bolder"
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "Image",
+                            "url": "https://github.com/msft-ai-demos/MICO-BOT/blob/main/media/weathericons/${dialog.icon_day2}.png?raw=true",
+                            "size": "Medium",
+                            "width": "20px",
+                            "height": "20px",
+                            "horizontalAlignment": "Center"
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.max_day2}°C",
+                            "wrap": true,
+                            "height": "stretch",
+                            "horizontalAlignment": "Center",
+                            "weight": "Bolder"
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.min_day2}°C",
+                            "wrap": true,
+                            "height": "stretch",
+                            "horizontalAlignment": "Center"
+                        }
+                    ]
+                }
+            ],
+            "spacing": "Large"
+        },
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.gun_adi3}",
+                            "wrap": true,
+                            "height": "stretch",
+                            "horizontalAlignment": "Center",
+                            "weight": "Bolder"
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "Image",
+                            "url": "https://github.com/msft-ai-demos/MICO-BOT/blob/main/media/weathericons/${dialog.icon_day3}.png?raw=true",
+                            "size": "Medium",
+                            "width": "20px",
+                            "height": "20px",
+                            "horizontalAlignment": "Center"
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.max_day3}°C",
+                            "wrap": true,
+                            "height": "stretch",
+                            "horizontalAlignment": "Center",
+                            "weight": "Bolder"
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.min_day3}°C",
+                            "wrap": true,
+                            "height": "stretch",
+                            "horizontalAlignment": "Center"
+                        }
+                    ]
+                }
+            ],
+            "spacing": "Small"
+        },
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.gun_adi4}",
+                            "wrap": true,
+                            "height": "stretch",
+                            "horizontalAlignment": "Center",
+                            "weight": "Bolder"
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "Image",
+                            "url": "https://github.com/msft-ai-demos/MICO-BOT/blob/main/media/weathericons/${dialog.icon_day4}.png?raw=true",
+                            "size": "Medium",
+                            "width": "20px",
+                            "height": "20px",
+                            "horizontalAlignment": "Center"
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.max_day4}°C",
+                            "wrap": true,
+                            "height": "stretch",
+                            "horizontalAlignment": "Center",
+                            "weight": "Bolder"
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.min_day4}°C",
+                            "wrap": true,
+                            "height": "stretch",
+                            "horizontalAlignment": "Center"
+                        }
+                    ]
+                }
+            ],
+            "spacing": "Small"
+        },
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.gun_adi5}",
+                            "wrap": true,
+                            "height": "stretch",
+                            "horizontalAlignment": "Center",
+                            "weight": "Bolder"
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "Image",
+                            "url": "https://github.com/msft-ai-demos/MICO-BOT/blob/main/media/weathericons/${dialog.icon_day5}.png?raw=true",
+                            "size": "Medium",
+                            "width": "20px",
+                            "height": "20px",
+                            "horizontalAlignment": "Center"
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.max_day5}°C",
+                            "wrap": true,
+                            "height": "stretch",
+                            "horizontalAlignment": "Center",
+                            "weight": "Bolder"
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.min_day5}°C",
+                            "wrap": true,
+                            "height": "stretch",
+                            "horizontalAlignment": "Center"
+                        }
+                    ]
+                }
+            ],
+            "spacing": "Small"
+        }
+    ],
+    "backgroundImage": {
+        "url": "https://images.squarespace-cdn.com/content/53196866e4b01396b75a422a/1521239232120-AA6ZITSKVQR2Q1GFMUJL/_B9B2232.jpg?format=1000w&content-type=image%2Fjpeg"
+    }
+}```
+# SendActivity_ONRMGP()
+[Activity
+    Attachments = ${json(SendActivity_ONRMGP_attachment_X9eynC())}
+]
+
+# SendActivity_Ch6LeZ()
+[Activity
+    Text = Hay aksi! Hava durumu bilgilerine ulaşamadım. Tekrar denemek ister misin?
+]
+
+# TextInput_Prompt_2sjJYU()
+[Activity
+    Text = Nerenin hava durumunu öğrenmek istiyorsun?
+    SuggestedActions = Ankara | İstanbul | İzmir
+]
+
+# SendActivity_v74OA6()
+[Activity
+    Text = Hay aksi! Konum bilgilerine ulaşamadım. Başka bir şekilde sormak ister misin?
+]
+
+# SendActivity_Dhpihq()
+[Activity
+    Text = Hay aksi! Konum bilgilerine ulaşamadım. Başka bir şekilde sormak ister misin?
+]
+
+# SendActivity_dMgqux()
+[Activity
+    Text = Hay aksi! Konum bilgilerine ulaşamadım. Başka bir şekilde sormak ister misin?
+]
+
+# SendActivity_f09a65()
+[Activity
+    Text = Hay aksi! Hava durumu bilgilerine ulaşamadım. Tekrar denemek ister misin?
+]
+
+# SendActivity_pjFvDh()
+[Activity
+    Text = ${dialog.phrase}
+]
+
+# SendActivity_Xo6wCR_attachment_X9eynC()
+> To learn more Adaptive Cards format, read the documentation at
+> https://docs.microsoft.com/en-us/adaptive-cards/getting-started/bots
+- ```{
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "type": "AdaptiveCard",
+    "version": "1.3",
+    "body": [
+        {
+            "type": "TextBlock",
+            "text": "${toUpper(dialog.sehir, 'TR-tr')}",
+            "size": "Large",
+            "wrap": true,
+            "weight": "Bolder",
+            "height": "stretch",
+            "fontType": "Default"
+        },
+        {
+            "type": "TextBlock",
+            "spacing": "None",
+            "wrap": true,
+            "text": "${dialog.formatted} ${dialog.haftaningunu}"
+        },
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": "70px",
+                    "items": [
+                        {
+                            "type": "Image",
+                            "url": "https://github.com/msft-ai-demos/MICO-BOT/blob/main/media/weathericons/${dialog.icon_day1}.png?raw=true",
+                            "size": "Medium",
+                            "width": "60px",
+                            "height": "60px",
+                            "horizontalAlignment": "Center"
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.max_day1}°C",
+                            "size": "ExtraLarge",
+                            "spacing": "None",
+                            "wrap": true
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.icon_phrase_day1}",
+                            "wrap": true,
+                            "spacing": "None",
+                            "maxLines": 2
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "ColumnSet",
+                            "columns": [
+                                {
+                                    "type": "Column",
+                                    "width": 40,
+                                    "items": [
+                                        {
+                                            "type": "TextBlock",
+                                            "text": "En yüksek",
+                                            "horizontalAlignment": "Center",
+                                            "height": "stretch",
+                                            "weight": "Bolder",
+                                            "wrap": true
+                                        },
+                                        {
+                                            "type": "TextBlock",
+                                            "text": "En düşük",
+                                            "horizontalAlignment": "Center",
+                                            "height": "stretch",
+                                            "weight": "Bolder",
+                                            "wrap": true
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "Column",
+                                    "width": "stretch",
+                                    "items": [
+                                        {
+                                            "type": "TextBlock",
+                                            "text": "${dialog.max_day1}°C",
+                                            "wrap": true,
+                                            "height": "stretch"
+                                        },
+                                        {
+                                            "type": "TextBlock",
+                                            "text": "${dialog.min_day1}°C",
+                                            "wrap": true,
+                                            "height": "stretch"
+                                        }
+                                    ],
+                                    "width": 30
+                                }
+                            ]
+                        }
+                    ],
+                    "horizontalAlignment": "Center"
+                }
+            ]
+        },
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.ilk_saat}",
+                            "wrap": true,
+                            "height": "stretch",
+                            "horizontalAlignment": "Center"
+                        },
+                        {
+                            "type": "Image",
+                            "url": "https://github.com/msft-ai-demos/MICO-BOT/blob/main/media/weathericons/${dialog.ilk_icon}.png?raw=true",
+                            "size": "Medium",
+                            "width": "30px",
+                            "height": "30px",
+                            "horizontalAlignment": "Center"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.ilk_sicaklik}°C",
+                            "wrap": true,
+                            "height": "stretch",
+                            "horizontalAlignment": "Center",
+                            "weight": "Bolder"
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.ikinci_saat}",
+                            "wrap": true,
+                            "height": "stretch",
+                            "horizontalAlignment": "Center"
+                        },
+                        {
+                            "type": "Image",
+                            "url": "https://github.com/msft-ai-demos/MICO-BOT/blob/main/media/weathericons/${dialog.ikinci_icon}.png?raw=true",
+                            "size": "Medium",
+                            "width": "30px",
+                            "height": "30px",
+                            "horizontalAlignment": "Center"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.ikinci_sicaklik}°C",
+                            "wrap": true,
+                            "height": "stretch",
+                            "horizontalAlignment": "Center",
+                            "weight": "Bolder"
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.ucuncu_saat}",
+                            "wrap": true,
+                            "height": "stretch",
+                            "horizontalAlignment": "Center"
+                        },
+                        {
+                            "type": "Image",
+                            "url": "https://github.com/msft-ai-demos/MICO-BOT/blob/main/media/weathericons/${dialog.ucuncu_icon}.png?raw=true",
+                            "size": "Medium",
+                            "width": "30px",
+                            "height": "30px",
+                            "horizontalAlignment": "Center"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.ucuncu_sicaklik}°C",
+                            "wrap": true,
+                            "height": "stretch",
+                            "horizontalAlignment": "Center",
+                            "weight": "Bolder"
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.dorduncu_saat}",
+                            "wrap": true,
+                            "height": "stretch",
+                            "horizontalAlignment": "Center"
+                        },
+                        {
+                            "type": "Image",
+                            "url": "https://github.com/msft-ai-demos/MICO-BOT/blob/main/media/weathericons/${dialog.dorduncu_icon}.png?raw=true",
+                            "size": "Medium",
+                            "width": "30px",
+                            "height": "30px",
+                            "horizontalAlignment": "Center"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.dorduncu_sicaklik}°C",
+                            "wrap": true,
+                            "height": "stretch",
+                            "horizontalAlignment": "Center",
+                            "weight": "Bolder"
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.besinci_saat}",
+                            "wrap": true,
+                            "height": "stretch",
+                            "horizontalAlignment": "Center"
+                        },
+                        {
+                            "type": "Image",
+                            "url": "https://github.com/msft-ai-demos/MICO-BOT/blob/main/media/weathericons/${dialog.besinci_icon}.png?raw=true",
+                            "size": "Medium",
+                            "width": "30px",
+                            "height": "30px",
+                            "horizontalAlignment": "Center"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.besinci_sicaklik}°C",
+                            "wrap": true,
+                            "height": "stretch",
+                            "horizontalAlignment": "Center",
+                            "weight": "Bolder"
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.altinci_saat}",
+                            "wrap": true,
+                            "height": "stretch",
+                            "horizontalAlignment": "Center"
+                        },
+                        {
+                            "type": "Image",
+                            "url": "https://github.com/msft-ai-demos/MICO-BOT/blob/main/media/weathericons/${dialog.altinci_icon}.png?raw=true",
+                            "size": "Medium",
+                            "width": "30px",
+                            "height": "30px",
+                            "horizontalAlignment": "Center"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.altinci_sicaklik}°C",
+                            "wrap": true,
+                            "height": "stretch",
+                            "horizontalAlignment": "Center",
+                            "weight": "Bolder"
+                        }
+                    ]
+                }
+            ],
+            "spacing": "Large"
+        },
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.gun_adi2}",
+                            "wrap": true,
+                            "height": "stretch",
+                            "horizontalAlignment": "Center",
+                            "weight": "Bolder"
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "Image",
+                            "url": "https://github.com/msft-ai-demos/MICO-BOT/blob/main/media/weathericons/${dialog.icon_day2}.png?raw=true",
+                            "size": "Medium",
+                            "width": "20px",
+                            "height": "20px",
+                            "horizontalAlignment": "Center"
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.max_day2}°C",
+                            "wrap": true,
+                            "height": "stretch",
+                            "horizontalAlignment": "Center",
+                            "weight": "Bolder"
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.min_day2}°C",
+                            "wrap": true,
+                            "height": "stretch",
+                            "horizontalAlignment": "Center"
+                        }
+                    ]
+                }
+            ],
+            "spacing": "Large"
+        },
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.gun_adi3}",
+                            "wrap": true,
+                            "height": "stretch",
+                            "horizontalAlignment": "Center",
+                            "weight": "Bolder"
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "Image",
+                            "url": "https://github.com/msft-ai-demos/MICO-BOT/blob/main/media/weathericons/${dialog.icon_day3}.png?raw=true",
+                            "size": "Medium",
+                            "width": "20px",
+                            "height": "20px",
+                            "horizontalAlignment": "Center"
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.max_day3}°C",
+                            "wrap": true,
+                            "height": "stretch",
+                            "horizontalAlignment": "Center",
+                            "weight": "Bolder"
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.min_day3}°C",
+                            "wrap": true,
+                            "height": "stretch",
+                            "horizontalAlignment": "Center"
+                        }
+                    ]
+                }
+            ],
+            "spacing": "Small"
+        },
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.gun_adi4}",
+                            "wrap": true,
+                            "height": "stretch",
+                            "horizontalAlignment": "Center",
+                            "weight": "Bolder"
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "Image",
+                            "url": "https://github.com/msft-ai-demos/MICO-BOT/blob/main/media/weathericons/${dialog.icon_day4}.png?raw=true",
+                            "size": "Medium",
+                            "width": "20px",
+                            "height": "20px",
+                            "horizontalAlignment": "Center"
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.max_day4}°C",
+                            "wrap": true,
+                            "height": "stretch",
+                            "horizontalAlignment": "Center",
+                            "weight": "Bolder"
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.min_day4}°C",
+                            "wrap": true,
+                            "height": "stretch",
+                            "horizontalAlignment": "Center"
+                        }
+                    ]
+                }
+            ],
+            "spacing": "Small"
+        },
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.gun_adi5}",
+                            "wrap": true,
+                            "height": "stretch",
+                            "horizontalAlignment": "Center",
+                            "weight": "Bolder"
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "Image",
+                            "url": "https://github.com/msft-ai-demos/MICO-BOT/blob/main/media/weathericons/${dialog.icon_day5}.png?raw=true",
+                            "size": "Medium",
+                            "width": "20px",
+                            "height": "20px",
+                            "horizontalAlignment": "Center"
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.max_day5}°C",
+                            "wrap": true,
+                            "height": "stretch",
+                            "horizontalAlignment": "Center",
+                            "weight": "Bolder"
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.min_day5}°C",
+                            "wrap": true,
+                            "height": "stretch",
+                            "horizontalAlignment": "Center"
+                        }
+                    ]
+                }
+            ],
+            "spacing": "Small"
+        }
+    ],
+    "backgroundImage": {
+        "url": "https://images.squarespace-cdn.com/content/53196866e4b01396b75a422a/1521239232120-AA6ZITSKVQR2Q1GFMUJL/_B9B2232.jpg?format=1000w&content-type=image%2Fjpeg"
+    }
+}```
+# SendActivity_Xo6wCR()
+[Activity
+    Attachments = ${json(SendActivity_Xo6wCR_attachment_X9eynC())}
+]
+
+# SendActivity_pRs2ye()
+[Activity
+    Text = Hay aksi! Hava durumu bilgilerine ulaşamadım. Tekrar denemek ister misin?
+]
+
+# SendActivity_3FR1jP_attachment_L8dI8M()
+> To learn more Adaptive Cards format, read the documentation at
+> https://docs.microsoft.com/en-us/adaptive-cards/getting-started/bots
+- ```{
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "type": "AdaptiveCard",
+    "version": "1.3",
+    "body": [
+        {
+            "type": "TextBlock",
+            "text": "${toUpper(dialog.sehir, 'TR-tr')}",
+            "size": "Large",
+            "wrap": true,
+            "weight": "Bolder",
+            "height": "stretch"
+        },
+        {
+            "type": "TextBlock",
+            "spacing": "None",
+            "wrap": true,
+            "text": "${dialog.formatted} ${dialog.haftaningunu}"
+        },
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": "70px",
+                    "items": [
+                        {
+                            "type": "Image",
+                            "url": "https://github.com/msft-ai-demos/MICO-BOT/blob/main/media/weathericons/${dialog.icon_day1}.png?raw=true",
+                            "size": "Medium",
+                            "width": "60px",
+                            "height": "60px",
+                            "horizontalAlignment": "Center"
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.max_day1}°C",
+                            "size": "ExtraLarge",
+                            "spacing": "None",
+                            "wrap": true
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.icon_phrase_day1}",
+                            "wrap": true,
+                            "spacing": "None",
+                            "maxLines": 2
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "ColumnSet",
+                            "columns": [
+                                {
+                                    "type": "Column",
+                                    "width": 40,
+                                    "items": [
+                                        {
+                                            "type": "TextBlock",
+                                            "text": "En yüksek",
+                                            "wrap": true,
+                                            "horizontalAlignment": "Center",
+                                            "height": "stretch",
+                                            "weight": "Bolder",
+                                            "spacing": "Medium"
+                                        },
+                                        {
+                                            "type": "TextBlock",
+                                            "text": "En düşük",
+                                            "wrap": true,
+                                            "horizontalAlignment": "Center",
+                                            "height": "stretch",
+                                            "weight": "Bolder"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "Column",
+                                    "items": [
+                                        {
+                                            "type": "TextBlock",
+                                            "text": "${dialog.max_day1}°C",
+                                            "wrap": true,
+                                            "height": "stretch"
+                                        },
+                                        {
+                                            "type": "TextBlock",
+                                            "text": "${dialog.min_day1}°C",
+                                            "wrap": true,
+                                            "height": "stretch"
+                                        }
+                                    ],
+                                    "width": 30,
+                                    "horizontalAlignment": "Center"
+                                }
+                            ]
+                        }
+                    ],
+                    "horizontalAlignment": "Center"
+                }
+            ]
+        },
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "wrap": true,
+                            "height": "stretch",
+                            "horizontalAlignment": "Center",
+                            "text": "${dialog.ilk_saat}"
+                        },
+                        {
+                            "type": "Image",
+                            "url": "https://github.com/msft-ai-demos/MICO-BOT/blob/main/media/weathericons/${dialog.ilk_icon}.png?raw=true",
+                            "size": "Medium",
+                            "width": "30px",
+                            "height": "30px",
+                            "horizontalAlignment": "Center"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.ilk_sicaklik}°C",
+                            "wrap": true,
+                            "height": "stretch",
+                            "horizontalAlignment": "Center",
+                            "weight": "Bolder"
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.ikinci_saat}",
+                            "wrap": true,
+                            "height": "stretch",
+                            "horizontalAlignment": "Center"
+                        },
+                        {
+                            "type": "Image",
+                            "url": "https://github.com/msft-ai-demos/MICO-BOT/blob/main/media/weathericons/${dialog.ikinci_icon}.png?raw=true",
+                            "size": "Medium",
+                            "width": "30px",
+                            "height": "30px",
+                            "horizontalAlignment": "Center"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.ikinci_sicaklik}°C",
+                            "wrap": true,
+                            "height": "stretch",
+                            "horizontalAlignment": "Center",
+                            "weight": "Bolder"
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.ucuncu_saat}",
+                            "wrap": true,
+                            "height": "stretch",
+                            "horizontalAlignment": "Center"
+                        },
+                        {
+                            "type": "Image",
+                            "url": "https://github.com/msft-ai-demos/MICO-BOT/blob/main/media/weathericons/${dialog.ucuncu_icon}.png?raw=true",
+                            "size": "Medium",
+                            "width": "30px",
+                            "height": "30px",
+                            "horizontalAlignment": "Center"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.ucuncu_sicaklik}°C",
+                            "wrap": true,
+                            "height": "stretch",
+                            "horizontalAlignment": "Center",
+                            "weight": "Bolder"
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.dorduncu_saat}",
+                            "wrap": true,
+                            "height": "stretch",
+                            "horizontalAlignment": "Center"
+                        },
+                        {
+                            "type": "Image",
+                            "url": "https://github.com/msft-ai-demos/MICO-BOT/blob/main/media/weathericons/${dialog.dorduncu_icon}.png?raw=true",
+                            "size": "Medium",
+                            "width": "30px",
+                            "height": "30px",
+                            "horizontalAlignment": "Center"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.dorduncu_sicaklik}°C",
+                            "wrap": true,
+                            "height": "stretch",
+                            "horizontalAlignment": "Center",
+                            "weight": "Bolder"
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.besinci_saat}",
+                            "wrap": true,
+                            "height": "stretch",
+                            "horizontalAlignment": "Center"
+                        },
+                        {
+                            "type": "Image",
+                            "url": "https://github.com/msft-ai-demos/MICO-BOT/blob/main/media/weathericons/${dialog.besinci_icon}.png?raw=true",
+                            "size": "Medium",
+                            "width": "30px",
+                            "height": "30px",
+                            "horizontalAlignment": "Center"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.besinci_sicaklik}°C",
+                            "wrap": true,
+                            "height": "stretch",
+                            "horizontalAlignment": "Center",
+                            "weight": "Bolder"
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.altinci_saat}",
+                            "wrap": true,
+                            "height": "stretch",
+                            "horizontalAlignment": "Center"
+                        },
+                        {
+                            "type": "Image",
+                            "url": "https://github.com/msft-ai-demos/MICO-BOT/blob/main/media/weathericons/${dialog.altinci_icon}.png?raw=true",
+                            "size": "Medium",
+                            "width": "30px",
+                            "height": "30px",
+                            "horizontalAlignment": "Center"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.altinci_sicaklik}°C",
+                            "wrap": true,
+                            "height": "stretch",
+                            "horizontalAlignment": "Center",
+                            "weight": "Bolder"
+                        }
+                    ]
+                }
+            ],
+            "spacing": "Medium"
+        }
+    ],
+    "backgroundImage": {
+        "url": "https://images.squarespace-cdn.com/content/53196866e4b01396b75a422a/1521239232120-AA6ZITSKVQR2Q1GFMUJL/_B9B2232.jpg?format=1000w&content-type=image%2Fjpeg"
+    }
+}```
+# SendActivity_3FR1jP()
+[Activity
+    Attachments = ${json(SendActivity_3FR1jP_attachment_L8dI8M())}
+]
+
+# SendActivity_LiVd8c()
+[Activity
+    Text = Hay aksi! Hava durumu bilgilerine ulaşamadım. Tekrar denemek ister misin?
+]
+
+# SendActivity_YFTTvG_attachment_L8dI8M()
+> To learn more Adaptive Cards format, read the documentation at
+> https://docs.microsoft.com/en-us/adaptive-cards/getting-started/bots
+- ```{
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "type": "AdaptiveCard",
+    "version": "1.3",
+    "body": [
+        {
+            "type": "TextBlock",
+            "text": "${toUpper(dialog.sehir, 'TR-tr')}",
+            "size": "Large",
+            "wrap": true,
+            "weight": "Bolder",
+            "height": "stretch"
+        },
+        {
+            "type": "TextBlock",
+            "spacing": "None",
+            "wrap": true,
+            "text": "${dialog.formatyarin} ${dialog.gunadi}"
+        },
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": "70px",
+                    "items": [
+                        {
+                            "type": "Image",
+                            "url": "https://github.com/msft-ai-demos/MICO-BOT/blob/main/media/weathericons/${dialog.icon_day2}.png?raw=true",
+                            "size": "Medium",
+                            "width": "60px",
+                            "height": "60px",
+                            "horizontalAlignment": "Center"
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.max_day2}°C",
+                            "size": "ExtraLarge",
+                            "spacing": "None",
+                            "wrap": true
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "Güneşli",
+                            "wrap": true,
+                            "spacing": "None",
+                            "maxLines": 2
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "ColumnSet",
+                            "columns": [
+                                {
+                                    "type": "Column",
+                                    "width": 40,
+                                    "items": [
+                                        {
+                                            "type": "TextBlock",
+                                            "text": "En yüksek",
+                                            "wrap": true,
+                                            "horizontalAlignment": "Center",
+                                            "height": "stretch",
+                                            "weight": "Bolder",
+                                            "spacing": "Medium"
+                                        },
+                                        {
+                                            "type": "TextBlock",
+                                            "text": "En düşük",
+                                            "wrap": true,
+                                            "horizontalAlignment": "Center",
+                                            "height": "stretch",
+                                            "weight": "Bolder"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "Column",
+                                    "items": [
+                                        {
+                                            "type": "TextBlock",
+                                            "text": "${dialog.max_day2}°C",
+                                            "wrap": true,
+                                            "height": "stretch"
+                                        },
+                                        {
+                                            "type": "TextBlock",
+                                            "text": "${dialog.min_day2}°C",
+                                            "wrap": true,
+                                            "height": "stretch"
+                                        }
+                                    ],
+                                    "width": 30,
+                                    "horizontalAlignment": "Center"
+                                }
+                            ]
+                        }
+                    ],
+                    "horizontalAlignment": "Center"
+                }
+            ]
+        },
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "wrap": true,
+                            "height": "stretch",
+                            "horizontalAlignment": "Center",
+                            "text": "${dialog.ilk_saat}"
+                        },
+                        {
+                            "type": "Image",
+                            "url": "https://github.com/msft-ai-demos/MICO-BOT/blob/main/media/weathericons/${dialog.ilk_icon}.png?raw=true",
+                            "size": "Medium",
+                            "width": "30px",
+                            "height": "30px",
+                            "horizontalAlignment": "Center"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.ilk_sicaklik}°C",
+                            "wrap": true,
+                            "height": "stretch",
+                            "horizontalAlignment": "Center",
+                            "weight": "Bolder"
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.ikinci_saat}",
+                            "wrap": true,
+                            "height": "stretch",
+                            "horizontalAlignment": "Center"
+                        },
+                        {
+                            "type": "Image",
+                            "url": "https://github.com/msft-ai-demos/MICO-BOT/blob/main/media/weathericons/${dialog.ikinci_icon}.png?raw=true",
+                            "size": "Medium",
+                            "width": "30px",
+                            "height": "30px",
+                            "horizontalAlignment": "Center"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.ikinci_sicaklik}°C",
+                            "wrap": true,
+                            "height": "stretch",
+                            "horizontalAlignment": "Center",
+                            "weight": "Bolder"
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.ucuncu_saat}",
+                            "wrap": true,
+                            "height": "stretch",
+                            "horizontalAlignment": "Center"
+                        },
+                        {
+                            "type": "Image",
+                            "url": "https://github.com/msft-ai-demos/MICO-BOT/blob/main/media/weathericons/${dialog.ucuncu_icon}.png?raw=true",
+                            "size": "Medium",
+                            "width": "30px",
+                            "height": "30px",
+                            "horizontalAlignment": "Center"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.ucuncu_sicaklik}°C",
+                            "wrap": true,
+                            "height": "stretch",
+                            "horizontalAlignment": "Center",
+                            "weight": "Bolder"
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.dorduncu_saat}",
+                            "wrap": true,
+                            "height": "stretch",
+                            "horizontalAlignment": "Center"
+                        },
+                        {
+                            "type": "Image",
+                            "url": "https://github.com/msft-ai-demos/MICO-BOT/blob/main/media/weathericons/${dialog.dorduncu_icon}.png?raw=true",
+                            "size": "Medium",
+                            "width": "30px",
+                            "height": "30px",
+                            "horizontalAlignment": "Center"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.dorduncu_sicaklik}°C",
+                            "wrap": true,
+                            "height": "stretch",
+                            "horizontalAlignment": "Center",
+                            "weight": "Bolder"
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.besinci_saat}",
+                            "wrap": true,
+                            "height": "stretch",
+                            "horizontalAlignment": "Center"
+                        },
+                        {
+                            "type": "Image",
+                            "url": "https://github.com/msft-ai-demos/MICO-BOT/blob/main/media/weathericons/${dialog.besinci_icon}.png?raw=true",
+                            "size": "Medium",
+                            "width": "30px",
+                            "height": "30px",
+                            "horizontalAlignment": "Center"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.besinci_sicaklik}°C",
+                            "wrap": true,
+                            "height": "stretch",
+                            "horizontalAlignment": "Center",
+                            "weight": "Bolder"
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.altinci_saat}",
+                            "wrap": true,
+                            "height": "stretch",
+                            "horizontalAlignment": "Center"
+                        },
+                        {
+                            "type": "Image",
+                            "url": "https://github.com/msft-ai-demos/MICO-BOT/blob/main/media/weathericons/${dialog.altinci_icon}.png?raw=true",
+                            "size": "Medium",
+                            "width": "30px",
+                            "height": "30px",
+                            "horizontalAlignment": "Center"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.altinci_sicaklik}°C",
+                            "wrap": true,
+                            "height": "stretch",
+                            "horizontalAlignment": "Center",
+                            "weight": "Bolder"
+                        }
+                    ]
+                }
+            ],
+            "spacing": "Medium"
+        }
+    ],
+    "backgroundImage": {
+        "url": "https://images.squarespace-cdn.com/content/53196866e4b01396b75a422a/1521239232120-AA6ZITSKVQR2Q1GFMUJL/_B9B2232.jpg?format=1000w&content-type=image%2Fjpeg"
+    }
+}```
+# SendActivity_YFTTvG()
+[Activity
+    Attachments = ${json(SendActivity_YFTTvG_attachment_L8dI8M())}
+]
+
+# SendActivity_KjdBkI()
+[Activity
+    Text = Hay aksi! Hava durumu bilgilerine ulaşamadım. Tekrar denemek ister misin?
+]
+
+# SendActivity_Ib7AOg()
+[Activity
+    Text = ${dialog.phrase}
+]
+
+# SendActivity_vdKi6L_attachment_X9eynC()
+> To learn more Adaptive Cards format, read the documentation at
+> https://docs.microsoft.com/en-us/adaptive-cards/getting-started/bots
+- ```{
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "type": "AdaptiveCard",
+    "version": "1.3",
+    "body": [
+        {
+            "type": "TextBlock",
+            "text": "${toUpper(dialog.sehir, 'TR-tr')}",
+            "size": "Large",
+            "wrap": true,
+            "weight": "Bolder",
+            "height": "stretch",
+            "fontType": "Default"
+        },
+        {
+            "type": "TextBlock",
+            "spacing": "None",
+            "wrap": true,
+            "text": "${dialog.formatted} ${dialog.haftaningunu}"
+        },
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": "70px",
+                    "items": [
+                        {
+                            "type": "Image",
+                            "url": "https://github.com/msft-ai-demos/MICO-BOT/blob/main/media/weathericons/${dialog.icon_day1}.png?raw=true",
+                            "size": "Medium",
+                            "width": "60px",
+                            "height": "60px",
+                            "horizontalAlignment": "Center"
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.max_day1}°C",
+                            "size": "ExtraLarge",
+                            "spacing": "None",
+                            "wrap": true
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.icon_phrase_day1}",
+                            "wrap": true,
+                            "spacing": "None",
+                            "maxLines": 2
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "ColumnSet",
+                            "columns": [
+                                {
+                                    "type": "Column",
+                                    "width": 40,
+                                    "items": [
+                                        {
+                                            "type": "TextBlock",
+                                            "text": "En yüksek",
+                                            "horizontalAlignment": "Center",
+                                            "height": "stretch",
+                                            "weight": "Bolder",
+                                            "wrap": true
+                                        },
+                                        {
+                                            "type": "TextBlock",
+                                            "text": "En düşük",
+                                            "horizontalAlignment": "Center",
+                                            "height": "stretch",
+                                            "weight": "Bolder",
+                                            "wrap": true
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "Column",
+                                    "width": "stretch",
+                                    "items": [
+                                        {
+                                            "type": "TextBlock",
+                                            "text": "${dialog.max_day1}°C",
+                                            "wrap": true,
+                                            "height": "stretch"
+                                        },
+                                        {
+                                            "type": "TextBlock",
+                                            "text": "${dialog.min_day1}°C",
+                                            "wrap": true,
+                                            "height": "stretch"
+                                        }
+                                    ],
+                                    "width": 30
+                                }
+                            ]
+                        }
+                    ],
+                    "horizontalAlignment": "Center"
+                }
+            ]
+        },
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.ilk_saat}",
+                            "wrap": true,
+                            "height": "stretch",
+                            "horizontalAlignment": "Center"
+                        },
+                        {
+                            "type": "Image",
+                            "url": "https://github.com/msft-ai-demos/MICO-BOT/blob/main/media/weathericons/${dialog.ilk_icon}.png?raw=true",
+                            "size": "Medium",
+                            "width": "30px",
+                            "height": "30px",
+                            "horizontalAlignment": "Center"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.ilk_sicaklik}°C",
+                            "wrap": true,
+                            "height": "stretch",
+                            "horizontalAlignment": "Center",
+                            "weight": "Bolder"
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.ikinci_saat}",
+                            "wrap": true,
+                            "height": "stretch",
+                            "horizontalAlignment": "Center"
+                        },
+                        {
+                            "type": "Image",
+                            "url": "https://github.com/msft-ai-demos/MICO-BOT/blob/main/media/weathericons/${dialog.ikinci_icon}.png?raw=true",
+                            "size": "Medium",
+                            "width": "30px",
+                            "height": "30px",
+                            "horizontalAlignment": "Center"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.ikinci_sicaklik}°C",
+                            "wrap": true,
+                            "height": "stretch",
+                            "horizontalAlignment": "Center",
+                            "weight": "Bolder"
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.ucuncu_saat}",
+                            "wrap": true,
+                            "height": "stretch",
+                            "horizontalAlignment": "Center"
+                        },
+                        {
+                            "type": "Image",
+                            "url": "https://github.com/msft-ai-demos/MICO-BOT/blob/main/media/weathericons/${dialog.ucuncu_icon}.png?raw=true",
+                            "size": "Medium",
+                            "width": "30px",
+                            "height": "30px",
+                            "horizontalAlignment": "Center"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.ucuncu_sicaklik}°C",
+                            "wrap": true,
+                            "height": "stretch",
+                            "horizontalAlignment": "Center",
+                            "weight": "Bolder"
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.dorduncu_saat}",
+                            "wrap": true,
+                            "height": "stretch",
+                            "horizontalAlignment": "Center"
+                        },
+                        {
+                            "type": "Image",
+                            "url": "https://github.com/msft-ai-demos/MICO-BOT/blob/main/media/weathericons/${dialog.dorduncu_icon}.png?raw=true",
+                            "size": "Medium",
+                            "width": "30px",
+                            "height": "30px",
+                            "horizontalAlignment": "Center"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.dorduncu_sicaklik}°C",
+                            "wrap": true,
+                            "height": "stretch",
+                            "horizontalAlignment": "Center",
+                            "weight": "Bolder"
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.besinci_saat}",
+                            "wrap": true,
+                            "height": "stretch",
+                            "horizontalAlignment": "Center"
+                        },
+                        {
+                            "type": "Image",
+                            "url": "https://github.com/msft-ai-demos/MICO-BOT/blob/main/media/weathericons/${dialog.besinci_icon}.png?raw=true",
+                            "size": "Medium",
+                            "width": "30px",
+                            "height": "30px",
+                            "horizontalAlignment": "Center"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.besinci_sicaklik}°C",
+                            "wrap": true,
+                            "height": "stretch",
+                            "horizontalAlignment": "Center",
+                            "weight": "Bolder"
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.altinci_saat}",
+                            "wrap": true,
+                            "height": "stretch",
+                            "horizontalAlignment": "Center"
+                        },
+                        {
+                            "type": "Image",
+                            "url": "https://github.com/msft-ai-demos/MICO-BOT/blob/main/media/weathericons/${dialog.altinci_icon}.png?raw=true",
+                            "size": "Medium",
+                            "width": "30px",
+                            "height": "30px",
+                            "horizontalAlignment": "Center"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.altinci_sicaklik}°C",
+                            "wrap": true,
+                            "height": "stretch",
+                            "horizontalAlignment": "Center",
+                            "weight": "Bolder"
+                        }
+                    ]
+                }
+            ],
+            "spacing": "Large"
+        },
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.gun_adi2}",
+                            "wrap": true,
+                            "height": "stretch",
+                            "horizontalAlignment": "Center",
+                            "weight": "Bolder"
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "Image",
+                            "url": "https://github.com/msft-ai-demos/MICO-BOT/blob/main/media/weathericons/${dialog.icon_day2}.png?raw=true",
+                            "size": "Medium",
+                            "width": "20px",
+                            "height": "20px",
+                            "horizontalAlignment": "Center"
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.max_day2}°C",
+                            "wrap": true,
+                            "height": "stretch",
+                            "horizontalAlignment": "Center",
+                            "weight": "Bolder"
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.min_day2}°C",
+                            "wrap": true,
+                            "height": "stretch",
+                            "horizontalAlignment": "Center"
+                        }
+                    ]
+                }
+            ],
+            "spacing": "Large"
+        },
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.gun_adi3}",
+                            "wrap": true,
+                            "height": "stretch",
+                            "horizontalAlignment": "Center",
+                            "weight": "Bolder"
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "Image",
+                            "url": "https://github.com/msft-ai-demos/MICO-BOT/blob/main/media/weathericons/${dialog.icon_day3}.png?raw=true",
+                            "size": "Medium",
+                            "width": "20px",
+                            "height": "20px",
+                            "horizontalAlignment": "Center"
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.max_day3}°C",
+                            "wrap": true,
+                            "height": "stretch",
+                            "horizontalAlignment": "Center",
+                            "weight": "Bolder"
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.min_day3}°C",
+                            "wrap": true,
+                            "height": "stretch",
+                            "horizontalAlignment": "Center"
+                        }
+                    ]
+                }
+            ],
+            "spacing": "Small"
+        },
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.gun_adi4}",
+                            "wrap": true,
+                            "height": "stretch",
+                            "horizontalAlignment": "Center",
+                            "weight": "Bolder"
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "Image",
+                            "url": "https://github.com/msft-ai-demos/MICO-BOT/blob/main/media/weathericons/${dialog.icon_day4}.png?raw=true",
+                            "size": "Medium",
+                            "width": "20px",
+                            "height": "20px",
+                            "horizontalAlignment": "Center"
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.max_day4}°C",
+                            "wrap": true,
+                            "height": "stretch",
+                            "horizontalAlignment": "Center",
+                            "weight": "Bolder"
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.min_day4}°C",
+                            "wrap": true,
+                            "height": "stretch",
+                            "horizontalAlignment": "Center"
+                        }
+                    ]
+                }
+            ],
+            "spacing": "Small"
+        },
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.gun_adi5}",
+                            "wrap": true,
+                            "height": "stretch",
+                            "horizontalAlignment": "Center",
+                            "weight": "Bolder"
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "Image",
+                            "url": "https://github.com/msft-ai-demos/MICO-BOT/blob/main/media/weathericons/${dialog.icon_day5}.png?raw=true",
+                            "size": "Medium",
+                            "width": "20px",
+                            "height": "20px",
+                            "horizontalAlignment": "Center"
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.max_day5}°C",
+                            "wrap": true,
+                            "height": "stretch",
+                            "horizontalAlignment": "Center",
+                            "weight": "Bolder"
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.min_day5}°C",
+                            "wrap": true,
+                            "height": "stretch",
+                            "horizontalAlignment": "Center"
+                        }
+                    ]
+                }
+            ],
+            "spacing": "Small"
+        }
+    ],
+    "backgroundImage": {
+        "url": "https://images.squarespace-cdn.com/content/53196866e4b01396b75a422a/1521239232120-AA6ZITSKVQR2Q1GFMUJL/_B9B2232.jpg?format=1000w&content-type=image%2Fjpeg"
+    }
+}```
+# SendActivity_vdKi6L()
+[Activity
+    Attachments = ${json(SendActivity_vdKi6L_attachment_X9eynC())}
+]
+
+# SendActivity_32bfle()
+[Activity
+    Text = Hay aksi! Hava durumu bilgilerine ulaşamadım. Tekrar denemek ister misin?
+]
+
+# TextInput_Prompt_ikJUp5()
+[Activity
+    Text = Nerenin hava durumunu öğrenmek istiyorsun?
+    SuggestedActions = Ankara | İstanbul | İzmir
+]
+
+# SendActivity_mOJUq8()
+[Activity
+    Text = Hay aksi! Konum bilgilerine ulaşamadım. Başka bir şekilde sormak ister misin?
+]
+
+# SendActivity_cXiNyr()
+[Activity
+    Text = Hay aksi! Hava durumu bilgilerine ulaşamadım. Tekrar denemek ister misin?
+]
+
+# SendActivity_widWzE()
+[Activity
+    Text = ${dialog.phrase}
+]
+
+# SendActivity_GFp4cF_attachment_X9eynC()
+> To learn more Adaptive Cards format, read the documentation at
+> https://docs.microsoft.com/en-us/adaptive-cards/getting-started/bots
+- ```{
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "type": "AdaptiveCard",
+    "version": "1.3",
+    "body": [
+        {
+            "type": "TextBlock",
+            "text": "${toUpper(dialog.sehir, 'TR-tr')}",
+            "size": "Large",
+            "wrap": true,
+            "weight": "Bolder",
+            "height": "stretch",
+            "fontType": "Default"
+        },
+        {
+            "type": "TextBlock",
+            "spacing": "None",
+            "wrap": true,
+            "text": "${dialog.formatted} ${dialog.haftaningunu}"
+        },
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": "70px",
+                    "items": [
+                        {
+                            "type": "Image",
+                            "url": "https://github.com/msft-ai-demos/MICO-BOT/blob/main/media/weathericons/${dialog.icon_day1}.png?raw=true",
+                            "size": "Medium",
+                            "width": "60px",
+                            "height": "60px",
+                            "horizontalAlignment": "Center"
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.max_day1}°C",
+                            "size": "ExtraLarge",
+                            "spacing": "None",
+                            "wrap": true
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.icon_phrase_day1}",
+                            "wrap": true,
+                            "spacing": "None",
+                            "maxLines": 2
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "ColumnSet",
+                            "columns": [
+                                {
+                                    "type": "Column",
+                                    "width": 40,
+                                    "items": [
+                                        {
+                                            "type": "TextBlock",
+                                            "text": "En yüksek",
+                                            "horizontalAlignment": "Center",
+                                            "height": "stretch",
+                                            "weight": "Bolder",
+                                            "wrap": true
+                                        },
+                                        {
+                                            "type": "TextBlock",
+                                            "text": "En düşük",
+                                            "horizontalAlignment": "Center",
+                                            "height": "stretch",
+                                            "weight": "Bolder",
+                                            "wrap": true
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "Column",
+                                    "width": "stretch",
+                                    "items": [
+                                        {
+                                            "type": "TextBlock",
+                                            "text": "${dialog.max_day1}°C",
+                                            "wrap": true,
+                                            "height": "stretch"
+                                        },
+                                        {
+                                            "type": "TextBlock",
+                                            "text": "${dialog.min_day1}°C",
+                                            "wrap": true,
+                                            "height": "stretch"
+                                        }
+                                    ],
+                                    "width": 30
+                                }
+                            ]
+                        }
+                    ],
+                    "horizontalAlignment": "Center"
+                }
+            ]
+        },
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.ilk_saat}",
+                            "wrap": true,
+                            "height": "stretch",
+                            "horizontalAlignment": "Center"
+                        },
+                        {
+                            "type": "Image",
+                            "url": "https://github.com/msft-ai-demos/MICO-BOT/blob/main/media/weathericons/${dialog.ilk_icon}.png?raw=true",
+                            "size": "Medium",
+                            "width": "30px",
+                            "height": "30px",
+                            "horizontalAlignment": "Center"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.ilk_sicaklik}°C",
+                            "wrap": true,
+                            "height": "stretch",
+                            "horizontalAlignment": "Center",
+                            "weight": "Bolder"
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.ikinci_saat}",
+                            "wrap": true,
+                            "height": "stretch",
+                            "horizontalAlignment": "Center"
+                        },
+                        {
+                            "type": "Image",
+                            "url": "https://github.com/msft-ai-demos/MICO-BOT/blob/main/media/weathericons/${dialog.ikinci_icon}.png?raw=true",
+                            "size": "Medium",
+                            "width": "30px",
+                            "height": "30px",
+                            "horizontalAlignment": "Center"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.ikinci_sicaklik}°C",
+                            "wrap": true,
+                            "height": "stretch",
+                            "horizontalAlignment": "Center",
+                            "weight": "Bolder"
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.ucuncu_saat}",
+                            "wrap": true,
+                            "height": "stretch",
+                            "horizontalAlignment": "Center"
+                        },
+                        {
+                            "type": "Image",
+                            "url": "https://github.com/msft-ai-demos/MICO-BOT/blob/main/media/weathericons/${dialog.ucuncu_icon}.png?raw=true",
+                            "size": "Medium",
+                            "width": "30px",
+                            "height": "30px",
+                            "horizontalAlignment": "Center"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.ucuncu_sicaklik}°C",
+                            "wrap": true,
+                            "height": "stretch",
+                            "horizontalAlignment": "Center",
+                            "weight": "Bolder"
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.dorduncu_saat}",
+                            "wrap": true,
+                            "height": "stretch",
+                            "horizontalAlignment": "Center"
+                        },
+                        {
+                            "type": "Image",
+                            "url": "https://github.com/msft-ai-demos/MICO-BOT/blob/main/media/weathericons/${dialog.dorduncu_icon}.png?raw=true",
+                            "size": "Medium",
+                            "width": "30px",
+                            "height": "30px",
+                            "horizontalAlignment": "Center"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.dorduncu_sicaklik}°C",
+                            "wrap": true,
+                            "height": "stretch",
+                            "horizontalAlignment": "Center",
+                            "weight": "Bolder"
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.besinci_saat}",
+                            "wrap": true,
+                            "height": "stretch",
+                            "horizontalAlignment": "Center"
+                        },
+                        {
+                            "type": "Image",
+                            "url": "https://github.com/msft-ai-demos/MICO-BOT/blob/main/media/weathericons/${dialog.besinci_icon}.png?raw=true",
+                            "size": "Medium",
+                            "width": "30px",
+                            "height": "30px",
+                            "horizontalAlignment": "Center"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.besinci_sicaklik}°C",
+                            "wrap": true,
+                            "height": "stretch",
+                            "horizontalAlignment": "Center",
+                            "weight": "Bolder"
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.altinci_saat}",
+                            "wrap": true,
+                            "height": "stretch",
+                            "horizontalAlignment": "Center"
+                        },
+                        {
+                            "type": "Image",
+                            "url": "https://github.com/msft-ai-demos/MICO-BOT/blob/main/media/weathericons/${dialog.altinci_icon}.png?raw=true",
+                            "size": "Medium",
+                            "width": "30px",
+                            "height": "30px",
+                            "horizontalAlignment": "Center"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.altinci_sicaklik}°C",
+                            "wrap": true,
+                            "height": "stretch",
+                            "horizontalAlignment": "Center",
+                            "weight": "Bolder"
+                        }
+                    ]
+                }
+            ],
+            "spacing": "Large"
+        },
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.gun_adi2}",
+                            "wrap": true,
+                            "height": "stretch",
+                            "horizontalAlignment": "Center",
+                            "weight": "Bolder"
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "Image",
+                            "url": "https://github.com/msft-ai-demos/MICO-BOT/blob/main/media/weathericons/${dialog.icon_day2}.png?raw=true",
+                            "size": "Medium",
+                            "width": "20px",
+                            "height": "20px",
+                            "horizontalAlignment": "Center"
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.max_day2}°C",
+                            "wrap": true,
+                            "height": "stretch",
+                            "horizontalAlignment": "Center",
+                            "weight": "Bolder"
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.min_day2}°C",
+                            "wrap": true,
+                            "height": "stretch",
+                            "horizontalAlignment": "Center"
+                        }
+                    ]
+                }
+            ],
+            "spacing": "Large"
+        },
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.gun_adi3}",
+                            "wrap": true,
+                            "height": "stretch",
+                            "horizontalAlignment": "Center",
+                            "weight": "Bolder"
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "Image",
+                            "url": "https://github.com/msft-ai-demos/MICO-BOT/blob/main/media/weathericons/${dialog.icon_day3}.png?raw=true",
+                            "size": "Medium",
+                            "width": "20px",
+                            "height": "20px",
+                            "horizontalAlignment": "Center"
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.max_day3}°C",
+                            "wrap": true,
+                            "height": "stretch",
+                            "horizontalAlignment": "Center",
+                            "weight": "Bolder"
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.min_day3}°C",
+                            "wrap": true,
+                            "height": "stretch",
+                            "horizontalAlignment": "Center"
+                        }
+                    ]
+                }
+            ],
+            "spacing": "Small"
+        },
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.gun_adi4}",
+                            "wrap": true,
+                            "height": "stretch",
+                            "horizontalAlignment": "Center",
+                            "weight": "Bolder"
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "Image",
+                            "url": "https://github.com/msft-ai-demos/MICO-BOT/blob/main/media/weathericons/${dialog.icon_day4}.png?raw=true",
+                            "size": "Medium",
+                            "width": "20px",
+                            "height": "20px",
+                            "horizontalAlignment": "Center"
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.max_day4}°C",
+                            "wrap": true,
+                            "height": "stretch",
+                            "horizontalAlignment": "Center",
+                            "weight": "Bolder"
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.min_day4}°C",
+                            "wrap": true,
+                            "height": "stretch",
+                            "horizontalAlignment": "Center"
+                        }
+                    ]
+                }
+            ],
+            "spacing": "Small"
+        },
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.gun_adi5}",
+                            "wrap": true,
+                            "height": "stretch",
+                            "horizontalAlignment": "Center",
+                            "weight": "Bolder"
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "Image",
+                            "url": "https://github.com/msft-ai-demos/MICO-BOT/blob/main/media/weathericons/${dialog.icon_day5}.png?raw=true",
+                            "size": "Medium",
+                            "width": "20px",
+                            "height": "20px",
+                            "horizontalAlignment": "Center"
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.max_day5}°C",
+                            "wrap": true,
+                            "height": "stretch",
+                            "horizontalAlignment": "Center",
+                            "weight": "Bolder"
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.min_day5}°C",
+                            "wrap": true,
+                            "height": "stretch",
+                            "horizontalAlignment": "Center"
+                        }
+                    ]
+                }
+            ],
+            "spacing": "Small"
+        }
+    ],
+    "backgroundImage": {
+        "url": "https://images.squarespace-cdn.com/content/53196866e4b01396b75a422a/1521239232120-AA6ZITSKVQR2Q1GFMUJL/_B9B2232.jpg?format=1000w&content-type=image%2Fjpeg"
+    }
+}```
+# SendActivity_GFp4cF()
+[Activity
+    Attachments = ${json(SendActivity_GFp4cF_attachment_X9eynC())}
+]
+
+# SendActivity_dcIFDn()
+[Activity
+    Text = Hay aksi! Hava durumu bilgilerine ulaşamadım. Tekrar denemek ister misin?
+]
+

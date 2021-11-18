@@ -1,0 +1,62 @@
+{
+  "$kind": "Microsoft.AdaptiveDialog",
+  "$designer": {
+    "id": "ULtKpK",
+    "name": "greeting",
+    "description": ""
+  },
+  "autoEndDialog": true,
+  "defaultResultProperty": "dialog.result",
+  "triggers": [
+    {
+      "$kind": "Microsoft.OnBeginDialog",
+      "$designer": {
+        "name": "BeginDialog",
+        "description": "",
+        "id": "5G5xwC"
+      },
+      "actions": [
+        {
+          "$kind": "Microsoft.IfCondition",
+          "$designer": {
+            "id": "TvoB2x"
+          },
+          "condition": "exists(user.greeted)",
+          "elseActions": [
+            {
+              "$kind": "Microsoft.SendActivity",
+              "$designer": {
+                "id": "jf5jb6"
+              },
+              "activity": "${SendActivity_jf5jb6()}"
+            },
+            {
+              "$kind": "Microsoft.SetProperties",
+              "$designer": {
+                "id": "P6R1Cz"
+              },
+              "assignments": [
+                {
+                  "property": "user.greeted",
+                  "value": "true"
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "$kind": "Microsoft.SendActivity",
+              "$designer": {
+                "id": "jZvGaA"
+              },
+              "activity": "${SendActivity_jZvGaA()}"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "generator": "greeting.lg",
+  "recognizer": "greeting.lu.qna",
+  "id": "greeting"
+}
