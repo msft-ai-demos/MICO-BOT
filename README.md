@@ -9,7 +9,7 @@ Miço, sizin Microsoft Teams'deki sanal asistanınız.
 Miço size bir çok konuda yardımcı olabilecek ve sohbet edebilecek bir sanal asistandır. Ona Türkiye'deki hava durumu bilgilerinden, döviz kurlarına ve dönüşümlerine; güncel haberlerden, ansiklopedi tanımını merak ettiğiniz bir konuya, kişiye, eşyaya kadar bir çok şeyi sorabilirsiniz. Onunla Teams'den çıkmadan kısa çeviriler yapabilir, ve ona feedback verebilirsiniz. Üstelik Miço'yu kendi Teams'inizde de kurabilirsiniz. 
 
 <p float="left">
-  <img src="https://user-images.githubusercontent.com/14835957/133957964-bb5dc633-1aa5-4924-affc-0d50433030b9.jpeg" width=30% height=30% />
+  <img src="https://user-images.githubusercontent.com/14835957/133957964-bb5dc633-1aa5-4924-affc-0d50433030b9.jpeg" width=30% height=25% />
   <img src="https://user-images.githubusercontent.com/14835957/133957977-61e3c06c-6e31-4b71-b36a-adc002e70fe8.jpeg" width=25% height=25% /> 
   <img src="https://user-images.githubusercontent.com/14835957/133957989-b65c0daa-d799-4b90-9acf-147d525bc60e.jpeg" width=25% height=25% /> 
 </p>
