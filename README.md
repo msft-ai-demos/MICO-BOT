@@ -284,6 +284,9 @@ Koordinatlar elde edildikten sonra, bu koordinat bilgisi ile hava durumuna sorgu
 
 ![image](https://user-images.githubusercontent.com/14835957/133774824-e4d57c5c-ba64-4d4c-91a7-7f7ac95b5fc5.png)
 
+## Not
+
+Mevcut uygulama Bot Composer v2.0.0 içerisinde çalışmaktadır. Güncellemeler için [linkini](https://staticsint.teams.cdn.office.net/evergreen-assets/safelinks/1/atp-safelinks.html) takip edebilirsiniz.
 
 ## Lisans
 
