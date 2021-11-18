@@ -1,8 +1,0 @@
-{
-  "$kind": "Microsoft.MultiLanguageRecognizer",
-  "id": "LUIS_botmico",
-  "recognizers": {
-    "en-us": "botmico.en-us.lu",
-    "": "botmico.en-us.lu"
-  }
-}

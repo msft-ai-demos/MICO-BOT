@@ -1,0 +1,10 @@
+{
+    "luis": {
+        "botmico_en_us_lu": {
+            "appId": "<your_luis_app_id>"
+        },
+        "selamlama_en_us_lu": {
+            "appId": "<your_luis_app_id>"
+        }
+    }
+}

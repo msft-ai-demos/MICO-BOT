@@ -1,0 +1,7 @@
+{
+    "qna": {
+        "botmico_en_us_qna": "892b7814-f8cc-435b-9caa-ed108d5122c2",
+        "hostname": "https://mico-qna.azurewebsites.net/qnamaker",
+        "selamlama_en_us_qna": "892b7814-f8cc-435b-9caa-ed108d5122c2"
+    }
+}
