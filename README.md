@@ -294,12 +294,12 @@ Bu kısım için [Azure Maps API Dökümantasyonu](https://docs.microsoft.com/en
 
 İlk olarak gelen şehir bilgisinden, bu şehrin koordinatları çekilmekte.
 
-<img src="https://user-images.githubusercontent.com/14835957/133774679-72c8852f-2c84-4a47-b7de-f27f3b4ea9ed.png" width=60% height=60% /> 
+<img src="https://user-images.githubusercontent.com/14835957/133774679-72c8852f-2c84-4a47-b7de-f27f3b4ea9ed.png" width=50% height=50% /> 
 
 Koordinatlar elde edildikten sonra, bu koordinat bilgisi ile hava durumuna sorgu atabiliriz.
 
 
-<img src="https://user-images.githubusercontent.com/14835957/133774824-e4d57c5c-ba64-4d4c-91a7-7f7ac95b5fc5.png" width=60% height=60% /> 
+<img src="https://user-images.githubusercontent.com/14835957/133774824-e4d57c5c-ba64-4d4c-91a7-7f7ac95b5fc5.png" width=50% height=50% /> 
 
 
 ## Not
