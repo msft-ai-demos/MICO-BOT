@@ -1,5 +1,10 @@
 [import](common.lg)
 
+# SendActivity_rfRL9Z()
+[Activity
+    SuggestedActions = Hava Durumu | Piyasa | Ansiklopedi | Haberler | Teams Sorunları | Outlook Sorunları | İzin Bilgilerim | Bordro Bilgileri | Yemek Menüsü | Tarifler
+]
+
 # SendActivity_iHmYOd_attachment_cbQwOX()
 > To learn more Adaptive Cards format, read the documentation at
 > https://docs.microsoft.com/en-us/adaptive-cards/getting-started/bots
@@ -22,7 +27,7 @@
                         {
                             "type": "TextBlock",
                             "wrap": true,
-                            "text": "Sana hava durumu, döviz kurları, haberler ve daha birçok konuda yardımcı olabilirim.",
+                            "text": "İşte Yardımcı olabileceğim bazı konular:",
                             "color": "Dark"
                         }
                     ]
@@ -49,6 +54,4 @@
 # SendActivity_iHmYOd()
 [Activity
     Attachments = ${json(SendActivity_iHmYOd_attachment_cbQwOX())}
-    SuggestedActions = Hava Durumu | Haberler | Teams Sorunları | Outlook Sorunları | Piyasa
 ]
-

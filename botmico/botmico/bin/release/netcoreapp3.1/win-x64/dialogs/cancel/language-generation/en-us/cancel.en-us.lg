@@ -2,11 +2,6 @@
 
 # SendActivity_5fkwsj()
 [Activity
-    Text = ${SendActivity_5fkwsj_text()}
+    Text = Seninle konuşmak çok güzeldi! 
 ]
 
-# SendActivity_5fkwsj_text()
-- Seninle konuşmak çok güzeldi!
-- Tekrar konuşmayı iple çekiyorum
-- Tekrar konuşmak dileğiyle
-- Seninle konuşmak çok keyifliydi!

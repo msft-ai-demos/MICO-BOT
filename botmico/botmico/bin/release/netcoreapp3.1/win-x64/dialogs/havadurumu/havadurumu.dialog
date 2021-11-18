@@ -24,6 +24,14 @@
           "activity": "${SendActivity_ejZvzO()}"
         },
         {
+          "$kind": "Microsoft.SetProperty",
+          "$designer": {
+            "id": "caTsiN"
+          },
+          "property": "dialog.saname",
+          "value": "=string(\"micostorage\")"
+        },
+        {
           "$kind": "Microsoft.SetProperties",
           "$designer": {
             "id": "G1KdWQ"
@@ -69,6 +77,10 @@
             {
               "property": "dialog.entity",
               "value": "=turn.recognized.entities"
+            },
+            {
+              "property": "dialog.haftaningunu",
+              "value": "=dialog.haftaarray[dialog.dayoftheweek]"
             }
           ]
         },

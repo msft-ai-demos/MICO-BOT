@@ -31,7 +31,7 @@
           "assignments": [
             {
               "property": "dialog.maps_key",
-              "value": "=string(\"LILTwwLjUXXatTUIXkaJGM_rLU6wxrroSXArn3hlcOw\")"
+              "value": "=string(\"<your-bing-maps-key>\")"
             }
           ]
         },
@@ -69,6 +69,10 @@
             {
               "property": "dialog.entity",
               "value": "=turn.recognized.entities"
+            },
+            {
+              "property": "dialog.haftaningunu",
+              "value": "=dialog.haftaarray[dialog.dayoftheweek]"
             }
           ]
         },
@@ -141,19 +145,8 @@
                         {
                           "property": "dialog.lon",
                           "value": "=string(dialog.api_response.content.results[0].position.lon, 'en-US')"
-                        },
-                        {
-                          "property": "dialog.sehir_name",
-                          "value": "=dialog.api_response.content.results[0].address.municipality"
                         }
                       ]
-                    },
-                    {
-                      "$kind": "Microsoft.SendActivity",
-                      "$designer": {
-                        "id": "QwfNRZ"
-                      },
-                      "activity": "${SendActivity_QwfNRZ()}"
                     },
                     {
                       "$kind": "Microsoft.HttpRequest",
@@ -1587,10 +1580,6 @@
                         {
                           "property": "dialog.lon",
                           "value": "=string(dialog.api_response.content.results[0].position.lon, 'en-US')"
-                        },
-                        {
-                          "property": "dialog.sehir_name",
-                          "value": "=dialog.api_response.content.results[0].address.municipality"
                         }
                       ]
                     }
@@ -2561,33 +2550,17 @@
               ],
               "elseActions": [
                 {
-                  "$kind": "Microsoft.ChoiceInput",
+                  "$kind": "Microsoft.TextInput",
                   "$designer": {
-                    "id": "Jk3YlQ"
+                    "id": "2sjJYU"
                   },
-                  "defaultLocale": "en-us",
                   "disabled": false,
-                  "maxTurnCount": 1,
+                  "maxTurnCount": 3,
                   "alwaysPrompt": true,
                   "allowInterruptions": false,
-                  "prompt": "${ChoiceInput_Prompt_Jk3YlQ()}",
-                  "unrecognizedPrompt": "",
+                  "prompt": "${TextInput_Prompt_2sjJYU()}",
                   "invalidPrompt": "",
-                  "choiceOptions": {
-                    "includeNumbers": true,
-                    "inlineOrMore": ", or ",
-                    "inlineOr": " or "
-                  },
-                  "property": "user.sehir",
-                  "choices": [
-                    "Ankara",
-                    "İzmir"
-                  ],
-                  "style": "suggestedAction",
-                  "recognizerOptions": {
-                    "recognizeOrdinals": true
-                  },
-                  "value": "user.sehir"
+                  "property": "user.sehir"
                 },
                 {
                   "$kind": "Microsoft.SetProperties",
@@ -2604,13 +2577,6 @@
                       "value": "=\"null\""
                     }
                   ]
-                },
-                {
-                  "$kind": "Microsoft.SendActivity",
-                  "$designer": {
-                    "id": "fTYuRN"
-                  },
-                  "activity": "${SendActivity_fTYuRN()}"
                 },
                 {
                   "$kind": "Microsoft.HttpRequest",

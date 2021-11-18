@@ -297,37 +297,10 @@
                                   "activity": "${SendActivity_AG81Kz()}"
                                 }
                               ]
-                            },
-                            {
-                              "value": "dil",
-                              "actions": [
-                                {
-                                  "$kind": "Microsoft.SendActivity",
-                                  "$designer": {
-                                    "id": "MLnCTs"
-                                  },
-                                  "activity": "${SendActivity_MLnCTs()}"
-                                }
-                              ]
                             }
                           ],
                           "condition": "=dialog.turns.soruntip[0][0]",
-                          "default": [
-                            {
-                              "$kind": "Microsoft.SendActivity",
-                              "$designer": {
-                                "id": "zpSrKu"
-                              },
-                              "activity": "${SendActivity_zpSrKu()}"
-                            },
-                            {
-                              "$kind": "Microsoft.SendActivity",
-                              "$designer": {
-                                "id": "NSJ4U5"
-                              },
-                              "activity": "${SendActivity_NSJ4U5()}"
-                            }
-                          ]
+                          "default": []
                         }
                       ],
                       "elseActions": [

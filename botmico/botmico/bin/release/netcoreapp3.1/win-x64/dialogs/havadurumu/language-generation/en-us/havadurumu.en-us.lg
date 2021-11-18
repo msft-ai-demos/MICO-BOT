@@ -61,7 +61,7 @@
                     "items": [
                         {
                             "type": "Image",
-                            "url": "https://botmicosa.blob.core.windows.net/weathericons/${dialog.icon_day1}.png",
+                            "url": "https://${dialog.saname}.blob.core.windows.net/weathericons/${dialog.icon_day1}.png",
                             "size": "Medium",
                             "width": "60px",
                             "height": "60px",
@@ -161,7 +161,7 @@
                         },
                         {
                             "type": "Image",
-                            "url": "https://botmicosa.blob.core.windows.net/weathericons/${dialog.ilk_icon}.png",
+                            "url": "https://${dialog.saname}.blob.core.windows.net/weathericons/${dialog.ilk_icon}.png",
                             "size": "Medium",
                             "width": "30px",
                             "height": "30px",
@@ -190,7 +190,7 @@
                         },
                         {
                             "type": "Image",
-                            "url": "https://botmicosa.blob.core.windows.net/weathericons/${dialog.ikinci_icon}.png",
+                            "url": "https://${dialog.saname}.blob.core.windows.net/weathericons/${dialog.ikinci_icon}.png",
                             "size": "Medium",
                             "width": "30px",
                             "height": "30px",
@@ -219,7 +219,7 @@
                         },
                         {
                             "type": "Image",
-                            "url": "https://botmicosa.blob.core.windows.net/weathericons/${dialog.ucuncu_icon}.png",
+                            "url": "https://${dialog.saname}.blob.core.windows.net/weathericons/${dialog.ucuncu_icon}.png",
                             "size": "Medium",
                             "width": "30px",
                             "height": "30px",
@@ -248,7 +248,7 @@
                         },
                         {
                             "type": "Image",
-                            "url": "https://botmicosa.blob.core.windows.net/weathericons/${dialog.dorduncu_icon}.png",
+                            "url": "https://${dialog.saname}.blob.core.windows.net/weathericons/${dialog.dorduncu_icon}.png",
                             "size": "Medium",
                             "width": "30px",
                             "height": "30px",
@@ -277,7 +277,7 @@
                         },
                         {
                             "type": "Image",
-                            "url": "https://botmicosa.blob.core.windows.net/weathericons/${dialog.besinci_icon}.png",
+                            "url": "https://${dialog.saname}.blob.core.windows.net/weathericons/${dialog.besinci_icon}.png",
                             "size": "Medium",
                             "width": "30px",
                             "height": "30px",
@@ -306,7 +306,7 @@
                         },
                         {
                             "type": "Image",
-                            "url": "https://botmicosa.blob.core.windows.net/weathericons/${dialog.altinci_icon}.png",
+                            "url": "https://${dialog.saname}.blob.core.windows.net/weathericons/${dialog.altinci_icon}.png",
                             "size": "Medium",
                             "width": "30px",
                             "height": "30px",
@@ -372,7 +372,7 @@
                     "items": [
                         {
                             "type": "Image",
-                            "url": "https://botmicosa.blob.core.windows.net/weathericons/${dialog.icon_day1}.png",
+                            "url": "https://${dialog.saname}.blob.core.windows.net/weathericons/${dialog.icon_day1}.png",
                             "size": "Medium",
                             "width": "60px",
                             "height": "60px",
@@ -471,7 +471,7 @@
                         },
                         {
                             "type": "Image",
-                            "url": "https://botmicosa.blob.core.windows.net/weathericons/${dialog.ilk_icon}.png",
+                            "url": "https://${dialog.saname}.blob.core.windows.net/weathericons/${dialog.ilk_icon}.png",
                             "size": "Medium",
                             "width": "30px",
                             "height": "30px",
@@ -500,7 +500,7 @@
                         },
                         {
                             "type": "Image",
-                            "url": "https://botmicosa.blob.core.windows.net/weathericons/${dialog.ikinci_icon}.png",
+                            "url": "https://${dialog.saname}.blob.core.windows.net/weathericons/${dialog.ikinci_icon}.png",
                             "size": "Medium",
                             "width": "30px",
                             "height": "30px",
@@ -529,7 +529,7 @@
                         },
                         {
                             "type": "Image",
-                            "url": "https://botmicosa.blob.core.windows.net/weathericons/${dialog.ucuncu_icon}.png",
+                            "url": "https://${dialog.saname}.blob.core.windows.net/weathericons/${dialog.ucuncu_icon}.png",
                             "size": "Medium",
                             "width": "30px",
                             "height": "30px",
@@ -558,7 +558,7 @@
                         },
                         {
                             "type": "Image",
-                            "url": "https://botmicosa.blob.core.windows.net/weathericons/${dialog.dorduncu_icon}.png",
+                            "url": "https://${dialog.saname}.blob.core.windows.net/weathericons/${dialog.dorduncu_icon}.png",
                             "size": "Medium",
                             "width": "30px",
                             "height": "30px",
@@ -587,7 +587,7 @@
                         },
                         {
                             "type": "Image",
-                            "url": "https://botmicosa.blob.core.windows.net/weathericons/${dialog.besinci_icon}.png",
+                            "url": "https://${dialog.saname}.blob.core.windows.net/weathericons/${dialog.besinci_icon}.png",
                             "size": "Medium",
                             "width": "30px",
                             "height": "30px",
@@ -616,7 +616,7 @@
                         },
                         {
                             "type": "Image",
-                            "url": "https://botmicosa.blob.core.windows.net/weathericons/${dialog.altinci_icon}.png",
+                            "url": "https://${dialog.saname}.blob.core.windows.net/weathericons/${dialog.altinci_icon}.png",
                             "size": "Medium",
                             "width": "30px",
                             "height": "30px",
@@ -658,7 +658,7 @@
                     "items": [
                         {
                             "type": "Image",
-                            "url": "https://botmicosa.blob.core.windows.net/weathericons/${dialog.icon_day2}.png",
+                            "url": "https://${dialog.saname}.blob.core.windows.net/weathericons/${dialog.icon_day2}.png",
                             "size": "Medium",
                             "width": "20px",
                             "height": "20px",
@@ -719,7 +719,7 @@
                     "items": [
                         {
                             "type": "Image",
-                            "url": "https://botmicosa.blob.core.windows.net/weathericons/${dialog.icon_day3}.png",
+                            "url": "https://${dialog.saname}.blob.core.windows.net/weathericons/${dialog.icon_day3}.png",
                             "size": "Medium",
                             "width": "20px",
                             "height": "20px",
@@ -780,7 +780,7 @@
                     "items": [
                         {
                             "type": "Image",
-                            "url": "https://botmicosa.blob.core.windows.net/weathericons/${dialog.icon_day4}.png",
+                            "url": "https://${dialog.saname}.blob.core.windows.net/weathericons/${dialog.icon_day4}.png",
                             "size": "Medium",
                             "width": "20px",
                             "height": "20px",
@@ -841,7 +841,7 @@
                     "items": [
                         {
                             "type": "Image",
-                            "url": "https://botmicosa.blob.core.windows.net/weathericons/${dialog.icon_day5}.png",
+                            "url": "https://${dialog.saname}.blob.core.windows.net/weathericons/${dialog.icon_day5}.png",
                             "size": "Medium",
                             "width": "20px",
                             "height": "20px",
@@ -915,7 +915,7 @@
                     "items": [
                         {
                             "type": "Image",
-                            "url": "https://botmicosa.blob.core.windows.net/weathericons/${dialog.icon_day2}.png",
+                            "url": "https://${dialog.saname}.blob.core.windows.net/weathericons/${dialog.icon_day2}.png",
                             "size": "Medium",
                             "width": "60px",
                             "height": "60px",
@@ -1015,7 +1015,7 @@
                         },
                         {
                             "type": "Image",
-                            "url": "https://botmicosa.blob.core.windows.net/weathericons/${dialog.ilk_icon}.png",
+                            "url": "https://${dialog.saname}.blob.core.windows.net/weathericons/${dialog.ilk_icon}.png",
                             "size": "Medium",
                             "width": "30px",
                             "height": "30px",
@@ -1044,7 +1044,7 @@
                         },
                         {
                             "type": "Image",
-                            "url": "https://botmicosa.blob.core.windows.net/weathericons/${dialog.ikinci_icon}.png",
+                            "url": "https://${dialog.saname}.blob.core.windows.net/weathericons/${dialog.ikinci_icon}.png",
                             "size": "Medium",
                             "width": "30px",
                             "height": "30px",
@@ -1073,7 +1073,7 @@
                         },
                         {
                             "type": "Image",
-                            "url": "https://botmicosa.blob.core.windows.net/weathericons/${dialog.ucuncu_icon}.png",
+                            "url": "https://${dialog.saname}.blob.core.windows.net/weathericons/${dialog.ucuncu_icon}.png",
                             "size": "Medium",
                             "width": "30px",
                             "height": "30px",
@@ -1102,7 +1102,7 @@
                         },
                         {
                             "type": "Image",
-                            "url": "https://botmicosa.blob.core.windows.net/weathericons/${dialog.dorduncu_icon}.png",
+                            "url": "https://${dialog.saname}.blob.core.windows.net/weathericons/${dialog.dorduncu_icon}.png",
                             "size": "Medium",
                             "width": "30px",
                             "height": "30px",
@@ -1131,7 +1131,7 @@
                         },
                         {
                             "type": "Image",
-                            "url": "https://botmicosa.blob.core.windows.net/weathericons/${dialog.besinci_icon}.png",
+                            "url": "https://${dialog.saname}.blob.core.windows.net/weathericons/${dialog.besinci_icon}.png",
                             "size": "Medium",
                             "width": "30px",
                             "height": "30px",
@@ -1160,7 +1160,7 @@
                         },
                         {
                             "type": "Image",
-                            "url": "https://botmicosa.blob.core.windows.net/weathericons/${dialog.altinci_icon}.png",
+                            "url": "https://${dialog.saname}.blob.core.windows.net/weathericons/${dialog.altinci_icon}.png",
                             "size": "Medium",
                             "width": "30px",
                             "height": "30px",
@@ -1231,7 +1231,7 @@
                     "items": [
                         {
                             "type": "Image",
-                            "url": "https://botmicosa.blob.core.windows.net/weathericons/${dialog.icon_day1}.png",
+                            "url": "https://${dialog.saname}.blob.core.windows.net/weathericons/${dialog.icon_day1}.png",
                             "size": "Medium",
                             "width": "60px",
                             "height": "60px",
@@ -1330,7 +1330,7 @@
                         },
                         {
                             "type": "Image",
-                            "url": "https://botmicosa.blob.core.windows.net/weathericons/${dialog.ilk_icon}.png",
+                            "url": "https://${dialog.saname}.blob.core.windows.net/weathericons/${dialog.ilk_icon}.png",
                             "size": "Medium",
                             "width": "30px",
                             "height": "30px",
@@ -1359,7 +1359,7 @@
                         },
                         {
                             "type": "Image",
-                            "url": "https://botmicosa.blob.core.windows.net/weathericons/${dialog.ikinci_icon}.png",
+                            "url": "https://${dialog.saname}.blob.core.windows.net/weathericons/${dialog.ikinci_icon}.png",
                             "size": "Medium",
                             "width": "30px",
                             "height": "30px",
@@ -1388,7 +1388,7 @@
                         },
                         {
                             "type": "Image",
-                            "url": "https://botmicosa.blob.core.windows.net/weathericons/${dialog.ucuncu_icon}.png",
+                            "url": "https://${dialog.saname}.blob.core.windows.net/weathericons/${dialog.ucuncu_icon}.png",
                             "size": "Medium",
                             "width": "30px",
                             "height": "30px",
@@ -1417,7 +1417,7 @@
                         },
                         {
                             "type": "Image",
-                            "url": "https://botmicosa.blob.core.windows.net/weathericons/${dialog.dorduncu_icon}.png",
+                            "url": "https://${dialog.saname}.blob.core.windows.net/weathericons/${dialog.dorduncu_icon}.png",
                             "size": "Medium",
                             "width": "30px",
                             "height": "30px",
@@ -1446,7 +1446,7 @@
                         },
                         {
                             "type": "Image",
-                            "url": "https://botmicosa.blob.core.windows.net/weathericons/${dialog.besinci_icon}.png",
+                            "url": "https://${dialog.saname}.blob.core.windows.net/weathericons/${dialog.besinci_icon}.png",
                             "size": "Medium",
                             "width": "30px",
                             "height": "30px",
@@ -1475,7 +1475,7 @@
                         },
                         {
                             "type": "Image",
-                            "url": "https://botmicosa.blob.core.windows.net/weathericons/${dialog.altinci_icon}.png",
+                            "url": "https://${dialog.saname}.blob.core.windows.net/weathericons/${dialog.altinci_icon}.png",
                             "size": "Medium",
                             "width": "30px",
                             "height": "30px",
@@ -1517,7 +1517,7 @@
                     "items": [
                         {
                             "type": "Image",
-                            "url": "https://botmicosa.blob.core.windows.net/weathericons/${dialog.icon_day2}.png",
+                            "url": "https://${dialog.saname}.blob.core.windows.net/weathericons/${dialog.icon_day2}.png",
                             "size": "Medium",
                             "width": "20px",
                             "height": "20px",
@@ -1578,7 +1578,7 @@
                     "items": [
                         {
                             "type": "Image",
-                            "url": "https://botmicosa.blob.core.windows.net/weathericons/${dialog.icon_day3}.png",
+                            "url": "https://${dialog.saname}.blob.core.windows.net/weathericons/${dialog.icon_day3}.png",
                             "size": "Medium",
                             "width": "20px",
                             "height": "20px",
@@ -1639,7 +1639,7 @@
                     "items": [
                         {
                             "type": "Image",
-                            "url": "https://botmicosa.blob.core.windows.net/weathericons/${dialog.icon_day4}.png",
+                            "url": "https://${dialog.saname}.blob.core.windows.net/weathericons/${dialog.icon_day4}.png",
                             "size": "Medium",
                             "width": "20px",
                             "height": "20px",
@@ -1700,7 +1700,7 @@
                     "items": [
                         {
                             "type": "Image",
-                            "url": "https://botmicosa.blob.core.windows.net/weathericons/${dialog.icon_day5}.png",
+                            "url": "https://${dialog.saname}.blob.core.windows.net/weathericons/${dialog.icon_day5}.png",
                             "size": "Medium",
                             "width": "20px",
                             "height": "20px",
@@ -1800,7 +1800,7 @@
                     "items": [
                         {
                             "type": "Image",
-                            "url": "https://botmicosa.blob.core.windows.net/weathericons/${dialog.icon_day1}.png",
+                            "url": "https://${dialog.saname}.blob.core.windows.net/weathericons/${dialog.icon_day1}.png",
                             "size": "Medium",
                             "width": "60px",
                             "height": "60px",
@@ -1899,7 +1899,7 @@
                         },
                         {
                             "type": "Image",
-                            "url": "https://botmicosa.blob.core.windows.net/weathericons/${dialog.ilk_icon}.png",
+                            "url": "https://${dialog.saname}.blob.core.windows.net/weathericons/${dialog.ilk_icon}.png",
                             "size": "Medium",
                             "width": "30px",
                             "height": "30px",
@@ -1928,7 +1928,7 @@
                         },
                         {
                             "type": "Image",
-                            "url": "https://botmicosa.blob.core.windows.net/weathericons/${dialog.ikinci_icon}.png",
+                            "url": "https://${dialog.saname}.blob.core.windows.net/weathericons/${dialog.ikinci_icon}.png",
                             "size": "Medium",
                             "width": "30px",
                             "height": "30px",
@@ -1957,7 +1957,7 @@
                         },
                         {
                             "type": "Image",
-                            "url": "https://botmicosa.blob.core.windows.net/weathericons/${dialog.ucuncu_icon}.png",
+                            "url": "https://${dialog.saname}.blob.core.windows.net/weathericons/${dialog.ucuncu_icon}.png",
                             "size": "Medium",
                             "width": "30px",
                             "height": "30px",
@@ -1986,7 +1986,7 @@
                         },
                         {
                             "type": "Image",
-                            "url": "https://botmicosa.blob.core.windows.net/weathericons/${dialog.dorduncu_icon}.png",
+                            "url": "https://${dialog.saname}.blob.core.windows.net/weathericons/${dialog.dorduncu_icon}.png",
                             "size": "Medium",
                             "width": "30px",
                             "height": "30px",
@@ -2015,7 +2015,7 @@
                         },
                         {
                             "type": "Image",
-                            "url": "https://botmicosa.blob.core.windows.net/weathericons/${dialog.besinci_icon}.png",
+                            "url": "https://${dialog.saname}.blob.core.windows.net/weathericons/${dialog.besinci_icon}.png",
                             "size": "Medium",
                             "width": "30px",
                             "height": "30px",
@@ -2044,7 +2044,7 @@
                         },
                         {
                             "type": "Image",
-                            "url": "https://botmicosa.blob.core.windows.net/weathericons/${dialog.altinci_icon}.png",
+                            "url": "https://${dialog.saname}.blob.core.windows.net/weathericons/${dialog.altinci_icon}.png",
                             "size": "Medium",
                             "width": "30px",
                             "height": "30px",
@@ -2086,7 +2086,7 @@
                     "items": [
                         {
                             "type": "Image",
-                            "url": "https://botmicosa.blob.core.windows.net/weathericons/${dialog.icon_day2}.png",
+                            "url": "https://${dialog.saname}.blob.core.windows.net/weathericons/${dialog.icon_day2}.png",
                             "size": "Medium",
                             "width": "20px",
                             "height": "20px",
@@ -2147,7 +2147,7 @@
                     "items": [
                         {
                             "type": "Image",
-                            "url": "https://botmicosa.blob.core.windows.net/weathericons/${dialog.icon_day3}.png",
+                            "url": "https://${dialog.saname}.blob.core.windows.net/weathericons/${dialog.icon_day3}.png",
                             "size": "Medium",
                             "width": "20px",
                             "height": "20px",
@@ -2208,7 +2208,7 @@
                     "items": [
                         {
                             "type": "Image",
-                            "url": "https://botmicosa.blob.core.windows.net/weathericons/${dialog.icon_day4}.png",
+                            "url": "https://${dialog.saname}.blob.core.windows.net/weathericons/${dialog.icon_day4}.png",
                             "size": "Medium",
                             "width": "20px",
                             "height": "20px",
@@ -2269,7 +2269,7 @@
                     "items": [
                         {
                             "type": "Image",
-                            "url": "https://botmicosa.blob.core.windows.net/weathericons/${dialog.icon_day5}.png",
+                            "url": "https://${dialog.saname}.blob.core.windows.net/weathericons/${dialog.icon_day5}.png",
                             "size": "Medium",
                             "width": "20px",
                             "height": "20px",
@@ -2325,6 +2325,7 @@
 # TextInput_Prompt_2sjJYU()
 [Activity
     Text = Nerenin hava durumunu öğrenmek istiyorsun?
+    SuggestedActions = Ankara | İstanbul | İzmir
 ]
 
 # SendActivity_v74OA6()
@@ -2384,7 +2385,7 @@
                     "items": [
                         {
                             "type": "Image",
-                            "url": "https://botmicosa.blob.core.windows.net/weathericons/${dialog.icon_day1}.png",
+                            "url": "https://${dialog.saname}.blob.core.windows.net/weathericons/${dialog.icon_day1}.png",
                             "size": "Medium",
                             "width": "60px",
                             "height": "60px",
@@ -2483,7 +2484,7 @@
                         },
                         {
                             "type": "Image",
-                            "url": "https://botmicosa.blob.core.windows.net/weathericons/${dialog.ilk_icon}.png",
+                            "url": "https://${dialog.saname}.blob.core.windows.net/weathericons/${dialog.ilk_icon}.png",
                             "size": "Medium",
                             "width": "30px",
                             "height": "30px",
@@ -2512,7 +2513,7 @@
                         },
                         {
                             "type": "Image",
-                            "url": "https://botmicosa.blob.core.windows.net/weathericons/${dialog.ikinci_icon}.png",
+                            "url": "https://${dialog.saname}.blob.core.windows.net/weathericons/${dialog.ikinci_icon}.png",
                             "size": "Medium",
                             "width": "30px",
                             "height": "30px",
@@ -2541,7 +2542,7 @@
                         },
                         {
                             "type": "Image",
-                            "url": "https://botmicosa.blob.core.windows.net/weathericons/${dialog.ucuncu_icon}.png",
+                            "url": "https://${dialog.saname}.blob.core.windows.net/weathericons/${dialog.ucuncu_icon}.png",
                             "size": "Medium",
                             "width": "30px",
                             "height": "30px",
@@ -2599,7 +2600,7 @@
                         },
                         {
                             "type": "Image",
-                            "url": "https://botmicosa.blob.core.windows.net/weathericons/${dialog.besinci_icon}.png",
+                            "url": "https://${dialog.saname}.blob.core.windows.net/weathericons/${dialog.besinci_icon}.png",
                             "size": "Medium",
                             "width": "30px",
                             "height": "30px",
@@ -2628,7 +2629,7 @@
                         },
                         {
                             "type": "Image",
-                            "url": "https://botmicosa.blob.core.windows.net/weathericons/${dialog.altinci_icon}.png",
+                            "url": "https://${dialog.saname}.blob.core.windows.net/weathericons/${dialog.altinci_icon}.png",
                             "size": "Medium",
                             "width": "30px",
                             "height": "30px",
@@ -2670,7 +2671,7 @@
                     "items": [
                         {
                             "type": "Image",
-                            "url": "https://botmicosa.blob.core.windows.net/weathericons/${dialog.icon_day2}.png",
+                            "url": "https://${dialog.saname}.blob.core.windows.net/weathericons/${dialog.icon_day2}.png",
                             "size": "Medium",
                             "width": "20px",
                             "height": "20px",
@@ -2731,7 +2732,7 @@
                     "items": [
                         {
                             "type": "Image",
-                            "url": "https://botmicosa.blob.core.windows.net/weathericons/${dialog.icon_day3}.png",
+                            "url": "https://${dialog.saname}.blob.core.windows.net/weathericons/${dialog.icon_day3}.png",
                             "size": "Medium",
                             "width": "20px",
                             "height": "20px",
@@ -2792,7 +2793,7 @@
                     "items": [
                         {
                             "type": "Image",
-                            "url": "https://botmicosa.blob.core.windows.net/weathericons/${dialog.icon_day4}.png",
+                            "url": "https://${dialog.saname}.blob.core.windows.net/weathericons/${dialog.icon_day4}.png",
                             "size": "Medium",
                             "width": "20px",
                             "height": "20px",
@@ -2853,7 +2854,7 @@
                     "items": [
                         {
                             "type": "Image",
-                            "url": "https://botmicosa.blob.core.windows.net/weathericons/${dialog.icon_day5}.png",
+                            "url": "https://${dialog.saname}.blob.core.windows.net/weathericons/${dialog.icon_day5}.png",
                             "size": "Medium",
                             "width": "20px",
                             "height": "20px",
@@ -2937,7 +2938,7 @@
                     "items": [
                         {
                             "type": "Image",
-                            "url": "https://botmicosa.blob.core.windows.net/weathericons/${dialog.icon_day1}.png",
+                            "url": "https://${dialog.saname}.blob.core.windows.net/weathericons/${dialog.icon_day1}.png",
                             "size": "Medium",
                             "width": "60px",
                             "height": "60px",
@@ -3037,7 +3038,7 @@
                         },
                         {
                             "type": "Image",
-                            "url": "https://botmicosa.blob.core.windows.net/weathericons/${dialog.ilk_icon}.png",
+                            "url": "https://${dialog.saname}.blob.core.windows.net/weathericons/${dialog.ilk_icon}.png",
                             "size": "Medium",
                             "width": "30px",
                             "height": "30px",
@@ -3066,7 +3067,7 @@
                         },
                         {
                             "type": "Image",
-                            "url": "https://botmicosa.blob.core.windows.net/weathericons/${dialog.ikinci_icon}.png",
+                            "url": "https://${dialog.saname}.blob.core.windows.net/weathericons/${dialog.ikinci_icon}.png",
                             "size": "Medium",
                             "width": "30px",
                             "height": "30px",
@@ -3095,7 +3096,7 @@
                         },
                         {
                             "type": "Image",
-                            "url": "https://botmicosa.blob.core.windows.net/weathericons/${dialog.ucuncu_icon}.png",
+                            "url": "https://${dialog.saname}.blob.core.windows.net/weathericons/${dialog.ucuncu_icon}.png",
                             "size": "Medium",
                             "width": "30px",
                             "height": "30px",
@@ -3124,7 +3125,7 @@
                         },
                         {
                             "type": "Image",
-                            "url": "https://botmicosa.blob.core.windows.net/weathericons/${dialog.dorduncu_icon}.png",
+                            "url": "https://${dialog.saname}.blob.core.windows.net/weathericons/${dialog.dorduncu_icon}.png",
                             "size": "Medium",
                             "width": "30px",
                             "height": "30px",
@@ -3153,7 +3154,7 @@
                         },
                         {
                             "type": "Image",
-                            "url": "https://botmicosa.blob.core.windows.net/weathericons/${dialog.besinci_icon}.png",
+                            "url": "https://${dialog.saname}.blob.core.windows.net/weathericons/${dialog.besinci_icon}.png",
                             "size": "Medium",
                             "width": "30px",
                             "height": "30px",
@@ -3182,7 +3183,7 @@
                         },
                         {
                             "type": "Image",
-                            "url": "https://botmicosa.blob.core.windows.net/weathericons/${dialog.altinci_icon}.png",
+                            "url": "https://${dialog.saname}.blob.core.windows.net/weathericons/${dialog.altinci_icon}.png",
                             "size": "Medium",
                             "width": "30px",
                             "height": "30px",
@@ -3247,7 +3248,7 @@
                     "items": [
                         {
                             "type": "Image",
-                            "url": "https://botmicosa.blob.core.windows.net/weathericons/${dialog.icon_day2}.png",
+                            "url": "https://${dialog.saname}.blob.core.windows.net/weathericons/${dialog.icon_day2}.png",
                             "size": "Medium",
                             "width": "60px",
                             "height": "60px",
@@ -3347,7 +3348,7 @@
                         },
                         {
                             "type": "Image",
-                            "url": "https://botmicosa.blob.core.windows.net/weathericons/${dialog.ilk_icon}.png",
+                            "url": "https://${dialog.saname}.blob.core.windows.net/weathericons/${dialog.ilk_icon}.png",
                             "size": "Medium",
                             "width": "30px",
                             "height": "30px",
@@ -3376,7 +3377,7 @@
                         },
                         {
                             "type": "Image",
-                            "url": "https://botmicosa.blob.core.windows.net/weathericons/${dialog.ikinci_icon}.png",
+                            "url": "https://${dialog.saname}.blob.core.windows.net/weathericons/${dialog.ikinci_icon}.png",
                             "size": "Medium",
                             "width": "30px",
                             "height": "30px",
@@ -3434,7 +3435,7 @@
                         },
                         {
                             "type": "Image",
-                            "url": "https://botmicosa.blob.core.windows.net/weathericons/${dialog.dorduncu_icon}.png",
+                            "url": "https://${dialog.saname}.blob.core.windows.net/weathericons/${dialog.dorduncu_icon}.png",
                             "size": "Medium",
                             "width": "30px",
                             "height": "30px",
@@ -3492,7 +3493,7 @@
                         },
                         {
                             "type": "Image",
-                            "url": "https://botmicosa.blob.core.windows.net/weathericons/${dialog.altinci_icon}.png",
+                            "url": "https://${dialog.saname}.blob.core.windows.net/weathericons/${dialog.altinci_icon}.png",
                             "size": "Medium",
                             "width": "30px",
                             "height": "30px",
@@ -3563,7 +3564,7 @@
                     "items": [
                         {
                             "type": "Image",
-                            "url": "https://botmicosa.blob.core.windows.net/weathericons/${dialog.icon_day1}.png",
+                            "url": "https://${dialog.saname}.blob.core.windows.net/weathericons/${dialog.icon_day1}.png",
                             "size": "Medium",
                             "width": "60px",
                             "height": "60px",
@@ -3662,7 +3663,7 @@
                         },
                         {
                             "type": "Image",
-                            "url": "https://botmicosa.blob.core.windows.net/weathericons/${dialog.ilk_icon}.png",
+                            "url": "https://${dialog.saname}.blob.core.windows.net/weathericons/${dialog.ilk_icon}.png",
                             "size": "Medium",
                             "width": "30px",
                             "height": "30px",
@@ -3691,7 +3692,7 @@
                         },
                         {
                             "type": "Image",
-                            "url": "https://botmicosa.blob.core.windows.net/weathericons/${dialog.ikinci_icon}.png",
+                            "url": "https://${dialog.saname}.blob.core.windows.net/weathericons/${dialog.ikinci_icon}.png",
                             "size": "Medium",
                             "width": "30px",
                             "height": "30px",
@@ -3720,7 +3721,7 @@
                         },
                         {
                             "type": "Image",
-                            "url": "https://botmicosa.blob.core.windows.net/weathericons/${dialog.ucuncu_icon}.png",
+                            "url": "https://${dialog.saname}.blob.core.windows.net/weathericons/${dialog.ucuncu_icon}.png",
                             "size": "Medium",
                             "width": "30px",
                             "height": "30px",
@@ -3749,7 +3750,7 @@
                         },
                         {
                             "type": "Image",
-                            "url": "https://botmicosa.blob.core.windows.net/weathericons/${dialog.dorduncu_icon}.png",
+                            "url": "https://${dialog.saname}.blob.core.windows.net/weathericons/${dialog.dorduncu_icon}.png",
                             "size": "Medium",
                             "width": "30px",
                             "height": "30px",
@@ -3807,7 +3808,7 @@
                         },
                         {
                             "type": "Image",
-                            "url": "https://botmicosa.blob.core.windows.net/weathericons/${dialog.altinci_icon}.png",
+                            "url": "https://${dialog.saname}.blob.core.windows.net/weathericons/${dialog.altinci_icon}.png",
                             "size": "Medium",
                             "width": "30px",
                             "height": "30px",
@@ -3849,7 +3850,7 @@
                     "items": [
                         {
                             "type": "Image",
-                            "url": "https://botmicosa.blob.core.windows.net/weathericons/${dialog.icon_day2}.png",
+                            "url": "https://${dialog.saname}.blob.core.windows.net/weathericons/${dialog.icon_day2}.png",
                             "size": "Medium",
                             "width": "20px",
                             "height": "20px",
@@ -3910,7 +3911,7 @@
                     "items": [
                         {
                             "type": "Image",
-                            "url": "https://botmicosa.blob.core.windows.net/weathericons/${dialog.icon_day3}.png",
+                            "url": "https://${dialog.saname}.blob.core.windows.net/weathericons/${dialog.icon_day3}.png",
                             "size": "Medium",
                             "width": "20px",
                             "height": "20px",
@@ -3971,7 +3972,7 @@
                     "items": [
                         {
                             "type": "Image",
-                            "url": "https://botmicosa.blob.core.windows.net/weathericons/${dialog.icon_day4}.png",
+                            "url": "https://${dialog.saname}.blob.core.windows.net/weathericons/${dialog.icon_day4}.png",
                             "size": "Medium",
                             "width": "20px",
                             "height": "20px",
@@ -4032,7 +4033,7 @@
                     "items": [
                         {
                             "type": "Image",
-                            "url": "https://botmicosa.blob.core.windows.net/weathericons/${dialog.icon_day5}.png",
+                            "url": "https://${dialog.saname}.blob.core.windows.net/weathericons/${dialog.icon_day5}.png",
                             "size": "Medium",
                             "width": "20px",
                             "height": "20px",
@@ -4138,7 +4139,7 @@
                     "items": [
                         {
                             "type": "Image",
-                            "url": "https://botmicosa.blob.core.windows.net/weathericons/${dialog.icon_day1}.png",
+                            "url": "https://${dialog.saname}.blob.core.windows.net/weathericons/${dialog.icon_day1}.png",
                             "size": "Medium",
                             "width": "60px",
                             "height": "60px",
@@ -4237,7 +4238,7 @@
                         },
                         {
                             "type": "Image",
-                            "url": "https://botmicosa.blob.core.windows.net/weathericons/${dialog.ilk_icon}.png",
+                            "url": "https://${dialog.saname}.blob.core.windows.net/weathericons/${dialog.ilk_icon}.png",
                             "size": "Medium",
                             "width": "30px",
                             "height": "30px",
@@ -4266,7 +4267,7 @@
                         },
                         {
                             "type": "Image",
-                            "url": "https://botmicosa.blob.core.windows.net/weathericons/${dialog.ikinci_icon}.png",
+                            "url": "https://${dialog.saname}.blob.core.windows.net/weathericons/${dialog.ikinci_icon}.png",
                             "size": "Medium",
                             "width": "30px",
                             "height": "30px",
@@ -4295,7 +4296,7 @@
                         },
                         {
                             "type": "Image",
-                            "url": "https://botmicosa.blob.core.windows.net/weathericons/${dialog.ucuncu_icon}.png",
+                            "url": "https://${dialog.saname}.blob.core.windows.net/weathericons/${dialog.ucuncu_icon}.png",
                             "size": "Medium",
                             "width": "30px",
                             "height": "30px",
@@ -4324,7 +4325,7 @@
                         },
                         {
                             "type": "Image",
-                            "url": "https://botmicosa.blob.core.windows.net/weathericons/${dialog.dorduncu_icon}.png",
+                            "url": "https://${dialog.saname}.blob.core.windows.net/weathericons/${dialog.dorduncu_icon}.png",
                             "size": "Medium",
                             "width": "30px",
                             "height": "30px",
@@ -4353,7 +4354,7 @@
                         },
                         {
                             "type": "Image",
-                            "url": "https://botmicosa.blob.core.windows.net/weathericons/${dialog.besinci_icon}.png",
+                            "url": "https://${dialog.saname}.blob.core.windows.net/weathericons/${dialog.besinci_icon}.png",
                             "size": "Medium",
                             "width": "30px",
                             "height": "30px",
@@ -4382,7 +4383,7 @@
                         },
                         {
                             "type": "Image",
-                            "url": "https://botmicosa.blob.core.windows.net/weathericons/${dialog.altinci_icon}.png",
+                            "url": "https://${dialog.saname}.blob.core.windows.net/weathericons/${dialog.altinci_icon}.png",
                             "size": "Medium",
                             "width": "30px",
                             "height": "30px",
@@ -4424,7 +4425,7 @@
                     "items": [
                         {
                             "type": "Image",
-                            "url": "https://botmicosa.blob.core.windows.net/weathericons/${dialog.icon_day2}.png",
+                            "url": "https://${dialog.saname}.blob.core.windows.net/weathericons/${dialog.icon_day2}.png",
                             "size": "Medium",
                             "width": "20px",
                             "height": "20px",
@@ -4485,7 +4486,7 @@
                     "items": [
                         {
                             "type": "Image",
-                            "url": "https://botmicosa.blob.core.windows.net/weathericons/${dialog.icon_day3}.png",
+                            "url": "https://${dialog.saname}.blob.core.windows.net/weathericons/${dialog.icon_day3}.png",
                             "size": "Medium",
                             "width": "20px",
                             "height": "20px",
@@ -4546,7 +4547,7 @@
                     "items": [
                         {
                             "type": "Image",
-                            "url": "https://botmicosa.blob.core.windows.net/weathericons/${dialog.icon_day4}.png",
+                            "url": "https://${dialog.saname}.blob.core.windows.net/weathericons/${dialog.icon_day4}.png",
                             "size": "Medium",
                             "width": "20px",
                             "height": "20px",
@@ -4607,7 +4608,7 @@
                     "items": [
                         {
                             "type": "Image",
-                            "url": "https://botmicosa.blob.core.windows.net/weathericons/${dialog.icon_day5}.png",
+                            "url": "https://${dialog.saname}.blob.core.windows.net/weathericons/${dialog.icon_day5}.png",
                             "size": "Medium",
                             "width": "20px",
                             "height": "20px",
@@ -4659,3 +4660,4 @@
 [Activity
     Text = Hay aksi! Hava durumu bilgilerine ulaşamadım. Tekrar denemek ister misin?
 ]
+

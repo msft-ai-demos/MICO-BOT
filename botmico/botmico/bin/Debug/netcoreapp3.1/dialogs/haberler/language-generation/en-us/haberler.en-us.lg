@@ -515,8 +515,3 @@
     SuggestedActions = Güncel | Spor | Ekonomi | Dünya | Siyaset | Magazin
 ]
 
-
-# SendActivity_W75wxc()
-[Activity
-    Text = ${dialog.haber_api}
-]

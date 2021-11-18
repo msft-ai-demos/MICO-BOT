@@ -26,6 +26,14 @@
         {
           "$kind": "Microsoft.SetProperty",
           "$designer": {
+            "id": "ndELwH"
+          },
+          "property": "dialog.saname",
+          "value": "=string(\"micostorage\")"
+        },
+        {
+          "$kind": "Microsoft.SetProperty",
+          "$designer": {
             "id": "O7NG5p"
           },
           "property": "dialog.doviz_key",
@@ -1245,9 +1253,9 @@
                             {
                               "$kind": "Microsoft.SendActivity",
                               "$designer": {
-                                "id": "xcldEM"
+                                "id": "KgUDsm"
                               },
-                              "activity": "${SendActivity_xcldEM()}"
+                              "activity": "${SendActivity_KgUDsm()}"
                             }
                           ]
                         }
@@ -1622,6 +1630,13 @@
                             {
                               "$kind": "Microsoft.SendActivity",
                               "$designer": {
+                                "id": "Y3C8L3"
+                              },
+                              "activity": "${SendActivity_Y3C8L3()}"
+                            },
+                            {
+                              "$kind": "Microsoft.SendActivity",
+                              "$designer": {
                                 "id": "YCwpbr"
                               },
                               "activity": "${SendActivity_YCwpbr()}"
@@ -1705,6 +1720,13 @@
                                   }
                                 }
                               ]
+                            },
+                            {
+                              "$kind": "Microsoft.SendActivity",
+                              "$designer": {
+                                "id": "ptrqMw"
+                              },
+                              "activity": "${SendActivity_ptrqMw()}"
                             },
                             {
                               "$kind": "Microsoft.SendActivity",

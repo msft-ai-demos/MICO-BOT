@@ -2,16 +2,11 @@
 
 # SendActivity_87Jbeh()
 [Activity
-    Text = ${SendActivity_87Jbeh_text()}
+    Text = Tamam sana yardım edebilirim.
 ]
 
-# SendActivity_87Jbeh_text()
-- ```Sana şu konularda yardımcı olabilirim
-\- hava durumu
-\- piyasa, haberler
-\- şirketle ilgili bilgiler 
-\- yaklaşan etkinlikler
-\- izin günleri
-\- bordro bilgileri 
-\- yemekhane menüsü ve yemek tarifleri 
-Hadi bana bir şeyler sor!```
+# SendActivity_MUJjSO()
+[Activity
+    Text = Bana aşağıdaki konular hakkında bir şeyler sorabilirsin.
+    SuggestedActions = Hava Durumu | Piyasa Bilgileri | Haberler | Ansiklopedi | Teams Sorunları | Outlook Sorunları | Çeviri
+]

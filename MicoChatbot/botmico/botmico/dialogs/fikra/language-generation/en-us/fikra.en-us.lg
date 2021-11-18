@@ -1,0 +1,36 @@
+[import](common.lg)
+
+# SendActivity_Hb0VFy()
+[Activity
+    Text = ${SendActivity_Hb0VFy_text()}
+]
+
+# SendActivity_Hb0VFy_text()
+- ```Adamın biri Nasreddin Hocaya sormuş:
+\- Hoca bir mizah sitesi hacklenmiş duydun mu?
+\- Hoca demiş bana ne!
+\- Iyi ama hocam senin site hacklenmiş.
+\- iyi de o zaman sana ne!```
+- ```Temel araba sürerken kırmızı ışıkta geçmiş. Tabii bunu gören polis Temel'i durdurmuş. 
+Polis:
+– Ehliyet ve ruhsat beyefendi!
+Temel:
+– Verdunuzda mi isteysunuz?```
+- ```Hocaya sormuşlar
+\- Hocam dunyanın merkezi neresi?
+Hoca:
+\- Bing'e girip "dünyanın merkezi" diye arattır demiş.```
+- ```Temel ile Dursun kamp kurmuşlar. Gece Temel uyanmış ve hemen Dursun'u uyandırmış.
+Temel:
+\-Havaya pak ve pir sonuç çikar.
+Dursun:
+\-Havada duran bir sürü yıldiz ve ay var.
+Temel:
+\-Ula çadırımız çalınmış.
+```
+- ```Temel Eskişehir'den Ankara'ya gidecek bir trene binmiş. Karşısındakinin nereye gittiğini sormuş.
+İstanbul'a gittiğini öğrenince, 
+\- Teknoloji ne çadar celişti, pen purada oturayrum Ançara'ya, sen karşumda oturaysun İstanbul'a cideysun.```
+- ```Amirim tüm mahkumlar kaçmış!
++Ne! Nasıl olur? Ben size bütün çıkışları tutun demedim mi?!!
+\-Girişten kaçmışlar.```

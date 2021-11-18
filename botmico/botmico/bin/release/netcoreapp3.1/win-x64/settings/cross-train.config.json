@@ -6,7 +6,8 @@
         "greeting.en-us"
       ],
       "Cancel": [
-        "cancel.en-us"
+        "cancel.en-us",
+        "feedback.en-us"
       ],
       "Help": [
         "help.en-us"
@@ -32,18 +33,16 @@
       "feedback": [
         "feedback.en-us"
       ],
-      "yemek": [
-        "yemek.en-us"
-      ],
-      "tarif": [
-        "tarif.en-us"
+      "hrhelp": [
+        "hrhelp.en-us"
       ],
       "sorun": [
         "sorun.en-us"
       ],
       "vizyon": "",
       "etkinlik": "",
-      "ekip": ""
+      "ekip": "",
+      "yemekler": ""
     }
   }
 }

@@ -17,32 +17,7 @@
 ]
 
 
-# SendActivity_7gU8qA_attachment_qDyGmj()
-> To learn more Adaptive Cards format, read the documentation at
-> https://docs.microsoft.com/en-us/adaptive-cards/getting-started/bots
-- ```{
-    "type": "AdaptiveCard",
-    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
-    "version": "1.3",
-    "body": [
-        {
-            "type": "TextBlock",
-            "text": "${replace(dialog.snippet, '"', '')}",
-            "wrap": true
-        },
-        {
-            "type": "ActionSet",
-            "actions": [
-                {
-                    "type": "Action.OpenUrl",
-                    "title": "Wiki'de okumak için tıkla!",
-                    "url": "${dialog.link}"
-                }
-            ]
-        }
-    ]
-}```
-# SendActivity_7gU8qA()
-[Activity
-    Attachments = ${json(SendActivity_7gU8qA_attachment_qDyGmj())}
-]
+# SendActivity_1tA0Ct()
+-
+# SendActivity_JEpRHi()
+-

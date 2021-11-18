@@ -3,11 +3,8 @@
 - tamam
 - tamamdır
 - teşekkürler
-- çok teşekkürler
 - anladım
 - okey
-- ok
-- okk
 - teşekkürler
 - tesekkürler
 - tesekkurler
@@ -30,7 +27,6 @@
 - bitirelim
 - görüşürüz
 - sonra
-- sevindim
 
 
 # Help
@@ -40,12 +36,6 @@
 - yardıma ihtiyacım var
 - bana nasıl yardım edebilirsin
 - help
-- ne gibi becerilerin var
-- hangi sorulara cevap verebiliyorsun
-- yardım et bana
-- yardım istiyorum
-- yardım eder misin
-
 
 # None
 - where is my car?
@@ -58,51 +48,49 @@
 - duck
 
 # wiki
-- bana {@ wikitopic=global warming} nedir söyler misin
-- bana {@ wikitopic=gobekli tepe} nedir soyle
-- benim için {@ wikitopic=altin madenleri} nedir bakar mısın
-- {@ wikitopic=levrek} nedir
-- {@ wikitopic=gunes kremi} nedir
-- {@ wikitopic=kafein} nedir
-- {@ wikitopic= uzay} ne demek
-- {@ wikitopic= yildiz haritasi} ne demek
-- {@ wikitopic= canta sapi} ne demek soyler misin
-- bana {@ wikitopic=aforizma} nedir soyler misin
+- bana {@wikitopic=global warming} nedir söyler misin
+- bana {@wikitopic=gobekli tepe} nedir soyle
+- benim için {@wikitopic=altin madenleri} nedir bakar mısın
+- {@wikitopic=levrek} nedir
+- {@wikitopic=gunes kremi} nedir
+- {@wikitopic=kafein} nedir
+- mico, bana {@wikitopic=aforizma} nedir soyler misin?
 - ne nedir
 - nedir
-- {@ wikitopic=eyup sabri tuncer} nedir
-- {@ wikitopic= yapay zeka} nedir
-- {@ wikitopic=pesketaryen} ne anlama gelir
-- {@ wikitopic=tsunami} nasil olur
-- {@ wikitopic=vegan} ne anlama gelir
-- {@ wikitopic=homosapien} ne demek
-- {@ wikitopic=pilates} ne demektir
-- {@ wikitopic=vegan} nedir
+- {@wikitopic=eyup sabri tuncer} nedir
+- {@wikitopic=orman yangini} nedir
+- {@wikitopic=pesketaryen} ne anlama gelir
+- {@wikitopic=tsunami} nasil olur
+- {@wikitopic=vegan} ne anlama gelir
+- {@wikitopic=homosapien} ne demek
+- {@wikitopic=pilates} ne demektir
+- {@wikitopic=vegan} nedir
 - wiki
 - wiki how
-- {@ wikitopic=bill gates} kimdir
-- {@ wikitopic=resat nuri guntekin} kimdir
-- {@ wikitopic=nuri bilge ceylan} kimdir miço
-- wiki {@ wikitopic=kuresel isinma}
-- wiki {@ wikitopic=orman yangini}
-- wiki {@ topic=tsunami}
+- {@wikitopic=bill gates} kimdir
+- {@wikitopic=resat nuri guntekin} kimdir
+- {@wikitopic=nuri bilge ceylan} kimdir miço
+- wiki {@wikitopic=kuresel isinma}
+- wiki {@wikitopic=orman yangini}
+- wiki {@wikitopic=tsunami}
 - ansiklopedi
 - Ansiklopedi
-- {@ wikitopic=bilgisayar} wiki
-- {@ wikitopic=ayran} wiki
-- {@ wikitopic=mustafa kemal ataturk} wiki
-- wiki {@ wikitopic=pilates}
+- {@wikitopic=bilgisayar} wiki
+- {@wikitopic=ayran} wiki
+- {@wikitopic=mustafa kemal ataturk} wiki
+- wiki {@wikitopic=pilates}
 - wikipedia
-- {@ wikitopic=yangin} nasıl olur
-- {@ wikitopic=eminem} kimdir
-- {@ wikitopic= yasar nuri guntekin} kimdir
-- {@ wikitopic= ibiza} nerede
-- {@ wikitopic= brezilya} hangi
+- {@wikitopic=yangin} nasıl olur
+- {@wikitopic=eminem} kimdir
+- {@wikitopic= yasar nuri guntekin} kimdir
+- {@wikitopic= ibiza} nerede
+- {@wikitopic= brezilya} hangi
 
 @ ml wikitopic
 
 
 # fikra
+
 - bana bir fikra anlat
 - bir tane daha anlat
 - başka fıkra
@@ -114,9 +102,10 @@
 - bana fıkra söyle
 - bana komik bir fikra soyle
 - bana komik bir seyler anlat
-- benı guldurur musun
+- benı guldurur musun mico
 - fikra
 - şaka yap
+- saka
 - fikralarla turkiye
 - fıkra
 - fıkra anlatsana bana
@@ -130,15 +119,15 @@
 - komik bir seyler anlatir misin
 - komik fikran var mi lutfen
 - komik fıkra istiyorum
-- bana fikra anlat
-- beni guldur
+- mico bana fikra anlat
+- mico beni guldur
 - gülmek istiyorum
 - komik bir şeyler istiyorum
 - canım çok sıkılıyor
 - sıkıldım bana bir şeyler anlatır mısın
 
 # selamlama
-- selam nasılsın
+- selam, nasılsın
 - selam
 - naber
 - nasıl gidiyor
@@ -174,6 +163,7 @@
 
 
 # haber
+
 - haber
 - haberler
 - {@topic=ankara}'da en son ne olmuş
@@ -199,14 +189,7 @@
 - {@topic=ekonomi} haberleri neler
 - {@topic=elazig} ile ilgili haberleri getirsene
 - {@topic=elon musk} haberler
-- {@topic=sun express} haberler
-- {@topic= lc waikiki} haberler
-- {@topic= yapay zeka} haberler
-- {@topic= koc holding} haberler
-- {@topic= zara magaza} haberleri
-- {@topic= yapay zeka} haberleri
-- {@topic= koc holding} haberleri
-- {@topic= zara magaza} haberleri
+- {@topic=elon musk} haberler
 - {@topic=elon musk} haberleri neler
 - en yeni {@topic=surface} haberleri
 - en yeni {@topic=cay} haberlerini getirir misin?
@@ -277,7 +260,7 @@
 - başka {@topic=siyaset}
 - daha fazla {@topic=magazin} haberi getirir misin
 - biraz daha {@topic=teknoloji} haberi getirir misin
-- başka {@topic=siyaset} haberi getirir miisn
+- başka {@topic=siyaset} haberi getirir miisn?
 - başka {@topic=siyaset} haberi var mı
 
 @ ml topic
@@ -294,6 +277,7 @@
 
 
 # doviz
+
 - 20 japon yeni kaç tl
 - 42 isvicre franki kaç euro
 - 35 isviçre frankı kaç tl
@@ -337,7 +321,7 @@
 - döviz bilgisi
 - durum
 - piyasalar nasıl
-- piyasalar nasıl
+- piyasalar nasıl miço
 - franc ne kadar ediyor
 - freng kac ytl
 - isvicre frengi ne kadar
@@ -348,7 +332,7 @@
 - dolar kuru nasıl
 - euro kuru nasıl
 - euro nasıl
-- isviçre frangı nasıl
+- isviçre frangı nasıl?
 - dolar alış kaç
 - dolar satış kaç
 - dolar bugün kaç
@@ -418,42 +402,42 @@
 - {@city=ankara} hava
 - {@city=ankara} hava durumu
 - bugün hava nasıl miço
-- bugün {@city=istanbul}'da hava nasıl miço
-- havayı söyle mico
+- bugün {@city=istanbul}'da hava nasıl miço?
+- hava durumunu söyle mico
 - hava durumu nasıl mico
-- yarın {@city=izmir}'de hava nasıl olacak
-- haftaya {@city=ankara}'da hava nasıl olacak
-- bugün {@city=bursa}'da hava nasıl olacak 
-- hava nasıl olacak
-- hava bugün nasıl
-- hava durumu nasıl olacak
-- {@city=ankara}'daki havayı söyle
-- {@city=bodrum}'da hava durumu nasıl
-- {@city=aistanbul}'da hava nasıl olacak
-- hava bugün {@city=erzurum}'da nasıl
-- {@city=adana}'da hava durumu nasıl olacak 
-- havayı söyle
-- hava durumu nasıl 
-- hava nasıl olacak
-- hava bugün nasıl
-- hava durumu nasıl olacak
-- {@city=ankara}'daki havayı söyler
-- {@city=bodrum}'da hava durumu nasıl
-- {@city=aistanbul}'da hava nasıl olacak
-- hava bugün {@city=erzurum}'da nasıl
-- {@city=adana}'da hava durumu nasıl olacak
-- {@city=balikesir}'de hava bulutlu değil mi
-- {@city=bodrum} çok sıcak mı
+- yarın {@city=izmir}'de hava nasıl olacak?
+- haftaya {@city=ankara}'da hava nasıl olacak?
+- bugün {@city=bursa}'da hava nasıl olacak miço?
+- hava nasıl olacak mico
+- hava bugün nasıl mico
+- hava durumu nasıl olacak mico?
+- {@city=ankara}'daki havayı söyle mico
+- {@city=bodrum}'da hava durumu nasıl mico
+- {@city=aistanbul}'da hava nasıl olacak mico
+- hava bugün {@city=erzurum}'da nasıl mico
+- {@city=adana}'da hava durumu nasıl olacak mico?
+- havayı söyle miço
+- hava durumu nasıl miço
+- hava nasıl olacak miço
+- hava bugün nasıl miço
+- hava durumu nasıl olacak miço?
+- {@city=ankara}'daki havayı söyle miço
+- {@city=bodrum}'da hava durumu nasıl miço
+- {@city=aistanbul}'da hava nasıl olacak miço
+- hava bugün {@city=erzurum}'da nasıl miço
+- {@city=adana}'da hava durumu nasıl olacak miço?
+- {@city=balikesir}'de hava bulutlu değil mi?
+- {@city=bodrum} çok sıcak mı?
 - {@city=bodrum} hava nasıl
 - {@city=bodrum} yarın hava
 - {@city=bodrum} yarın hava
 - {@city=kayseri} haftalık hava
-- {@city=aksaray} bugün hava nasıl
-- {@city=erzurum}'da haftaya hava nasıl
-- {@city=elazig}'da hava nasıl
+- {@city=aksaray} bugün hava nasıl?
+- {@city=erzurum}'da haftaya hava nasıl?
+- {@city=elazig}'da hava nasıl?
 - {@city=aksaray}'da yarın hava nasıl
 - {@city=antalya} için yarın hava durumunu söyler misin?
-- bu hafta güneşli mi geçecek
+- bu hafta güneşli mi geçecek?
 - haftalık hava durumu {@city=bolu}
 - bu hafta hava açık mı olacak
 - bu hafta hava kapalı mı olacak
@@ -461,8 +445,8 @@
 - bu hafta kar yağar mı?
 - bugün {@city=ankara}'da yağmur yağacak mı?
 - bugün {@city=bodrumda} hava durumu nasıl
-- bugün dolu mu yağacak
-- bugün dolu yağar mı
+- bugün dolu mu yağacak?
+- bugün dolu yağar mı?
 - {@city=ankara} haftalık hava
 - bugun gunes var mi
 - bugün güneşli mi
@@ -496,16 +480,16 @@
 - hava nasıl {@city=izmir}
 - hava nasıl olacak yarın
 - bu hafta hava nasıl olacak?
-- bu hafta hava {@city=istanbul}'da nasıl olacak
-- bu hafta {@city=eskisehir}'de hava nasıl olacak
+- bu hafta hava {@city=istanbul}'da nasıl olacak?
+- bu hafta {@city=eskisehir}'de hava nasıl olacak?
 - haftalık hava durumuna bakmak istiyorum
 - hava ne durumda {@city=izmirde}
 - hava {@city=tokat}'ta sisli mi
-- {@city=inegol} bu hafta yagmurlu mu
+- {@city=inegol} bu hafta yagmurlu mu?
 - {@city=istanbul} neden bu kadar nemli
 - {@city=istanbul}'da kar var mı
 - {@city=izmirde} hava nasıl
-- {@city=kayseri} de haftaya soğuk mu geçecek
+- {@city=kayseri} de haftaya soğuk mu geçecek?
 - {@city=maras} neden cok soguk
 - {@city=mugla} yarin cok sicak mi
 - nem durumu bu hafta {@city=tekirdag}'da nasıl olacak?
@@ -513,12 +497,12 @@
 - şuan {@city=rize} karlı mı
 - bugün hava {@city=ankara}
 - {@city=trabzon} da suan yagmur yagiyor mu
-- yarin dolu var mi
-- yarin ne kadar sicak
+- yarin dolu var mi?
+- yarin ne kadar sicak?
 - yarın hava bodrum
-- yarın hava yagmurlu mu
-- yarın yagmur var mı
-- yarın yağmur yağacak mı
+- yarın hava yagmurlu mu?
+- yarın yagmur var mı?
+- yarın yağmur yağacak mı?
 
 @ ml city
 
@@ -630,24 +614,31 @@
 - eksik
 - sorun
 - hata
+- fb
 - görüş
 - talep
-- sana bir şey önereceğim
+- miço sana bir şey önereceğim
 - bir feedback vermek istiyorum
 - bir geribildirim vermek istiyorum
 - miço sana bir feedback vereceğim
-- feedbackim var
-- sana önerim var
+- mico feedbackim var
+- miço sana önerim var
 - önerim var
 - şikayetim var
 - şikayet 
 - görüş belirtmek istiyorum.
-- sana bir feedback verebilir miyim
+- sana bir feedback verebilir miyim?
 
 
 
 # sorun
-- sorun yasiyorum
+> add some example phrases to trigger this intent:
+> - please tell me the weather
+> - what is the weather like in {city=Seattle}
+
+> entity definitions:
+> @ ml city
+- mico sorun yasiyorum
 - outlook da sorun
 - outlook help
 - outlook ile ilgili sorun yasiyorum
@@ -655,7 +646,6 @@
 - outlook parola sıkıntı
 - outlook parolamı sıfırlamak istiyorum
 - outlook şifremi hatırlamıyorum
-- outlook performans sorunu yaşıyorum
 - parola sıkıntısı teams
 - parola sorunu outlook
 - şifre teams yardım
@@ -843,30 +833,69 @@
     - bordrosunu
     - bordromu
     - bordrosu
-# yemek
-- bugün menü nasıl
-- yemekhane menüsü nasıl
-- bugün yemekte ne var
-- yemekhanede ne var
-- bugun ne yicez
-- bugun yemek menusu ne
-- menüyü getir bugün
-- ne yicez
-- ne yiyeceğiz menü
-- ne yiyoruz
-- yarin ne yicez
-- yarin yemekte ne var
-- yemek menü
-- yemek menusu getir
-- yemek menüsünü getirir misin
-- yemekte ne cikacak getir
-- yemekte ne var
-- yemekte ne yiyeceğiz
-- yemek menusu
-- yemekhanede ne yemek var
-- yemekhane menüsü
+# vizyon
+> add some example phrases to trigger this intent:
+> - please tell me the weather
+> - what is the weather like in {city=Seattle}
 
-# tarif
+> entity definitions:
+> @ ml city
+- vizyon
+- misyon
+- şirket
+- şirket hakkında
+- microsoft
+- iletişim
+- değerler
+- topluluk
+
+# etkinlik
+> add some example phrases to trigger this intent:
+> - please tell me the weather
+> - what is the weather like in {city=Seattle}
+
+> entity definitions:
+> @ ml city
+- etkinlik
+- yaklaşan etkinlikler neler
+- aktivite
+- kulüp
+- eğitimler
+- bu aralar hangi eğitimlere katılabilirim
+- bu aralar hangi etkinlikler var
+- etkinlik takvimi
+- etkinlikler
+- yakınlardaki etkinlikler neler
+- yakınlardaki etkinlikler
+- yaklaşan etkinlikler
+
+# ekip
+> add some example phrases to trigger this intent:
+> - please tell me the weather
+> - what is the weather like in {city=Seattle}
+
+> entity definitions:
+> @ ml city
+- yeni katılanlar
+- yeni arkadaşlar
+- team
+- ekip
+- intern
+
+# yemekler
+> add some example phrases to trigger this intent:
+> - please tell me the weather
+> - what is the weather like in {city=Seattle}
+
+> entity definitions:
+> @ ml city
+
+- yemek
+- yemek menüsü
+- yemekhane
+- yiyoruz
+- yemekte
+- yemeği
 - tarif
 - tarif getir
 - tarif oner
@@ -890,58 +919,117 @@
 - bana tarif önerir misin
 - bana tarifleri göster
 - tariflerini söyle
+- yemek
+- bugün menü nasıl
+- yemekhane menüsü nasıl
+- bugün yemekte ne var
+- yemekhanede ne var
+- bugun ne yicez
+- bugun yemek menusu ne
+- menüyü getir bugün
+- ne yicez
+- ne yiyeceğiz menü
+- ne yiyoruz
+- yarin ne yicez
+- yarin yemekte ne var
+- yemek menü
+- yemek menusu getir
+- yemek menüsünü getirir misin
+- yemekte ne cikacak getir
+- yemekte ne var
+- yemekte ne yiyeceğiz
+- yemek menusu
+- tarif
+- tarif getir
+- tarif oner
+- tariflerim
+- yemek tarifi önerir misin?
+- yemek tarifleri
+- bu akşam hangi yemekleri yapabilirim
+- tabldotta ne var
+- bugün ne yapayım
+- akşam yemekte ne yapabilirim
+- bu akşam nasıl bir yemek yapmamı tavsiye edersin miço
+- akşam yemeği için tavsiyelerin var mı miço?
+- akşam yemeği için ne yapmamı önerirsin miço
+- bu akşam hangi yemeğ yapabilirim 
+- bu akşam ne pişirebilirim
+- akşam yemekte ne hazırlayabilirim
+- pratik yemek tarifi önerir misin
+- - bugün menü nasıl
+- yemekhane menüsü nasıl
+- bugün yemekte ne var
+- yemekhanede ne var
+- bugun ne yicez
+- bugun yemek menusu ne
+- menüyü getir bugün
+- ne yicez
+- ne yiyeceğiz menü
+- ne yiyoruz
+- yarin ne yicez
+- yarin yemekte ne var
+- yemek menü
+- yemek menusu getir
+- yemek menüsünü getirir misin
+- yemekte ne cikacak getir
+- yemekte ne var
+- yemekte ne yiyeceğiz
+- yemek menusu
+- yemekhanede ne yemek var
+- yemekhane menüsü
+
+@ list tarif =
+	- tarif :
+		- tarif
+		- tarifi
+		- tarifler
+		- tarifleri
+		- tariflerini
+		- tariflerim
+		- tariflerinde
+		- yapabilirim
+		- yapmak
+		- yapayım
+		- tavsiye
+		- taviyelerin
+		- tavsiyen
+		- yapmamı
+		- öneri
+		- önerin
+		- önerilerin
+		- önerirsin
+		- pişirebilirim
+		- pişirmek
+		- pisirmek
+		- pisirebilirim
+		- pisireyim
+		- pişireyim
+
+@ list menu = 
+	- menü:
+		- menü
+		- menu
+		- menusu
+		- menüsü
+		- menüye
+		- menuyu
+		- menüyü
+		- menude
+		- menüde
+		- menüsünü
+		- menusunu
+		- menusünü
+		- menusunde
+		- menüsünde
+		- yemekhane
+		- cıkacak
+		- çıkacak
+		- tabldot
+		- var
+		- yiyoruz
+		- yiyeceğiz
+		- yiyecegiz
+	
 
 
-# vizyon
-- vizyon
-- misyon
-- şirket
-- şirket hakkında
-- microsoft
-- iletişim
-- değerler
-- topluluk
-- şirketin vizyonu ve misyonu nedir
-- vizyon ve misyonu açıklar mısın
-- Microsoft vizyon ve misyon 
 
-
-# etkinlik
-- etkinlik
-- yaklaşan etkinlikler neler
-- aktivite
-- eğitimler
-- bu aralar hangi eğitimlere katılabilirim
-- bu aralar hangi etkinlikler var
-- bu ara hani etkinlikler var
-- yeni etkinlikler neler
-- etkinlik takvimi
-- etkinlikler
-- yakınlardaki etkinlikler neler
-- yakınlardaki etkinlikler
-- yaklaşan etkinlikler
-- yakında hangi etkinlikler var 
-- hangi etkinlikler yaklaşıyor
-- gelecekte nasıl etkinlikler var
-- nasıl eventler var
-- yaklaşan eventler neler
-- yaklaşan etkinlik
-- Aktiviteleri görmek istiyorum
-- Etkinlik takvimini gösterir misin
-- hangi eğitimlere katılabilirim
-
-# ekip
-- yeni katılanlar
-- yeni arkadaşlar
-- ekibe yeni katılanlar
-- ekipte yeni kimler var
-- aramıza yeni katılanlar
-- kimler yeni geldi
-- işe yeni başlayan arkadaşlar
-- işe yeni katılan kişiler
-- yeni aramıza katılan kimler var
-- yeni kişiler kim
-- yeni gelen çalışanlar kim
-- ekibe yeni katılan üyeler
-- işe yeni başlayan üyeler
-- yeni ekip arkadaşlarımız kim

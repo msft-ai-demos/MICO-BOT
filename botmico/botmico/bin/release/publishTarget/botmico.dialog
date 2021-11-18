@@ -59,9 +59,16 @@
           },
           "activityProcessed": true,
           "dialog": "cancel"
+        },
+        {
+          "$kind": "Microsoft.BeginDialog",
+          "$designer": {
+            "id": "DJ6Ypq"
+          },
+          "activityProcessed": true,
+          "dialog": "feedback"
         }
-      ],
-      "condition": "=turn.recognized.score>0.1"
+      ]
     },
     {
       "$kind": "Microsoft.OnIntent",
@@ -79,8 +86,7 @@
           "activityProcessed": true,
           "dialog": "help"
         }
-      ],
-      "condition": "=turn.recognized.score>0.1"
+      ]
     },
     {
       "$kind": "Microsoft.OnError",
@@ -149,8 +155,7 @@
           "activityProcessed": true,
           "dialog": "wiki"
         }
-      ],
-      "condition": "=turn.recognized.score>0.1"
+      ]
     },
     {
       "$kind": "Microsoft.OnIntent",
@@ -175,8 +180,7 @@
           "activityProcessed": true,
           "dialog": "fikra"
         }
-      ],
-      "condition": "=turn.recognized.score>0.1"
+      ]
     },
     {
       "$kind": "Microsoft.OnIntent",
@@ -194,8 +198,7 @@
           "activityProcessed": true,
           "dialog": "selamlama"
         }
-      ],
-      "condition": "=turn.recognized.score>0.1"
+      ]
     },
     {
       "$kind": "Microsoft.OnIntent",
@@ -213,8 +216,7 @@
           "activityProcessed": true,
           "dialog": "haberler"
         }
-      ],
-      "condition": "=turn.recognized.score>0.1"
+      ]
     },
     {
       "$kind": "Microsoft.OnIntent",
@@ -232,8 +234,7 @@
           "activityProcessed": true,
           "dialog": "doviz"
         }
-      ],
-      "condition": "=turn.recognized.score>0.1"
+      ]
     },
     {
       "$kind": "Microsoft.OnIntent",
@@ -251,8 +252,7 @@
           "activityProcessed": true,
           "dialog": "havadurumu"
         }
-      ],
-      "condition": "=turn.recognized.score>0.1"
+      ]
     },
     {
       "$kind": "Microsoft.OnIntent",
@@ -270,46 +270,25 @@
           "activityProcessed": true,
           "dialog": "feedback"
         }
-      ],
-      "condition": "=turn.recognized.score>0.1"
+      ]
     },
     {
       "$kind": "Microsoft.OnIntent",
       "$designer": {
-        "id": "642d0z",
-        "name": "yemek"
+        "id": "CZQtWZ",
+        "name": "hrhelp"
       },
-      "intent": "yemek",
+      "intent": "hrhelp",
       "actions": [
         {
           "$kind": "Microsoft.BeginDialog",
           "$designer": {
-            "id": "HaHmwR"
+            "id": "dgbbhY"
           },
           "activityProcessed": true,
-          "dialog": "yemek"
+          "dialog": "hrhelp"
         }
-      ],
-      "condition": "=turn.recognized.score>0.1"
-    },
-    {
-      "$kind": "Microsoft.OnIntent",
-      "$designer": {
-        "id": "xZ9hsh",
-        "name": "tarif"
-      },
-      "intent": "tarif",
-      "actions": [
-        {
-          "$kind": "Microsoft.BeginDialog",
-          "$designer": {
-            "id": "r12QuJ"
-          },
-          "activityProcessed": true,
-          "dialog": "tarif"
-        }
-      ],
-      "condition": "=turn.recognized.score>0.1"
+      ]
     },
     {
       "$kind": "Microsoft.OnIntent",
@@ -327,8 +306,7 @@
           "activityProcessed": true,
           "dialog": "sorun"
         }
-      ],
-      "condition": "=turn.recognized.score>0.1"
+      ]
     },
     {
       "$kind": "Microsoft.OnIntent",
@@ -352,8 +330,7 @@
           },
           "activity": "${SendActivity_ceDSDR()}"
         }
-      ],
-      "condition": "=turn.recognized.score>0.1"
+      ]
     },
     {
       "$kind": "Microsoft.OnIntent",
@@ -445,8 +422,7 @@
           },
           "activity": "${SendActivity_HPiGMX()}"
         }
-      ],
-      "condition": "=turn.recognized.score>0.1"
+      ]
     },
     {
       "$kind": "Microsoft.OnIntent",
@@ -463,89 +439,174 @@
           },
           "activity": "${SendActivity_bvdlGX()}"
         }
-      ],
-      "condition": "=turn.recognized.score>0.1"
+      ]
     },
     {
-      "$kind": "Microsoft.OnQnAMatch",
+      "$kind": "Microsoft.OnIntent",
       "$designer": {
-        "id": "GqKX5o"
+        "id": "dVFMtS",
+        "name": "yemekler"
       },
+      "intent": "yemekler",
       "actions": [
+        {
+          "$kind": "Microsoft.SetProperty",
+          "$designer": {
+            "id": "Iv97qO"
+          },
+          "property": "dialog.yemek_entity",
+          "value": "=turn.recognized.entities"
+        },
         {
           "$kind": "Microsoft.IfCondition",
           "$designer": {
-            "id": "VPs0M5"
+            "id": "kbO4lQ"
           },
-          "condition": "count(turn.recognized.answers[0].context.prompts) > 0",
+          "condition": "=contains(dialog.yemek_entity, \"tarif\")",
           "actions": [
             {
-              "$kind": "Microsoft.SetProperty",
+              "$kind": "Microsoft.SendActivity",
               "$designer": {
-                "id": "YeBJo4"
+                "id": "vul08k"
               },
-              "property": "dialog.qnaContext",
-              "value": "=turn.recognized.answers[0].context.prompts"
+              "activity": "${SendActivity_vul08k()}"
             },
             {
-              "$kind": "Microsoft.TextInput",
+              "$kind": "Microsoft.SendActivity",
               "$designer": {
-                "id": "Ro8EKN"
+                "id": "LAGwWh"
               },
-              "maxTurnCount": 3,
-              "alwaysPrompt": true,
-              "allowInterruptions": false,
-              "prompt": "${TextInput_Prompt_bxg7GM()}",
-              "property": "turn.qnaMultiTurnResponse"
-            },
-            {
-              "$kind": "Microsoft.SetProperty",
-              "$designer": {
-                "id": "3CI7VD"
-              },
-              "property": "turn.qnaMatchFromContext",
-              "value": "=where(dialog.qnaContext, item, item.displayText == turn.qnaMultiTurnResponse)"
-            },
-            {
-              "$kind": "Microsoft.DeleteProperty",
-              "$designer": {
-                "id": "51RxJo"
-              },
-              "property": "dialog.qnaContext"
-            },
-            {
-              "$kind": "Microsoft.IfCondition",
-              "$designer": {
-                "id": "SAzfVG"
-              },
-              "condition": "turn.qnaMatchFromContext && count(turn.qnaMatchFromContext) > 0",
-              "actions": [
-                {
-                  "$kind": "Microsoft.SetProperty",
-                  "$designer": {
-                    "id": "M8sfzy"
-                  },
-                  "property": "turn.qnaIdFromPrompt",
-                  "value": "=turn.qnaMatchFromContext[0].qnaId"
-                }
-              ]
-            },
-            {
-              "$kind": "Microsoft.EmitEvent",
-              "$designer": {
-                "id": "NVqebx"
-              },
-              "eventName": "activityReceived",
-              "eventValue": "=turn.activity"
+              "activity": "${SendActivity_LAGwWh()}"
             }
           ],
           "elseActions": [
             {
+              "$kind": "Microsoft.SetProperties",
+              "$designer": {
+                "id": "TaBLQ9"
+              },
+              "assignments": [
+                {
+                  "property": "dialog.bugun",
+                  "value": "=addDays(utcNow(), 0)"
+                },
+                {
+                  "property": "dialog.formatted",
+                  "value": "=formatDateTime(dialog.bugun, 'dd.MM.yyyy')"
+                },
+                {
+                  "property": "dialog.dayoftheweek",
+                  "value": "=dayOfWeek(dialog.bugun)"
+                },
+                {
+                  "property": "dialog.haftaarray",
+                  "value": [
+                    "Pazar",
+                    "Pazartesi",
+                    "Salı",
+                    "Çarşamba",
+                    "Perşembe",
+                    "Cuma",
+                    "Cumartesi",
+                    "Pazar"
+                  ]
+                },
+                {
+                  "property": "dialog.ayarray",
+                  "value": [
+                    "Aralık",
+                    "Ocak",
+                    "Şubat",
+                    "Mart",
+                    "Nisan",
+                    "Mayıs",
+                    "Haziran",
+                    "Temmuz",
+                    "Ağustos",
+                    "Eylül",
+                    "Ekim",
+                    "Kasım",
+                    "Aralık"
+                  ]
+                },
+                {
+                  "property": "dialog.gun",
+                  "value": "=formatDateTime(dialog.bugun, 'dd')"
+                },
+                {
+                  "property": "dialog.bu_ay",
+                  "value": "=int(formatDateTime(dialog.bugun, 'MM'))"
+                },
+                {
+                  "property": "dialog.yil",
+                  "value": "=formatDateTime(dialog.bugun, 'yyyy')"
+                },
+                {
+                  "property": "dialog.ay",
+                  "value": "=dialog.ayarray[dialog.bu_ay]"
+                },
+                {
+                  "property": "dialog.sonraki_ay",
+                  "value": "=add(dialog.bu_ay, 1)"
+                },
+                {
+                  "property": "dialog.ay2",
+                  "value": "=dialog.ayarray[dialog.sonraki_ay]"
+                }
+              ]
+            },
+            {
+              "$kind": "Microsoft.HttpRequest",
+              "$designer": {
+                "id": "OutOFa"
+              },
+              "method": "GET",
+              "resultProperty": "dialog.blob_json",
+              "responseType": "json",
+              "url": "https://micostorage.blob.core.windows.net/micoyemek/yemekmenu.json"
+            },
+            {
+              "$kind": "Microsoft.SetProperty",
+              "$designer": {
+                "id": "dQdl2k"
+              },
+              "property": "dialog.random",
+              "value": "=rand(0,3)"
+            },
+            {
+              "$kind": "Microsoft.SetProperties",
+              "$designer": {
+                "id": "NAUv3P"
+              },
+              "assignments": [
+                {
+                  "property": "dialog.menu",
+                  "value": "=dialog.blob_json.content.yemek[dialog.random].icerik[0]"
+                },
+                {
+                  "property": "dialog.corba",
+                  "value": "=dialog.menu.corba"
+                },
+                {
+                  "property": "dialog.anayemek",
+                  "value": "=dialog.menu.anayemek"
+                },
+                {
+                  "value": "=dialog.menu.yan1",
+                  "property": "dialog.yan1"
+                },
+                {
+                  "property": "dialog.yan2",
+                  "value": "=dialog.menu.yan2"
+                }
+              ]
+            },
+            {
               "$kind": "Microsoft.SendActivity",
               "$designer": {
-                "id": "M3HBpg"
+                "id": "JIoqzX"
               },
-              "activity": "${SendActivity_1oIZYB()}"
+              "activity": "${SendActivity_JIoqzX()}"
             }
           ]
         }
