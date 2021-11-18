@@ -14,11 +14,10 @@ Miço size bir çok konuda yardımcı olabilecek ve sohbet edebilecek bir sanal 
   <img src="https://user-images.githubusercontent.com/14835957/133957989-b65c0daa-d799-4b90-9acf-147d525bc60e.jpeg" width=25% height=25% /> 
 </p>
 
-<img src="https://user-images.githubusercontent.com/14835957/133957964-bb5dc633-1aa5-4924-affc-0d50433030b9.jpeg" width=25% height=25%>
-<img src="https://user-images.githubusercontent.com/14835957/133957977-61e3c06c-6e31-4b71-b36a-adc002e70fe8.jpeg" width=25% height=25%>
-<img src="https://user-images.githubusercontent.com/14835957/133957989-b65c0daa-d799-4b90-9acf-147d525bc60e.jpeg" width=25% height=25%>
-<img src="https://user-images.githubusercontent.com/14835957/133958000-b8bac881-d2cb-4b77-a27c-c8c0075b09c5.jpeg" width=25% height=25%>
-<img src="https://user-images.githubusercontent.com/14835957/133958007-8dff7f60-0c35-4545-acf8-c974dc00e0a0.jpeg" width=25% height=25%>
+<p float="left">
+  <img src="https://user-images.githubusercontent.com/14835957/133958000-b8bac881-d2cb-4b77-a27c-c8c0075b09c5.jpeg" width=25% height=25% />
+  <img src="https://user-images.githubusercontent.com/14835957/133958007-8dff7f60-0c35-4545-acf8-c974dc00e0a0.jpeg" width=25% height=25% /> 
+</p>
 
 ## [Gereksinimler](#miçoyu-nasıl-kullanabilirim-gereksinimler)
 *Miço'yu kullanabilmeniz için gerekli servisler.*
