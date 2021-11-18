@@ -1,8 +1,0 @@
-{
-  "$kind": "Microsoft.MultiLanguageRecognizer",
-  "id": "QnA_botmico",
-  "recognizers": {
-    "en-us": "botmico.en-us.qna",
-    "": "botmico.en-us.qna"
-  }
-}
