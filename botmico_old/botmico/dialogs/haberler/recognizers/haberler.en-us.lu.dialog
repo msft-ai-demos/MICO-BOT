@@ -1,0 +1,8 @@
+{
+  "$kind": "Microsoft.LuisRecognizer",
+  "id": "LUIS_haberler",
+  "applicationId": "=settings.luis.haberler_en_us_lu.appId",
+  "version": "=settings.luis.haberler_en_us_lu.version",
+  "endpoint": "=settings.luis.endpoint",
+  "endpointKey": "=settings.luis.endpointKey"
+}

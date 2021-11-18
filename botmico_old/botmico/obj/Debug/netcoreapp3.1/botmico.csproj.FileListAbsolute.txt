@@ -1,0 +1,919 @@
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\Debug\netcoreapp3.1\Nuget.config
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\Debug\netcoreapp3.1\scripts\DeploymentTemplates\function-template-with-preexisting-rg.json
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\Debug\netcoreapp3.1\scripts\DeploymentTemplates\new-rg-parameters.json
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\Debug\netcoreapp3.1\scripts\DeploymentTemplates\preexisting-rg-parameters.json
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\Debug\netcoreapp3.1\scripts\DeploymentTemplates\qna-template.json
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\Debug\netcoreapp3.1\scripts\DeploymentTemplates\template-with-new-rg.json
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\Debug\netcoreapp3.1\scripts\DeploymentTemplates\template-with-preexisting-rg.json
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\Debug\netcoreapp3.1\scripts\package.json
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\Debug\netcoreapp3.1\settings\appsettings.json
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\Debug\netcoreapp3.1\botmico.dialog
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\Debug\netcoreapp3.1\recognizers\botmico.en-us.lu.dialog
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\Debug\netcoreapp3.1\recognizers\botmico.lu.dialog
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\Debug\netcoreapp3.1\recognizers\botmico.lu.qna.dialog
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\Debug\netcoreapp3.1\language-generation\en-us\botmico.en-us.lg
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\Debug\netcoreapp3.1\language-generation\en-us\common.en-us.lg
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\Debug\netcoreapp3.1\language-understanding\en-us\botmico.en-us.lu
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\Debug\netcoreapp3.1\knowledge-base\en-us\botmico.en-us.qna
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\Debug\netcoreapp3.1\botmico.exe
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\Debug\netcoreapp3.1\botmico.deps.json
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\Debug\netcoreapp3.1\botmico.runtimeconfig.json
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\Debug\netcoreapp3.1\botmico.runtimeconfig.dev.json
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\Debug\netcoreapp3.1\botmico.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\Debug\netcoreapp3.1\botmico.pdb
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\Debug\netcoreapp3.1\AdaptiveExpressions.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\Debug\netcoreapp3.1\Antlr4.Runtime.Standard.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\Debug\netcoreapp3.1\Azure.Core.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\Debug\netcoreapp3.1\Azure.Storage.Blobs.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\Debug\netcoreapp3.1\Azure.Storage.Common.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.ApplicationInsights.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.ApplicationInsights.AspNetCore.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.AI.DependencyCollector.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.AI.EventCounterCollector.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.AI.WindowsServer.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.Azure.CognitiveServices.Language.LUIS.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.Azure.Cosmos.Client.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.Azure.Cosmos.Core.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.Azure.Cosmos.Direct.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.Azure.Cosmos.Serialization.HybridRow.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.Azure.DocumentDB.Core.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.Azure.KeyVault.Core.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.Azure.Storage.Blob.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.Azure.Storage.Common.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.Bot.Builder.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.Bot.Builder.AI.Luis.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.Bot.Builder.AI.QnA.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.Bot.Builder.ApplicationInsights.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.Bot.Builder.Azure.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.Bot.Builder.Azure.Blobs.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.Bot.Builder.Dialogs.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.Bot.Builder.Dialogs.Adaptive.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.Bot.Builder.Dialogs.Adaptive.Runtime.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.Bot.Builder.Dialogs.Declarative.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.Bot.Builder.Integration.ApplicationInsights.Core.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.Bot.Builder.Integration.AspNet.Core.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.Bot.Builder.LanguageGeneration.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.Bot.Configuration.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.Bot.Connector.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.Bot.Schema.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.Bot.Streaming.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DiagnosticAdapter.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.ApplicationInsights.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.Extensions.PlatformAbstractions.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Clients.ActiveDirectory.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.Recognizers.Definitions.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.Recognizers.Text.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.Recognizers.Text.Choice.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.Recognizers.Text.DataTypes.TimexExpression.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.Recognizers.Text.DateTime.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.Recognizers.Text.Number.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.Recognizers.Text.NumberWithUnit.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.Recognizers.Text.Sequence.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.Rest.ClientRuntime.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.Rest.ClientRuntime.Azure.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\Debug\netcoreapp3.1\NuGet.Common.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\Debug\netcoreapp3.1\NuGet.Configuration.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\Debug\netcoreapp3.1\NuGet.Packaging.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\Debug\netcoreapp3.1\NuGet.Versioning.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\Debug\netcoreapp3.1\System.Diagnostics.PerformanceCounter.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\Debug\netcoreapp3.1\System.Text.Encodings.Web.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Cosmos.CRTCompat.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Azure.Cosmos.ServiceInterop.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\Debug\netcoreapp3.1\runtimes\win7-x64\native\Cosmos.CRTCompat.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\Debug\netcoreapp3.1\runtimes\win7-x64\native\Microsoft.Azure.Documents.ServiceInterop.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\Debug\netcoreapp3.1\runtimes\win7-x64\native\sni.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\Debug\netcoreapp3.1\runtimes\win7-x86\native\sni.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netstandard1.3\System.Data.SqlClient.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard1.3\System.Data.SqlClient.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Diagnostics.PerformanceCounter.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\obj\Debug\netcoreapp3.1\botmico.csproj.AssemblyReference.cache
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\obj\Debug\netcoreapp3.1\botmico.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\obj\Debug\netcoreapp3.1\botmico.AssemblyInfoInputs.cache
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\obj\Debug\netcoreapp3.1\botmico.AssemblyInfo.cs
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\obj\Debug\netcoreapp3.1\botmico.csproj.CoreCompileInputs.cache
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\obj\Debug\netcoreapp3.1\botmico.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\obj\Debug\netcoreapp3.1\botmico.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\obj\Debug\netcoreapp3.1\staticwebassets\botmico.StaticWebAssets.Manifest.cache
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\obj\Debug\netcoreapp3.1\staticwebassets\botmico.StaticWebAssets.xml
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\obj\Debug\netcoreapp3.1\scopedcss\bundle\botmico.styles.css
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\obj\Debug\netcoreapp3.1\botmico.RazorTargetAssemblyInfo.cache
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\obj\Debug\netcoreapp3.1\botmico.csproj.CopyComplete
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\obj\Debug\netcoreapp3.1\botmico.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\obj\Debug\netcoreapp3.1\botmico.pdb
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\obj\Debug\netcoreapp3.1\botmico.genruntimeconfig.cache
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\Debug\netcoreapp3.1\generated\luis.settings.composer.westeurope.json
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\Debug\netcoreapp3.1\settings\cross-train.config.json
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\wiki\recognizers\wiki.en-us.lu.dialog
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\wiki\recognizers\wiki.lu.dialog
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\wiki\recognizers\wiki.lu.qna.dialog
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\wiki\wiki.dialog
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\wiki\language-generation\en-us\wiki.en-us.lg
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\wiki\language-understanding\en-us\wiki.en-us.lu
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\Debug\netcoreapp3.1\generated\interruption\botmico.en-us.lu
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\Debug\netcoreapp3.1\generated\interruption\wiki.en-us.lu
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\wiki\knowledge-base\en-us\wiki.en-us.qna
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\Debug\netcoreapp3.1\generated\interruption\botmico.en-us.qna
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\Debug\netcoreapp3.1\generated\interruption\wiki.en-us.qna
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\cancel\cancel.dialog
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\cancel\recognizers\cancel.en-us.lu.dialog
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\cancel\recognizers\cancel.lu.dialog
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\cancel\recognizers\cancel.lu.qna.dialog
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\greeting\greeting.dialog
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\greeting\recognizers\greeting.en-us.lu.dialog
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\greeting\recognizers\greeting.lu.dialog
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\greeting\recognizers\greeting.lu.qna.dialog
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\help\help.dialog
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\help\recognizers\help.en-us.lu.dialog
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\help\recognizers\help.lu.dialog
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\help\recognizers\help.lu.qna.dialog
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\cancel\language-generation\en-us\cancel.en-us.lg
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\greeting\language-generation\en-us\greeting.en-us.lg
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\help\language-generation\en-us\help.en-us.lg
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\cancel\language-understanding\en-us\cancel.en-us.lu
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\greeting\language-understanding\en-us\greeting.en-us.lu
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\help\language-understanding\en-us\help.en-us.lu
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\Debug\netcoreapp3.1\generated\interruption\cancel.en-us.lu
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\Debug\netcoreapp3.1\generated\interruption\greeting.en-us.lu
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\Debug\netcoreapp3.1\generated\interruption\help.en-us.lu
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\cancel\knowledge-base\en-us\cancel.en-us.qna
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\greeting\knowledge-base\en-us\greeting.en-us.qna
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\help\knowledge-base\en-us\help.en-us.qna
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\Debug\netcoreapp3.1\generated\interruption\cancel.en-us.qna
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\Debug\netcoreapp3.1\generated\interruption\greeting.en-us.qna
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\Debug\netcoreapp3.1\generated\interruption\help.en-us.qna
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\fikra\fikra.dialog
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\fikra\recognizers\fikra.en-us.lu.dialog
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\fikra\recognizers\fikra.lu.dialog
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\fikra\recognizers\fikra.lu.qna.dialog
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\fikra\language-generation\en-us\fikra.en-us.lg
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\fikra\language-understanding\en-us\fikra.en-us.lu
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\Debug\netcoreapp3.1\generated\interruption\fikra.en-us.lu
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\fikra\knowledge-base\en-us\fikra.en-us.qna
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\Debug\netcoreapp3.1\generated\interruption\fikra.en-us.qna
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\selamlama\recognizers\selamlama.en-us.lu.dialog
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\selamlama\recognizers\selamlama.lu.dialog
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\selamlama\recognizers\selamlama.lu.qna.dialog
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\selamlama\selamlama.dialog
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\selamlama\language-generation\en-us\selamlama.en-us.lg
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\selamlama\language-understanding\en-us\selamlama.en-us.lu
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\Debug\netcoreapp3.1\generated\interruption\selamlama.en-us.lu
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\selamlama\knowledge-base\en-us\selamlama.en-us.qna
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\Debug\netcoreapp3.1\generated\interruption\selamlama.en-us.qna
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\haberler\haberler.dialog
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\haberler\recognizers\haberler.en-us.lu.dialog
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\haberler\recognizers\haberler.lu.dialog
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\haberler\recognizers\haberler.lu.qna.dialog
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\haberler\language-generation\en-us\haberler.en-us.lg
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\haberler\language-understanding\en-us\haberler.en-us.lu
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\Debug\netcoreapp3.1\generated\interruption\haberler.en-us.lu
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\haberler\knowledge-base\en-us\haberler.en-us.qna
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\Debug\netcoreapp3.1\generated\interruption\haberler.en-us.qna
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\doviz\doviz.dialog
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\doviz\recognizers\doviz.en-us.lu.dialog
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\doviz\recognizers\doviz.lu.dialog
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\doviz\recognizers\doviz.lu.qna.dialog
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\doviz\language-generation\en-us\doviz.en-us.lg
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\doviz\language-understanding\en-us\doviz.en-us.lu
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\Debug\netcoreapp3.1\generated\interruption\doviz.en-us.lu
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\doviz\knowledge-base\en-us\doviz.en-us.qna
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\Debug\netcoreapp3.1\generated\interruption\doviz.en-us.qna
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Nuget.config
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\botmico.dialog
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\generated\luis.settings.composer.westeurope.json
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\scripts\DeploymentTemplates\function-template-with-preexisting-rg.json
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\scripts\DeploymentTemplates\new-rg-parameters.json
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\scripts\DeploymentTemplates\preexisting-rg-parameters.json
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\scripts\DeploymentTemplates\qna-template.json
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\scripts\DeploymentTemplates\template-with-new-rg.json
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\scripts\DeploymentTemplates\template-with-preexisting-rg.json
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\scripts\package.json
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\settings\appsettings.json
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\settings\cross-train.config.json
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\cancel\cancel.dialog
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\cancel\recognizers\cancel.en-us.lu.dialog
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\cancel\recognizers\cancel.lu.dialog
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\cancel\recognizers\cancel.lu.qna.dialog
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\doviz\doviz.dialog
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\doviz\recognizers\doviz.en-us.lu.dialog
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\doviz\recognizers\doviz.lu.dialog
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\doviz\recognizers\doviz.lu.qna.dialog
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\fikra\fikra.dialog
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\fikra\recognizers\fikra.en-us.lu.dialog
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\fikra\recognizers\fikra.lu.dialog
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\fikra\recognizers\fikra.lu.qna.dialog
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\greeting\greeting.dialog
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\greeting\recognizers\greeting.en-us.lu.dialog
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\greeting\recognizers\greeting.lu.dialog
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\greeting\recognizers\greeting.lu.qna.dialog
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\haberler\haberler.dialog
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\haberler\recognizers\haberler.en-us.lu.dialog
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\haberler\recognizers\haberler.lu.dialog
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\haberler\recognizers\haberler.lu.qna.dialog
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\help\help.dialog
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\help\recognizers\help.en-us.lu.dialog
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\help\recognizers\help.lu.dialog
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\help\recognizers\help.lu.qna.dialog
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\selamlama\recognizers\selamlama.en-us.lu.dialog
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\selamlama\recognizers\selamlama.lu.dialog
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\selamlama\recognizers\selamlama.lu.qna.dialog
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\selamlama\selamlama.dialog
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\wiki\recognizers\wiki.en-us.lu.dialog
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\wiki\recognizers\wiki.lu.dialog
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\wiki\recognizers\wiki.lu.qna.dialog
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\wiki\wiki.dialog
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\recognizers\botmico.en-us.lu.dialog
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\recognizers\botmico.lu.dialog
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\recognizers\botmico.lu.qna.dialog
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\cancel\language-generation\en-us\cancel.en-us.lg
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\doviz\language-generation\en-us\doviz.en-us.lg
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\fikra\language-generation\en-us\fikra.en-us.lg
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\greeting\language-generation\en-us\greeting.en-us.lg
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\haberler\language-generation\en-us\haberler.en-us.lg
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\help\language-generation\en-us\help.en-us.lg
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\selamlama\language-generation\en-us\selamlama.en-us.lg
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\wiki\language-generation\en-us\wiki.en-us.lg
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\language-generation\en-us\botmico.en-us.lg
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\language-generation\en-us\common.en-us.lg
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\cancel\language-understanding\en-us\cancel.en-us.lu
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\doviz\language-understanding\en-us\doviz.en-us.lu
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\fikra\language-understanding\en-us\fikra.en-us.lu
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\greeting\language-understanding\en-us\greeting.en-us.lu
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\haberler\language-understanding\en-us\haberler.en-us.lu
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\help\language-understanding\en-us\help.en-us.lu
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\selamlama\language-understanding\en-us\selamlama.en-us.lu
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\wiki\language-understanding\en-us\wiki.en-us.lu
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\generated\interruption\botmico.en-us.lu
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\generated\interruption\cancel.en-us.lu
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\generated\interruption\doviz.en-us.lu
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\generated\interruption\fikra.en-us.lu
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\generated\interruption\greeting.en-us.lu
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\generated\interruption\haberler.en-us.lu
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\generated\interruption\help.en-us.lu
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\generated\interruption\selamlama.en-us.lu
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\generated\interruption\wiki.en-us.lu
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\language-understanding\en-us\botmico.en-us.lu
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\cancel\knowledge-base\en-us\cancel.en-us.qna
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\doviz\knowledge-base\en-us\doviz.en-us.qna
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\fikra\knowledge-base\en-us\fikra.en-us.qna
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\greeting\knowledge-base\en-us\greeting.en-us.qna
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\haberler\knowledge-base\en-us\haberler.en-us.qna
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\help\knowledge-base\en-us\help.en-us.qna
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\selamlama\knowledge-base\en-us\selamlama.en-us.qna
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\wiki\knowledge-base\en-us\wiki.en-us.qna
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\generated\interruption\botmico.en-us.qna
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\generated\interruption\cancel.en-us.qna
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\generated\interruption\doviz.en-us.qna
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\generated\interruption\fikra.en-us.qna
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\generated\interruption\greeting.en-us.qna
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\generated\interruption\haberler.en-us.qna
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\generated\interruption\help.en-us.qna
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\generated\interruption\selamlama.en-us.qna
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\generated\interruption\wiki.en-us.qna
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\knowledge-base\en-us\botmico.en-us.qna
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\botmico.exe
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\botmico.deps.json
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\botmico.runtimeconfig.json
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\botmico.runtimeconfig.dev.json
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\botmico.dll
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\botmico.pdb
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\AdaptiveExpressions.dll
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Antlr4.Runtime.Standard.dll
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Azure.Core.dll
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Azure.Storage.Blobs.dll
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Azure.Storage.Common.dll
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.ApplicationInsights.dll
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.ApplicationInsights.AspNetCore.dll
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.AI.DependencyCollector.dll
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.AI.EventCounterCollector.dll
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.AI.WindowsServer.dll
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.Azure.CognitiveServices.Language.LUIS.dll
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.Azure.Cosmos.Client.dll
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.Azure.Cosmos.Core.dll
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.Azure.Cosmos.Direct.dll
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.Azure.Cosmos.Serialization.HybridRow.dll
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.Azure.DocumentDB.Core.dll
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.Azure.KeyVault.Core.dll
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.Azure.Storage.Blob.dll
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.Azure.Storage.Common.dll
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.Bot.Builder.dll
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.Bot.Builder.AI.Luis.dll
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.Bot.Builder.AI.QnA.dll
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.Bot.Builder.ApplicationInsights.dll
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.Bot.Builder.Azure.dll
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.Bot.Builder.Azure.Blobs.dll
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.Bot.Builder.Dialogs.dll
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.Bot.Builder.Dialogs.Adaptive.dll
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.Bot.Builder.Dialogs.Adaptive.Runtime.dll
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.Bot.Builder.Dialogs.Declarative.dll
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.Bot.Builder.Integration.ApplicationInsights.Core.dll
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.Bot.Builder.Integration.AspNet.Core.dll
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.Bot.Builder.LanguageGeneration.dll
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.Bot.Configuration.dll
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.Bot.Connector.dll
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.Bot.Schema.dll
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.Bot.Streaming.dll
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DiagnosticAdapter.dll
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.ApplicationInsights.dll
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.Extensions.PlatformAbstractions.dll
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Clients.ActiveDirectory.dll
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.Recognizers.Definitions.dll
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.Recognizers.Text.dll
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.Recognizers.Text.Choice.dll
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.Recognizers.Text.DataTypes.TimexExpression.dll
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.Recognizers.Text.DateTime.dll
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.Recognizers.Text.Number.dll
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.Recognizers.Text.NumberWithUnit.dll
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.Recognizers.Text.Sequence.dll
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.Rest.ClientRuntime.dll
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.Rest.ClientRuntime.Azure.dll
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\NuGet.Common.dll
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\NuGet.Configuration.dll
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\NuGet.Packaging.dll
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\NuGet.Versioning.dll
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\System.Diagnostics.PerformanceCounter.dll
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\System.Text.Encodings.Web.dll
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Cosmos.CRTCompat.dll
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Azure.Cosmos.ServiceInterop.dll
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\runtimes\win7-x64\native\Cosmos.CRTCompat.dll
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\runtimes\win7-x64\native\Microsoft.Azure.Documents.ServiceInterop.dll
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\runtimes\win7-x64\native\sni.dll
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\runtimes\win7-x86\native\sni.dll
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netstandard1.3\System.Data.SqlClient.dll
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard1.3\System.Data.SqlClient.dll
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Diagnostics.PerformanceCounter.dll
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\obj\Debug\netcoreapp3.1\botmico.csprojAssemblyReference.cache
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\obj\Debug\netcoreapp3.1\botmico.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\obj\Debug\netcoreapp3.1\botmico.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\obj\Debug\netcoreapp3.1\botmico.AssemblyInfoInputs.cache
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\obj\Debug\netcoreapp3.1\botmico.AssemblyInfo.cs
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\obj\Debug\netcoreapp3.1\botmico.RazorTargetAssemblyInfo.cache
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\obj\Debug\netcoreapp3.1\botmico.csproj.CopyComplete
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\obj\Debug\netcoreapp3.1\staticwebassets\botmico.StaticWebAssets.Manifest.cache
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\obj\Debug\netcoreapp3.1\staticwebassets\botmico.StaticWebAssets.xml
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\obj\Debug\netcoreapp3.1\botmico.dll
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\obj\Debug\netcoreapp3.1\botmico.pdb
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\havadurumu\havadurumu.dialog
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\havadurumu\recognizers\havadurumu.en-us.lu.dialog
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\havadurumu\recognizers\havadurumu.lu.dialog
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\havadurumu\recognizers\havadurumu.lu.qna.dialog
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\havadurumu\language-generation\en-us\havadurumu.en-us.lg
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\havadurumu\language-understanding\en-us\havadurumu.en-us.lu
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\generated\interruption\havadurumu.en-us.lu
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\havadurumu\knowledge-base\en-us\havadurumu.en-us.qna
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\generated\interruption\havadurumu.en-us.qna
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\feedback\feedback.dialog
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\feedback\recognizers\feedback.en-us.lu.dialog
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\feedback\recognizers\feedback.lu.dialog
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\feedback\recognizers\feedback.lu.qna.dialog
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\feedback\language-generation\en-us\feedback.en-us.lg
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\feedback\language-understanding\en-us\feedback.en-us.lu
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\generated\interruption\feedback.en-us.lu
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\feedback\knowledge-base\en-us\feedback.en-us.qna
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\generated\interruption\feedback.en-us.qna
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\sorun\recognizers\sorun.en-us.lu.dialog
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\sorun\recognizers\sorun.lu.dialog
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\sorun\recognizers\sorun.lu.qna.dialog
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\sorun\sorun.dialog
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\sorun\language-generation\en-us\sorun.en-us.lg
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\sorun\language-understanding\en-us\sorun.en-us.lu
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\generated\interruption\sorun.en-us.lu
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\sorun\knowledge-base\en-us\sorun.en-us.qna
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\generated\interruption\sorun.en-us.qna
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\translate\translate.dialog
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\translate\language-generation\en-us\translate.en-us.lg
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\translate\language-understanding\en-us\translate.en-us.lu
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\generated\interruption\translate.en-us.lu
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\translate\knowledge-base\en-us\translate.en-us.qna
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\generated\interruption\translate.en-us.qna
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\translate\recognizers\translate.en-us.lu.dialog
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\translate\recognizers\translate.lu.dialog
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\translate\recognizers\translate.lu.qna.dialog
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\hrhelp\hrhelp.dialog
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\hrhelp\recognizers\hrhelp.en-us.lu.dialog
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\hrhelp\recognizers\hrhelp.lu.dialog
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\hrhelp\recognizers\hrhelp.lu.qna.dialog
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\hrhelp\language-generation\en-us\hrhelp.en-us.lg
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\hrhelp\language-understanding\en-us\hrhelp.en-us.lu
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\generated\interruption\hrhelp.en-us.lu
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\hrhelp\knowledge-base\en-us\hrhelp.en-us.qna
+C:\Users\v-edaayan\Downloads\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\generated\interruption\hrhelp.en-us.qna
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Nuget.config
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\scripts\DeploymentTemplates\function-template-with-preexisting-rg.json
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\scripts\DeploymentTemplates\new-rg-parameters.json
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\scripts\DeploymentTemplates\preexisting-rg-parameters.json
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\scripts\DeploymentTemplates\qna-template.json
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\scripts\DeploymentTemplates\template-with-new-rg.json
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\scripts\DeploymentTemplates\template-with-preexisting-rg.json
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\scripts\package.json
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\settings\cross-train.config.json
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\botmico.dialog
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\cancel\cancel.dialog
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\cancel\recognizers\cancel.en-us.lu.dialog
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\cancel\recognizers\cancel.lu.dialog
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\cancel\recognizers\cancel.lu.qna.dialog
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\doviz\doviz.dialog
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\doviz\recognizers\doviz.en-us.lu.dialog
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\doviz\recognizers\doviz.lu.dialog
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\doviz\recognizers\doviz.lu.qna.dialog
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\feedback\feedback.dialog
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\feedback\recognizers\feedback.en-us.lu.dialog
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\feedback\recognizers\feedback.lu.dialog
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\feedback\recognizers\feedback.lu.qna.dialog
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\fikra\fikra.dialog
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\fikra\recognizers\fikra.en-us.lu.dialog
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\fikra\recognizers\fikra.lu.dialog
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\fikra\recognizers\fikra.lu.qna.dialog
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\greeting\greeting.dialog
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\greeting\recognizers\greeting.en-us.lu.dialog
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\greeting\recognizers\greeting.lu.dialog
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\greeting\recognizers\greeting.lu.qna.dialog
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\haberler\haberler.dialog
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\haberler\recognizers\haberler.en-us.lu.dialog
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\haberler\recognizers\haberler.lu.dialog
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\haberler\recognizers\haberler.lu.qna.dialog
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\havadurumu\havadurumu.dialog
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\havadurumu\recognizers\havadurumu.en-us.lu.dialog
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\havadurumu\recognizers\havadurumu.lu.dialog
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\havadurumu\recognizers\havadurumu.lu.qna.dialog
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\help\help.dialog
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\help\recognizers\help.en-us.lu.dialog
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\help\recognizers\help.lu.dialog
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\help\recognizers\help.lu.qna.dialog
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\hrhelp\hrhelp.dialog
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\hrhelp\recognizers\hrhelp.en-us.lu.dialog
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\hrhelp\recognizers\hrhelp.lu.dialog
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\hrhelp\recognizers\hrhelp.lu.qna.dialog
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\selamlama\recognizers\selamlama.en-us.lu.dialog
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\selamlama\recognizers\selamlama.lu.dialog
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\selamlama\recognizers\selamlama.lu.qna.dialog
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\selamlama\selamlama.dialog
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\sorun\recognizers\sorun.en-us.lu.dialog
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\sorun\recognizers\sorun.lu.dialog
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\sorun\recognizers\sorun.lu.qna.dialog
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\sorun\sorun.dialog
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\wiki\recognizers\wiki.en-us.lu.dialog
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\wiki\recognizers\wiki.lu.dialog
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\wiki\recognizers\wiki.lu.qna.dialog
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\wiki\wiki.dialog
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\recognizers\botmico.en-us.lu.dialog
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\recognizers\botmico.lu.dialog
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\recognizers\botmico.lu.qna.dialog
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\cancel\language-generation\en-us\cancel.en-us.lg
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\doviz\language-generation\en-us\doviz.en-us.lg
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\feedback\language-generation\en-us\feedback.en-us.lg
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\fikra\language-generation\en-us\fikra.en-us.lg
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\greeting\language-generation\en-us\greeting.en-us.lg
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\haberler\language-generation\en-us\haberler.en-us.lg
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\havadurumu\language-generation\en-us\havadurumu.en-us.lg
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\help\language-generation\en-us\help.en-us.lg
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\hrhelp\language-generation\en-us\hrhelp.en-us.lg
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\selamlama\language-generation\en-us\selamlama.en-us.lg
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\sorun\language-generation\en-us\sorun.en-us.lg
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\wiki\language-generation\en-us\wiki.en-us.lg
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\language-generation\en-us\botmico.en-us.lg
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\language-generation\en-us\common.en-us.lg
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\cancel\language-understanding\en-us\cancel.en-us.lu
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\doviz\language-understanding\en-us\doviz.en-us.lu
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\feedback\language-understanding\en-us\feedback.en-us.lu
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\fikra\language-understanding\en-us\fikra.en-us.lu
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\greeting\language-understanding\en-us\greeting.en-us.lu
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\haberler\language-understanding\en-us\haberler.en-us.lu
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\havadurumu\language-understanding\en-us\havadurumu.en-us.lu
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\help\language-understanding\en-us\help.en-us.lu
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\hrhelp\language-understanding\en-us\hrhelp.en-us.lu
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\selamlama\language-understanding\en-us\selamlama.en-us.lu
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\sorun\language-understanding\en-us\sorun.en-us.lu
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\wiki\language-understanding\en-us\wiki.en-us.lu
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\language-understanding\en-us\botmico.en-us.lu
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\cancel\knowledge-base\en-us\cancel.en-us.qna
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\doviz\knowledge-base\en-us\doviz.en-us.qna
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\feedback\knowledge-base\en-us\feedback.en-us.qna
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\fikra\knowledge-base\en-us\fikra.en-us.qna
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\greeting\knowledge-base\en-us\greeting.en-us.qna
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\haberler\knowledge-base\en-us\haberler.en-us.qna
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\havadurumu\knowledge-base\en-us\havadurumu.en-us.qna
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\help\knowledge-base\en-us\help.en-us.qna
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\hrhelp\knowledge-base\en-us\hrhelp.en-us.qna
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\selamlama\knowledge-base\en-us\selamlama.en-us.qna
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\sorun\knowledge-base\en-us\sorun.en-us.qna
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\wiki\knowledge-base\en-us\wiki.en-us.qna
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\knowledge-base\en-us\botmico.en-us.qna
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\generated\luis.settings.composer.westeurope.json
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\settings\appsettings.json
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\generated\interruption\botmico.en-us.lu
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\generated\interruption\cancel.en-us.lu
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\generated\interruption\doviz.en-us.lu
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\generated\interruption\feedback.en-us.lu
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\generated\interruption\fikra.en-us.lu
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\generated\interruption\greeting.en-us.lu
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\generated\interruption\haberler.en-us.lu
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\generated\interruption\havadurumu.en-us.lu
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\generated\interruption\help.en-us.lu
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\generated\interruption\hrhelp.en-us.lu
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\generated\interruption\selamlama.en-us.lu
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\generated\interruption\sorun.en-us.lu
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\generated\interruption\wiki.en-us.lu
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\generated\interruption\botmico.en-us.qna
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\generated\interruption\cancel.en-us.qna
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\generated\interruption\doviz.en-us.qna
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\generated\interruption\feedback.en-us.qna
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\generated\interruption\fikra.en-us.qna
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\generated\interruption\greeting.en-us.qna
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\generated\interruption\haberler.en-us.qna
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\generated\interruption\havadurumu.en-us.qna
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\generated\interruption\help.en-us.qna
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\generated\interruption\hrhelp.en-us.qna
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\generated\interruption\selamlama.en-us.qna
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\generated\interruption\sorun.en-us.qna
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\generated\interruption\wiki.en-us.qna
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\botmico.exe
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\botmico.deps.json
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\botmico.runtimeconfig.json
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\botmico.runtimeconfig.dev.json
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\botmico.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\botmico.pdb
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\AdaptiveExpressions.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Antlr4.Runtime.Standard.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Azure.Core.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Azure.Storage.Blobs.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Azure.Storage.Common.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.ApplicationInsights.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.ApplicationInsights.AspNetCore.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.AI.DependencyCollector.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.AI.EventCounterCollector.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.AI.WindowsServer.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.Azure.CognitiveServices.Language.LUIS.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.Azure.Cosmos.Client.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.Azure.Cosmos.Core.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.Azure.Cosmos.Direct.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.Azure.Cosmos.Serialization.HybridRow.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.Azure.DocumentDB.Core.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.Azure.KeyVault.Core.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.Azure.Storage.Blob.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.Azure.Storage.Common.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.Bot.Builder.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.Bot.Builder.AI.Luis.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.Bot.Builder.AI.QnA.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.Bot.Builder.ApplicationInsights.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.Bot.Builder.Azure.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.Bot.Builder.Azure.Blobs.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.Bot.Builder.Dialogs.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.Bot.Builder.Dialogs.Adaptive.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.Bot.Builder.Dialogs.Adaptive.Runtime.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.Bot.Builder.Dialogs.Declarative.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.Bot.Builder.Integration.ApplicationInsights.Core.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.Bot.Builder.Integration.AspNet.Core.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.Bot.Builder.LanguageGeneration.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.Bot.Configuration.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.Bot.Connector.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.Bot.Schema.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.Bot.Streaming.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DiagnosticAdapter.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.ApplicationInsights.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.Extensions.PlatformAbstractions.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Clients.ActiveDirectory.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.Recognizers.Definitions.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.Recognizers.Text.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.Recognizers.Text.Choice.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.Recognizers.Text.DataTypes.TimexExpression.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.Recognizers.Text.DateTime.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.Recognizers.Text.Number.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.Recognizers.Text.NumberWithUnit.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.Recognizers.Text.Sequence.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.Rest.ClientRuntime.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.Rest.ClientRuntime.Azure.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\NuGet.Common.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\NuGet.Configuration.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\NuGet.Packaging.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\NuGet.Versioning.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\System.Diagnostics.PerformanceCounter.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\System.Text.Encodings.Web.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Cosmos.CRTCompat.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Azure.Cosmos.ServiceInterop.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\runtimes\win7-x64\native\Cosmos.CRTCompat.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\runtimes\win7-x64\native\Microsoft.Azure.Documents.ServiceInterop.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\runtimes\win7-x64\native\sni.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\runtimes\win7-x86\native\sni.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netstandard1.3\System.Data.SqlClient.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard1.3\System.Data.SqlClient.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Diagnostics.PerformanceCounter.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\obj\Debug\netcoreapp3.1\botmico.csprojAssemblyReference.cache
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\obj\Debug\netcoreapp3.1\botmico.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\obj\Debug\netcoreapp3.1\botmico.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\obj\Debug\netcoreapp3.1\botmico.AssemblyInfoInputs.cache
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\obj\Debug\netcoreapp3.1\botmico.AssemblyInfo.cs
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\obj\Debug\netcoreapp3.1\botmico.RazorTargetAssemblyInfo.cache
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\obj\Debug\netcoreapp3.1\botmico.csproj.CopyComplete
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\obj\Debug\netcoreapp3.1\staticwebassets\botmico.StaticWebAssets.Manifest.cache
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\obj\Debug\netcoreapp3.1\staticwebassets\botmico.StaticWebAssets.xml
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\obj\Debug\netcoreapp3.1\botmico.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\obj\Debug\netcoreapp3.1\botmico.pdb
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\yemek\recognizers\yemek.en-us.lu.dialog
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\yemek\recognizers\yemek.lu.dialog
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\yemek\recognizers\yemek.lu.qna.dialog
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\yemek\yemek.dialog
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\yemek\language-generation\en-us\yemek.en-us.lg
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\yemek\language-understanding\en-us\yemek.en-us.lu
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\generated\interruption\yemek.en-us.lu
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\yemek\knowledge-base\en-us\yemek.en-us.qna
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\generated\interruption\yemek.en-us.qna
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\tarif\recognizers\tarif.en-us.lu.dialog
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\tarif\recognizers\tarif.lu.dialog
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\tarif\recognizers\tarif.lu.qna.dialog
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\tarif\tarif.dialog
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\tarif\language-generation\en-us\tarif.en-us.lg
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\tarif\language-understanding\en-us\tarif.en-us.lu
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\generated\interruption\tarif.en-us.lu
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\tarif\knowledge-base\en-us\tarif.en-us.qna
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\XXXXXXXXXXXXX\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\generated\interruption\tarif.en-us.qna
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Nuget.config
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\scripts\DeploymentTemplates\function-template-with-preexisting-rg.json
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\scripts\DeploymentTemplates\new-rg-parameters.json
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\scripts\DeploymentTemplates\preexisting-rg-parameters.json
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\scripts\DeploymentTemplates\qna-template.json
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\scripts\DeploymentTemplates\template-with-new-rg.json
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\scripts\DeploymentTemplates\template-with-preexisting-rg.json
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\scripts\package.json
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\settings\cross-train.config.json
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\botmico.dialog
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\cancel\cancel.dialog
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\cancel\recognizers\cancel.en-us.lu.dialog
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\cancel\recognizers\cancel.lu.dialog
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\cancel\recognizers\cancel.lu.qna.dialog
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\doviz\doviz.dialog
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\doviz\recognizers\doviz.en-us.lu.dialog
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\doviz\recognizers\doviz.lu.dialog
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\doviz\recognizers\doviz.lu.qna.dialog
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\feedback\feedback.dialog
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\feedback\recognizers\feedback.en-us.lu.dialog
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\feedback\recognizers\feedback.lu.dialog
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\feedback\recognizers\feedback.lu.qna.dialog
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\fikra\fikra.dialog
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\fikra\recognizers\fikra.en-us.lu.dialog
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\fikra\recognizers\fikra.lu.dialog
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\fikra\recognizers\fikra.lu.qna.dialog
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\greeting\greeting.dialog
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\greeting\recognizers\greeting.en-us.lu.dialog
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\greeting\recognizers\greeting.lu.dialog
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\greeting\recognizers\greeting.lu.qna.dialog
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\haberler\haberler.dialog
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\haberler\recognizers\haberler.en-us.lu.dialog
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\haberler\recognizers\haberler.lu.dialog
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\haberler\recognizers\haberler.lu.qna.dialog
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\havadurumu\havadurumu.dialog
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\havadurumu\recognizers\havadurumu.en-us.lu.dialog
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\havadurumu\recognizers\havadurumu.lu.dialog
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\havadurumu\recognizers\havadurumu.lu.qna.dialog
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\help\help.dialog
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\help\recognizers\help.en-us.lu.dialog
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\help\recognizers\help.lu.dialog
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\help\recognizers\help.lu.qna.dialog
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\hrhelp\hrhelp.dialog
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\hrhelp\recognizers\hrhelp.en-us.lu.dialog
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\hrhelp\recognizers\hrhelp.lu.dialog
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\hrhelp\recognizers\hrhelp.lu.qna.dialog
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\selamlama\recognizers\selamlama.en-us.lu.dialog
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\selamlama\recognizers\selamlama.lu.dialog
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\selamlama\recognizers\selamlama.lu.qna.dialog
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\selamlama\selamlama.dialog
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\sorun\recognizers\sorun.en-us.lu.dialog
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\sorun\recognizers\sorun.lu.dialog
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\sorun\recognizers\sorun.lu.qna.dialog
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\sorun\sorun.dialog
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\wiki\recognizers\wiki.en-us.lu.dialog
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\wiki\recognizers\wiki.lu.dialog
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\wiki\recognizers\wiki.lu.qna.dialog
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\wiki\wiki.dialog
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\recognizers\botmico.en-us.lu.dialog
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\recognizers\botmico.lu.dialog
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\recognizers\botmico.lu.qna.dialog
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\cancel\language-generation\en-us\cancel.en-us.lg
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\doviz\language-generation\en-us\doviz.en-us.lg
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\feedback\language-generation\en-us\feedback.en-us.lg
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\fikra\language-generation\en-us\fikra.en-us.lg
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\greeting\language-generation\en-us\greeting.en-us.lg
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\haberler\language-generation\en-us\haberler.en-us.lg
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\havadurumu\language-generation\en-us\havadurumu.en-us.lg
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\help\language-generation\en-us\help.en-us.lg
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\hrhelp\language-generation\en-us\hrhelp.en-us.lg
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\selamlama\language-generation\en-us\selamlama.en-us.lg
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\sorun\language-generation\en-us\sorun.en-us.lg
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\wiki\language-generation\en-us\wiki.en-us.lg
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\language-generation\en-us\botmico.en-us.lg
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\language-generation\en-us\common.en-us.lg
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\cancel\language-understanding\en-us\cancel.en-us.lu
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\doviz\language-understanding\en-us\doviz.en-us.lu
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\feedback\language-understanding\en-us\feedback.en-us.lu
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\fikra\language-understanding\en-us\fikra.en-us.lu
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\greeting\language-understanding\en-us\greeting.en-us.lu
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\haberler\language-understanding\en-us\haberler.en-us.lu
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\havadurumu\language-understanding\en-us\havadurumu.en-us.lu
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\help\language-understanding\en-us\help.en-us.lu
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\hrhelp\language-understanding\en-us\hrhelp.en-us.lu
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\selamlama\language-understanding\en-us\selamlama.en-us.lu
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\sorun\language-understanding\en-us\sorun.en-us.lu
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\wiki\language-understanding\en-us\wiki.en-us.lu
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\language-understanding\en-us\botmico.en-us.lu
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\cancel\knowledge-base\en-us\cancel.en-us.qna
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\doviz\knowledge-base\en-us\doviz.en-us.qna
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\feedback\knowledge-base\en-us\feedback.en-us.qna
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\fikra\knowledge-base\en-us\fikra.en-us.qna
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\greeting\knowledge-base\en-us\greeting.en-us.qna
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\haberler\knowledge-base\en-us\haberler.en-us.qna
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\havadurumu\knowledge-base\en-us\havadurumu.en-us.qna
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\help\knowledge-base\en-us\help.en-us.qna
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\hrhelp\knowledge-base\en-us\hrhelp.en-us.qna
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\selamlama\knowledge-base\en-us\selamlama.en-us.qna
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\sorun\knowledge-base\en-us\sorun.en-us.qna
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\dialogs\wiki\knowledge-base\en-us\wiki.en-us.qna
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\knowledge-base\en-us\botmico.en-us.qna
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\generated\luis.settings.composer.westeurope.json
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\settings\appsettings.json
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\generated\interruption\botmico.en-us.lu
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\generated\interruption\cancel.en-us.lu
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\generated\interruption\doviz.en-us.lu
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\generated\interruption\feedback.en-us.lu
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\generated\interruption\fikra.en-us.lu
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\generated\interruption\greeting.en-us.lu
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\generated\interruption\haberler.en-us.lu
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\generated\interruption\havadurumu.en-us.lu
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\generated\interruption\help.en-us.lu
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\generated\interruption\hrhelp.en-us.lu
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\generated\interruption\selamlama.en-us.lu
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\generated\interruption\sorun.en-us.lu
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\generated\interruption\wiki.en-us.lu
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\generated\interruption\botmico.en-us.qna
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\generated\interruption\cancel.en-us.qna
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\generated\interruption\doviz.en-us.qna
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\generated\interruption\feedback.en-us.qna
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\generated\interruption\fikra.en-us.qna
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\generated\interruption\greeting.en-us.qna
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\generated\interruption\haberler.en-us.qna
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\generated\interruption\havadurumu.en-us.qna
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\generated\interruption\help.en-us.qna
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\generated\interruption\hrhelp.en-us.qna
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\generated\interruption\selamlama.en-us.qna
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\generated\interruption\sorun.en-us.qna
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\generated\interruption\wiki.en-us.qna
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\botmico.exe
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\botmico.deps.json
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\botmico.runtimeconfig.json
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\botmico.runtimeconfig.dev.json
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\botmico.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\botmico.pdb
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\AdaptiveExpressions.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Antlr4.Runtime.Standard.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Azure.Core.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Azure.Storage.Blobs.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Azure.Storage.Common.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.ApplicationInsights.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.ApplicationInsights.AspNetCore.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.AI.DependencyCollector.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.AI.EventCounterCollector.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.AI.WindowsServer.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.Azure.CognitiveServices.Language.LUIS.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.Azure.Cosmos.Client.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.Azure.Cosmos.Core.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.Azure.Cosmos.Direct.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.Azure.Cosmos.Serialization.HybridRow.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.Azure.DocumentDB.Core.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.Azure.KeyVault.Core.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.Azure.Storage.Blob.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.Azure.Storage.Common.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.Bot.Builder.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.Bot.Builder.AI.Luis.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.Bot.Builder.AI.QnA.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.Bot.Builder.ApplicationInsights.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.Bot.Builder.Azure.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.Bot.Builder.Azure.Blobs.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.Bot.Builder.Dialogs.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.Bot.Builder.Dialogs.Adaptive.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.Bot.Builder.Dialogs.Adaptive.Runtime.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.Bot.Builder.Dialogs.Declarative.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.Bot.Builder.Integration.ApplicationInsights.Core.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.Bot.Builder.Integration.AspNet.Core.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.Bot.Builder.LanguageGeneration.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.Bot.Configuration.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.Bot.Connector.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.Bot.Schema.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.Bot.Streaming.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DiagnosticAdapter.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.ApplicationInsights.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.Extensions.PlatformAbstractions.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Clients.ActiveDirectory.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.Recognizers.Definitions.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.Recognizers.Text.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.Recognizers.Text.Choice.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.Recognizers.Text.DataTypes.TimexExpression.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.Recognizers.Text.DateTime.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.Recognizers.Text.Number.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.Recognizers.Text.NumberWithUnit.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.Recognizers.Text.Sequence.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.Rest.ClientRuntime.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Microsoft.Rest.ClientRuntime.Azure.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\NuGet.Common.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\NuGet.Configuration.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\NuGet.Packaging.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\NuGet.Versioning.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\System.Diagnostics.PerformanceCounter.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\System.Text.Encodings.Web.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Cosmos.CRTCompat.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Azure.Cosmos.ServiceInterop.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\runtimes\win7-x64\native\Cosmos.CRTCompat.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\runtimes\win7-x64\native\Microsoft.Azure.Documents.ServiceInterop.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\runtimes\win7-x64\native\sni.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\runtimes\win7-x86\native\sni.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netstandard1.3\System.Data.SqlClient.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard1.3\System.Data.SqlClient.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Diagnostics.PerformanceCounter.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\obj\Debug\netcoreapp3.1\botmico.AssemblyInfoInputs.cache
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\obj\Debug\netcoreapp3.1\botmico.AssemblyInfo.cs
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\obj\Debug\netcoreapp3.1\botmico.csproj.CoreCompileInputs.cache
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\obj\Debug\netcoreapp3.1\botmico.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\obj\Debug\netcoreapp3.1\botmico.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\obj\Debug\netcoreapp3.1\botmico.RazorTargetAssemblyInfo.cache
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\obj\Debug\netcoreapp3.1\botmico.csproj.CopyComplete
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\obj\Debug\netcoreapp3.1\staticwebassets\botmico.StaticWebAssets.Manifest.cache
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\obj\Debug\netcoreapp3.1\botmico.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\obj\Debug\netcoreapp3.1\botmico.pdb
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\obj\Debug\netcoreapp3.1\botmico.genruntimeconfig.cache
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\obj\Debug\netcoreapp3.1\botmico.csproj.AssemblyReference.cache
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\obj\Debug\netcoreapp3.1\botmico.GeneratedMSBuildEditorConfig.editorconfig

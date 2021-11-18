@@ -1,0 +1,39 @@
+{
+  "$kind": "Microsoft.AdaptiveDialog",
+  "$designer": {
+    "id": "ZOJHp1",
+    "name": "tarif",
+    "description": ""
+  },
+  "autoEndDialog": true,
+  "defaultResultProperty": "dialog.result",
+  "triggers": [
+    {
+      "$kind": "Microsoft.OnBeginDialog",
+      "$designer": {
+        "name": "BeginDialog",
+        "description": "",
+        "id": "XX5xcg"
+      },
+      "actions": [
+        {
+          "$kind": "Microsoft.SendActivity",
+          "$designer": {
+            "id": "fT7pyr"
+          },
+          "activity": "${SendActivity_fT7pyr()}"
+        },
+        {
+          "$kind": "Microsoft.SendActivity",
+          "$designer": {
+            "id": "0hazci"
+          },
+          "activity": "${SendActivity_0hazci()}"
+        }
+      ]
+    }
+  ],
+  "generator": "tarif.lg",
+  "recognizer": "tarif.lu.qna",
+  "id": "tarif"
+}

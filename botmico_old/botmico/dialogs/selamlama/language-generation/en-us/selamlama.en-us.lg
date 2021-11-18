@@ -1,0 +1,57 @@
+[import](common.lg)
+
+# SendActivity_rfRL9Z()
+[Activity
+    SuggestedActions = Hava Durumu | Piyasa | Ansiklopedi | Haberler | Teams Sorunları | Outlook Sorunları | İzin Bilgilerim | Bordro Bilgileri | Yemek Menüsü | Tarifler
+]
+
+# SendActivity_iHmYOd_attachment_cbQwOX()
+> To learn more Adaptive Cards format, read the documentation at
+> https://docs.microsoft.com/en-us/adaptive-cards/getting-started/bots
+- ```{
+    "type": "AdaptiveCard",
+    "body": [
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "size": "Medium",
+                            "weight": "Bolder",
+                            "text": "Merhaba!"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "wrap": true,
+                            "text": "İşte Yardımcı olabileceğim bazı konular:",
+                            "color": "Dark"
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "Image",
+                            "style": "Person",
+                            "url": "https://raw.githubusercontent.com/msft-ai-demos/MICO-BOT/main/micologo_small_png.png",
+                            "size": "Small",
+                            "horizontalAlignment": "Center"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "version": "1.3"
+}```
+# SendActivity_iHmYOd()
+[Activity
+    Attachments = ${json(SendActivity_iHmYOd_attachment_cbQwOX())}
+]

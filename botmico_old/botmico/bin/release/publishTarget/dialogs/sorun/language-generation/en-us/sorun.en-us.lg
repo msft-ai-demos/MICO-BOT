@@ -1,0 +1,1000 @@
+[import](common.lg)
+
+# SendActivity_DZSpw9()
+[Activity
+    Text = Outlook'ta bir sorun yaşamana üzüldüm. 
+]
+
+# ChoiceInput_Prompt_MyYPb5()
+[Activity
+    Text = Nasıl bir sorun yaşıyorsun?
+]
+
+# SendActivity_5c97qX()
+[Activity
+    Attachments = ${json(SendActivity_5c97qX_attachment_VBBFeQ())}
+]
+
+# SendActivity_5c97qX_attachment_VBBFeQ()
+> To learn more Adaptive Cards format, read the documentation at
+> https://docs.microsoft.com/en-us/adaptive-cards/getting-started/bots
+- ```{
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "type": "AdaptiveCard",
+    "version": "1.3",
+    "body": [
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": 50,
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "Teams Mikrofon Sorunu",
+                            "size": "Large",
+                            "weight": "Bolder",
+                            "wrap": true
+                        }
+                    ],
+                    "verticalContentAlignment": "Center"
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "Image",
+                            "url": "https://join.preciate.org/hs-fs/hubfs/msteams%20logo%20-%20500x500%20px-3.png?width=500&height=500&name=msteams%20logo%20-%20500x500%20px-3.png",
+                            "size": "Small",
+                            "horizontalAlignment": "Right",
+                            "spacing": "None"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "TextBlock",
+            "text": "Teams mikrofon sorunlarını çözemek için linki takip edebilirsin",
+            "isSubtle": true,
+            "wrap": true
+        },
+        {
+            "type": "ActionSet",
+            "$data": "${$root.viewUrl}",
+            "actions": [
+                {
+                    "type": "Action.OpenUrl",
+                    "title": "Office Desteği",
+                    "url": "https://support.microsoft.com/tr-tr/office/mikrofonum-teams-da-%C3%A7al%C4%B1%C5%9Fm%C4%B1yor-666d1123-9dd0-4a31-ad2e-a758b204f33a",
+                    "style": "positive"
+                }
+            ]
+        }
+    ]
+}```
+# SendActivity_jQGmUq()
+[Activity
+    Attachments = ${json(SendActivity_jQGmUq_attachment_WmMRCs())}
+]
+
+# SendActivity_jQGmUq_attachment_WmMRCs()
+> To learn more Adaptive Cards format, read the documentation at
+> https://docs.microsoft.com/en-us/adaptive-cards/getting-started/bots
+- ```{
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "type": "AdaptiveCard",
+    "version": "1.3",
+    "body": [
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": 50,
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "Teams Kamera Sorunu",
+                            "size": "Large",
+                            "weight": "Bolder",
+                            "wrap": true
+                        }
+                    ],
+                    "verticalContentAlignment": "Center"
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "Image",
+                            "url": "https://join.preciate.org/hs-fs/hubfs/msteams%20logo%20-%20500x500%20px-3.png?width=500&height=500&name=msteams%20logo%20-%20500x500%20px-3.png",
+                            "size": "Small",
+                            "horizontalAlignment": "Right",
+                            "spacing": "None"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "TextBlock",
+            "text": "Teams kamera sorunlarını çözemek için linki takip edebilirsin",
+            "isSubtle": true,
+            "wrap": true
+        },
+        {
+            "type": "ActionSet",
+            "$data": "${$root.viewUrl}",
+            "actions": [
+                {
+                    "type": "Action.OpenUrl",
+                    "title": "Office Desteği",
+                    "url": "https://support.microsoft.com/tr-tr/office/kameram-teams-de-%C3%A7al%C4%B1%C5%9Fm%C4%B1yor-9581983b-c6f9-40e3-b0d8-122857972ade",
+                    "style": "positive"
+                }
+            ]
+        }
+    ]
+}```
+# SendActivity_4SW4K3()
+[Activity
+    Text = Microsoft Teams'de kamerayla ilgili sorunlarını çözmene yardım edecek bazı önerilerim var.
+]
+
+# SendActivity_YkzL67()
+[Activity
+    Text = Microsoft Teams'de mikrofonla ilgili sorunlarını çözmene yardım edecek bazı önerilerim var.
+]
+
+# SendActivity_L6A8NV()
+[Activity
+    Text = Demek parolayla iligli bir sorun yaşıyorsun...
+]
+
+# SendActivity_fdOP4k_attachment_qvY9Lc()
+> To learn more Adaptive Cards format, read the documentation at
+> https://docs.microsoft.com/en-us/adaptive-cards/getting-started/bots
+- ```{
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "type": "AdaptiveCard",
+    "version": "1.3",
+    "body": [
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "Teams Parola Sorunu",
+                            "size": "Large",
+                            "weight": "Bolder",
+                            "wrap": true
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "Image",
+                            "url": "https://join.preciate.org/hs-fs/hubfs/msteams%20logo%20-%20500x500%20px-3.png?width=500&height=500&name=msteams%20logo%20-%20500x500%20px-3.png",
+                            "size": "Small",
+                            "horizontalAlignment": "Right",
+                            "spacing": "None"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "TextBlock",
+            "text": "Sana Teams ile ilgili yardımcı olabilirim",
+            "isSubtle": true,
+            "wrap": true
+        },
+        {
+            "type": "TextBlock",
+            "text": "Parola konusunda ne tür bir sıkıntı yaşıyorsun?",
+            "wrap": true
+        },
+        {
+            "type": "ActionSet",
+            "$data": "${$root.viewUrl}",
+            "actions": [
+                {
+                    "type": "Action.OpenUrl",
+                    "title": "Parolamı Değiştimek İstiyorum",
+                    "url": "https://answers.microsoft.com/tr-tr/msteams/forum/all/microsoft-teams-%C5%9Fifre-de%C4%9Fi%C5%9Ftirme/d8be86e5-8900-4928-baae-9ede6566a974",
+                    "style": "positive"
+                }
+            ]
+        },
+        {
+            "type": "ActionSet",
+            "$data": "${$root.viewUrl}",
+            "actions": [
+                {
+                    "type": "Action.OpenUrl",
+                    "title": "Parolamı Unuttum",
+                    "url": "https://support.microsoft.com/tr-tr/account-billing/unutulmu%C5%9F-bir-microsoft-hesab%C4%B1-parolas%C4%B1n%C4%B1-s%C4%B1f%C4%B1rlay%C4%B1n-eff4f067-5042-c1a3-fe72-b04d60556c37",
+                    "style": "destructive"
+                }
+            ]
+        }
+    ]
+}```
+# SendActivity_fdOP4k()
+[Activity
+    Attachments = ${json(SendActivity_fdOP4k_attachment_qvY9Lc())}
+]
+
+# SendActivity_S2bUNS()
+[Activity
+    Text = Microsoft Teams'de mikrofonla ilgili sorunlarını çözmene yardım edecek bazı önerilerim var.
+]
+
+# SendActivity_rwUAq3_attachment_VBBFeQ()
+> To learn more Adaptive Cards format, read the documentation at
+> https://docs.microsoft.com/en-us/adaptive-cards/getting-started/bots
+- ```{
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "type": "AdaptiveCard",
+    "version": "1.3",
+    "body": [
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": 50,
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "Teams Mikrofon Sorunu",
+                            "size": "Large",
+                            "weight": "Bolder",
+                            "wrap": true
+                        }
+                    ],
+                    "verticalContentAlignment": "Center"
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "Image",
+                            "url": "https://join.preciate.org/hs-fs/hubfs/msteams%20logo%20-%20500x500%20px-3.png?width=500&height=500&name=msteams%20logo%20-%20500x500%20px-3.png",
+                            "size": "Small",
+                            "horizontalAlignment": "Right",
+                            "spacing": "None"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "TextBlock",
+            "text": "Teams mikrofon sorunlarını çözmek için linki takip edebilirsin",
+            "isSubtle": true,
+            "wrap": true
+        },
+        {
+            "type": "ActionSet",
+            "$data": "${$root.viewUrl}",
+            "actions": [
+                {
+                    "type": "Action.OpenUrl",
+                    "title": "Office Desteği",
+                    "url": "https://support.microsoft.com/tr-tr/office/mikrofonum-teams-da-%C3%A7al%C4%B1%C5%9Fm%C4%B1yor-666d1123-9dd0-4a31-ad2e-a758b204f33a",
+                    "style": "positive"
+                }
+            ]
+        }
+    ]
+}```
+# SendActivity_rwUAq3()
+[Activity
+    Attachments = ${json(SendActivity_rwUAq3_attachment_VBBFeQ())}
+]
+
+# SendActivity_Xnyahj_attachment_WmMRCs()
+> To learn more Adaptive Cards format, read the documentation at
+> https://docs.microsoft.com/en-us/adaptive-cards/getting-started/bots
+- ```{
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "type": "AdaptiveCard",
+    "version": "1.3",
+    "body": [
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": 50,
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "Teams Kamera Sorunu",
+                            "size": "Large",
+                            "weight": "Bolder",
+                            "wrap": true
+                        }
+                    ],
+                    "verticalContentAlignment": "Center"
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "Image",
+                            "url": "https://join.preciate.org/hs-fs/hubfs/msteams%20logo%20-%20500x500%20px-3.png?width=500&height=500&name=msteams%20logo%20-%20500x500%20px-3.png",
+                            "size": "Small",
+                            "horizontalAlignment": "Right",
+                            "spacing": "None"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "TextBlock",
+            "text": "Teams kamera sorunlarını çözmek için linki takip edebilirsin",
+            "isSubtle": true,
+            "wrap": true
+        },
+        {
+            "type": "ActionSet",
+            "$data": "${$root.viewUrl}",
+            "actions": [
+                {
+                    "type": "Action.OpenUrl",
+                    "title": "Office Desteği",
+                    "url": "https://support.microsoft.com/tr-tr/office/kameram-teams-de-%C3%A7al%C4%B1%C5%9Fm%C4%B1yor-9581983b-c6f9-40e3-b0d8-122857972ade",
+                    "style": "positive"
+                }
+            ]
+        }
+    ]
+}```
+# SendActivity_Xnyahj()
+[Activity
+    Attachments = ${json(SendActivity_Xnyahj_attachment_WmMRCs())}
+]
+
+# SendActivity_SI7rqt()
+[Activity
+    Text = İşte senin için yapabileceklerim:
+]
+
+# SendActivity_TA5kMW_attachment_qvY9Lc()
+> To learn more Adaptive Cards format, read the documentation at
+> https://docs.microsoft.com/en-us/adaptive-cards/getting-started/bots
+- ```{
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "type": "AdaptiveCard",
+    "version": "1.3",
+    "body": [
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "Teams Sorun Giderme",
+                            "size": "Large",
+                            "weight": "Bolder",
+                            "wrap": true
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "auto",
+                    "items": [
+                        {
+                            "type": "Image",
+                            "url": "https://join.preciate.org/hs-fs/hubfs/msteams%20logo%20-%20500x500%20px-3.png?width=500&height=500&name=msteams%20logo%20-%20500x500%20px-3.png",
+                            "size": "Small",
+                            "horizontalAlignment": "Right",
+                            "spacing": "None"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "TextBlock",
+            "text": "Sana Teams ile ilgili yardımcı olabilirim",
+            "isSubtle": true,
+            "wrap": true
+        },
+        {
+            "type": "ActionSet",
+            "$data": "${$root.viewUrl}",
+            "actions": [
+                {
+                    "type": "Action.OpenUrl",
+                    "title": "Sorun Gider",
+                    "url": "https://docs.microsoft.com/tr-tr/microsoftteams/troubleshoot/teams-welcome",
+                    "style": "positive"
+                }
+            ]
+        }
+    ]
+}```
+# SendActivity_TA5kMW()
+[Activity
+    Attachments = ${json(SendActivity_TA5kMW_attachment_qvY9Lc())}
+]
+
+# SendActivity_BP5OiQ()
+[Activity
+    Text = Demek parolayla iligli bir sorun yaşıyorsun...
+]
+
+# ChoiceInput_Prompt_IuDThI()
+[Activity
+    Text = Nasıl bir sorun yaşıyorsun?
+]
+
+# SendActivity_EccZEq()
+[Activity
+    Text = İşte senin için yapabileceklerim:
+]
+
+# SendActivity_1Zf2wo_attachment_qvY9Lc()
+> To learn more Adaptive Cards format, read the documentation at
+> https://docs.microsoft.com/en-us/adaptive-cards/getting-started/bots
+- ```{
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "type": "AdaptiveCard",
+    "version": "1.3",
+    "body": [
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "Outlook Sorun Giderme",
+                            "size": "Large",
+                            "weight": "Bolder",
+                            "wrap": true
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "auto",
+                    "items": [
+                        {
+                            "type": "Image",
+                            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Outlook_hi-res_icon_%282019%29.svg/674px-Outlook_hi-res_icon_%282019%29.svg.png",
+                            "size": "Small",
+                            "horizontalAlignment": "Right",
+                            "spacing": "None"
+                        }
+                    ],
+                    "height": "stretch"
+                }
+            ]
+        },
+        {
+            "type": "TextBlock",
+            "text": "Sana Outlook ile ilgili yardımcı olabilirim",
+            "isSubtle": true,
+            "wrap": true
+        },
+        {
+            "type": "ActionSet",
+            "$data": "${$root.viewUrl}",
+            "actions": [
+                {
+                    "type": "Action.OpenUrl",
+                    "title": "Sorun Gider",
+                    "url": "https://support.microsoft.com/tr-tr/office/outlook-sorunlar%C4%B1n%C4%B1-giderme-241bb0fc-b201-4bb2-98d3-74750a27029e",
+                    "style": "positive"
+                }
+            ]
+        }
+    ]
+}```
+# SendActivity_1Zf2wo()
+[Activity
+    Attachments = ${json(SendActivity_1Zf2wo_attachment_qvY9Lc())}
+]
+
+# SendActivity_HUBMmJ()
+[Activity
+    Text = Demek parolayla iligli bir sorun yaşıyorsun...
+]
+
+# SendActivity_bQXOAL_attachment_qvY9Lc()
+> To learn more Adaptive Cards format, read the documentation at
+> https://docs.microsoft.com/en-us/adaptive-cards/getting-started/bots
+- ```{
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "type": "AdaptiveCard",
+    "version": "1.3",
+    "body": [
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "Outlook Parola Sorunu",
+                            "size": "Large",
+                            "weight": "Bolder",
+                            "wrap": true
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "auto",
+                    "items": [
+                        {
+                            "type": "Image",
+                            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Outlook_hi-res_icon_%282019%29.svg/674px-Outlook_hi-res_icon_%282019%29.svg.png",
+                            "size": "Small",
+                            "horizontalAlignment": "Right",
+                            "spacing": "None"
+                        }
+                    ],
+                    "height": "stretch"
+                }
+            ]
+        },
+        {
+            "type": "TextBlock",
+            "text": "Sana Outlook ile ilgili yardımcı olabilirim",
+            "isSubtle": true,
+            "wrap": true
+        },
+        {
+            "type": "TextBlock",
+            "text": "Parola konusunda ne tür bir sıkıntı yaşıyorsun?",
+            "wrap": true
+        },
+        {
+            "type": "ActionSet",
+            "$data": "${$root.viewUrl}",
+            "actions": [
+                {
+                    "type": "Action.OpenUrl",
+                    "title": "Parolamı Değiştimek İstiyorum",
+                    "url": "https://support.microsoft.com/tr-tr/office/parola-de%C4%9Fi%C5%9Ftirme-50bb1309-6f53-4c24-8bfd-ed24ca9e872c",
+                    "style": "positive"
+                }
+            ]
+        },
+        {
+            "type": "ActionSet",
+            "$data": "${$root.viewUrl}",
+            "actions": [
+                {
+                    "type": "Action.OpenUrl",
+                    "title": "Parolamı Unuttum",
+                    "url": "https://account.live.com/password/reset?mkt=tr-tr",
+                    "style": "destructive"
+                }
+            ]
+        }
+    ]
+}```
+# SendActivity_bQXOAL()
+[Activity
+    Attachments = ${json(SendActivity_bQXOAL_attachment_qvY9Lc())}
+]
+
+# SendActivity_SxpVjr()
+[Activity
+    Text = Teams'de bir sorun yaşamana üzüldüm.
+]
+
+# SendActivity_tV7BhO()
+[Activity
+    Text = İşte senin için yapabileceklerim:
+]
+
+# SendActivity_v5b2cQ_attachment_qvY9Lc()
+> To learn more Adaptive Cards format, read the documentation at
+> https://docs.microsoft.com/en-us/adaptive-cards/getting-started/bots
+- ```{
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "type": "AdaptiveCard",
+    "version": "1.3",
+    "body": [
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "Teams Sorun Giderme",
+                            "size": "Large",
+                            "weight": "Bolder",
+                            "wrap": true
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "auto",
+                    "items": [
+                        {
+                            "type": "Image",
+                            "url": "https://join.preciate.org/hs-fs/hubfs/msteams%20logo%20-%20500x500%20px-3.png?width=500&height=500&name=msteams%20logo%20-%20500x500%20px-3.png",
+                            "size": "Small",
+                            "horizontalAlignment": "Right",
+                            "spacing": "None"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "TextBlock",
+            "text": "Sana Teams ile ilgili yardımcı olabilirim",
+            "isSubtle": true,
+            "wrap": true
+        },
+        {
+            "type": "ActionSet",
+            "$data": "${$root.viewUrl}",
+            "actions": [
+                {
+                    "type": "Action.OpenUrl",
+                    "title": "Sorun Gider",
+                    "url": "https://docs.microsoft.com/tr-tr/microsoftteams/troubleshoot/teams-welcome",
+                    "style": "positive"
+                }
+            ]
+        }
+    ]
+}```
+# SendActivity_v5b2cQ()
+[Activity
+    Attachments = ${json(SendActivity_v5b2cQ_attachment_qvY9Lc())}
+]
+
+# SendActivity_JMTmzl()
+[Activity
+    Text = Demek parolayla iligli bir sorun yaşıyorsun...
+]
+
+# SendActivity_yLAZdt_attachment_qvY9Lc()
+> To learn more Adaptive Cards format, read the documentation at
+> https://docs.microsoft.com/en-us/adaptive-cards/getting-started/bots
+- ```{
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "type": "AdaptiveCard",
+    "version": "1.3",
+    "body": [
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "Teams Parola Sorunu",
+                            "size": "Large",
+                            "weight": "Bolder",
+                            "wrap": true
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "Image",
+                            "url": "https://join.preciate.org/hs-fs/hubfs/msteams%20logo%20-%20500x500%20px-3.png?width=500&height=500&name=msteams%20logo%20-%20500x500%20px-3.png",
+                            "size": "Small",
+                            "horizontalAlignment": "Right",
+                            "spacing": "None"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "TextBlock",
+            "text": "Sana Teams ile ilgili yardımcı olabilirim",
+            "isSubtle": true,
+            "wrap": true
+        },
+        {
+            "type": "TextBlock",
+            "text": "Parola konusunda ne tür bir sıkıntı yaşıyorsun?",
+            "wrap": true
+        },
+        {
+            "type": "ActionSet",
+            "$data": "${$root.viewUrl}",
+            "actions": [
+                {
+                    "type": "Action.OpenUrl",
+                    "title": "Parolamı Değiştimek İstiyorum",
+                    "url": "https://answers.microsoft.com/tr-tr/msteams/forum/all/microsoft-teams-%C5%9Fifre-de%C4%9Fi%C5%9Ftirme/d8be86e5-8900-4928-baae-9ede6566a974",
+                    "style": "positive"
+                }
+            ]
+        },
+        {
+            "type": "ActionSet",
+            "$data": "${$root.viewUrl}",
+            "actions": [
+                {
+                    "type": "Action.OpenUrl",
+                    "title": "Parolamı Unuttum",
+                    "url": "https://support.microsoft.com/tr-tr/account-billing/unutulmu%C5%9F-bir-microsoft-hesab%C4%B1-parolas%C4%B1n%C4%B1-s%C4%B1f%C4%B1rlay%C4%B1n-eff4f067-5042-c1a3-fe72-b04d60556c37",
+                    "style": "destructive"
+                }
+            ]
+        }
+    ]
+}```
+# SendActivity_yLAZdt()
+[Activity
+    Attachments = ${json(SendActivity_yLAZdt_attachment_qvY9Lc())}
+]
+
+# SendActivity_UREtbB()
+[Activity
+    Text = Microsoft Teams'de mikrofonla ilgili sorunlarını çözmene yardım edecek bazı önerilerim var.
+]
+
+# SendActivity_x3r1NA_attachment_VBBFeQ()
+> To learn more Adaptive Cards format, read the documentation at
+> https://docs.microsoft.com/en-us/adaptive-cards/getting-started/bots
+- ```{
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "type": "AdaptiveCard",
+    "version": "1.3",
+    "body": [
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": 50,
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "Teams Mikrofon Sorunu",
+                            "size": "Large",
+                            "weight": "Bolder",
+                            "wrap": true
+                        }
+                    ],
+                    "verticalContentAlignment": "Center"
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "Image",
+                            "url": "https://join.preciate.org/hs-fs/hubfs/msteams%20logo%20-%20500x500%20px-3.png?width=500&height=500&name=msteams%20logo%20-%20500x500%20px-3.png",
+                            "size": "Small",
+                            "horizontalAlignment": "Right",
+                            "spacing": "None"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "TextBlock",
+            "text": "Teams mikrofon sorunlarını çözmek için linki takip edebilirsin",
+            "isSubtle": true,
+            "wrap": true
+        },
+        {
+            "type": "ActionSet",
+            "$data": "${$root.viewUrl}",
+            "actions": [
+                {
+                    "type": "Action.OpenUrl",
+                    "title": "Office Desteği",
+                    "url": "https://support.microsoft.com/tr-tr/office/mikrofonum-teams-da-%C3%A7al%C4%B1%C5%9Fm%C4%B1yor-666d1123-9dd0-4a31-ad2e-a758b204f33a",
+                    "style": "positive"
+                }
+            ]
+        }
+    ]
+}```
+# SendActivity_x3r1NA()
+[Activity
+    Attachments = ${json(SendActivity_x3r1NA_attachment_VBBFeQ())}
+]
+
+# SendActivity_fA9BIx()
+[Activity
+    Text = Microsoft Teams'de kamerayla ilgili sorunlarını çözmene yardım edecek bazı önerilerim var.
+]
+
+# SendActivity_6r9beP_attachment_WmMRCs()
+> To learn more Adaptive Cards format, read the documentation at
+> https://docs.microsoft.com/en-us/adaptive-cards/getting-started/bots
+- ```{
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "type": "AdaptiveCard",
+    "version": "1.3",
+    "body": [
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": 50,
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "Teams Kamera Sorunu",
+                            "size": "Large",
+                            "weight": "Bolder",
+                            "wrap": true
+                        }
+                    ],
+                    "verticalContentAlignment": "Center"
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "Image",
+                            "url": "https://join.preciate.org/hs-fs/hubfs/msteams%20logo%20-%20500x500%20px-3.png?width=500&height=500&name=msteams%20logo%20-%20500x500%20px-3.png",
+                            "size": "Small",
+                            "horizontalAlignment": "Right",
+                            "spacing": "None"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "TextBlock",
+            "text": "Teams kamera sorunlarını çözmek için linki takip edebilirsin",
+            "isSubtle": true,
+            "wrap": true
+        },
+        {
+            "type": "ActionSet",
+            "$data": "${$root.viewUrl}",
+            "actions": [
+                {
+                    "type": "Action.OpenUrl",
+                    "title": "Office Desteği",
+                    "url": "https://support.microsoft.com/tr-tr/office/kameram-teams-de-%C3%A7al%C4%B1%C5%9Fm%C4%B1yor-9581983b-c6f9-40e3-b0d8-122857972ade",
+                    "style": "positive"
+                }
+            ]
+        }
+    ]
+}```
+# SendActivity_6r9beP()
+[Activity
+    Attachments = ${json(SendActivity_6r9beP_attachment_WmMRCs())}
+]
+
+# SendActivity_AG81Kz_attachment_qvY9Lc()
+> To learn more Adaptive Cards format, read the documentation at
+> https://docs.microsoft.com/en-us/adaptive-cards/getting-started/bots
+- ```{
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "type": "AdaptiveCard",
+    "version": "1.3",
+    "body": [
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "Outlook Parola Sorunu",
+                            "size": "Large",
+                            "weight": "Bolder",
+                            "wrap": true
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "auto",
+                    "items": [
+                        {
+                            "type": "Image",
+                            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Outlook_hi-res_icon_%282019%29.svg/674px-Outlook_hi-res_icon_%282019%29.svg.png",
+                            "size": "Small",
+                            "horizontalAlignment": "Right",
+                            "spacing": "None"
+                        }
+                    ],
+                    "height": "stretch"
+                }
+            ]
+        },
+        {
+            "type": "TextBlock",
+            "text": "Sana Outlook ile ilgili yardımcı olabilirim",
+            "isSubtle": true,
+            "wrap": true
+        },
+        {
+            "type": "TextBlock",
+            "text": "Parola konusunda ne tür bir sıkıntı yaşıyorsun?",
+            "wrap": true
+        },
+        {
+            "type": "ActionSet",
+            "$data": "${$root.viewUrl}",
+            "actions": [
+                {
+                    "type": "Action.OpenUrl",
+                    "title": "Parolamı Değiştimek İstiyorum",
+                    "url": "https://support.microsoft.com/tr-tr/office/parola-de%C4%9Fi%C5%9Ftirme-50bb1309-6f53-4c24-8bfd-ed24ca9e872c",
+                    "style": "positive"
+                }
+            ]
+        },
+        {
+            "type": "ActionSet",
+            "$data": "${$root.viewUrl}",
+            "actions": [
+                {
+                    "type": "Action.OpenUrl",
+                    "title": "Parolamı Unuttum",
+                    "url": "https://account.live.com/password/reset?mkt=tr-tr",
+                    "style": "destructive"
+                }
+            ]
+        }
+    ]
+}```
+# SendActivity_AG81Kz()
+[Activity
+    Attachments = ${json(SendActivity_AG81Kz_attachment_qvY9Lc())}
+]
+
+# SendActivity_8c5pyd()
+[Activity
+    Text = Outlook'da dil ayarları ilgili sorunlarını çözmene yardım edecek bazı önerilerim var.
+]
+
+# SendActivity_wMHCVS()
+[Activity
+    Text = Microsoft Teams'de kamerayla ilgili sorunlarını çözmene yardım edecek bazı önerilerim var.
+]

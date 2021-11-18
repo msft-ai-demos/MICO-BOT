@@ -1,0 +1,48 @@
+{
+  "botmico.en-us": {
+    "rootDialog": true,
+    "triggers": {
+      "": [
+        "greeting.en-us"
+      ],
+      "Cancel": [
+        "cancel.en-us",
+        "feedback.en-us"
+      ],
+      "Help": [
+        "help.en-us"
+      ],
+      "wiki": [
+        "wiki.en-us"
+      ],
+      "fikra": [
+        "fikra.en-us"
+      ],
+      "selamlama": [
+        "selamlama.en-us"
+      ],
+      "haber": [
+        "haberler.en-us"
+      ],
+      "doviz": [
+        "doviz.en-us"
+      ],
+      "havadurumu": [
+        "havadurumu.en-us"
+      ],
+      "feedback": [
+        "feedback.en-us"
+      ],
+      "hrhelp": [
+        "hrhelp.en-us"
+      ],
+      "sorun": [
+        "sorun.en-us"
+      ],
+      "vizyon": "",
+      "etkinlik": "",
+      "ekip": "",
+      "yemekler": ""
+    }
+  }
+}

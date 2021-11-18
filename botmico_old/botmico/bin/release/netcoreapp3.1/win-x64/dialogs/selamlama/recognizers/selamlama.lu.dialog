@@ -1,0 +1,8 @@
+{
+  "$kind": "Microsoft.MultiLanguageRecognizer",
+  "id": "LUIS_selamlama",
+  "recognizers": {
+    "en-us": "selamlama.en-us.lu",
+    "": "selamlama.en-us.lu"
+  }
+}

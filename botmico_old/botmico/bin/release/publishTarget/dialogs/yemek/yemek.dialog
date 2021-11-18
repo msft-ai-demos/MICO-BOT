@@ -1,0 +1,141 @@
+{
+  "$kind": "Microsoft.AdaptiveDialog",
+  "$designer": {
+    "id": "fGi4gN",
+    "name": "yemek",
+    "description": ""
+  },
+  "autoEndDialog": true,
+  "defaultResultProperty": "dialog.result",
+  "triggers": [
+    {
+      "$kind": "Microsoft.OnBeginDialog",
+      "$designer": {
+        "name": "BeginDialog",
+        "description": "",
+        "id": "c91EUP"
+      },
+      "actions": [
+        {
+          "$kind": "Microsoft.SetProperties",
+          "$designer": {
+            "id": "xe5WZn"
+          },
+          "assignments": [
+            {
+              "property": "dialog.bugun",
+              "value": "=addDays(utcNow(), 0)"
+            },
+            {
+              "property": "dialog.formatted",
+              "value": "=formatDateTime(dialog.bugun, 'dd.MM.yyyy')"
+            },
+            {
+              "property": "dialog.dayoftheweek",
+              "value": "=dayOfWeek(dialog.bugun)"
+            },
+            {
+              "property": "dialog.haftaarray",
+              "value": [
+                "Pazar",
+                "Pazartesi",
+                "Salı",
+                "Çarşamba",
+                "Perşembe",
+                "Cuma",
+                "Cumartesi",
+                "Pazar"
+              ]
+            },
+            {
+              "property": "dialog.ayarray",
+              "value": [
+                "Aralık",
+                "Ocak",
+                "Şubat",
+                "Mart",
+                "Nisan",
+                "Mayıs",
+                "Haziran",
+                "Temmuz",
+                "Ağustos",
+                "Eylül",
+                "Ekim",
+                "Kasım",
+                "Aralık"
+              ]
+            },
+            {
+              "property": "dialog.gun",
+              "value": "=formatDateTime(dialog.bugun, 'dd')"
+            },
+            {
+              "property": "dialog.ay",
+              "value": "=formatDateTime(dialog.bugun, 'MM')"
+            },
+            {
+              "property": "dialog.yil",
+              "value": "=formatDateTime(dialog.bugun, 'yyyy')"
+            }
+          ]
+        },
+        {
+          "$kind": "Microsoft.HttpRequest",
+          "$designer": {
+            "id": "8qyY7g"
+          },
+          "method": "GET",
+          "resultProperty": "dialog.blob_json",
+          "responseType": "json",
+          "url": "https://micoyedeksa.blob.core.windows.net/micoyemek/yemekmenu.json?sp=racwdl&st=2021-09-06T12:31:20Z&se=2022-07-13T12:31:00Z&sv=2020-08-04&sr=b&sig=w7Sko4251lKK%2FaQ8cMyE8ZSskXzQD4Nj%2FPZmOgICTX4%3D"
+        },
+        {
+          "$kind": "Microsoft.SetProperty",
+          "$designer": {
+            "id": "LQF2jS"
+          },
+          "property": "dialog.random",
+          "value": "=rand(0,3)"
+        },
+        {
+          "$kind": "Microsoft.SetProperties",
+          "$designer": {
+            "id": "LWgIp3"
+          },
+          "assignments": [
+            {
+              "property": "dialog.menu",
+              "value": "=dialog.blob_json.content.yemek[dialog.random].icerik[0]"
+            },
+            {
+              "property": "dialog.corba",
+              "value": "=dialog.menu.corba"
+            },
+            {
+              "property": "dialog.anayemek",
+              "value": "=dialog.menu.anayemek"
+            },
+            {
+              "value": "=dialog.menu.yan1",
+              "property": "dialog.yan1"
+            },
+            {
+              "property": "dialog.yan2",
+              "value": "=dialog.menu.yan2"
+            }
+          ]
+        },
+        {
+          "$kind": "Microsoft.SendActivity",
+          "$designer": {
+            "id": "R439bJ"
+          },
+          "activity": "${SendActivity_R439bJ()}"
+        }
+      ]
+    }
+  ],
+  "generator": "yemek.lg",
+  "recognizer": "yemek.lu.qna",
+  "id": "yemek"
+}

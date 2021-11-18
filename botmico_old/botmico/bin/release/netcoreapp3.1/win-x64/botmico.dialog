@@ -1,0 +1,619 @@
+{
+  "$kind": "Microsoft.AdaptiveDialog",
+  "$designer": {
+    "name": "botmico",
+    "description": "",
+    "id": "4pM5gc"
+  },
+  "autoEndDialog": true,
+  "defaultResultProperty": "dialog.result",
+  "triggers": [
+    {
+      "$kind": "Microsoft.OnConversationUpdateActivity",
+      "$designer": {
+        "id": "376720"
+      },
+      "actions": [
+        {
+          "$kind": "Microsoft.Foreach",
+          "$designer": {
+            "id": "518944",
+            "name": "Loop: for each item"
+          },
+          "itemsProperty": "turn.Activity.membersAdded",
+          "actions": [
+            {
+              "$kind": "Microsoft.IfCondition",
+              "$designer": {
+                "id": "641773",
+                "name": "Branch: if/else"
+              },
+              "condition": "string(dialog.foreach.value.id) != string(turn.Activity.Recipient.id)",
+              "actions": [
+                {
+                  "$kind": "Microsoft.BeginDialog",
+                  "$designer": {
+                    "id": "Xu39SU"
+                  },
+                  "activityProcessed": true,
+                  "dialog": "greeting"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "$kind": "Microsoft.OnIntent",
+      "$designer": {
+        "id": "e1i6lY",
+        "name": "Cancel"
+      },
+      "intent": "Cancel",
+      "actions": [
+        {
+          "$kind": "Microsoft.BeginDialog",
+          "$designer": {
+            "id": "KuZEYx"
+          },
+          "activityProcessed": true,
+          "dialog": "cancel"
+        },
+        {
+          "$kind": "Microsoft.BeginDialog",
+          "$designer": {
+            "id": "DJ6Ypq"
+          },
+          "activityProcessed": true,
+          "dialog": "feedback"
+        }
+      ]
+    },
+    {
+      "$kind": "Microsoft.OnIntent",
+      "$designer": {
+        "id": "9wETGs",
+        "name": "Help"
+      },
+      "intent": "Help",
+      "actions": [
+        {
+          "$kind": "Microsoft.BeginDialog",
+          "$designer": {
+            "id": "6EDB08"
+          },
+          "activityProcessed": true,
+          "dialog": "help"
+        }
+      ]
+    },
+    {
+      "$kind": "Microsoft.OnError",
+      "$designer": {
+        "id": "aLQGr7"
+      },
+      "actions": [
+        {
+          "$kind": "Microsoft.TelemetryTrackEventAction",
+          "$designer": {
+            "id": "Aucn7t"
+          },
+          "eventName": "ErrorOccurred",
+          "properties": {
+            "Type": "=turn.dialogEvent.value.className",
+            "Exception": "=turn.dialogEvent.value"
+          }
+        },
+        {
+          "$kind": "Microsoft.SendActivity",
+          "$designer": {
+            "id": "2outgQ"
+          },
+          "activity": "${SendActivity_ErrorOccured()}"
+        },
+        {
+          "$kind": "Microsoft.TraceActivity",
+          "$designer": {
+            "id": "NVFqr5"
+          },
+          "name": "=turn.dialogEvent.value.className",
+          "valueType": "Exception",
+          "value": "=turn.dialogEvent.value",
+          "label": "ErrorOccurred"
+        }
+      ]
+    },
+    {
+      "$kind": "Microsoft.OnUnknownIntent",
+      "$designer": {
+        "id": "FOxcnx"
+      },
+      "actions": [
+        {
+          "$kind": "Microsoft.SendActivity",
+          "$designer": {
+            "id": "IQMEuO"
+          },
+          "activity": "${SendActivity_DidNotUnderstand()}"
+        }
+      ]
+    },
+    {
+      "$kind": "Microsoft.OnIntent",
+      "$designer": {
+        "id": "Tfx6NQ",
+        "name": "wiki"
+      },
+      "intent": "wiki",
+      "actions": [
+        {
+          "$kind": "Microsoft.BeginDialog",
+          "$designer": {
+            "id": "oNwzli"
+          },
+          "activityProcessed": true,
+          "dialog": "wiki"
+        }
+      ]
+    },
+    {
+      "$kind": "Microsoft.OnIntent",
+      "$designer": {
+        "id": "OzKBx4",
+        "name": "fikra"
+      },
+      "intent": "fikra",
+      "actions": [
+        {
+          "$kind": "Microsoft.SendActivity",
+          "$designer": {
+            "id": "qN33UJ"
+          },
+          "activity": "${SendActivity_qN33UJ()}"
+        },
+        {
+          "$kind": "Microsoft.BeginDialog",
+          "$designer": {
+            "id": "YMXIRu"
+          },
+          "activityProcessed": true,
+          "dialog": "fikra"
+        }
+      ]
+    },
+    {
+      "$kind": "Microsoft.OnIntent",
+      "$designer": {
+        "id": "JMze9F",
+        "name": "selamlama"
+      },
+      "intent": "selamlama",
+      "actions": [
+        {
+          "$kind": "Microsoft.BeginDialog",
+          "$designer": {
+            "id": "nOD6AC"
+          },
+          "activityProcessed": true,
+          "dialog": "selamlama"
+        }
+      ]
+    },
+    {
+      "$kind": "Microsoft.OnIntent",
+      "$designer": {
+        "id": "KLrIoF",
+        "name": "haber"
+      },
+      "intent": "haber",
+      "actions": [
+        {
+          "$kind": "Microsoft.BeginDialog",
+          "$designer": {
+            "id": "sP5WQN"
+          },
+          "activityProcessed": true,
+          "dialog": "haberler"
+        }
+      ]
+    },
+    {
+      "$kind": "Microsoft.OnIntent",
+      "$designer": {
+        "id": "F0JTTq",
+        "name": "doviz"
+      },
+      "intent": "doviz",
+      "actions": [
+        {
+          "$kind": "Microsoft.BeginDialog",
+          "$designer": {
+            "id": "WZp6PS"
+          },
+          "activityProcessed": true,
+          "dialog": "doviz"
+        }
+      ]
+    },
+    {
+      "$kind": "Microsoft.OnIntent",
+      "$designer": {
+        "id": "d2JrId",
+        "name": "havadurumu"
+      },
+      "intent": "havadurumu",
+      "actions": [
+        {
+          "$kind": "Microsoft.BeginDialog",
+          "$designer": {
+            "id": "fjFmXP"
+          },
+          "activityProcessed": true,
+          "dialog": "havadurumu"
+        }
+      ]
+    },
+    {
+      "$kind": "Microsoft.OnIntent",
+      "$designer": {
+        "id": "zFTJa0",
+        "name": "feedback"
+      },
+      "intent": "feedback",
+      "actions": [
+        {
+          "$kind": "Microsoft.BeginDialog",
+          "$designer": {
+            "id": "g1QEJ7"
+          },
+          "activityProcessed": true,
+          "dialog": "feedback"
+        }
+      ]
+    },
+    {
+      "$kind": "Microsoft.OnIntent",
+      "$designer": {
+        "id": "CZQtWZ",
+        "name": "hrhelp"
+      },
+      "intent": "hrhelp",
+      "actions": [
+        {
+          "$kind": "Microsoft.BeginDialog",
+          "$designer": {
+            "id": "dgbbhY"
+          },
+          "activityProcessed": true,
+          "dialog": "hrhelp"
+        }
+      ]
+    },
+    {
+      "$kind": "Microsoft.OnIntent",
+      "$designer": {
+        "id": "hx57GH",
+        "name": "sorun"
+      },
+      "intent": "sorun",
+      "actions": [
+        {
+          "$kind": "Microsoft.BeginDialog",
+          "$designer": {
+            "id": "rhYMn2"
+          },
+          "activityProcessed": true,
+          "dialog": "sorun"
+        }
+      ]
+    },
+    {
+      "$kind": "Microsoft.OnIntent",
+      "$designer": {
+        "id": "UemBMr",
+        "name": "vizyon"
+      },
+      "intent": "vizyon",
+      "actions": [
+        {
+          "$kind": "Microsoft.SendActivity",
+          "$designer": {
+            "id": "0OSN0F"
+          },
+          "activity": "${SendActivity_0OSN0F()}"
+        },
+        {
+          "$kind": "Microsoft.SendActivity",
+          "$designer": {
+            "id": "ceDSDR"
+          },
+          "activity": "${SendActivity_ceDSDR()}"
+        }
+      ]
+    },
+    {
+      "$kind": "Microsoft.OnIntent",
+      "$designer": {
+        "id": "Di8uvf",
+        "name": "etkinlik"
+      },
+      "intent": "etkinlik",
+      "actions": [
+        {
+          "$kind": "Microsoft.SetProperties",
+          "$designer": {
+            "id": "Rs3PK9"
+          },
+          "assignments": [
+            {
+              "property": "dialog.bugun",
+              "value": "=addDays(utcNow(), 0)"
+            },
+            {
+              "property": "dialog.formatted",
+              "value": "=formatDateTime(dialog.bugun, 'dd.MM.yyyy')"
+            },
+            {
+              "property": "dialog.dayoftheweek",
+              "value": "=dayOfWeek(dialog.bugun)"
+            },
+            {
+              "property": "dialog.haftaarray",
+              "value": [
+                "Pazar",
+                "Pazartesi",
+                "Salı",
+                "Çarşamba",
+                "Perşembe",
+                "Cuma",
+                "Cumartesi",
+                "Pazar"
+              ]
+            },
+            {
+              "property": "dialog.ayarray",
+              "value": [
+                "Aralık",
+                "Ocak",
+                "Şubat",
+                "Mart",
+                "Nisan",
+                "Mayıs",
+                "Haziran",
+                "Temmuz",
+                "Ağustos",
+                "Eylül",
+                "Ekim",
+                "Kasım",
+                "Aralık"
+              ]
+            },
+            {
+              "property": "dialog.gun",
+              "value": "=formatDateTime(dialog.bugun, 'dd')"
+            },
+            {
+              "property": "dialog.bu_ay",
+              "value": "=int(formatDateTime(dialog.bugun, 'MM'))"
+            },
+            {
+              "property": "dialog.yil",
+              "value": "=formatDateTime(dialog.bugun, 'yyyy')"
+            },
+            {
+              "property": "dialog.ay",
+              "value": "=dialog.ayarray[dialog.bu_ay]"
+            },
+            {
+              "property": "dialog.sonraki_ay",
+              "value": "=add(dialog.bu_ay, 1)"
+            },
+            {
+              "property": "dialog.ay2",
+              "value": "=dialog.ayarray[dialog.sonraki_ay]"
+            }
+          ]
+        },
+        {
+          "$kind": "Microsoft.SendActivity",
+          "$designer": {
+            "id": "HPiGMX"
+          },
+          "activity": "${SendActivity_HPiGMX()}"
+        }
+      ]
+    },
+    {
+      "$kind": "Microsoft.OnIntent",
+      "$designer": {
+        "id": "AbnSJI",
+        "name": "ekip"
+      },
+      "intent": "ekip",
+      "actions": [
+        {
+          "$kind": "Microsoft.SendActivity",
+          "$designer": {
+            "id": "bvdlGX"
+          },
+          "activity": "${SendActivity_bvdlGX()}"
+        }
+      ]
+    },
+    {
+      "$kind": "Microsoft.OnIntent",
+      "$designer": {
+        "id": "dVFMtS",
+        "name": "yemekler"
+      },
+      "intent": "yemekler",
+      "actions": [
+        {
+          "$kind": "Microsoft.SetProperty",
+          "$designer": {
+            "id": "Iv97qO"
+          },
+          "property": "dialog.yemek_entity",
+          "value": "=turn.recognized.entities"
+        },
+        {
+          "$kind": "Microsoft.IfCondition",
+          "$designer": {
+            "id": "kbO4lQ"
+          },
+          "condition": "=contains(dialog.yemek_entity, \"tarif\")",
+          "actions": [
+            {
+              "$kind": "Microsoft.SendActivity",
+              "$designer": {
+                "id": "vul08k"
+              },
+              "activity": "${SendActivity_vul08k()}"
+            },
+            {
+              "$kind": "Microsoft.SendActivity",
+              "$designer": {
+                "id": "LAGwWh"
+              },
+              "activity": "${SendActivity_LAGwWh()}"
+            }
+          ],
+          "elseActions": [
+            {
+              "$kind": "Microsoft.SetProperties",
+              "$designer": {
+                "id": "TaBLQ9"
+              },
+              "assignments": [
+                {
+                  "property": "dialog.bugun",
+                  "value": "=addDays(utcNow(), 0)"
+                },
+                {
+                  "property": "dialog.formatted",
+                  "value": "=formatDateTime(dialog.bugun, 'dd.MM.yyyy')"
+                },
+                {
+                  "property": "dialog.dayoftheweek",
+                  "value": "=dayOfWeek(dialog.bugun)"
+                },
+                {
+                  "property": "dialog.haftaarray",
+                  "value": [
+                    "Pazar",
+                    "Pazartesi",
+                    "Salı",
+                    "Çarşamba",
+                    "Perşembe",
+                    "Cuma",
+                    "Cumartesi",
+                    "Pazar"
+                  ]
+                },
+                {
+                  "property": "dialog.ayarray",
+                  "value": [
+                    "Aralık",
+                    "Ocak",
+                    "Şubat",
+                    "Mart",
+                    "Nisan",
+                    "Mayıs",
+                    "Haziran",
+                    "Temmuz",
+                    "Ağustos",
+                    "Eylül",
+                    "Ekim",
+                    "Kasım",
+                    "Aralık"
+                  ]
+                },
+                {
+                  "property": "dialog.gun",
+                  "value": "=formatDateTime(dialog.bugun, 'dd')"
+                },
+                {
+                  "property": "dialog.bu_ay",
+                  "value": "=int(formatDateTime(dialog.bugun, 'MM'))"
+                },
+                {
+                  "property": "dialog.yil",
+                  "value": "=formatDateTime(dialog.bugun, 'yyyy')"
+                },
+                {
+                  "property": "dialog.ay",
+                  "value": "=dialog.ayarray[dialog.bu_ay]"
+                },
+                {
+                  "property": "dialog.sonraki_ay",
+                  "value": "=add(dialog.bu_ay, 1)"
+                },
+                {
+                  "property": "dialog.ay2",
+                  "value": "=dialog.ayarray[dialog.sonraki_ay]"
+                }
+              ]
+            },
+            {
+              "$kind": "Microsoft.HttpRequest",
+              "$designer": {
+                "id": "OutOFa"
+              },
+              "method": "GET",
+              "resultProperty": "dialog.blob_json",
+              "responseType": "json",
+              "url": "https://micostorage.blob.core.windows.net/micoyemek/yemekmenu.json"
+            },
+            {
+              "$kind": "Microsoft.SetProperty",
+              "$designer": {
+                "id": "dQdl2k"
+              },
+              "property": "dialog.random",
+              "value": "=rand(0,3)"
+            },
+            {
+              "$kind": "Microsoft.SetProperties",
+              "$designer": {
+                "id": "NAUv3P"
+              },
+              "assignments": [
+                {
+                  "property": "dialog.menu",
+                  "value": "=dialog.blob_json.content.yemek[dialog.random].icerik[0]"
+                },
+                {
+                  "property": "dialog.corba",
+                  "value": "=dialog.menu.corba"
+                },
+                {
+                  "property": "dialog.anayemek",
+                  "value": "=dialog.menu.anayemek"
+                },
+                {
+                  "value": "=dialog.menu.yan1",
+                  "property": "dialog.yan1"
+                },
+                {
+                  "property": "dialog.yan2",
+                  "value": "=dialog.menu.yan2"
+                }
+              ]
+            },
+            {
+              "$kind": "Microsoft.SendActivity",
+              "$designer": {
+                "id": "JIoqzX"
+              },
+              "activity": "${SendActivity_JIoqzX()}"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "generator": "botmico.lg",
+  "id": "botmico",
+  "recognizer": "botmico.lu.qna"
+}

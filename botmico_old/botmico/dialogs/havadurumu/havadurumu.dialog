@@ -1,0 +1,2961 @@
+{
+  "$kind": "Microsoft.AdaptiveDialog",
+  "$designer": {
+    "id": "0wRNl2",
+    "name": "havadurumu",
+    "description": ""
+  },
+  "autoEndDialog": true,
+  "defaultResultProperty": "dialog.result",
+  "triggers": [
+    {
+      "$kind": "Microsoft.OnBeginDialog",
+      "$designer": {
+        "name": "BeginDialog",
+        "description": "",
+        "id": "inHGjO"
+      },
+      "actions": [
+        {
+          "$kind": "Microsoft.SendActivity",
+          "$designer": {
+            "id": "ejZvzO"
+          },
+          "activity": "${SendActivity_ejZvzO()}"
+        },
+        {
+          "$kind": "Microsoft.SetProperties",
+          "$designer": {
+            "id": "G1KdWQ"
+          },
+          "assignments": [
+            {
+              "property": "dialog.maps_key",
+              "value": "=string(\"<your-bing-maps-key>\")"
+            }
+          ]
+        },
+        {
+          "$kind": "Microsoft.SetProperties",
+          "$designer": {
+            "id": "o5Wlye"
+          },
+          "assignments": [
+            {
+              "property": "dialog.bugun",
+              "value": "=addDays(utcNow(), 0)"
+            },
+            {
+              "property": "dialog.formatted",
+              "value": "=formatDateTime(dialog.bugun, 'dd.MM.yyyy')"
+            },
+            {
+              "property": "dialog.dayoftheweek",
+              "value": "=dayOfWeek(dialog.bugun)"
+            },
+            {
+              "property": "dialog.haftaarray",
+              "value": [
+                "Pazar",
+                "Pazartesi",
+                "Salı",
+                "Çarşamba",
+                "Perşembe",
+                "Cuma",
+                "Cumartesi",
+                "Pazar"
+              ]
+            },
+            {
+              "property": "dialog.entity",
+              "value": "=turn.recognized.entities"
+            },
+            {
+              "property": "dialog.haftaningunu",
+              "value": "=dialog.haftaarray[dialog.dayoftheweek]"
+            }
+          ]
+        },
+        {
+          "$kind": "Microsoft.IfCondition",
+          "$designer": {
+            "id": "QKsqVX"
+          },
+          "condition": "=contains(dialog.entity, \"city\")",
+          "actions": [
+            {
+              "$kind": "Microsoft.IfCondition",
+              "$designer": {
+                "id": "FBwTy4"
+              },
+              "condition": "=contains(dialog.entity, \"zaman\")",
+              "actions": [
+                {
+                  "$kind": "Microsoft.SetProperties",
+                  "$designer": {
+                    "id": "1jcl1z"
+                  },
+                  "assignments": [
+                    {
+                      "property": "dialog.sehir",
+                      "value": "=dialog.entity.city[0]"
+                    },
+                    {
+                      "property": "dialog.zaman",
+                      "value": "=dialog.entity.zaman[0][0]"
+                    }
+                  ]
+                },
+                {
+                  "$kind": "Microsoft.HttpRequest",
+                  "$designer": {
+                    "id": "dok7XH"
+                  },
+                  "method": "GET",
+                  "url": "https://atlas.microsoft.com/search/address/json?api-version=1.0&query=${dialog.sehir}&countrySet=TR&subscription-key=${dialog.maps_key}",
+                  "resultProperty": "dialog.api_response",
+                  "responseType": "json"
+                },
+                {
+                  "$kind": "Microsoft.IfCondition",
+                  "$designer": {
+                    "id": "f1acbF"
+                  },
+                  "condition": "=dialog.api_response.statusCode==200",
+                  "elseActions": [
+                    {
+                      "$kind": "Microsoft.SendActivity",
+                      "$designer": {
+                        "id": "8ewH8r"
+                      },
+                      "activity": "${SendActivity_8ewH8r()}"
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "$kind": "Microsoft.SetProperties",
+                      "$designer": {
+                        "id": "JFHrG5"
+                      },
+                      "assignments": [
+                        {
+                          "property": "dialog.lat",
+                          "value": "=string(dialog.api_response.content.results[0].position.lat, 'en-US')"
+                        },
+                        {
+                          "property": "dialog.lon",
+                          "value": "=string(dialog.api_response.content.results[0].position.lon, 'en-US')"
+                        }
+                      ]
+                    },
+                    {
+                      "$kind": "Microsoft.HttpRequest",
+                      "$designer": {
+                        "id": "E7oHOa"
+                      },
+                      "method": "GET",
+                      "url": "https://atlas.microsoft.com/weather/forecast/daily/json?api-version=1.0&query=${dialog.lat}%2C${dialog.lon}&subscription-key=${dialog.maps_key}&duration=10&language=tr-TR",
+                      "resultProperty": "dialog.second_api",
+                      "responseType": "json"
+                    },
+                    {
+                      "$kind": "Microsoft.IfCondition",
+                      "$designer": {
+                        "id": "pepFTw"
+                      },
+                      "condition": "=dialog.second_api.statusCode==200",
+                      "elseActions": [
+                        {
+                          "$kind": "Microsoft.SendActivity",
+                          "$designer": {
+                            "id": "vj0EoX"
+                          },
+                          "activity": "${SendActivity_vj0EoX()}"
+                        },
+                        {
+                          "$kind": "Microsoft.EndDialog",
+                          "$designer": {
+                            "id": "Zbh9if"
+                          }
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "$kind": "Microsoft.SetProperties",
+                          "$designer": {
+                            "id": "H32Id3"
+                          },
+                          "assignments": [
+                            {
+                              "property": "dialog.phrase",
+                              "value": "=dialog.second_api.content.summary.phrase"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "$kind": "Microsoft.SwitchCondition",
+                      "$designer": {
+                        "id": "EoLhro"
+                      },
+                      "condition": "=dialog.zaman",
+                      "cases": [
+                        {
+                          "value": "bugun",
+                          "actions": [
+                            {
+                              "$kind": "Microsoft.SetProperties",
+                              "$designer": {
+                                "id": "f8vgtj"
+                              },
+                              "assignments": [
+                                {
+                                  "property": "dialog.phrase",
+                                  "value": "=dialog.second_api.content.summary.phrase"
+                                },
+                                {
+                                  "property": "dialog.day1",
+                                  "value": "=dialog.second_api.content.forecasts[0].date"
+                                },
+                                {
+                                  "property": "dialog.max_day1",
+                                  "value": "=dialog.second_api.content.forecasts[0].temperature.maximum.value"
+                                },
+                                {
+                                  "property": "dialog.min_day1",
+                                  "value": "=dialog.second_api.content.forecasts[0].temperature.minimum.value"
+                                },
+                                {
+                                  "property": "dialog.icon_day1",
+                                  "value": "=dialog.second_api.content.forecasts[0].day.iconCode"
+                                },
+                                {
+                                  "value": "=dialog.second_api.content.forecasts[0].day.iconPhrase",
+                                  "property": "dialog.icon_phrase_day1"
+                                },
+                                {
+                                  "property": "dialog.formatted_day1",
+                                  "value": "=formatDateTime(dialog.day1, 'dd.MM.yyyy')"
+                                },
+                                {
+                                  "property": "dialog.gun1",
+                                  "value": "=dayOfWeek(dialog.day1)"
+                                },
+                                {
+                                  "property": "dialog.gun_adi1",
+                                  "value": "=dialog.haftaarray[dialog.gun1]"
+                                }
+                              ]
+                            },
+                            {
+                              "$kind": "Microsoft.HttpRequest",
+                              "$designer": {
+                                "id": "9IZizO"
+                              },
+                              "method": "GET",
+                              "url": "https://atlas.microsoft.com/weather/forecast/hourly/json?subscription-key=${dialog.maps_key}&api-version=1.0&query=${dialog.lat}%2C${dialog.lon}&duration=24&language=tr-TR",
+                              "resultProperty": "dialog.hourly_resp",
+                              "responseType": "json"
+                            },
+                            {
+                              "$kind": "Microsoft.IfCondition",
+                              "$designer": {
+                                "id": "FflMW4"
+                              },
+                              "condition": "=dialog.hourly_resp.statusCode==200",
+                              "elseActions": [
+                                {
+                                  "$kind": "Microsoft.SendActivity",
+                                  "$designer": {
+                                    "id": "L2SbYS"
+                                  },
+                                  "activity": "${SendActivity_L2SbYS()}"
+                                },
+                                {
+                                  "$kind": "Microsoft.EndDialog",
+                                  "$designer": {
+                                    "id": "ijPzFV"
+                                  }
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "$kind": "Microsoft.SetProperties",
+                                  "$designer": {
+                                    "id": "aS1ofj"
+                                  },
+                                  "assignments": [
+                                    {
+                                      "property": "dialog.ilk_saat",
+                                      "value": "=formatDateTime(dialog.hourly_resp.content.forecasts[0].date, 'HH:mm')"
+                                    },
+                                    {
+                                      "property": "dialog.ilk_sicaklik",
+                                      "value": "=dialog.hourly_resp.content.forecasts[0].temperature.value"
+                                    },
+                                    {
+                                      "property": "dialog.ikinci_saat",
+                                      "value": "=formatDateTime(dialog.hourly_resp.content.forecasts[1].date, 'HH:mm')"
+                                    },
+                                    {
+                                      "property": "dialog.ikinci_sicaklik",
+                                      "value": "=dialog.hourly_resp.content.forecasts[1].temperature.value"
+                                    },
+                                    {
+                                      "property": "dialog.ucuncu_saat",
+                                      "value": "=formatDateTime(dialog.hourly_resp.content.forecasts[2].date, 'HH:mm')"
+                                    },
+                                    {
+                                      "property": "dialog.ucuncu_sicaklik",
+                                      "value": "=dialog.hourly_resp.content.forecasts[2].temperature.value"
+                                    },
+                                    {
+                                      "property": "dialog.dorduncu_saat",
+                                      "value": "=formatDateTime(dialog.hourly_resp.content.forecasts[3].date, 'HH:mm')"
+                                    },
+                                    {
+                                      "property": "dialog.dorduncu_sicaklik",
+                                      "value": "=dialog.hourly_resp.content.forecasts[3].temperature.value"
+                                    },
+                                    {
+                                      "property": "dialog.besinci_saat",
+                                      "value": "=formatDateTime(dialog.hourly_resp.content.forecasts[4].date, 'HH:mm')"
+                                    },
+                                    {
+                                      "property": "dialog.besinci_sicaklik",
+                                      "value": "=dialog.hourly_resp.content.forecasts[4].temperature.value"
+                                    },
+                                    {
+                                      "property": "dialog.altinci_saat",
+                                      "value": "=formatDateTime(dialog.hourly_resp.content.forecasts[5].date, 'HH:mm')"
+                                    },
+                                    {
+                                      "property": "dialog.altinci_sicaklik",
+                                      "value": "=dialog.hourly_resp.content.forecasts[5].temperature.value"
+                                    },
+                                    {
+                                      "property": "dialog.ilk_icon",
+                                      "value": "=dialog.hourly_resp.content.forecasts[0].iconCode"
+                                    },
+                                    {
+                                      "property": "dialog.ikinci_icon",
+                                      "value": "=dialog.hourly_resp.content.forecasts[1].iconCode"
+                                    },
+                                    {
+                                      "property": "dialog.ucuncu_icon",
+                                      "value": "=dialog.hourly_resp.content.forecasts[2].iconCode"
+                                    },
+                                    {
+                                      "property": "dialog.dorduncu_icon",
+                                      "value": "=dialog.hourly_resp.content.forecasts[3].iconCode"
+                                    },
+                                    {
+                                      "property": "dialog.besinci_icon",
+                                      "value": "=dialog.hourly_resp.content.forecasts[4].iconCode"
+                                    },
+                                    {
+                                      "property": "dialog.altinci_icon",
+                                      "value": "=dialog.hourly_resp.content.forecasts[5].iconCode"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "$kind": "Microsoft.SendActivity",
+                                  "$designer": {
+                                    "id": "qxVCqY"
+                                  },
+                                  "activity": "${SendActivity_qxVCqY()}"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "value": "yarin",
+                          "actions": [
+                            {
+                              "$kind": "Microsoft.SetProperties",
+                              "$designer": {
+                                "id": "12p7FX"
+                              },
+                              "assignments": [
+                                {
+                                  "property": "dialog.day2",
+                                  "value": "=dialog.second_api.content.forecasts[1].date"
+                                },
+                                {
+                                  "property": "dialog.max_day2",
+                                  "value": "=dialog.second_api.content.forecasts[1].temperature.maximum.value"
+                                },
+                                {
+                                  "property": "dialog.min_day2",
+                                  "value": "=dialog.second_api.content.forecasts[1].temperature.minimum.value"
+                                },
+                                {
+                                  "property": "dialog.icon_day2",
+                                  "value": "=dialog.second_api.content.forecasts[1].day.iconCode"
+                                },
+                                {
+                                  "value": "=dialog.second_api.content.forecasts[1].day.iconPhrase",
+                                  "property": "dialog.icon_phrase_day2"
+                                },
+                                {
+                                  "property": "dialog.yarin",
+                                  "value": "=addDays(utcNow(), 1)"
+                                },
+                                {
+                                  "property": "dialog.kacincigun",
+                                  "value": "=dayOfWeek(dialog.yarin)"
+                                },
+                                {
+                                  "property": "dialog.gunadi",
+                                  "value": "=dialog.haftaarray[dialog.kacincigun]"
+                                },
+                                {
+                                  "property": "dialog.formatyarin",
+                                  "value": "=formatDateTime(dialog.yarin, 'dd.MM.yyyy')"
+                                }
+                              ]
+                            },
+                            {
+                              "$kind": "Microsoft.HttpRequest",
+                              "$designer": {
+                                "id": "btyHBz"
+                              },
+                              "method": "GET",
+                              "url": "https://atlas.microsoft.com/weather/forecast/hourly/json?subscription-key=${dialog.maps_key}&api-version=1.0&query=${dialog.lat}%2C${dialog.lon}&duration=24&language=tr-TR",
+                              "resultProperty": "dialog.hourly_resp",
+                              "responseType": "json"
+                            },
+                            {
+                              "$kind": "Microsoft.IfCondition",
+                              "$designer": {
+                                "id": "jrE7ZD"
+                              },
+                              "condition": "=dialog.hourly_resp.statusCode==200",
+                              "elseActions": [
+                                {
+                                  "$kind": "Microsoft.SendActivity",
+                                  "$designer": {
+                                    "id": "dn6YbF"
+                                  },
+                                  "activity": "${SendActivity_dn6YbF()}"
+                                },
+                                {
+                                  "$kind": "Microsoft.EndDialog",
+                                  "$designer": {
+                                    "id": "xaAg4w"
+                                  }
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "$kind": "Microsoft.SetProperties",
+                                  "$designer": {
+                                    "id": "BfXxet"
+                                  },
+                                  "assignments": [
+                                    {
+                                      "property": "dialog.ilk_saat",
+                                      "value": "=formatDateTime(dialog.hourly_resp.content.forecasts[0].date, 'HH:mm')"
+                                    },
+                                    {
+                                      "property": "dialog.ilk_sicaklik",
+                                      "value": "=dialog.hourly_resp.content.forecasts[0].temperature.value"
+                                    },
+                                    {
+                                      "property": "dialog.ikinci_saat",
+                                      "value": "=formatDateTime(dialog.hourly_resp.content.forecasts[1].date, 'HH:mm')"
+                                    },
+                                    {
+                                      "property": "dialog.ikinci_sicaklik",
+                                      "value": "=dialog.hourly_resp.content.forecasts[1].temperature.value"
+                                    },
+                                    {
+                                      "property": "dialog.ucuncu_saat",
+                                      "value": "=formatDateTime(dialog.hourly_resp.content.forecasts[2].date, 'HH:mm')"
+                                    },
+                                    {
+                                      "property": "dialog.ucuncu_sicaklik",
+                                      "value": "=dialog.hourly_resp.content.forecasts[2].temperature.value"
+                                    },
+                                    {
+                                      "property": "dialog.dorduncu_saat",
+                                      "value": "=formatDateTime(dialog.hourly_resp.content.forecasts[3].date, 'HH:mm')"
+                                    },
+                                    {
+                                      "property": "dialog.dorduncu_sicaklik",
+                                      "value": "=dialog.hourly_resp.content.forecasts[3].temperature.value"
+                                    },
+                                    {
+                                      "property": "dialog.besinci_saat",
+                                      "value": "=formatDateTime(dialog.hourly_resp.content.forecasts[4].date, 'HH:mm')"
+                                    },
+                                    {
+                                      "property": "dialog.besinci_sicaklik",
+                                      "value": "=dialog.hourly_resp.content.forecasts[4].temperature.value"
+                                    },
+                                    {
+                                      "property": "dialog.altinci_saat",
+                                      "value": "=formatDateTime(dialog.hourly_resp.content.forecasts[5].date, 'HH:mm')"
+                                    },
+                                    {
+                                      "property": "dialog.altinci_sicaklik",
+                                      "value": "=dialog.hourly_resp.content.forecasts[5].temperature.value"
+                                    },
+                                    {
+                                      "property": "dialog.ilk_icon",
+                                      "value": "=dialog.hourly_resp.content.forecasts[0].iconCode"
+                                    },
+                                    {
+                                      "property": "dialog.ikinci_icon",
+                                      "value": "=dialog.hourly_resp.content.forecasts[1].iconCode"
+                                    },
+                                    {
+                                      "property": "dialog.ucuncu_icon",
+                                      "value": "=dialog.hourly_resp.content.forecasts[2].iconCode"
+                                    },
+                                    {
+                                      "property": "dialog.dorduncu_icon",
+                                      "value": "=dialog.hourly_resp.content.forecasts[3].iconCode"
+                                    },
+                                    {
+                                      "property": "dialog.besinci_icon",
+                                      "value": "=dialog.hourly_resp.content.forecasts[4].iconCode"
+                                    },
+                                    {
+                                      "property": "dialog.altinci_icon",
+                                      "value": "=dialog.hourly_resp.content.forecasts[5].iconCode"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "$kind": "Microsoft.SendActivity",
+                                  "$designer": {
+                                    "id": "iORLjP"
+                                  },
+                                  "activity": "${SendActivity_iORLjP()}"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "value": "haftalik",
+                          "actions": [
+                            {
+                              "$kind": "Microsoft.SendActivity",
+                              "$designer": {
+                                "id": "mdhamR"
+                              },
+                              "activity": "${SendActivity_mdhamR()}"
+                            },
+                            {
+                              "$kind": "Microsoft.SetProperties",
+                              "$designer": {
+                                "id": "j0hUnA"
+                              },
+                              "assignments": [
+                                {
+                                  "property": "dialog.day1",
+                                  "value": "=dialog.second_api.content.forecasts[0].date"
+                                },
+                                {
+                                  "property": "dialog.max_day1",
+                                  "value": "=dialog.second_api.content.forecasts[0].temperature.maximum.value"
+                                },
+                                {
+                                  "property": "dialog.min_day1",
+                                  "value": "=dialog.second_api.content.forecasts[0].temperature.minimum.value"
+                                },
+                                {
+                                  "property": "dialog.icon_day1",
+                                  "value": "=dialog.second_api.content.forecasts[0].day.iconCode"
+                                },
+                                {
+                                  "value": "=dialog.second_api.content.forecasts[0].day.iconPhrase",
+                                  "property": "dialog.icon_phrase_day1"
+                                },
+                                {
+                                  "value": "=dialog.second_api.content.forecasts[1].date",
+                                  "property": "dialog.day2"
+                                },
+                                {
+                                  "value": "=dialog.second_api.content.forecasts[1].temperature.maximum.value",
+                                  "property": "dialog.max_day2"
+                                },
+                                {
+                                  "value": "=dialog.second_api.content.forecasts[1].temperature.minimum.value",
+                                  "property": "dialog.min_day2"
+                                },
+                                {
+                                  "value": "=dialog.second_api.content.forecasts[1].day.iconCode",
+                                  "property": "dialog.icon_day2"
+                                },
+                                {
+                                  "value": "=dialog.second_api.content.forecasts[2].date",
+                                  "property": "dialog.day3"
+                                },
+                                {
+                                  "value": "=dialog.second_api.content.forecasts[2].temperature.maximum.value",
+                                  "property": "dialog.max_day3"
+                                },
+                                {
+                                  "value": "=dialog.second_api.content.forecasts[2].temperature.minimum.value",
+                                  "property": "dialog.min_day3"
+                                },
+                                {
+                                  "property": "dialog.icon_day3",
+                                  "value": "=dialog.second_api.content.forecasts[2].day.iconCode"
+                                },
+                                {
+                                  "value": "=dialog.second_api.content.forecasts[3].date",
+                                  "property": "dialog.day4"
+                                },
+                                {
+                                  "value": "=dialog.second_api.content.forecasts[3].temperature.maximum.value",
+                                  "property": "dialog.max_day4"
+                                },
+                                {
+                                  "value": "=dialog.second_api.content.forecasts[3].temperature.minimum.value",
+                                  "property": "dialog.min_day4"
+                                },
+                                {
+                                  "value": "=dialog.second_api.content.forecasts[3].day.iconCode",
+                                  "property": "dialog.icon_day4"
+                                },
+                                {
+                                  "property": "dialog.day5",
+                                  "value": "=dialog.second_api.content.forecasts[4].date"
+                                },
+                                {
+                                  "property": "dialog.max_day5",
+                                  "value": "=dialog.second_api.content.forecasts[4].temperature.maximum.value"
+                                },
+                                {
+                                  "property": "dialog.min_day5",
+                                  "value": "=dialog.second_api.content.forecasts[4].temperature.minimum.value"
+                                },
+                                {
+                                  "value": "=dialog.second_api.content.forecasts[4].day.iconCode",
+                                  "property": "dialog.icon_day5"
+                                },
+                                {
+                                  "property": "dialog.formatted_day1",
+                                  "value": "=formatDateTime(dailog.day1, 'dd.MM.yyyy')"
+                                },
+                                {
+                                  "property": "dialog.formatted_day2",
+                                  "value": "=formatDateTime(dailog.day2, 'dd.MM.yyyy')"
+                                },
+                                {
+                                  "property": "dialog.formatted_day3",
+                                  "value": "=formatDateTime(dailog.day3, 'dd.MM.yyyy')"
+                                },
+                                {
+                                  "value": "=formatDateTime(dailog.day4, 'dd.MM.yyyy')",
+                                  "property": "dialog.formatted_day4"
+                                },
+                                {
+                                  "property": "dialog.formatted_day5",
+                                  "value": "=formatDateTime(dailog.day5, 'dd.MM.yyyy')"
+                                },
+                                {
+                                  "property": "dialog.gun1",
+                                  "value": "=dayOfWeek(dialog.day1)"
+                                },
+                                {
+                                  "property": "dialog.gun2",
+                                  "value": "=dayOfWeek(dialog.day2)"
+                                },
+                                {
+                                  "property": "dialog.gun3",
+                                  "value": "=dayOfWeek(dialog.day3)"
+                                },
+                                {
+                                  "property": "dialog.gun4",
+                                  "value": "=dayOfWeek(dialog.day4)"
+                                },
+                                {
+                                  "property": "dialog.gun5",
+                                  "value": "=dayOfWeek(dialog.day5)"
+                                },
+                                {
+                                  "property": "dialog.gun_adi1",
+                                  "value": "=dialog.haftaarray[dialog.gun1]"
+                                },
+                                {
+                                  "property": "dialog.gun_adi2",
+                                  "value": "=dialog.haftaarray[dialog.gun2]"
+                                },
+                                {
+                                  "property": "dialog.gun_adi3",
+                                  "value": "=dialog.haftaarray[dialog.gun3]"
+                                },
+                                {
+                                  "property": "dialog.gun_adi4",
+                                  "value": "=dialog.haftaarray[dialog.gun4]"
+                                },
+                                {
+                                  "property": "dialog.gun_adi5",
+                                  "value": "=dialog.haftaarray[dialog.gun5]"
+                                }
+                              ]
+                            },
+                            {
+                              "$kind": "Microsoft.HttpRequest",
+                              "$designer": {
+                                "id": "93TaI8"
+                              },
+                              "method": "GET",
+                              "url": "https://atlas.microsoft.com/weather/forecast/hourly/json?subscription-key=${dialog.maps_key}&api-version=1.0&query=${dialog.lat}%2C${dialog.lon}&duration=24&language=tr-TR",
+                              "resultProperty": "dialog.hourly_resp",
+                              "responseType": "json"
+                            },
+                            {
+                              "$kind": "Microsoft.IfCondition",
+                              "$designer": {
+                                "id": "dvMpls"
+                              },
+                              "condition": "=dialog.hourly_resp.statusCode==200",
+                              "elseActions": [
+                                {
+                                  "$kind": "Microsoft.SendActivity",
+                                  "$designer": {
+                                    "id": "4AnJj1"
+                                  },
+                                  "activity": "${SendActivity_4AnJj1()}"
+                                },
+                                {
+                                  "$kind": "Microsoft.EndDialog",
+                                  "$designer": {
+                                    "id": "oet31A"
+                                  }
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "$kind": "Microsoft.SetProperties",
+                                  "$designer": {
+                                    "id": "n0C6Pi"
+                                  },
+                                  "assignments": [
+                                    {
+                                      "property": "dialog.ilk_saat",
+                                      "value": "=formatDateTime(dialog.hourly_resp.content.forecasts[0].date, 'HH:mm')"
+                                    },
+                                    {
+                                      "property": "dialog.ilk_sicaklik",
+                                      "value": "=dialog.hourly_resp.content.forecasts[0].temperature.value"
+                                    },
+                                    {
+                                      "property": "dialog.ikinci_saat",
+                                      "value": "=formatDateTime(dialog.hourly_resp.content.forecasts[1].date, 'HH:mm')"
+                                    },
+                                    {
+                                      "property": "dialog.ikinci_sicaklik",
+                                      "value": "=dialog.hourly_resp.content.forecasts[1].temperature.value"
+                                    },
+                                    {
+                                      "property": "dialog.ucuncu_saat",
+                                      "value": "=formatDateTime(dialog.hourly_resp.content.forecasts[2].date, 'HH:mm')"
+                                    },
+                                    {
+                                      "property": "dialog.ucuncu_sicaklik",
+                                      "value": "=dialog.hourly_resp.content.forecasts[2].temperature.value"
+                                    },
+                                    {
+                                      "property": "dialog.dorduncu_saat",
+                                      "value": "=formatDateTime(dialog.hourly_resp.content.forecasts[3].date, 'HH:mm')"
+                                    },
+                                    {
+                                      "property": "dialog.dorduncu_sicaklik",
+                                      "value": "=dialog.hourly_resp.content.forecasts[3].temperature.value"
+                                    },
+                                    {
+                                      "property": "dialog.besinci_saat",
+                                      "value": "=formatDateTime(dialog.hourly_resp.content.forecasts[4].date, 'HH:mm')"
+                                    },
+                                    {
+                                      "property": "dialog.besinci_sicaklik",
+                                      "value": "=dialog.hourly_resp.content.forecasts[4].temperature.value"
+                                    },
+                                    {
+                                      "property": "dialog.altinci_saat",
+                                      "value": "=formatDateTime(dialog.hourly_resp.content.forecasts[5].date, 'HH:mm')"
+                                    },
+                                    {
+                                      "property": "dialog.altinci_sicaklik",
+                                      "value": "=dialog.hourly_resp.content.forecasts[5].temperature.value"
+                                    },
+                                    {
+                                      "property": "dialog.ilk_icon",
+                                      "value": "=dialog.hourly_resp.content.forecasts[0].iconCode"
+                                    },
+                                    {
+                                      "property": "dialog.ikinci_icon",
+                                      "value": "=dialog.hourly_resp.content.forecasts[1].iconCode"
+                                    },
+                                    {
+                                      "property": "dialog.ucuncu_icon",
+                                      "value": "=dialog.hourly_resp.content.forecasts[2].iconCode"
+                                    },
+                                    {
+                                      "property": "dialog.dorduncu_icon",
+                                      "value": "=dialog.hourly_resp.content.forecasts[3].iconCode"
+                                    },
+                                    {
+                                      "property": "dialog.besinci_icon",
+                                      "value": "=dialog.hourly_resp.content.forecasts[4].iconCode"
+                                    },
+                                    {
+                                      "property": "dialog.altinci_icon",
+                                      "value": "=dialog.hourly_resp.content.forecasts[5].iconCode"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "$kind": "Microsoft.SendActivity",
+                                  "$designer": {
+                                    "id": "01oQeY"
+                                  },
+                                  "activity": "${SendActivity_01oQeY()}"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ],
+                      "default": [
+                        {
+                          "$kind": "Microsoft.SendActivity",
+                          "$designer": {
+                            "id": "7kBloZ"
+                          },
+                          "activity": "${SendActivity_7kBloZ()}"
+                        },
+                        {
+                          "$kind": "Microsoft.SetProperties",
+                          "$designer": {
+                            "id": "g7NAhL"
+                          },
+                          "assignments": [
+                            {
+                              "property": "dialog.day1",
+                              "value": "=dialog.second_api.content.forecasts[0].date"
+                            },
+                            {
+                              "property": "dialog.max_day1",
+                              "value": "=dialog.second_api.content.forecasts[0].temperature.maximum.value"
+                            },
+                            {
+                              "property": "dialog.min_day1",
+                              "value": "=dialog.second_api.content.forecasts[0].temperature.minimum.value"
+                            },
+                            {
+                              "property": "dialog.icon_day1",
+                              "value": "=dialog.second_api.content.forecasts[0].day.iconCode"
+                            },
+                            {
+                              "value": "=dialog.second_api.content.forecasts[0].day.iconPhrase",
+                              "property": "dialog.icon_phrase_day1"
+                            },
+                            {
+                              "value": "=dialog.second_api.content.forecasts[1].date",
+                              "property": "dialog.day2"
+                            },
+                            {
+                              "value": "=dialog.second_api.content.forecasts[1].temperature.maximum.value",
+                              "property": "dialog.max_day2"
+                            },
+                            {
+                              "value": "=dialog.second_api.content.forecasts[1].temperature.minimum.value",
+                              "property": "dialog.min_day2"
+                            },
+                            {
+                              "value": "=dialog.second_api.content.forecasts[1].day.iconCode",
+                              "property": "dialog.icon_day2"
+                            },
+                            {
+                              "value": "=dialog.second_api.content.forecasts[2].date",
+                              "property": "dialog.day3"
+                            },
+                            {
+                              "value": "=dialog.second_api.content.forecasts[2].temperature.maximum.value",
+                              "property": "dialog.max_day3"
+                            },
+                            {
+                              "value": "=dialog.second_api.content.forecasts[2].temperature.minimum.value",
+                              "property": "dialog.min_day3"
+                            },
+                            {
+                              "property": "dialog.icon_day3",
+                              "value": "=dialog.second_api.content.forecasts[2].day.iconCode"
+                            },
+                            {
+                              "value": "=dialog.second_api.content.forecasts[3].date",
+                              "property": "dialog.day4"
+                            },
+                            {
+                              "value": "=dialog.second_api.content.forecasts[3].temperature.maximum.value",
+                              "property": "dialog.max_day4"
+                            },
+                            {
+                              "value": "=dialog.second_api.content.forecasts[3].temperature.minimum.value",
+                              "property": "dialog.min_day4"
+                            },
+                            {
+                              "value": "=dialog.second_api.content.forecasts[3].day.iconCode",
+                              "property": "dialog.icon_day4"
+                            },
+                            {
+                              "property": "dialog.day5",
+                              "value": "=dialog.second_api.content.forecasts[4].date"
+                            },
+                            {
+                              "property": "dialog.max_day5",
+                              "value": "=dialog.second_api.content.forecasts[4].temperature.maximum.value"
+                            },
+                            {
+                              "property": "dialog.min_day5",
+                              "value": "=dialog.second_api.content.forecasts[4].temperature.minimum.value"
+                            },
+                            {
+                              "value": "=dialog.second_api.content.forecasts[4].day.iconCode",
+                              "property": "dialog.icon_day5"
+                            },
+                            {
+                              "property": "dialog.formatted_day1",
+                              "value": "=formatDateTime(dailog.day1, 'dd.MM.yyyy')"
+                            },
+                            {
+                              "property": "dialog.formatted_day2",
+                              "value": "=formatDateTime(dailog.day2, 'dd.MM.yyyy')"
+                            },
+                            {
+                              "property": "dialog.formatted_day3",
+                              "value": "=formatDateTime(dailog.day3, 'dd.MM.yyyy')"
+                            },
+                            {
+                              "value": "=formatDateTime(dailog.day4, 'dd.MM.yyyy')",
+                              "property": "dialog.formatted_day4"
+                            },
+                            {
+                              "property": "dialog.formatted_day5",
+                              "value": "=formatDateTime(dailog.day5, 'dd.MM.yyyy')"
+                            },
+                            {
+                              "property": "dialog.gun1",
+                              "value": "=dayOfWeek(dialog.day1)"
+                            },
+                            {
+                              "property": "dialog.gun2",
+                              "value": "=dayOfWeek(dialog.day2)"
+                            },
+                            {
+                              "property": "dialog.gun3",
+                              "value": "=dayOfWeek(dialog.day3)"
+                            },
+                            {
+                              "property": "dialog.gun4",
+                              "value": "=dayOfWeek(dialog.day4)"
+                            },
+                            {
+                              "property": "dialog.gun5",
+                              "value": "=dayOfWeek(dialog.day5)"
+                            },
+                            {
+                              "property": "dialog.gun_adi1",
+                              "value": "=dialog.haftaarray[dialog.gun1]"
+                            },
+                            {
+                              "property": "dialog.gun_adi2",
+                              "value": "=dialog.haftaarray[dialog.gun2]"
+                            },
+                            {
+                              "property": "dialog.gun_adi3",
+                              "value": "=dialog.haftaarray[dialog.gun3]"
+                            },
+                            {
+                              "property": "dialog.gun_adi4",
+                              "value": "=dialog.haftaarray[dialog.gun4]"
+                            },
+                            {
+                              "property": "dialog.gun_adi5",
+                              "value": "=dialog.haftaarray[dialog.gun5]"
+                            }
+                          ]
+                        },
+                        {
+                          "$kind": "Microsoft.HttpRequest",
+                          "$designer": {
+                            "id": "rBC6op"
+                          },
+                          "method": "GET",
+                          "url": "https://atlas.microsoft.com/weather/forecast/hourly/json?subscription-key=${dialog.maps_key}&api-version=1.0&query=${dialog.lat}%2C${dialog.lon}&duration=24&language=tr-TR",
+                          "resultProperty": "dialog.hourly_resp",
+                          "responseType": "json"
+                        },
+                        {
+                          "$kind": "Microsoft.IfCondition",
+                          "$designer": {
+                            "id": "L77xZ2"
+                          },
+                          "condition": "=dialog.hourly_resp.statusCode==200",
+                          "elseActions": [
+                            {
+                              "$kind": "Microsoft.SendActivity",
+                              "$designer": {
+                                "id": "JI6ZR0"
+                              },
+                              "activity": "${SendActivity_JI6ZR0()}"
+                            },
+                            {
+                              "$kind": "Microsoft.EndDialog",
+                              "$designer": {
+                                "id": "ZTdzXF"
+                              }
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "$kind": "Microsoft.SetProperties",
+                              "$designer": {
+                                "id": "vqHgJh"
+                              },
+                              "assignments": [
+                                {
+                                  "property": "dialog.ilk_saat",
+                                  "value": "=formatDateTime(dialog.hourly_resp.content.forecasts[0].date, 'HH:mm')"
+                                },
+                                {
+                                  "property": "dialog.ilk_sicaklik",
+                                  "value": "=dialog.hourly_resp.content.forecasts[0].temperature.value"
+                                },
+                                {
+                                  "property": "dialog.ikinci_saat",
+                                  "value": "=formatDateTime(dialog.hourly_resp.content.forecasts[1].date, 'HH:mm')"
+                                },
+                                {
+                                  "property": "dialog.ikinci_sicaklik",
+                                  "value": "=dialog.hourly_resp.content.forecasts[1].temperature.value"
+                                },
+                                {
+                                  "property": "dialog.ucuncu_saat",
+                                  "value": "=formatDateTime(dialog.hourly_resp.content.forecasts[2].date, 'HH:mm')"
+                                },
+                                {
+                                  "property": "dialog.ucuncu_sicaklik",
+                                  "value": "=dialog.hourly_resp.content.forecasts[2].temperature.value"
+                                },
+                                {
+                                  "property": "dialog.dorduncu_saat",
+                                  "value": "=formatDateTime(dialog.hourly_resp.content.forecasts[3].date, 'HH:mm')"
+                                },
+                                {
+                                  "property": "dialog.dorduncu_sicaklik",
+                                  "value": "=dialog.hourly_resp.content.forecasts[3].temperature.value"
+                                },
+                                {
+                                  "property": "dialog.besinci_saat",
+                                  "value": "=formatDateTime(dialog.hourly_resp.content.forecasts[4].date, 'HH:mm')"
+                                },
+                                {
+                                  "property": "dialog.besinci_sicaklik",
+                                  "value": "=dialog.hourly_resp.content.forecasts[4].temperature.value"
+                                },
+                                {
+                                  "property": "dialog.altinci_saat",
+                                  "value": "=formatDateTime(dialog.hourly_resp.content.forecasts[5].date, 'HH:mm')"
+                                },
+                                {
+                                  "property": "dialog.altinci_sicaklik",
+                                  "value": "=dialog.hourly_resp.content.forecasts[5].temperature.value"
+                                },
+                                {
+                                  "property": "dialog.ilk_icon",
+                                  "value": "=dialog.hourly_resp.content.forecasts[0].iconCode"
+                                },
+                                {
+                                  "property": "dialog.ikinci_icon",
+                                  "value": "=dialog.hourly_resp.content.forecasts[1].iconCode"
+                                },
+                                {
+                                  "property": "dialog.ucuncu_icon",
+                                  "value": "=dialog.hourly_resp.content.forecasts[2].iconCode"
+                                },
+                                {
+                                  "property": "dialog.dorduncu_icon",
+                                  "value": "=dialog.hourly_resp.content.forecasts[3].iconCode"
+                                },
+                                {
+                                  "property": "dialog.besinci_icon",
+                                  "value": "=dialog.hourly_resp.content.forecasts[4].iconCode"
+                                },
+                                {
+                                  "property": "dialog.altinci_icon",
+                                  "value": "=dialog.hourly_resp.content.forecasts[5].iconCode"
+                                }
+                              ]
+                            },
+                            {
+                              "$kind": "Microsoft.SendActivity",
+                              "$designer": {
+                                "id": "FVGdLz"
+                              },
+                              "activity": "${SendActivity_FVGdLz()}"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "elseActions": [
+                {
+                  "$kind": "Microsoft.SetProperties",
+                  "$designer": {
+                    "id": "VT3Iiw"
+                  },
+                  "assignments": [
+                    {
+                      "property": "dialog.sehir",
+                      "value": "=dialog.entity.city[0]"
+                    },
+                    {
+                      "property": "dialog.zaman",
+                      "value": "=\"null\""
+                    }
+                  ]
+                },
+                {
+                  "$kind": "Microsoft.HttpRequest",
+                  "$designer": {
+                    "id": "CqoDix"
+                  },
+                  "method": "GET",
+                  "url": "https://atlas.microsoft.com/search/address/json?api-version=1.0&query=${dialog.sehir}&countrySet=TR&subscription-key=${dialog.maps_key}",
+                  "resultProperty": "dialog.api_response",
+                  "responseType": "json"
+                },
+                {
+                  "$kind": "Microsoft.IfCondition",
+                  "$designer": {
+                    "id": "WEbzdc"
+                  },
+                  "condition": "=dialog.api_response.statusCode==200",
+                  "elseActions": [
+                    {
+                      "$kind": "Microsoft.SendActivity",
+                      "$designer": {
+                        "id": "95OZYg"
+                      },
+                      "activity": "${SendActivity_95OZYg()}"
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "$kind": "Microsoft.SetProperties",
+                      "$designer": {
+                        "id": "diQrkk"
+                      },
+                      "assignments": [
+                        {
+                          "property": "dialog.lat",
+                          "value": "=string(dialog.api_response.content.results[0].position.lat, 'en-US')"
+                        },
+                        {
+                          "property": "dialog.lon",
+                          "value": "=string(dialog.api_response.content.results[0].position.lon, 'en-US')"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "$kind": "Microsoft.HttpRequest",
+                  "$designer": {
+                    "id": "vEDAAD"
+                  },
+                  "method": "GET",
+                  "url": "https://atlas.microsoft.com/weather/forecast/daily/json?api-version=1.0&query=${dialog.lat}%2C${dialog.lon}&subscription-key=${dialog.maps_key}&duration=10&language=tr-TR",
+                  "resultProperty": "dialog.second_api",
+                  "responseType": "json"
+                },
+                {
+                  "$kind": "Microsoft.IfCondition",
+                  "$designer": {
+                    "id": "ou5qgx"
+                  },
+                  "condition": "=dialog.second_api.statusCode==200",
+                  "elseActions": [
+                    {
+                      "$kind": "Microsoft.SendActivity",
+                      "$designer": {
+                        "id": "LmvdcX"
+                      },
+                      "activity": "${SendActivity_LmvdcX()}"
+                    },
+                    {
+                      "$kind": "Microsoft.EndDialog",
+                      "$designer": {
+                        "id": "LsV7EM"
+                      }
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "$kind": "Microsoft.SetProperties",
+                      "$designer": {
+                        "id": "CDW2RR"
+                      },
+                      "assignments": [
+                        {
+                          "property": "dialog.phrase",
+                          "value": "=dialog.second_api.content.summary.phrase"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "$kind": "Microsoft.SendActivity",
+                  "$designer": {
+                    "id": "QQd1bF"
+                  },
+                  "activity": "${SendActivity_QQd1bF()}"
+                },
+                {
+                  "$kind": "Microsoft.SetProperties",
+                  "$designer": {
+                    "id": "NwVVwn"
+                  },
+                  "assignments": [
+                    {
+                      "property": "dialog.day1",
+                      "value": "=dialog.second_api.content.forecasts[0].date"
+                    },
+                    {
+                      "property": "dialog.max_day1",
+                      "value": "=dialog.second_api.content.forecasts[0].temperature.maximum.value"
+                    },
+                    {
+                      "property": "dialog.min_day1",
+                      "value": "=dialog.second_api.content.forecasts[0].temperature.minimum.value"
+                    },
+                    {
+                      "property": "dialog.icon_day1",
+                      "value": "=dialog.second_api.content.forecasts[0].day.iconCode"
+                    },
+                    {
+                      "value": "=dialog.second_api.content.forecasts[0].day.iconPhrase",
+                      "property": "dialog.icon_phrase_day1"
+                    },
+                    {
+                      "value": "=dialog.second_api.content.forecasts[1].date",
+                      "property": "dialog.day2"
+                    },
+                    {
+                      "value": "=dialog.second_api.content.forecasts[1].temperature.maximum.value",
+                      "property": "dialog.max_day2"
+                    },
+                    {
+                      "value": "=dialog.second_api.content.forecasts[1].temperature.minimum.value",
+                      "property": "dialog.min_day2"
+                    },
+                    {
+                      "value": "=dialog.second_api.content.forecasts[1].day.iconCode",
+                      "property": "dialog.icon_day2"
+                    },
+                    {
+                      "value": "=dialog.second_api.content.forecasts[2].date",
+                      "property": "dialog.day3"
+                    },
+                    {
+                      "value": "=dialog.second_api.content.forecasts[2].temperature.maximum.value",
+                      "property": "dialog.max_day3"
+                    },
+                    {
+                      "value": "=dialog.second_api.content.forecasts[2].temperature.minimum.value",
+                      "property": "dialog.min_day3"
+                    },
+                    {
+                      "property": "dialog.icon_day3",
+                      "value": "=dialog.second_api.content.forecasts[2].day.iconCode"
+                    },
+                    {
+                      "value": "=dialog.second_api.content.forecasts[3].date",
+                      "property": "dialog.day4"
+                    },
+                    {
+                      "value": "=dialog.second_api.content.forecasts[3].temperature.maximum.value",
+                      "property": "dialog.max_day4"
+                    },
+                    {
+                      "value": "=dialog.second_api.content.forecasts[3].temperature.minimum.value",
+                      "property": "dialog.min_day4"
+                    },
+                    {
+                      "value": "=dialog.second_api.content.forecasts[3].day.iconCode",
+                      "property": "dialog.icon_day4"
+                    },
+                    {
+                      "property": "dialog.day5",
+                      "value": "=dialog.second_api.content.forecasts[4].date"
+                    },
+                    {
+                      "property": "dialog.max_day5",
+                      "value": "=dialog.second_api.content.forecasts[4].temperature.maximum.value"
+                    },
+                    {
+                      "property": "dialog.min_day5",
+                      "value": "=dialog.second_api.content.forecasts[4].temperature.minimum.value"
+                    },
+                    {
+                      "value": "=dialog.second_api.content.forecasts[4].day.iconCode",
+                      "property": "dialog.icon_day5"
+                    },
+                    {
+                      "property": "dialog.formatted_day1",
+                      "value": "=formatDateTime(dailog.day1, 'dd.MM.yyyy')"
+                    },
+                    {
+                      "property": "dialog.formatted_day2",
+                      "value": "=formatDateTime(dailog.day2, 'dd.MM.yyyy')"
+                    },
+                    {
+                      "property": "dialog.formatted_day3",
+                      "value": "=formatDateTime(dailog.day3, 'dd.MM.yyyy')"
+                    },
+                    {
+                      "value": "=formatDateTime(dailog.day4, 'dd.MM.yyyy')",
+                      "property": "dialog.formatted_day4"
+                    },
+                    {
+                      "property": "dialog.formatted_day5",
+                      "value": "=formatDateTime(dailog.day5, 'dd.MM.yyyy')"
+                    },
+                    {
+                      "property": "dialog.gun1",
+                      "value": "=dayOfWeek(dialog.day1)"
+                    },
+                    {
+                      "property": "dialog.gun2",
+                      "value": "=dayOfWeek(dialog.day2)"
+                    },
+                    {
+                      "property": "dialog.gun3",
+                      "value": "=dayOfWeek(dialog.day3)"
+                    },
+                    {
+                      "property": "dialog.gun4",
+                      "value": "=dayOfWeek(dialog.day4)"
+                    },
+                    {
+                      "property": "dialog.gun5",
+                      "value": "=dayOfWeek(dialog.day5)"
+                    },
+                    {
+                      "property": "dialog.gun_adi1",
+                      "value": "=dialog.haftaarray[dialog.gun1]"
+                    },
+                    {
+                      "property": "dialog.gun_adi2",
+                      "value": "=dialog.haftaarray[dialog.gun2]"
+                    },
+                    {
+                      "property": "dialog.gun_adi3",
+                      "value": "=dialog.haftaarray[dialog.gun3]"
+                    },
+                    {
+                      "property": "dialog.gun_adi4",
+                      "value": "=dialog.haftaarray[dialog.gun4]"
+                    },
+                    {
+                      "property": "dialog.gun_adi5",
+                      "value": "=dialog.haftaarray[dialog.gun5]"
+                    }
+                  ]
+                },
+                {
+                  "$kind": "Microsoft.HttpRequest",
+                  "$designer": {
+                    "id": "LhwujK"
+                  },
+                  "method": "GET",
+                  "url": "https://atlas.microsoft.com/weather/forecast/hourly/json?subscription-key=${dialog.maps_key}&api-version=1.0&query=${dialog.lat}%2C${dialog.lon}&duration=24&language=tr-TR",
+                  "resultProperty": "dialog.hourly_resp",
+                  "responseType": "json"
+                },
+                {
+                  "$kind": "Microsoft.IfCondition",
+                  "$designer": {
+                    "id": "lKN0EI"
+                  },
+                  "condition": "=dialog.hourly_resp.statusCode==200",
+                  "elseActions": [
+                    {
+                      "$kind": "Microsoft.SendActivity",
+                      "$designer": {
+                        "id": "Ch6LeZ"
+                      },
+                      "activity": "${SendActivity_Ch6LeZ()}"
+                    },
+                    {
+                      "$kind": "Microsoft.EndDialog",
+                      "$designer": {
+                        "id": "u82rHN"
+                      }
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "$kind": "Microsoft.SetProperties",
+                      "$designer": {
+                        "id": "TSadq2"
+                      },
+                      "assignments": [
+                        {
+                          "property": "dialog.ilk_saat",
+                          "value": "=formatDateTime(dialog.hourly_resp.content.forecasts[0].date, 'HH:mm')"
+                        },
+                        {
+                          "property": "dialog.ilk_sicaklik",
+                          "value": "=dialog.hourly_resp.content.forecasts[0].temperature.value"
+                        },
+                        {
+                          "property": "dialog.ikinci_saat",
+                          "value": "=formatDateTime(dialog.hourly_resp.content.forecasts[1].date, 'HH:mm')"
+                        },
+                        {
+                          "property": "dialog.ikinci_sicaklik",
+                          "value": "=dialog.hourly_resp.content.forecasts[1].temperature.value"
+                        },
+                        {
+                          "property": "dialog.ucuncu_saat",
+                          "value": "=formatDateTime(dialog.hourly_resp.content.forecasts[2].date, 'HH:mm')"
+                        },
+                        {
+                          "property": "dialog.ucuncu_sicaklik",
+                          "value": "=dialog.hourly_resp.content.forecasts[2].temperature.value"
+                        },
+                        {
+                          "property": "dialog.dorduncu_saat",
+                          "value": "=formatDateTime(dialog.hourly_resp.content.forecasts[3].date, 'HH:mm')"
+                        },
+                        {
+                          "property": "dialog.dorduncu_sicaklik",
+                          "value": "=dialog.hourly_resp.content.forecasts[3].temperature.value"
+                        },
+                        {
+                          "property": "dialog.besinci_saat",
+                          "value": "=formatDateTime(dialog.hourly_resp.content.forecasts[4].date, 'HH:mm')"
+                        },
+                        {
+                          "property": "dialog.besinci_sicaklik",
+                          "value": "=dialog.hourly_resp.content.forecasts[4].temperature.value"
+                        },
+                        {
+                          "property": "dialog.altinci_saat",
+                          "value": "=formatDateTime(dialog.hourly_resp.content.forecasts[5].date, 'HH:mm')"
+                        },
+                        {
+                          "property": "dialog.altinci_sicaklik",
+                          "value": "=dialog.hourly_resp.content.forecasts[5].temperature.value"
+                        },
+                        {
+                          "property": "dialog.ilk_icon",
+                          "value": "=dialog.hourly_resp.content.forecasts[0].iconCode"
+                        },
+                        {
+                          "property": "dialog.ikinci_icon",
+                          "value": "=dialog.hourly_resp.content.forecasts[1].iconCode"
+                        },
+                        {
+                          "property": "dialog.ucuncu_icon",
+                          "value": "=dialog.hourly_resp.content.forecasts[2].iconCode"
+                        },
+                        {
+                          "property": "dialog.dorduncu_icon",
+                          "value": "=dialog.hourly_resp.content.forecasts[3].iconCode"
+                        },
+                        {
+                          "property": "dialog.besinci_icon",
+                          "value": "=dialog.hourly_resp.content.forecasts[4].iconCode"
+                        },
+                        {
+                          "property": "dialog.altinci_icon",
+                          "value": "=dialog.hourly_resp.content.forecasts[5].iconCode"
+                        }
+                      ]
+                    },
+                    {
+                      "$kind": "Microsoft.SendActivity",
+                      "$designer": {
+                        "id": "ONRMGP"
+                      },
+                      "activity": "${SendActivity_ONRMGP()}"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "elseActions": [
+            {
+              "$kind": "Microsoft.IfCondition",
+              "$designer": {
+                "id": "ijMfye"
+              },
+              "condition": "=contains(dialog.entity, \"zaman\")",
+              "actions": [
+                {
+                  "$kind": "Microsoft.TextInput",
+                  "$designer": {
+                    "id": "2sjJYU"
+                  },
+                  "disabled": false,
+                  "maxTurnCount": 3,
+                  "alwaysPrompt": true,
+                  "allowInterruptions": false,
+                  "prompt": "${TextInput_Prompt_2sjJYU()}",
+                  "unrecognizedPrompt": "",
+                  "invalidPrompt": "",
+                  "property": "user.sehir"
+                },
+                {
+                  "$kind": "Microsoft.SetProperties",
+                  "$designer": {
+                    "id": "fQJoAR"
+                  },
+                  "assignments": [
+                    {
+                      "property": "dialog.sehir",
+                      "value": "=user.sehir"
+                    },
+                    {
+                      "property": "dialog.zaman",
+                      "value": "=dialog.entity.zaman[0][0]"
+                    }
+                  ]
+                },
+                {
+                  "$kind": "Microsoft.HttpRequest",
+                  "$designer": {
+                    "id": "FKLD5y"
+                  },
+                  "method": "GET",
+                  "url": "https://atlas.microsoft.com/search/address/json?api-version=1.0&query=${dialog.sehir}&countrySet=TR&subscription-key=${dialog.maps_key}",
+                  "resultProperty": "dialog.api_response",
+                  "responseType": "json"
+                },
+                {
+                  "$kind": "Microsoft.IfCondition",
+                  "$designer": {
+                    "id": "wgfBA1"
+                  },
+                  "condition": "=dialog.api_response.statusCode==200",
+                  "elseActions": [
+                    {
+                      "$kind": "Microsoft.SendActivity",
+                      "$designer": {
+                        "id": "v74OA6"
+                      },
+                      "activity": "${SendActivity_v74OA6()}"
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "$kind": "Microsoft.SetProperties",
+                      "$designer": {
+                        "id": "40s5j9"
+                      },
+                      "assignments": [
+                        {
+                          "property": "dialog.lat",
+                          "value": "=string(dialog.api_response.content.results[0].position.lat, 'en-US')"
+                        },
+                        {
+                          "property": "dialog.lon",
+                          "value": "=string(dialog.api_response.content.results[0].position.lon, 'en-US')"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "$kind": "Microsoft.HttpRequest",
+                  "$designer": {
+                    "id": "EoDWJs"
+                  },
+                  "method": "GET",
+                  "url": "https://atlas.microsoft.com/weather/forecast/daily/json?api-version=1.0&query=${dialog.lat}%2C${dialog.lon}&subscription-key=${dialog.maps_key}&duration=10&language=tr-TR",
+                  "resultProperty": "dialog.second_api",
+                  "responseType": "json"
+                },
+                {
+                  "$kind": "Microsoft.IfCondition",
+                  "$designer": {
+                    "id": "w7458V"
+                  },
+                  "condition": "=dialog.second_api.statusCode==200",
+                  "elseActions": [
+                    {
+                      "$kind": "Microsoft.SendActivity",
+                      "$designer": {
+                        "id": "f09a65"
+                      },
+                      "activity": "${SendActivity_f09a65()}"
+                    },
+                    {
+                      "$kind": "Microsoft.EndDialog",
+                      "$designer": {
+                        "id": "nkpBBj"
+                      }
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "$kind": "Microsoft.SetProperties",
+                      "$designer": {
+                        "id": "VovdKH"
+                      },
+                      "assignments": [
+                        {
+                          "property": "dialog.phrase",
+                          "value": "=dialog.second_api.content.summary.phrase"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "$kind": "Microsoft.SwitchCondition",
+                  "$designer": {
+                    "id": "iQu2DU"
+                  },
+                  "condition": "=dialog.zaman",
+                  "cases": [
+                    {
+                      "value": "bugun",
+                      "actions": [
+                        {
+                          "$kind": "Microsoft.SetProperties",
+                          "$designer": {
+                            "id": "QrYAuC"
+                          },
+                          "assignments": [
+                            {
+                              "property": "dialog.phrase",
+                              "value": "=dialog.second_api.content.summary.phrase"
+                            },
+                            {
+                              "property": "dialog.day1",
+                              "value": "=dialog.second_api.content.forecasts[0].date"
+                            },
+                            {
+                              "property": "dialog.max_day1",
+                              "value": "=dialog.second_api.content.forecasts[0].temperature.maximum.value"
+                            },
+                            {
+                              "property": "dialog.min_day1",
+                              "value": "=dialog.second_api.content.forecasts[0].temperature.minimum.value"
+                            },
+                            {
+                              "property": "dialog.icon_day1",
+                              "value": "=dialog.second_api.content.forecasts[0].day.iconCode"
+                            },
+                            {
+                              "value": "=dialog.second_api.content.forecasts[0].day.iconPhrase",
+                              "property": "dialog.icon_phrase_day1"
+                            },
+                            {
+                              "property": "dialog.formatted_day1",
+                              "value": "=formatDateTime(dialog.day1, 'dd.MM.yyyy')"
+                            },
+                            {
+                              "property": "dialog.gun1",
+                              "value": "=dayOfWeek(dialog.day1)"
+                            },
+                            {
+                              "property": "dialog.gun_adi1",
+                              "value": "=dialog.haftaarray[dialog.gun1]"
+                            }
+                          ]
+                        },
+                        {
+                          "$kind": "Microsoft.HttpRequest",
+                          "$designer": {
+                            "id": "Oznzlq"
+                          },
+                          "method": "GET",
+                          "url": "https://atlas.microsoft.com/weather/forecast/hourly/json?subscription-key=${dialog.maps_key}&api-version=1.0&query=${dialog.lat}%2C${dialog.lon}&duration=24&language=tr-TR",
+                          "resultProperty": "dialog.hourly_resp",
+                          "responseType": "json"
+                        },
+                        {
+                          "$kind": "Microsoft.IfCondition",
+                          "$designer": {
+                            "id": "SiWnNZ"
+                          },
+                          "condition": "=dialog.hourly_resp.statusCode==200",
+                          "elseActions": [
+                            {
+                              "$kind": "Microsoft.SendActivity",
+                              "$designer": {
+                                "id": "LiVd8c"
+                              },
+                              "activity": "${SendActivity_LiVd8c()}"
+                            },
+                            {
+                              "$kind": "Microsoft.EndDialog",
+                              "$designer": {
+                                "id": "xW2s5k"
+                              }
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "$kind": "Microsoft.SetProperties",
+                              "$designer": {
+                                "id": "rWq5vm"
+                              },
+                              "assignments": [
+                                {
+                                  "property": "dialog.ilk_saat",
+                                  "value": "=formatDateTime(dialog.hourly_resp.content.forecasts[0].date, 'HH:mm')"
+                                },
+                                {
+                                  "property": "dialog.ilk_sicaklik",
+                                  "value": "=dialog.hourly_resp.content.forecasts[0].temperature.value"
+                                },
+                                {
+                                  "property": "dialog.ikinci_saat",
+                                  "value": "=formatDateTime(dialog.hourly_resp.content.forecasts[1].date, 'HH:mm')"
+                                },
+                                {
+                                  "property": "dialog.ikinci_sicaklik",
+                                  "value": "=dialog.hourly_resp.content.forecasts[1].temperature.value"
+                                },
+                                {
+                                  "property": "dialog.ucuncu_saat",
+                                  "value": "=formatDateTime(dialog.hourly_resp.content.forecasts[2].date, 'HH:mm')"
+                                },
+                                {
+                                  "property": "dialog.ucuncu_sicaklik",
+                                  "value": "=dialog.hourly_resp.content.forecasts[2].temperature.value"
+                                },
+                                {
+                                  "property": "dialog.dorduncu_saat",
+                                  "value": "=formatDateTime(dialog.hourly_resp.content.forecasts[3].date, 'HH:mm')"
+                                },
+                                {
+                                  "property": "dialog.dorduncu_sicaklik",
+                                  "value": "=dialog.hourly_resp.content.forecasts[3].temperature.value"
+                                },
+                                {
+                                  "property": "dialog.besinci_saat",
+                                  "value": "=formatDateTime(dialog.hourly_resp.content.forecasts[4].date, 'HH:mm')"
+                                },
+                                {
+                                  "property": "dialog.besinci_sicaklik",
+                                  "value": "=dialog.hourly_resp.content.forecasts[4].temperature.value"
+                                },
+                                {
+                                  "property": "dialog.altinci_saat",
+                                  "value": "=formatDateTime(dialog.hourly_resp.content.forecasts[5].date, 'HH:mm')"
+                                },
+                                {
+                                  "property": "dialog.altinci_sicaklik",
+                                  "value": "=dialog.hourly_resp.content.forecasts[5].temperature.value"
+                                },
+                                {
+                                  "property": "dialog.ilk_icon",
+                                  "value": "=dialog.hourly_resp.content.forecasts[0].iconCode"
+                                },
+                                {
+                                  "property": "dialog.ikinci_icon",
+                                  "value": "=dialog.hourly_resp.content.forecasts[1].iconCode"
+                                },
+                                {
+                                  "property": "dialog.ucuncu_icon",
+                                  "value": "=dialog.hourly_resp.content.forecasts[2].iconCode"
+                                },
+                                {
+                                  "property": "dialog.dorduncu_icon",
+                                  "value": "=dialog.hourly_resp.content.forecasts[3].iconCode"
+                                },
+                                {
+                                  "property": "dialog.besinci_icon",
+                                  "value": "=dialog.hourly_resp.content.forecasts[4].iconCode"
+                                },
+                                {
+                                  "property": "dialog.altinci_icon",
+                                  "value": "=dialog.hourly_resp.content.forecasts[5].iconCode"
+                                }
+                              ]
+                            },
+                            {
+                              "$kind": "Microsoft.SendActivity",
+                              "$designer": {
+                                "id": "3FR1jP"
+                              },
+                              "activity": "${SendActivity_3FR1jP()}"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "value": "yarin",
+                      "actions": [
+                        {
+                          "$kind": "Microsoft.SetProperties",
+                          "$designer": {
+                            "id": "qOAxYv"
+                          },
+                          "assignments": [
+                            {
+                              "property": "dialog.day2",
+                              "value": "=dialog.second_api.content.forecasts[1].date"
+                            },
+                            {
+                              "property": "dialog.max_day2",
+                              "value": "=dialog.second_api.content.forecasts[1].temperature.maximum.value"
+                            },
+                            {
+                              "property": "dialog.min_day2",
+                              "value": "=dialog.second_api.content.forecasts[1].temperature.minimum.value"
+                            },
+                            {
+                              "property": "dialog.icon_day2",
+                              "value": "=dialog.second_api.content.forecasts[1].day.iconCode"
+                            },
+                            {
+                              "value": "=dialog.second_api.content.forecasts[1].day.iconPhrase",
+                              "property": "dialog.icon_phrase_day2"
+                            },
+                            {
+                              "property": "dialog.yarin",
+                              "value": "=addDays(utcNow(), 1)"
+                            },
+                            {
+                              "property": "dialog.kacincigun",
+                              "value": "=dayOfWeek(dialog.yarin)"
+                            },
+                            {
+                              "property": "dialog.gunadi",
+                              "value": "=dialog.haftaarray[dialog.kacincigun]"
+                            },
+                            {
+                              "property": "dialog.formatyarin",
+                              "value": "=formatDateTime(dialog.yarin, 'dd.MM.yyyy')"
+                            }
+                          ]
+                        },
+                        {
+                          "$kind": "Microsoft.HttpRequest",
+                          "$designer": {
+                            "id": "3Sg761"
+                          },
+                          "method": "GET",
+                          "url": "https://atlas.microsoft.com/weather/forecast/hourly/json?subscription-key=${dialog.maps_key}&api-version=1.0&query=${dialog.lat}%2C${dialog.lon}&duration=24&language=tr-TR",
+                          "resultProperty": "dialog.hourly_resp",
+                          "responseType": "json"
+                        },
+                        {
+                          "$kind": "Microsoft.IfCondition",
+                          "$designer": {
+                            "id": "zPyVBC"
+                          },
+                          "condition": "=dialog.hourly_resp.statusCode==200",
+                          "elseActions": [
+                            {
+                              "$kind": "Microsoft.SendActivity",
+                              "$designer": {
+                                "id": "KjdBkI"
+                              },
+                              "activity": "${SendActivity_KjdBkI()}"
+                            },
+                            {
+                              "$kind": "Microsoft.EndDialog",
+                              "$designer": {
+                                "id": "pASYI1"
+                              }
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "$kind": "Microsoft.SetProperties",
+                              "$designer": {
+                                "id": "m5JqQi"
+                              },
+                              "assignments": [
+                                {
+                                  "property": "dialog.ilk_saat",
+                                  "value": "=formatDateTime(dialog.hourly_resp.content.forecasts[0].date, 'HH:mm')"
+                                },
+                                {
+                                  "property": "dialog.ilk_sicaklik",
+                                  "value": "=dialog.hourly_resp.content.forecasts[0].temperature.value"
+                                },
+                                {
+                                  "property": "dialog.ikinci_saat",
+                                  "value": "=formatDateTime(dialog.hourly_resp.content.forecasts[1].date, 'HH:mm')"
+                                },
+                                {
+                                  "property": "dialog.ikinci_sicaklik",
+                                  "value": "=dialog.hourly_resp.content.forecasts[1].temperature.value"
+                                },
+                                {
+                                  "property": "dialog.ucuncu_saat",
+                                  "value": "=formatDateTime(dialog.hourly_resp.content.forecasts[2].date, 'HH:mm')"
+                                },
+                                {
+                                  "property": "dialog.ucuncu_sicaklik",
+                                  "value": "=dialog.hourly_resp.content.forecasts[2].temperature.value"
+                                },
+                                {
+                                  "property": "dialog.dorduncu_saat",
+                                  "value": "=formatDateTime(dialog.hourly_resp.content.forecasts[3].date, 'HH:mm')"
+                                },
+                                {
+                                  "property": "dialog.dorduncu_sicaklik",
+                                  "value": "=dialog.hourly_resp.content.forecasts[3].temperature.value"
+                                },
+                                {
+                                  "property": "dialog.besinci_saat",
+                                  "value": "=formatDateTime(dialog.hourly_resp.content.forecasts[4].date, 'HH:mm')"
+                                },
+                                {
+                                  "property": "dialog.besinci_sicaklik",
+                                  "value": "=dialog.hourly_resp.content.forecasts[4].temperature.value"
+                                },
+                                {
+                                  "property": "dialog.altinci_saat",
+                                  "value": "=formatDateTime(dialog.hourly_resp.content.forecasts[5].date, 'HH:mm')"
+                                },
+                                {
+                                  "property": "dialog.altinci_sicaklik",
+                                  "value": "=dialog.hourly_resp.content.forecasts[5].temperature.value"
+                                },
+                                {
+                                  "property": "dialog.ilk_icon",
+                                  "value": "=dialog.hourly_resp.content.forecasts[0].iconCode"
+                                },
+                                {
+                                  "property": "dialog.ikinci_icon",
+                                  "value": "=dialog.hourly_resp.content.forecasts[1].iconCode"
+                                },
+                                {
+                                  "property": "dialog.ucuncu_icon",
+                                  "value": "=dialog.hourly_resp.content.forecasts[2].iconCode"
+                                },
+                                {
+                                  "property": "dialog.dorduncu_icon",
+                                  "value": "=dialog.hourly_resp.content.forecasts[3].iconCode"
+                                },
+                                {
+                                  "property": "dialog.besinci_icon",
+                                  "value": "=dialog.hourly_resp.content.forecasts[4].iconCode"
+                                },
+                                {
+                                  "property": "dialog.altinci_icon",
+                                  "value": "=dialog.hourly_resp.content.forecasts[5].iconCode"
+                                }
+                              ]
+                            },
+                            {
+                              "$kind": "Microsoft.SendActivity",
+                              "$designer": {
+                                "id": "YFTTvG"
+                              },
+                              "activity": "${SendActivity_YFTTvG()}"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "value": "haftalik",
+                      "actions": [
+                        {
+                          "$kind": "Microsoft.SendActivity",
+                          "$designer": {
+                            "id": "Ib7AOg"
+                          },
+                          "activity": "${SendActivity_Ib7AOg()}"
+                        },
+                        {
+                          "$kind": "Microsoft.SetProperties",
+                          "$designer": {
+                            "id": "VcyvG6"
+                          },
+                          "assignments": [
+                            {
+                              "property": "dialog.day1",
+                              "value": "=dialog.second_api.content.forecasts[0].date"
+                            },
+                            {
+                              "property": "dialog.max_day1",
+                              "value": "=dialog.second_api.content.forecasts[0].temperature.maximum.value"
+                            },
+                            {
+                              "property": "dialog.min_day1",
+                              "value": "=dialog.second_api.content.forecasts[0].temperature.minimum.value"
+                            },
+                            {
+                              "property": "dialog.icon_day1",
+                              "value": "=dialog.second_api.content.forecasts[0].day.iconCode"
+                            },
+                            {
+                              "value": "=dialog.second_api.content.forecasts[0].day.iconPhrase",
+                              "property": "dialog.icon_phrase_day1"
+                            },
+                            {
+                              "value": "=dialog.second_api.content.forecasts[1].date",
+                              "property": "dialog.day2"
+                            },
+                            {
+                              "value": "=dialog.second_api.content.forecasts[1].temperature.maximum.value",
+                              "property": "dialog.max_day2"
+                            },
+                            {
+                              "value": "=dialog.second_api.content.forecasts[1].temperature.minimum.value",
+                              "property": "dialog.min_day2"
+                            },
+                            {
+                              "value": "=dialog.second_api.content.forecasts[1].day.iconCode",
+                              "property": "dialog.icon_day2"
+                            },
+                            {
+                              "value": "=dialog.second_api.content.forecasts[2].date",
+                              "property": "dialog.day3"
+                            },
+                            {
+                              "value": "=dialog.second_api.content.forecasts[2].temperature.maximum.value",
+                              "property": "dialog.max_day3"
+                            },
+                            {
+                              "value": "=dialog.second_api.content.forecasts[2].temperature.minimum.value",
+                              "property": "dialog.min_day3"
+                            },
+                            {
+                              "property": "dialog.icon_day3",
+                              "value": "=dialog.second_api.content.forecasts[2].day.iconCode"
+                            },
+                            {
+                              "value": "=dialog.second_api.content.forecasts[3].date",
+                              "property": "dialog.day4"
+                            },
+                            {
+                              "value": "=dialog.second_api.content.forecasts[3].temperature.maximum.value",
+                              "property": "dialog.max_day4"
+                            },
+                            {
+                              "value": "=dialog.second_api.content.forecasts[3].temperature.minimum.value",
+                              "property": "dialog.min_day4"
+                            },
+                            {
+                              "value": "=dialog.second_api.content.forecasts[3].day.iconCode",
+                              "property": "dialog.icon_day4"
+                            },
+                            {
+                              "property": "dialog.day5",
+                              "value": "=dialog.second_api.content.forecasts[4].date"
+                            },
+                            {
+                              "property": "dialog.max_day5",
+                              "value": "=dialog.second_api.content.forecasts[4].temperature.maximum.value"
+                            },
+                            {
+                              "property": "dialog.min_day5",
+                              "value": "=dialog.second_api.content.forecasts[4].temperature.minimum.value"
+                            },
+                            {
+                              "value": "=dialog.second_api.content.forecasts[4].day.iconCode",
+                              "property": "dialog.icon_day5"
+                            },
+                            {
+                              "property": "dialog.formatted_day1",
+                              "value": "=formatDateTime(dailog.day1, 'dd.MM.yyyy')"
+                            },
+                            {
+                              "property": "dialog.formatted_day2",
+                              "value": "=formatDateTime(dailog.day2, 'dd.MM.yyyy')"
+                            },
+                            {
+                              "property": "dialog.formatted_day3",
+                              "value": "=formatDateTime(dailog.day3, 'dd.MM.yyyy')"
+                            },
+                            {
+                              "value": "=formatDateTime(dailog.day4, 'dd.MM.yyyy')",
+                              "property": "dialog.formatted_day4"
+                            },
+                            {
+                              "property": "dialog.formatted_day5",
+                              "value": "=formatDateTime(dailog.day5, 'dd.MM.yyyy')"
+                            },
+                            {
+                              "property": "dialog.gun1",
+                              "value": "=dayOfWeek(dialog.day1)"
+                            },
+                            {
+                              "property": "dialog.gun2",
+                              "value": "=dayOfWeek(dialog.day2)"
+                            },
+                            {
+                              "property": "dialog.gun3",
+                              "value": "=dayOfWeek(dialog.day3)"
+                            },
+                            {
+                              "property": "dialog.gun4",
+                              "value": "=dayOfWeek(dialog.day4)"
+                            },
+                            {
+                              "property": "dialog.gun5",
+                              "value": "=dayOfWeek(dialog.day5)"
+                            },
+                            {
+                              "property": "dialog.gun_adi1",
+                              "value": "=dialog.haftaarray[dialog.gun1]"
+                            },
+                            {
+                              "property": "dialog.gun_adi2",
+                              "value": "=dialog.haftaarray[dialog.gun2]"
+                            },
+                            {
+                              "property": "dialog.gun_adi3",
+                              "value": "=dialog.haftaarray[dialog.gun3]"
+                            },
+                            {
+                              "property": "dialog.gun_adi4",
+                              "value": "=dialog.haftaarray[dialog.gun4]"
+                            },
+                            {
+                              "property": "dialog.gun_adi5",
+                              "value": "=dialog.haftaarray[dialog.gun5]"
+                            }
+                          ]
+                        },
+                        {
+                          "$kind": "Microsoft.HttpRequest",
+                          "$designer": {
+                            "id": "BUIGXF"
+                          },
+                          "method": "GET",
+                          "url": "https://atlas.microsoft.com/weather/forecast/hourly/json?subscription-key=${dialog.maps_key}&api-version=1.0&query=${dialog.lat}%2C${dialog.lon}&duration=24&language=tr-TR",
+                          "resultProperty": "dialog.hourly_resp",
+                          "responseType": "json"
+                        },
+                        {
+                          "$kind": "Microsoft.IfCondition",
+                          "$designer": {
+                            "id": "b2GFmM"
+                          },
+                          "condition": "=dialog.hourly_resp.statusCode==200",
+                          "elseActions": [
+                            {
+                              "$kind": "Microsoft.SendActivity",
+                              "$designer": {
+                                "id": "32bfle"
+                              },
+                              "activity": "${SendActivity_32bfle()}"
+                            },
+                            {
+                              "$kind": "Microsoft.EndDialog",
+                              "$designer": {
+                                "id": "BQFAzQ"
+                              }
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "$kind": "Microsoft.SetProperties",
+                              "$designer": {
+                                "id": "P0rBPv"
+                              },
+                              "assignments": [
+                                {
+                                  "property": "dialog.ilk_saat",
+                                  "value": "=formatDateTime(dialog.hourly_resp.content.forecasts[0].date, 'HH:mm')"
+                                },
+                                {
+                                  "property": "dialog.ilk_sicaklik",
+                                  "value": "=dialog.hourly_resp.content.forecasts[0].temperature.value"
+                                },
+                                {
+                                  "property": "dialog.ikinci_saat",
+                                  "value": "=formatDateTime(dialog.hourly_resp.content.forecasts[1].date, 'HH:mm')"
+                                },
+                                {
+                                  "property": "dialog.ikinci_sicaklik",
+                                  "value": "=dialog.hourly_resp.content.forecasts[1].temperature.value"
+                                },
+                                {
+                                  "property": "dialog.ucuncu_saat",
+                                  "value": "=formatDateTime(dialog.hourly_resp.content.forecasts[2].date, 'HH:mm')"
+                                },
+                                {
+                                  "property": "dialog.ucuncu_sicaklik",
+                                  "value": "=dialog.hourly_resp.content.forecasts[2].temperature.value"
+                                },
+                                {
+                                  "property": "dialog.dorduncu_saat",
+                                  "value": "=formatDateTime(dialog.hourly_resp.content.forecasts[3].date, 'HH:mm')"
+                                },
+                                {
+                                  "property": "dialog.dorduncu_sicaklik",
+                                  "value": "=dialog.hourly_resp.content.forecasts[3].temperature.value"
+                                },
+                                {
+                                  "property": "dialog.besinci_saat",
+                                  "value": "=formatDateTime(dialog.hourly_resp.content.forecasts[4].date, 'HH:mm')"
+                                },
+                                {
+                                  "property": "dialog.besinci_sicaklik",
+                                  "value": "=dialog.hourly_resp.content.forecasts[4].temperature.value"
+                                },
+                                {
+                                  "property": "dialog.altinci_saat",
+                                  "value": "=formatDateTime(dialog.hourly_resp.content.forecasts[5].date, 'HH:mm')"
+                                },
+                                {
+                                  "property": "dialog.altinci_sicaklik",
+                                  "value": "=dialog.hourly_resp.content.forecasts[5].temperature.value"
+                                },
+                                {
+                                  "property": "dialog.ilk_icon",
+                                  "value": "=dialog.hourly_resp.content.forecasts[0].iconCode"
+                                },
+                                {
+                                  "property": "dialog.ikinci_icon",
+                                  "value": "=dialog.hourly_resp.content.forecasts[1].iconCode"
+                                },
+                                {
+                                  "property": "dialog.ucuncu_icon",
+                                  "value": "=dialog.hourly_resp.content.forecasts[2].iconCode"
+                                },
+                                {
+                                  "property": "dialog.dorduncu_icon",
+                                  "value": "=dialog.hourly_resp.content.forecasts[3].iconCode"
+                                },
+                                {
+                                  "property": "dialog.besinci_icon",
+                                  "value": "=dialog.hourly_resp.content.forecasts[4].iconCode"
+                                },
+                                {
+                                  "property": "dialog.altinci_icon",
+                                  "value": "=dialog.hourly_resp.content.forecasts[5].iconCode"
+                                }
+                              ]
+                            },
+                            {
+                              "$kind": "Microsoft.SendActivity",
+                              "$designer": {
+                                "id": "vdKi6L"
+                              },
+                              "activity": "${SendActivity_vdKi6L()}"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "default": [
+                    {
+                      "$kind": "Microsoft.SendActivity",
+                      "$designer": {
+                        "id": "pjFvDh"
+                      },
+                      "activity": "${SendActivity_pjFvDh()}"
+                    },
+                    {
+                      "$kind": "Microsoft.SetProperties",
+                      "$designer": {
+                        "id": "qGUtwM"
+                      },
+                      "assignments": [
+                        {
+                          "property": "dialog.day1",
+                          "value": "=dialog.second_api.content.forecasts[0].date"
+                        },
+                        {
+                          "property": "dialog.max_day1",
+                          "value": "=dialog.second_api.content.forecasts[0].temperature.maximum.value"
+                        },
+                        {
+                          "property": "dialog.min_day1",
+                          "value": "=dialog.second_api.content.forecasts[0].temperature.minimum.value"
+                        },
+                        {
+                          "property": "dialog.icon_day1",
+                          "value": "=dialog.second_api.content.forecasts[0].day.iconCode"
+                        },
+                        {
+                          "value": "=dialog.second_api.content.forecasts[0].day.iconPhrase",
+                          "property": "dialog.icon_phrase_day1"
+                        },
+                        {
+                          "value": "=dialog.second_api.content.forecasts[1].date",
+                          "property": "dialog.day2"
+                        },
+                        {
+                          "value": "=dialog.second_api.content.forecasts[1].temperature.maximum.value",
+                          "property": "dialog.max_day2"
+                        },
+                        {
+                          "value": "=dialog.second_api.content.forecasts[1].temperature.minimum.value",
+                          "property": "dialog.min_day2"
+                        },
+                        {
+                          "value": "=dialog.second_api.content.forecasts[1].day.iconCode",
+                          "property": "dialog.icon_day2"
+                        },
+                        {
+                          "value": "=dialog.second_api.content.forecasts[2].date",
+                          "property": "dialog.day3"
+                        },
+                        {
+                          "value": "=dialog.second_api.content.forecasts[2].temperature.maximum.value",
+                          "property": "dialog.max_day3"
+                        },
+                        {
+                          "value": "=dialog.second_api.content.forecasts[2].temperature.minimum.value",
+                          "property": "dialog.min_day3"
+                        },
+                        {
+                          "property": "dialog.icon_day3",
+                          "value": "=dialog.second_api.content.forecasts[2].day.iconCode"
+                        },
+                        {
+                          "value": "=dialog.second_api.content.forecasts[3].date",
+                          "property": "dialog.day4"
+                        },
+                        {
+                          "value": "=dialog.second_api.content.forecasts[3].temperature.maximum.value",
+                          "property": "dialog.max_day4"
+                        },
+                        {
+                          "value": "=dialog.second_api.content.forecasts[3].temperature.minimum.value",
+                          "property": "dialog.min_day4"
+                        },
+                        {
+                          "value": "=dialog.second_api.content.forecasts[3].day.iconCode",
+                          "property": "dialog.icon_day4"
+                        },
+                        {
+                          "property": "dialog.day5",
+                          "value": "=dialog.second_api.content.forecasts[4].date"
+                        },
+                        {
+                          "property": "dialog.max_day5",
+                          "value": "=dialog.second_api.content.forecasts[4].temperature.maximum.value"
+                        },
+                        {
+                          "property": "dialog.min_day5",
+                          "value": "=dialog.second_api.content.forecasts[4].temperature.minimum.value"
+                        },
+                        {
+                          "value": "=dialog.second_api.content.forecasts[4].day.iconCode",
+                          "property": "dialog.icon_day5"
+                        },
+                        {
+                          "property": "dialog.formatted_day1",
+                          "value": "=formatDateTime(dailog.day1, 'dd.MM.yyyy')"
+                        },
+                        {
+                          "property": "dialog.formatted_day2",
+                          "value": "=formatDateTime(dailog.day2, 'dd.MM.yyyy')"
+                        },
+                        {
+                          "property": "dialog.formatted_day3",
+                          "value": "=formatDateTime(dailog.day3, 'dd.MM.yyyy')"
+                        },
+                        {
+                          "value": "=formatDateTime(dailog.day4, 'dd.MM.yyyy')",
+                          "property": "dialog.formatted_day4"
+                        },
+                        {
+                          "property": "dialog.formatted_day5",
+                          "value": "=formatDateTime(dailog.day5, 'dd.MM.yyyy')"
+                        },
+                        {
+                          "property": "dialog.gun1",
+                          "value": "=dayOfWeek(dialog.day1)"
+                        },
+                        {
+                          "property": "dialog.gun2",
+                          "value": "=dayOfWeek(dialog.day2)"
+                        },
+                        {
+                          "property": "dialog.gun3",
+                          "value": "=dayOfWeek(dialog.day3)"
+                        },
+                        {
+                          "property": "dialog.gun4",
+                          "value": "=dayOfWeek(dialog.day4)"
+                        },
+                        {
+                          "property": "dialog.gun5",
+                          "value": "=dayOfWeek(dialog.day5)"
+                        },
+                        {
+                          "property": "dialog.gun_adi1",
+                          "value": "=dialog.haftaarray[dialog.gun1]"
+                        },
+                        {
+                          "property": "dialog.gun_adi2",
+                          "value": "=dialog.haftaarray[dialog.gun2]"
+                        },
+                        {
+                          "property": "dialog.gun_adi3",
+                          "value": "=dialog.haftaarray[dialog.gun3]"
+                        },
+                        {
+                          "property": "dialog.gun_adi4",
+                          "value": "=dialog.haftaarray[dialog.gun4]"
+                        },
+                        {
+                          "property": "dialog.gun_adi5",
+                          "value": "=dialog.haftaarray[dialog.gun5]"
+                        }
+                      ]
+                    },
+                    {
+                      "$kind": "Microsoft.HttpRequest",
+                      "$designer": {
+                        "id": "arIAg6"
+                      },
+                      "method": "GET",
+                      "url": "https://atlas.microsoft.com/weather/forecast/hourly/json?subscription-key=${dialog.maps_key}&api-version=1.0&query=${dialog.lat}%2C${dialog.lon}&duration=24&language=tr-TR",
+                      "resultProperty": "dialog.hourly_resp",
+                      "responseType": "json"
+                    },
+                    {
+                      "$kind": "Microsoft.IfCondition",
+                      "$designer": {
+                        "id": "4OPI1V"
+                      },
+                      "condition": "=dialog.hourly_resp.statusCode==200",
+                      "elseActions": [
+                        {
+                          "$kind": "Microsoft.SendActivity",
+                          "$designer": {
+                            "id": "pRs2ye"
+                          },
+                          "activity": "${SendActivity_pRs2ye()}"
+                        },
+                        {
+                          "$kind": "Microsoft.EndDialog",
+                          "$designer": {
+                            "id": "agmtkW"
+                          }
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "$kind": "Microsoft.SetProperties",
+                          "$designer": {
+                            "id": "ZYeT7z"
+                          },
+                          "assignments": [
+                            {
+                              "property": "dialog.ilk_saat",
+                              "value": "=formatDateTime(dialog.hourly_resp.content.forecasts[0].date, 'HH:mm')"
+                            },
+                            {
+                              "property": "dialog.ilk_sicaklik",
+                              "value": "=dialog.hourly_resp.content.forecasts[0].temperature.value"
+                            },
+                            {
+                              "property": "dialog.ikinci_saat",
+                              "value": "=formatDateTime(dialog.hourly_resp.content.forecasts[1].date, 'HH:mm')"
+                            },
+                            {
+                              "property": "dialog.ikinci_sicaklik",
+                              "value": "=dialog.hourly_resp.content.forecasts[1].temperature.value"
+                            },
+                            {
+                              "property": "dialog.ucuncu_saat",
+                              "value": "=formatDateTime(dialog.hourly_resp.content.forecasts[2].date, 'HH:mm')"
+                            },
+                            {
+                              "property": "dialog.ucuncu_sicaklik",
+                              "value": "=dialog.hourly_resp.content.forecasts[2].temperature.value"
+                            },
+                            {
+                              "property": "dialog.dorduncu_saat",
+                              "value": "=formatDateTime(dialog.hourly_resp.content.forecasts[3].date, 'HH:mm')"
+                            },
+                            {
+                              "property": "dialog.dorduncu_sicaklik",
+                              "value": "=dialog.hourly_resp.content.forecasts[3].temperature.value"
+                            },
+                            {
+                              "property": "dialog.besinci_saat",
+                              "value": "=formatDateTime(dialog.hourly_resp.content.forecasts[4].date, 'HH:mm')"
+                            },
+                            {
+                              "property": "dialog.besinci_sicaklik",
+                              "value": "=dialog.hourly_resp.content.forecasts[4].temperature.value"
+                            },
+                            {
+                              "property": "dialog.altinci_saat",
+                              "value": "=formatDateTime(dialog.hourly_resp.content.forecasts[5].date, 'HH:mm')"
+                            },
+                            {
+                              "property": "dialog.altinci_sicaklik",
+                              "value": "=dialog.hourly_resp.content.forecasts[5].temperature.value"
+                            },
+                            {
+                              "property": "dialog.ilk_icon",
+                              "value": "=dialog.hourly_resp.content.forecasts[0].iconCode"
+                            },
+                            {
+                              "property": "dialog.ikinci_icon",
+                              "value": "=dialog.hourly_resp.content.forecasts[1].iconCode"
+                            },
+                            {
+                              "property": "dialog.ucuncu_icon",
+                              "value": "=dialog.hourly_resp.content.forecasts[2].iconCode"
+                            },
+                            {
+                              "property": "dialog.dorduncu_icon",
+                              "value": "=dialog.hourly_resp.content.forecasts[3].iconCode"
+                            },
+                            {
+                              "property": "dialog.besinci_icon",
+                              "value": "=dialog.hourly_resp.content.forecasts[4].iconCode"
+                            },
+                            {
+                              "property": "dialog.altinci_icon",
+                              "value": "=dialog.hourly_resp.content.forecasts[5].iconCode"
+                            }
+                          ]
+                        },
+                        {
+                          "$kind": "Microsoft.SendActivity",
+                          "$designer": {
+                            "id": "Xo6wCR"
+                          },
+                          "activity": "${SendActivity_Xo6wCR()}"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "elseActions": [
+                {
+                  "$kind": "Microsoft.TextInput",
+                  "$designer": {
+                    "id": "2sjJYU"
+                  },
+                  "disabled": false,
+                  "maxTurnCount": 3,
+                  "alwaysPrompt": true,
+                  "allowInterruptions": false,
+                  "prompt": "${TextInput_Prompt_2sjJYU()}",
+                  "invalidPrompt": "",
+                  "property": "user.sehir"
+                },
+                {
+                  "$kind": "Microsoft.SetProperties",
+                  "$designer": {
+                    "id": "O9oPIp"
+                  },
+                  "assignments": [
+                    {
+                      "property": "dialog.sehir",
+                      "value": "=user.sehir"
+                    },
+                    {
+                      "property": "dialog.zaman",
+                      "value": "=\"null\""
+                    }
+                  ]
+                },
+                {
+                  "$kind": "Microsoft.HttpRequest",
+                  "$designer": {
+                    "id": "hPZkDe"
+                  },
+                  "method": "GET",
+                  "url": "https://atlas.microsoft.com/search/address/json?api-version=1.0&query=${dialog.sehir}&countrySet=TR&subscription-key=${dialog.maps_key}",
+                  "resultProperty": "dialog.api_response",
+                  "responseType": "json"
+                },
+                {
+                  "$kind": "Microsoft.IfCondition",
+                  "$designer": {
+                    "id": "fvjpW9"
+                  },
+                  "condition": "=dialog.api_response.statusCode==200",
+                  "elseActions": [
+                    {
+                      "$kind": "Microsoft.SendActivity",
+                      "$designer": {
+                        "id": "mOJUq8"
+                      },
+                      "activity": "${SendActivity_mOJUq8()}"
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "$kind": "Microsoft.SetProperties",
+                      "$designer": {
+                        "id": "Q3cCWI"
+                      },
+                      "assignments": [
+                        {
+                          "property": "dialog.lat",
+                          "value": "=string(dialog.api_response.content.results[0].position.lat, 'en-US')"
+                        },
+                        {
+                          "property": "dialog.lon",
+                          "value": "=string(dialog.api_response.content.results[0].position.lon, 'en-US')"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "$kind": "Microsoft.HttpRequest",
+                  "$designer": {
+                    "id": "0Pqcw3"
+                  },
+                  "method": "GET",
+                  "url": "https://atlas.microsoft.com/weather/forecast/daily/json?api-version=1.0&query=${dialog.lat}%2C${dialog.lon}&subscription-key=${dialog.maps_key}&duration=10&language=tr-TR",
+                  "resultProperty": "dialog.second_api",
+                  "responseType": "json"
+                },
+                {
+                  "$kind": "Microsoft.IfCondition",
+                  "$designer": {
+                    "id": "1pCGZ4"
+                  },
+                  "condition": "=dialog.second_api.statusCode==200",
+                  "elseActions": [
+                    {
+                      "$kind": "Microsoft.SendActivity",
+                      "$designer": {
+                        "id": "cXiNyr"
+                      },
+                      "activity": "${SendActivity_cXiNyr()}"
+                    },
+                    {
+                      "$kind": "Microsoft.EndDialog",
+                      "$designer": {
+                        "id": "F2amir"
+                      }
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "$kind": "Microsoft.SetProperties",
+                      "$designer": {
+                        "id": "chVfC3"
+                      },
+                      "assignments": [
+                        {
+                          "property": "dialog.phrase",
+                          "value": "=dialog.second_api.content.summary.phrase"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "$kind": "Microsoft.SendActivity",
+                  "$designer": {
+                    "id": "widWzE"
+                  },
+                  "activity": "${SendActivity_widWzE()}"
+                },
+                {
+                  "$kind": "Microsoft.SetProperties",
+                  "$designer": {
+                    "id": "fkeIWb"
+                  },
+                  "assignments": [
+                    {
+                      "property": "dialog.day1",
+                      "value": "=dialog.second_api.content.forecasts[0].date"
+                    },
+                    {
+                      "property": "dialog.max_day1",
+                      "value": "=dialog.second_api.content.forecasts[0].temperature.maximum.value"
+                    },
+                    {
+                      "property": "dialog.min_day1",
+                      "value": "=dialog.second_api.content.forecasts[0].temperature.minimum.value"
+                    },
+                    {
+                      "property": "dialog.icon_day1",
+                      "value": "=dialog.second_api.content.forecasts[0].day.iconCode"
+                    },
+                    {
+                      "value": "=dialog.second_api.content.forecasts[0].day.iconPhrase",
+                      "property": "dialog.icon_phrase_day1"
+                    },
+                    {
+                      "value": "=dialog.second_api.content.forecasts[1].date",
+                      "property": "dialog.day2"
+                    },
+                    {
+                      "value": "=dialog.second_api.content.forecasts[1].temperature.maximum.value",
+                      "property": "dialog.max_day2"
+                    },
+                    {
+                      "value": "=dialog.second_api.content.forecasts[1].temperature.minimum.value",
+                      "property": "dialog.min_day2"
+                    },
+                    {
+                      "value": "=dialog.second_api.content.forecasts[1].day.iconCode",
+                      "property": "dialog.icon_day2"
+                    },
+                    {
+                      "value": "=dialog.second_api.content.forecasts[2].date",
+                      "property": "dialog.day3"
+                    },
+                    {
+                      "value": "=dialog.second_api.content.forecasts[2].temperature.maximum.value",
+                      "property": "dialog.max_day3"
+                    },
+                    {
+                      "value": "=dialog.second_api.content.forecasts[2].temperature.minimum.value",
+                      "property": "dialog.min_day3"
+                    },
+                    {
+                      "property": "dialog.icon_day3",
+                      "value": "=dialog.second_api.content.forecasts[2].day.iconCode"
+                    },
+                    {
+                      "value": "=dialog.second_api.content.forecasts[3].date",
+                      "property": "dialog.day4"
+                    },
+                    {
+                      "value": "=dialog.second_api.content.forecasts[3].temperature.maximum.value",
+                      "property": "dialog.max_day4"
+                    },
+                    {
+                      "value": "=dialog.second_api.content.forecasts[3].temperature.minimum.value",
+                      "property": "dialog.min_day4"
+                    },
+                    {
+                      "value": "=dialog.second_api.content.forecasts[3].day.iconCode",
+                      "property": "dialog.icon_day4"
+                    },
+                    {
+                      "property": "dialog.day5",
+                      "value": "=dialog.second_api.content.forecasts[4].date"
+                    },
+                    {
+                      "property": "dialog.max_day5",
+                      "value": "=dialog.second_api.content.forecasts[4].temperature.maximum.value"
+                    },
+                    {
+                      "property": "dialog.min_day5",
+                      "value": "=dialog.second_api.content.forecasts[4].temperature.minimum.value"
+                    },
+                    {
+                      "value": "=dialog.second_api.content.forecasts[4].day.iconCode",
+                      "property": "dialog.icon_day5"
+                    },
+                    {
+                      "property": "dialog.formatted_day1",
+                      "value": "=formatDateTime(dailog.day1, 'dd.MM.yyyy')"
+                    },
+                    {
+                      "property": "dialog.formatted_day2",
+                      "value": "=formatDateTime(dailog.day2, 'dd.MM.yyyy')"
+                    },
+                    {
+                      "property": "dialog.formatted_day3",
+                      "value": "=formatDateTime(dailog.day3, 'dd.MM.yyyy')"
+                    },
+                    {
+                      "value": "=formatDateTime(dailog.day4, 'dd.MM.yyyy')",
+                      "property": "dialog.formatted_day4"
+                    },
+                    {
+                      "property": "dialog.formatted_day5",
+                      "value": "=formatDateTime(dailog.day5, 'dd.MM.yyyy')"
+                    },
+                    {
+                      "property": "dialog.gun1",
+                      "value": "=dayOfWeek(dialog.day1)"
+                    },
+                    {
+                      "property": "dialog.gun2",
+                      "value": "=dayOfWeek(dialog.day2)"
+                    },
+                    {
+                      "property": "dialog.gun3",
+                      "value": "=dayOfWeek(dialog.day3)"
+                    },
+                    {
+                      "property": "dialog.gun4",
+                      "value": "=dayOfWeek(dialog.day4)"
+                    },
+                    {
+                      "property": "dialog.gun5",
+                      "value": "=dayOfWeek(dialog.day5)"
+                    },
+                    {
+                      "property": "dialog.gun_adi1",
+                      "value": "=dialog.haftaarray[dialog.gun1]"
+                    },
+                    {
+                      "property": "dialog.gun_adi2",
+                      "value": "=dialog.haftaarray[dialog.gun2]"
+                    },
+                    {
+                      "property": "dialog.gun_adi3",
+                      "value": "=dialog.haftaarray[dialog.gun3]"
+                    },
+                    {
+                      "property": "dialog.gun_adi4",
+                      "value": "=dialog.haftaarray[dialog.gun4]"
+                    },
+                    {
+                      "property": "dialog.gun_adi5",
+                      "value": "=dialog.haftaarray[dialog.gun5]"
+                    }
+                  ]
+                },
+                {
+                  "$kind": "Microsoft.HttpRequest",
+                  "$designer": {
+                    "id": "1eOo3R"
+                  },
+                  "method": "GET",
+                  "url": "https://atlas.microsoft.com/weather/forecast/hourly/json?subscription-key=${dialog.maps_key}&api-version=1.0&query=${dialog.lat}%2C${dialog.lon}&duration=24&language=tr-TR",
+                  "resultProperty": "dialog.hourly_resp",
+                  "responseType": "json"
+                },
+                {
+                  "$kind": "Microsoft.IfCondition",
+                  "$designer": {
+                    "id": "rtTsJ7"
+                  },
+                  "condition": "=dialog.hourly_resp.statusCode==200",
+                  "elseActions": [
+                    {
+                      "$kind": "Microsoft.SendActivity",
+                      "$designer": {
+                        "id": "dcIFDn"
+                      },
+                      "activity": "${SendActivity_dcIFDn()}"
+                    },
+                    {
+                      "$kind": "Microsoft.EndDialog",
+                      "$designer": {
+                        "id": "POvmSz"
+                      }
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "$kind": "Microsoft.SetProperties",
+                      "$designer": {
+                        "id": "aiwzso"
+                      },
+                      "assignments": [
+                        {
+                          "property": "dialog.ilk_saat",
+                          "value": "=formatDateTime(dialog.hourly_resp.content.forecasts[0].date, 'HH:mm')"
+                        },
+                        {
+                          "property": "dialog.ilk_sicaklik",
+                          "value": "=dialog.hourly_resp.content.forecasts[0].temperature.value"
+                        },
+                        {
+                          "property": "dialog.ikinci_saat",
+                          "value": "=formatDateTime(dialog.hourly_resp.content.forecasts[1].date, 'HH:mm')"
+                        },
+                        {
+                          "property": "dialog.ikinci_sicaklik",
+                          "value": "=dialog.hourly_resp.content.forecasts[1].temperature.value"
+                        },
+                        {
+                          "property": "dialog.ucuncu_saat",
+                          "value": "=formatDateTime(dialog.hourly_resp.content.forecasts[2].date, 'HH:mm')"
+                        },
+                        {
+                          "property": "dialog.ucuncu_sicaklik",
+                          "value": "=dialog.hourly_resp.content.forecasts[2].temperature.value"
+                        },
+                        {
+                          "property": "dialog.dorduncu_saat",
+                          "value": "=formatDateTime(dialog.hourly_resp.content.forecasts[3].date, 'HH:mm')"
+                        },
+                        {
+                          "property": "dialog.dorduncu_sicaklik",
+                          "value": "=dialog.hourly_resp.content.forecasts[3].temperature.value"
+                        },
+                        {
+                          "property": "dialog.besinci_saat",
+                          "value": "=formatDateTime(dialog.hourly_resp.content.forecasts[4].date, 'HH:mm')"
+                        },
+                        {
+                          "property": "dialog.besinci_sicaklik",
+                          "value": "=dialog.hourly_resp.content.forecasts[4].temperature.value"
+                        },
+                        {
+                          "property": "dialog.altinci_saat",
+                          "value": "=formatDateTime(dialog.hourly_resp.content.forecasts[5].date, 'HH:mm')"
+                        },
+                        {
+                          "property": "dialog.altinci_sicaklik",
+                          "value": "=dialog.hourly_resp.content.forecasts[5].temperature.value"
+                        },
+                        {
+                          "property": "dialog.ilk_icon",
+                          "value": "=dialog.hourly_resp.content.forecasts[0].iconCode"
+                        },
+                        {
+                          "property": "dialog.ikinci_icon",
+                          "value": "=dialog.hourly_resp.content.forecasts[1].iconCode"
+                        },
+                        {
+                          "property": "dialog.ucuncu_icon",
+                          "value": "=dialog.hourly_resp.content.forecasts[2].iconCode"
+                        },
+                        {
+                          "property": "dialog.dorduncu_icon",
+                          "value": "=dialog.hourly_resp.content.forecasts[3].iconCode"
+                        },
+                        {
+                          "property": "dialog.besinci_icon",
+                          "value": "=dialog.hourly_resp.content.forecasts[4].iconCode"
+                        },
+                        {
+                          "property": "dialog.altinci_icon",
+                          "value": "=dialog.hourly_resp.content.forecasts[5].iconCode"
+                        }
+                      ]
+                    },
+                    {
+                      "$kind": "Microsoft.SendActivity",
+                      "$designer": {
+                        "id": "GFp4cF"
+                      },
+                      "activity": "${SendActivity_GFp4cF()}"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "generator": "havadurumu.lg",
+  "recognizer": "havadurumu.lu.qna",
+  "id": "havadurumu"
+}

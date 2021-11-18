@@ -1,0 +1,1117 @@
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Nuget.config
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\generated\luis.settings.composer.westeurope.json
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\scripts\DeploymentTemplates\function-template-with-preexisting-rg.json
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\scripts\DeploymentTemplates\new-rg-parameters.json
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\scripts\DeploymentTemplates\preexisting-rg-parameters.json
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\scripts\DeploymentTemplates\qna-template.json
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\scripts\DeploymentTemplates\template-with-new-rg.json
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\scripts\DeploymentTemplates\template-with-preexisting-rg.json
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\scripts\package.json
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\settings\appsettings.json
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\settings\cross-train.config.json
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\botmico.dialog
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\dialogs\cancel\cancel.dialog
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\dialogs\cancel\recognizers\cancel.en-us.lu.dialog
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\dialogs\cancel\recognizers\cancel.lu.dialog
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\dialogs\cancel\recognizers\cancel.lu.qna.dialog
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\dialogs\greeting\greeting.dialog
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\dialogs\greeting\recognizers\greeting.en-us.lu.dialog
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\dialogs\greeting\recognizers\greeting.lu.dialog
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\dialogs\greeting\recognizers\greeting.lu.qna.dialog
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\dialogs\help\help.dialog
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\dialogs\help\recognizers\help.en-us.lu.dialog
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\dialogs\help\recognizers\help.lu.dialog
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\dialogs\help\recognizers\help.lu.qna.dialog
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\dialogs\wiki\recognizers\wiki.en-us.lu.dialog
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\dialogs\wiki\recognizers\wiki.lu.dialog
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\dialogs\wiki\recognizers\wiki.lu.qna.dialog
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\dialogs\wiki\wiki.dialog
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\recognizers\botmico.en-us.lu.dialog
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\recognizers\botmico.lu.dialog
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\recognizers\botmico.lu.qna.dialog
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\dialogs\cancel\language-generation\en-us\cancel.en-us.lg
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\dialogs\greeting\language-generation\en-us\greeting.en-us.lg
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\dialogs\help\language-generation\en-us\help.en-us.lg
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\dialogs\wiki\language-generation\en-us\wiki.en-us.lg
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\language-generation\en-us\botmico.en-us.lg
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\language-generation\en-us\common.en-us.lg
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\dialogs\cancel\language-understanding\en-us\cancel.en-us.lu
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\dialogs\greeting\language-understanding\en-us\greeting.en-us.lu
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\dialogs\help\language-understanding\en-us\help.en-us.lu
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\dialogs\wiki\language-understanding\en-us\wiki.en-us.lu
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\generated\interruption\botmico.en-us.lu
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\generated\interruption\cancel.en-us.lu
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\generated\interruption\greeting.en-us.lu
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\generated\interruption\help.en-us.lu
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\generated\interruption\wiki.en-us.lu
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\language-understanding\en-us\botmico.en-us.lu
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\dialogs\cancel\knowledge-base\en-us\cancel.en-us.qna
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\dialogs\greeting\knowledge-base\en-us\greeting.en-us.qna
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\dialogs\help\knowledge-base\en-us\help.en-us.qna
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\dialogs\wiki\knowledge-base\en-us\wiki.en-us.qna
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\generated\interruption\botmico.en-us.qna
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\generated\interruption\cancel.en-us.qna
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\generated\interruption\greeting.en-us.qna
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\generated\interruption\help.en-us.qna
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\generated\interruption\wiki.en-us.qna
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\knowledge-base\en-us\botmico.en-us.qna
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\botmico.exe
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\botmico.deps.json
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\botmico.runtimeconfig.json
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\botmico.runtimeconfig.dev.json
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\botmico.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\botmico.pdb
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\AdaptiveExpressions.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Antlr4.Runtime.Standard.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Azure.Core.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Azure.Storage.Blobs.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Azure.Storage.Common.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.ApplicationInsights.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.ApplicationInsights.AspNetCore.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.AI.DependencyCollector.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.AI.EventCounterCollector.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.AI.WindowsServer.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.Azure.CognitiveServices.Language.LUIS.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.Azure.Cosmos.Client.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.Azure.Cosmos.Core.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.Azure.Cosmos.Direct.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.Azure.Cosmos.Serialization.HybridRow.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.Azure.DocumentDB.Core.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.Azure.KeyVault.Core.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.Azure.Storage.Blob.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.Azure.Storage.Common.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.Bcl.HashCode.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.Bot.Builder.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.Bot.Builder.AI.Luis.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.Bot.Builder.AI.QnA.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.Bot.Builder.ApplicationInsights.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.Bot.Builder.Azure.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.Bot.Builder.Azure.Blobs.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.Bot.Builder.Dialogs.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.Bot.Builder.Dialogs.Adaptive.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.Bot.Builder.Dialogs.Adaptive.Runtime.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.Bot.Builder.Dialogs.Declarative.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.Bot.Builder.Integration.ApplicationInsights.Core.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.Bot.Builder.Integration.AspNet.Core.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.Bot.Builder.LanguageGeneration.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.Bot.Configuration.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.Bot.Connector.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.Bot.Schema.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.Bot.Streaming.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.Extensions.DiagnosticAdapter.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.Extensions.Logging.ApplicationInsights.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.Extensions.PlatformAbstractions.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.Identity.Client.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.IdentityModel.Clients.ActiveDirectory.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.IdentityModel.Logging.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.IdentityModel.Protocols.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.IdentityModel.Tokens.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.Recognizers.Definitions.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.Recognizers.Text.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.Recognizers.Text.Choice.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.Recognizers.Text.DataTypes.TimexExpression.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.Recognizers.Text.DateTime.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.Recognizers.Text.Number.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.Recognizers.Text.NumberWithUnit.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.Recognizers.Text.Sequence.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.Rest.ClientRuntime.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.Rest.ClientRuntime.Azure.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Newtonsoft.Json.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Newtonsoft.Json.Bson.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\NuGet.Common.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\NuGet.Configuration.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\NuGet.Frameworks.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\NuGet.Packaging.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\NuGet.Versioning.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Configuration.ConfigurationManager.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Data.SqlClient.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Diagnostics.PerformanceCounter.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Security.Cryptography.ProtectedData.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Text.Encodings.Web.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Cosmos.CRTCompat.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.Azure.Cosmos.ServiceInterop.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.CSharp.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.VisualBasic.Core.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.VisualBasic.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.Win32.Primitives.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.Win32.Registry.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.AppContext.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Buffers.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Collections.Concurrent.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Collections.Immutable.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Collections.NonGeneric.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Collections.Specialized.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Collections.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.ComponentModel.Annotations.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.ComponentModel.DataAnnotations.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.ComponentModel.EventBasedAsync.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.ComponentModel.Primitives.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.ComponentModel.TypeConverter.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.ComponentModel.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Configuration.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Console.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Core.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Data.Common.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Data.DataSetExtensions.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Data.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Diagnostics.Contracts.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Diagnostics.Debug.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Diagnostics.DiagnosticSource.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Diagnostics.FileVersionInfo.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Diagnostics.Process.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Diagnostics.StackTrace.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Diagnostics.TextWriterTraceListener.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Diagnostics.Tools.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Diagnostics.TraceSource.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Diagnostics.Tracing.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Drawing.Primitives.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Drawing.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Dynamic.Runtime.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Globalization.Calendars.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Globalization.Extensions.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Globalization.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.IO.Compression.Brotli.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.IO.Compression.FileSystem.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.IO.Compression.ZipFile.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.IO.Compression.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.IO.FileSystem.AccessControl.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.IO.FileSystem.DriveInfo.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.IO.FileSystem.Primitives.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.IO.FileSystem.Watcher.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.IO.FileSystem.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.IO.IsolatedStorage.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.IO.MemoryMappedFiles.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.IO.Pipes.AccessControl.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.IO.Pipes.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.IO.UnmanagedMemoryStream.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.IO.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Linq.Expressions.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Linq.Parallel.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Linq.Queryable.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Linq.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Memory.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Net.Http.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Net.HttpListener.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Net.Mail.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Net.NameResolution.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Net.NetworkInformation.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Net.Ping.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Net.Primitives.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Net.Requests.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Net.Security.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Net.ServicePoint.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Net.Sockets.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Net.WebClient.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Net.WebHeaderCollection.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Net.WebProxy.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Net.WebSockets.Client.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Net.WebSockets.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Net.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Numerics.Vectors.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Numerics.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.ObjectModel.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Private.DataContractSerialization.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Private.Uri.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Private.Xml.Linq.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Private.Xml.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Reflection.DispatchProxy.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Reflection.Emit.ILGeneration.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Reflection.Emit.Lightweight.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Reflection.Emit.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Reflection.Extensions.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Reflection.Metadata.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Reflection.Primitives.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Reflection.TypeExtensions.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Reflection.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Resources.Reader.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Resources.ResourceManager.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Resources.Writer.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Runtime.CompilerServices.VisualC.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Runtime.Extensions.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Runtime.Handles.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Runtime.InteropServices.WindowsRuntime.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Runtime.InteropServices.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Runtime.Intrinsics.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Runtime.Loader.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Runtime.Numerics.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Runtime.Serialization.Formatters.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Runtime.Serialization.Json.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Runtime.Serialization.Primitives.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Runtime.Serialization.Xml.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Runtime.Serialization.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Runtime.WindowsRuntime.UI.Xaml.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Runtime.WindowsRuntime.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Runtime.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Security.AccessControl.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Security.Claims.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Security.Cryptography.Algorithms.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Security.Cryptography.Cng.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Security.Cryptography.Csp.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Security.Cryptography.Encoding.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Security.Cryptography.OpenSsl.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Security.Cryptography.Primitives.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Security.Cryptography.X509Certificates.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Security.Principal.Windows.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Security.Principal.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Security.SecureString.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Security.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.ServiceModel.Web.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.ServiceProcess.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Text.Encoding.CodePages.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Text.Encoding.Extensions.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Text.Encoding.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Text.Json.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Text.RegularExpressions.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Threading.Channels.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Threading.Overlapped.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Threading.Tasks.Dataflow.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Threading.Tasks.Extensions.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Threading.Tasks.Parallel.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Threading.Tasks.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Threading.Thread.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Threading.ThreadPool.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Threading.Timer.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Threading.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Transactions.Local.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Transactions.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.ValueTuple.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Web.HttpUtility.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Web.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Windows.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Xml.Linq.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Xml.ReaderWriter.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Xml.Serialization.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Xml.XDocument.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Xml.XPath.XDocument.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Xml.XPath.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Xml.XmlDocument.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Xml.XmlSerializer.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Xml.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\WindowsBase.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\mscorlib.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\netstandard.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\SOS_README.md
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Private.CoreLib.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\api-ms-win-core-console-l1-1-0.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\api-ms-win-core-datetime-l1-1-0.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\api-ms-win-core-debug-l1-1-0.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\api-ms-win-core-errorhandling-l1-1-0.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\api-ms-win-core-file-l1-1-0.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\api-ms-win-core-file-l1-2-0.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\api-ms-win-core-file-l2-1-0.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\api-ms-win-core-handle-l1-1-0.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\api-ms-win-core-heap-l1-1-0.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\api-ms-win-core-interlocked-l1-1-0.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\api-ms-win-core-libraryloader-l1-1-0.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\api-ms-win-core-localization-l1-2-0.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\api-ms-win-core-memory-l1-1-0.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\api-ms-win-core-namedpipe-l1-1-0.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\api-ms-win-core-processenvironment-l1-1-0.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\api-ms-win-core-processthreads-l1-1-0.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\api-ms-win-core-processthreads-l1-1-1.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\api-ms-win-core-profile-l1-1-0.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\api-ms-win-core-rtlsupport-l1-1-0.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\api-ms-win-core-string-l1-1-0.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\api-ms-win-core-synch-l1-1-0.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\api-ms-win-core-synch-l1-2-0.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\api-ms-win-core-sysinfo-l1-1-0.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\api-ms-win-core-timezone-l1-1-0.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\api-ms-win-core-util-l1-1-0.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\api-ms-win-crt-conio-l1-1-0.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\api-ms-win-crt-convert-l1-1-0.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\api-ms-win-crt-environment-l1-1-0.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\api-ms-win-crt-filesystem-l1-1-0.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\api-ms-win-crt-heap-l1-1-0.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\api-ms-win-crt-locale-l1-1-0.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\api-ms-win-crt-math-l1-1-0.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\api-ms-win-crt-multibyte-l1-1-0.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\api-ms-win-crt-private-l1-1-0.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\api-ms-win-crt-process-l1-1-0.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\api-ms-win-crt-runtime-l1-1-0.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\api-ms-win-crt-stdio-l1-1-0.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\api-ms-win-crt-string-l1-1-0.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\api-ms-win-crt-time-l1-1-0.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\api-ms-win-crt-utility-l1-1-0.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\clrcompression.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\clretwrc.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\clrjit.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\coreclr.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\dbgshim.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\hostfxr.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\hostpolicy.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\mscordaccore.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\mscordaccore_amd64_amd64_4.700.21.35901.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\mscordbi.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\mscorrc.debug.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\mscorrc.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\ucrtbase.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.AspNetCore.Antiforgery.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.AspNetCore.Authentication.Abstractions.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.AspNetCore.Authentication.Cookies.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.AspNetCore.Authentication.Core.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.AspNetCore.Authentication.OAuth.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.AspNetCore.Authentication.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.AspNetCore.Authorization.Policy.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.AspNetCore.Authorization.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.AspNetCore.Components.Authorization.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.AspNetCore.Components.Forms.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.AspNetCore.Components.Server.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.AspNetCore.Components.Web.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.AspNetCore.Components.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.AspNetCore.Connections.Abstractions.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.AspNetCore.CookiePolicy.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.AspNetCore.Cors.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.AspNetCore.DataProtection.Abstractions.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.AspNetCore.DataProtection.Extensions.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.AspNetCore.DataProtection.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.AspNetCore.Diagnostics.Abstractions.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.AspNetCore.Diagnostics.HealthChecks.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.AspNetCore.Diagnostics.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.AspNetCore.HostFiltering.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.AspNetCore.Hosting.Abstractions.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.AspNetCore.Hosting.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.AspNetCore.Html.Abstractions.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.AspNetCore.Http.Abstractions.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.AspNetCore.Http.Connections.Common.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.AspNetCore.Http.Connections.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.AspNetCore.Http.Extensions.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.AspNetCore.Http.Features.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.AspNetCore.Http.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.AspNetCore.HttpOverrides.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.AspNetCore.HttpsPolicy.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.AspNetCore.Identity.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.AspNetCore.Localization.Routing.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.AspNetCore.Localization.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.AspNetCore.Metadata.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.AspNetCore.Mvc.Abstractions.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.AspNetCore.Mvc.ApiExplorer.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.AspNetCore.Mvc.Core.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.AspNetCore.Mvc.Cors.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.AspNetCore.Mvc.DataAnnotations.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.AspNetCore.Mvc.Formatters.Json.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.AspNetCore.Mvc.Formatters.Xml.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.AspNetCore.Mvc.Localization.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.AspNetCore.Mvc.Razor.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.AspNetCore.Mvc.RazorPages.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.AspNetCore.Mvc.TagHelpers.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.AspNetCore.Mvc.ViewFeatures.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.AspNetCore.Mvc.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.AspNetCore.Razor.Runtime.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.AspNetCore.Razor.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.AspNetCore.ResponseCaching.Abstractions.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.AspNetCore.ResponseCaching.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.AspNetCore.ResponseCompression.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.AspNetCore.Rewrite.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.AspNetCore.Routing.Abstractions.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.AspNetCore.Routing.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.AspNetCore.Server.HttpSys.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.AspNetCore.Server.IIS.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.AspNetCore.Server.IISIntegration.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.AspNetCore.Server.Kestrel.Core.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.AspNetCore.Server.Kestrel.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.AspNetCore.Session.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.AspNetCore.SignalR.Common.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.AspNetCore.SignalR.Core.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.AspNetCore.SignalR.Protocols.Json.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.AspNetCore.SignalR.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.AspNetCore.StaticFiles.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.AspNetCore.WebSockets.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.AspNetCore.WebUtilities.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.AspNetCore.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.Extensions.Configuration.CommandLine.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.Extensions.Configuration.EnvironmentVariables.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.Extensions.Configuration.Ini.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.Extensions.Configuration.KeyPerFile.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.Extensions.Configuration.UserSecrets.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.Extensions.Configuration.Xml.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.Extensions.Configuration.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.Extensions.Diagnostics.HealthChecks.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.Extensions.FileProviders.Composite.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.Extensions.FileProviders.Embedded.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.Extensions.Hosting.Abstractions.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.Extensions.Hosting.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.Extensions.Http.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.Extensions.Identity.Core.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.Extensions.Localization.Abstractions.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.Extensions.Localization.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.Extensions.Logging.Configuration.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.Extensions.Logging.Console.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.Extensions.Logging.Debug.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.Extensions.Logging.EventLog.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.Extensions.Logging.EventSource.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.Extensions.Logging.TraceSource.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.Extensions.Logging.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.Extensions.ObjectPool.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.Extensions.Options.ConfigurationExtensions.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.Extensions.Options.DataAnnotations.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.Extensions.Options.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.Extensions.Primitives.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.Extensions.WebEncoders.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.JSInterop.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.Net.Http.Headers.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.Win32.SystemEvents.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Diagnostics.EventLog.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Drawing.Common.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.IO.Pipelines.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Security.Cryptography.Pkcs.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Security.Cryptography.Xml.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Security.Permissions.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Windows.Extensions.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\aspnetcorev2_inprocess.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\obj\release\netcoreapp3.1\win-x64\botmico.csproj.AssemblyReference.cache
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\obj\release\netcoreapp3.1\win-x64\botmico.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\obj\release\netcoreapp3.1\win-x64\botmico.AssemblyInfoInputs.cache
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\obj\release\netcoreapp3.1\win-x64\botmico.AssemblyInfo.cs
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\obj\release\netcoreapp3.1\win-x64\botmico.csproj.CoreCompileInputs.cache
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\obj\release\netcoreapp3.1\win-x64\botmico.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\obj\release\netcoreapp3.1\win-x64\botmico.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\obj\release\netcoreapp3.1\win-x64\staticwebassets\botmico.StaticWebAssets.Manifest.cache
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\obj\release\netcoreapp3.1\win-x64\staticwebassets\botmico.StaticWebAssets.xml
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\obj\release\netcoreapp3.1\win-x64\scopedcss\bundle\botmico.styles.css
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\obj\release\netcoreapp3.1\win-x64\botmico.RazorTargetAssemblyInfo.cache
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\obj\release\netcoreapp3.1\win-x64\botmico.csproj.CopyComplete
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\obj\release\netcoreapp3.1\win-x64\botmico.dll
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\obj\release\netcoreapp3.1\win-x64\botmico.pdb
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\obj\release\netcoreapp3.1\win-x64\botmico.genruntimeconfig.cache
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\dialogs\fikra\fikra.dialog
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\dialogs\fikra\recognizers\fikra.en-us.lu.dialog
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\dialogs\fikra\recognizers\fikra.lu.dialog
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\dialogs\fikra\recognizers\fikra.lu.qna.dialog
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\dialogs\fikra\language-generation\en-us\fikra.en-us.lg
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\dialogs\fikra\language-understanding\en-us\fikra.en-us.lu
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\generated\interruption\fikra.en-us.lu
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\dialogs\fikra\knowledge-base\en-us\fikra.en-us.qna
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\generated\interruption\fikra.en-us.qna
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\dialogs\haberler\haberler.dialog
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\dialogs\haberler\recognizers\haberler.en-us.lu.dialog
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\dialogs\haberler\recognizers\haberler.lu.dialog
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\dialogs\haberler\recognizers\haberler.lu.qna.dialog
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\dialogs\selamlama\recognizers\selamlama.en-us.lu.dialog
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\dialogs\selamlama\recognizers\selamlama.lu.dialog
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\dialogs\selamlama\recognizers\selamlama.lu.qna.dialog
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\dialogs\selamlama\selamlama.dialog
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\dialogs\haberler\language-generation\en-us\haberler.en-us.lg
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\dialogs\selamlama\language-generation\en-us\selamlama.en-us.lg
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\dialogs\haberler\language-understanding\en-us\haberler.en-us.lu
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\dialogs\selamlama\language-understanding\en-us\selamlama.en-us.lu
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\generated\interruption\haberler.en-us.lu
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\generated\interruption\selamlama.en-us.lu
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\dialogs\haberler\knowledge-base\en-us\haberler.en-us.qna
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\dialogs\selamlama\knowledge-base\en-us\selamlama.en-us.qna
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\generated\interruption\haberler.en-us.qna
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\generated\interruption\selamlama.en-us.qna
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\dialogs\doviz\doviz.dialog
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\dialogs\doviz\recognizers\doviz.en-us.lu.dialog
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\dialogs\doviz\recognizers\doviz.lu.dialog
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\dialogs\doviz\recognizers\doviz.lu.qna.dialog
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\dialogs\doviz\language-generation\en-us\doviz.en-us.lg
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\dialogs\doviz\language-understanding\en-us\doviz.en-us.lu
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\generated\interruption\doviz.en-us.lu
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\dialogs\doviz\knowledge-base\en-us\doviz.en-us.qna
+C:\Users\damlaalkan\Downloads\micochatbot (1)\micochatbot\botmico\botmico\bin\release\netcoreapp3.1\win-x64\generated\interruption\doviz.en-us.qna
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Nuget.config
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\generated\luis.settings.composer.westeurope.json
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Properties\launchSettings.json
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\scripts\DeploymentTemplates\function-template-with-preexisting-rg.json
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\scripts\DeploymentTemplates\new-rg-parameters.json
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\scripts\DeploymentTemplates\preexisting-rg-parameters.json
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\scripts\DeploymentTemplates\qna-template.json
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\scripts\DeploymentTemplates\template-with-new-rg.json
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\scripts\DeploymentTemplates\template-with-preexisting-rg.json
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\scripts\package.json
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\settings\appsettings.json
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\settings\cross-train.config.json
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\botmico.dialog
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\dialogs\cancel\cancel.dialog
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\dialogs\cancel\recognizers\cancel.en-us.lu.dialog
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\dialogs\cancel\recognizers\cancel.lu.dialog
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\dialogs\cancel\recognizers\cancel.lu.qna.dialog
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\dialogs\doviz\doviz.dialog
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\dialogs\doviz\recognizers\doviz.en-us.lu.dialog
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\dialogs\doviz\recognizers\doviz.lu.dialog
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\dialogs\doviz\recognizers\doviz.lu.qna.dialog
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\dialogs\feedback\feedback.dialog
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\dialogs\feedback\recognizers\feedback.en-us.lu.dialog
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\dialogs\feedback\recognizers\feedback.lu.dialog
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\dialogs\feedback\recognizers\feedback.lu.qna.dialog
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\dialogs\fikra\fikra.dialog
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\dialogs\fikra\recognizers\fikra.en-us.lu.dialog
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\dialogs\fikra\recognizers\fikra.lu.dialog
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\dialogs\fikra\recognizers\fikra.lu.qna.dialog
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\dialogs\greeting\greeting.dialog
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\dialogs\greeting\recognizers\greeting.en-us.lu.dialog
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\dialogs\greeting\recognizers\greeting.lu.dialog
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\dialogs\greeting\recognizers\greeting.lu.qna.dialog
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\dialogs\haberler\haberler.dialog
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\dialogs\haberler\recognizers\haberler.en-us.lu.dialog
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\dialogs\haberler\recognizers\haberler.lu.dialog
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\dialogs\haberler\recognizers\haberler.lu.qna.dialog
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\dialogs\havadurumu\havadurumu.dialog
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\dialogs\havadurumu\recognizers\havadurumu.en-us.lu.dialog
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\dialogs\havadurumu\recognizers\havadurumu.lu.dialog
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\dialogs\havadurumu\recognizers\havadurumu.lu.qna.dialog
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\dialogs\help\help.dialog
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\dialogs\help\recognizers\help.en-us.lu.dialog
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\dialogs\help\recognizers\help.lu.dialog
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\dialogs\help\recognizers\help.lu.qna.dialog
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\dialogs\hrhelp\hrhelp.dialog
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\dialogs\hrhelp\recognizers\hrhelp.en-us.lu.dialog
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\dialogs\hrhelp\recognizers\hrhelp.lu.dialog
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\dialogs\hrhelp\recognizers\hrhelp.lu.qna.dialog
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\dialogs\selamlama\recognizers\selamlama.en-us.lu.dialog
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\dialogs\selamlama\recognizers\selamlama.lu.dialog
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\dialogs\selamlama\recognizers\selamlama.lu.qna.dialog
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\dialogs\selamlama\selamlama.dialog
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\dialogs\sorun\recognizers\sorun.en-us.lu.dialog
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\dialogs\sorun\recognizers\sorun.lu.dialog
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\dialogs\sorun\recognizers\sorun.lu.qna.dialog
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\dialogs\sorun\sorun.dialog
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\dialogs\wiki\recognizers\wiki.en-us.lu.dialog
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\dialogs\wiki\recognizers\wiki.lu.dialog
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\dialogs\wiki\recognizers\wiki.lu.qna.dialog
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\dialogs\wiki\wiki.dialog
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\recognizers\botmico.en-us.lu.dialog
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\recognizers\botmico.lu.dialog
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\recognizers\botmico.lu.qna.dialog
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\dialogs\cancel\language-generation\en-us\cancel.en-us.lg
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\dialogs\doviz\language-generation\en-us\doviz.en-us.lg
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\dialogs\feedback\language-generation\en-us\feedback.en-us.lg
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\dialogs\fikra\language-generation\en-us\fikra.en-us.lg
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\dialogs\greeting\language-generation\en-us\greeting.en-us.lg
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\dialogs\haberler\language-generation\en-us\haberler.en-us.lg
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\dialogs\havadurumu\language-generation\en-us\havadurumu.en-us.lg
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\dialogs\help\language-generation\en-us\help.en-us.lg
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\dialogs\hrhelp\language-generation\en-us\hrhelp.en-us.lg
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\dialogs\selamlama\language-generation\en-us\selamlama.en-us.lg
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\dialogs\sorun\language-generation\en-us\sorun.en-us.lg
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\dialogs\wiki\language-generation\en-us\wiki.en-us.lg
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\language-generation\en-us\botmico.en-us.lg
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\language-generation\en-us\common.en-us.lg
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\dialogs\cancel\language-understanding\en-us\cancel.en-us.lu
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\dialogs\doviz\language-understanding\en-us\doviz.en-us.lu
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\dialogs\feedback\language-understanding\en-us\feedback.en-us.lu
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\dialogs\fikra\language-understanding\en-us\fikra.en-us.lu
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\dialogs\greeting\language-understanding\en-us\greeting.en-us.lu
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\dialogs\haberler\language-understanding\en-us\haberler.en-us.lu
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\dialogs\havadurumu\language-understanding\en-us\havadurumu.en-us.lu
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\dialogs\help\language-understanding\en-us\help.en-us.lu
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\dialogs\hrhelp\language-understanding\en-us\hrhelp.en-us.lu
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\dialogs\selamlama\language-understanding\en-us\selamlama.en-us.lu
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\dialogs\sorun\language-understanding\en-us\sorun.en-us.lu
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\dialogs\wiki\language-understanding\en-us\wiki.en-us.lu
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\generated\interruption\botmico.en-us.lu
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\generated\interruption\cancel.en-us.lu
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\generated\interruption\doviz.en-us.lu
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\generated\interruption\feedback.en-us.lu
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\generated\interruption\fikra.en-us.lu
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\generated\interruption\greeting.en-us.lu
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\generated\interruption\haberler.en-us.lu
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\generated\interruption\havadurumu.en-us.lu
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\generated\interruption\help.en-us.lu
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\generated\interruption\hrhelp.en-us.lu
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\generated\interruption\selamlama.en-us.lu
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\generated\interruption\sorun.en-us.lu
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\generated\interruption\wiki.en-us.lu
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\language-understanding\en-us\botmico.en-us.lu
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\dialogs\cancel\knowledge-base\en-us\cancel.en-us.qna
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\dialogs\doviz\knowledge-base\en-us\doviz.en-us.qna
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\dialogs\feedback\knowledge-base\en-us\feedback.en-us.qna
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\dialogs\fikra\knowledge-base\en-us\fikra.en-us.qna
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\dialogs\greeting\knowledge-base\en-us\greeting.en-us.qna
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\dialogs\haberler\knowledge-base\en-us\haberler.en-us.qna
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\dialogs\havadurumu\knowledge-base\en-us\havadurumu.en-us.qna
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\dialogs\help\knowledge-base\en-us\help.en-us.qna
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\dialogs\hrhelp\knowledge-base\en-us\hrhelp.en-us.qna
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\dialogs\selamlama\knowledge-base\en-us\selamlama.en-us.qna
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\dialogs\sorun\knowledge-base\en-us\sorun.en-us.qna
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\dialogs\wiki\knowledge-base\en-us\wiki.en-us.qna
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\generated\interruption\botmico.en-us.qna
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\generated\interruption\cancel.en-us.qna
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\generated\interruption\doviz.en-us.qna
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\generated\interruption\feedback.en-us.qna
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\generated\interruption\fikra.en-us.qna
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\generated\interruption\greeting.en-us.qna
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\generated\interruption\haberler.en-us.qna
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\generated\interruption\havadurumu.en-us.qna
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\generated\interruption\help.en-us.qna
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\generated\interruption\hrhelp.en-us.qna
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\generated\interruption\selamlama.en-us.qna
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\generated\interruption\sorun.en-us.qna
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\generated\interruption\wiki.en-us.qna
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\knowledge-base\en-us\botmico.en-us.qna
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\botmico.exe
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\botmico.deps.json
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\botmico.runtimeconfig.json
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\botmico.runtimeconfig.dev.json
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\botmico.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\botmico.pdb
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\AdaptiveExpressions.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Antlr4.Runtime.Standard.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Azure.Core.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Azure.Storage.Blobs.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Azure.Storage.Common.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.ApplicationInsights.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.ApplicationInsights.AspNetCore.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.AI.DependencyCollector.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.AI.EventCounterCollector.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.AI.WindowsServer.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.Azure.CognitiveServices.Language.LUIS.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.Azure.Cosmos.Client.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.Azure.Cosmos.Core.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.Azure.Cosmos.Direct.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.Azure.Cosmos.Serialization.HybridRow.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.Azure.DocumentDB.Core.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.Azure.KeyVault.Core.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.Azure.Storage.Blob.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.Azure.Storage.Common.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.Bcl.HashCode.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.Bot.Builder.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.Bot.Builder.AI.Luis.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.Bot.Builder.AI.QnA.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.Bot.Builder.ApplicationInsights.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.Bot.Builder.Azure.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.Bot.Builder.Azure.Blobs.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.Bot.Builder.Dialogs.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.Bot.Builder.Dialogs.Adaptive.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.Bot.Builder.Dialogs.Adaptive.Runtime.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.Bot.Builder.Dialogs.Declarative.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.Bot.Builder.Integration.ApplicationInsights.Core.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.Bot.Builder.Integration.AspNet.Core.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.Bot.Builder.LanguageGeneration.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.Bot.Configuration.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.Bot.Connector.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.Bot.Schema.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.Bot.Streaming.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.Extensions.DiagnosticAdapter.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.Extensions.Logging.ApplicationInsights.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.Extensions.PlatformAbstractions.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.Identity.Client.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.IdentityModel.Clients.ActiveDirectory.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.IdentityModel.Logging.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.IdentityModel.Protocols.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.IdentityModel.Tokens.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.Recognizers.Definitions.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.Recognizers.Text.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.Recognizers.Text.Choice.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.Recognizers.Text.DataTypes.TimexExpression.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.Recognizers.Text.DateTime.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.Recognizers.Text.Number.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.Recognizers.Text.NumberWithUnit.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.Recognizers.Text.Sequence.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.Rest.ClientRuntime.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.Rest.ClientRuntime.Azure.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Newtonsoft.Json.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Newtonsoft.Json.Bson.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\NuGet.Common.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\NuGet.Configuration.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\NuGet.Frameworks.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\NuGet.Packaging.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\NuGet.Versioning.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Configuration.ConfigurationManager.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Data.SqlClient.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Diagnostics.PerformanceCounter.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Security.Cryptography.ProtectedData.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Text.Encodings.Web.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Cosmos.CRTCompat.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.Azure.Cosmos.ServiceInterop.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.CSharp.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.VisualBasic.Core.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.VisualBasic.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.Win32.Primitives.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.Win32.Registry.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.AppContext.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Buffers.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Collections.Concurrent.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Collections.Immutable.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Collections.NonGeneric.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Collections.Specialized.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Collections.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.ComponentModel.Annotations.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.ComponentModel.DataAnnotations.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.ComponentModel.EventBasedAsync.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.ComponentModel.Primitives.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.ComponentModel.TypeConverter.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.ComponentModel.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Configuration.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Console.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Core.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Data.Common.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Data.DataSetExtensions.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Data.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Diagnostics.Contracts.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Diagnostics.Debug.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Diagnostics.DiagnosticSource.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Diagnostics.FileVersionInfo.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Diagnostics.Process.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Diagnostics.StackTrace.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Diagnostics.TextWriterTraceListener.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Diagnostics.Tools.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Diagnostics.TraceSource.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Diagnostics.Tracing.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Drawing.Primitives.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Drawing.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Dynamic.Runtime.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Globalization.Calendars.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Globalization.Extensions.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Globalization.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.IO.Compression.Brotli.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.IO.Compression.FileSystem.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.IO.Compression.ZipFile.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.IO.Compression.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.IO.FileSystem.AccessControl.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.IO.FileSystem.DriveInfo.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.IO.FileSystem.Primitives.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.IO.FileSystem.Watcher.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.IO.FileSystem.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.IO.IsolatedStorage.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.IO.MemoryMappedFiles.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.IO.Pipes.AccessControl.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.IO.Pipes.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.IO.UnmanagedMemoryStream.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.IO.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Linq.Expressions.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Linq.Parallel.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Linq.Queryable.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Linq.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Memory.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Net.Http.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Net.HttpListener.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Net.Mail.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Net.NameResolution.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Net.NetworkInformation.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Net.Ping.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Net.Primitives.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Net.Requests.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Net.Security.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Net.ServicePoint.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Net.Sockets.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Net.WebClient.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Net.WebHeaderCollection.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Net.WebProxy.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Net.WebSockets.Client.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Net.WebSockets.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Net.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Numerics.Vectors.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Numerics.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.ObjectModel.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Private.DataContractSerialization.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Private.Uri.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Private.Xml.Linq.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Private.Xml.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Reflection.DispatchProxy.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Reflection.Emit.ILGeneration.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Reflection.Emit.Lightweight.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Reflection.Emit.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Reflection.Extensions.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Reflection.Metadata.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Reflection.Primitives.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Reflection.TypeExtensions.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Reflection.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Resources.Reader.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Resources.ResourceManager.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Resources.Writer.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Runtime.CompilerServices.VisualC.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Runtime.Extensions.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Runtime.Handles.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Runtime.InteropServices.WindowsRuntime.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Runtime.InteropServices.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Runtime.Intrinsics.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Runtime.Loader.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Runtime.Numerics.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Runtime.Serialization.Formatters.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Runtime.Serialization.Json.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Runtime.Serialization.Primitives.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Runtime.Serialization.Xml.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Runtime.Serialization.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Runtime.WindowsRuntime.UI.Xaml.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Runtime.WindowsRuntime.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Runtime.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Security.AccessControl.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Security.Claims.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Security.Cryptography.Algorithms.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Security.Cryptography.Cng.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Security.Cryptography.Csp.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Security.Cryptography.Encoding.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Security.Cryptography.OpenSsl.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Security.Cryptography.Primitives.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Security.Cryptography.X509Certificates.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Security.Principal.Windows.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Security.Principal.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Security.SecureString.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Security.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.ServiceModel.Web.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.ServiceProcess.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Text.Encoding.CodePages.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Text.Encoding.Extensions.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Text.Encoding.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Text.Json.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Text.RegularExpressions.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Threading.Channels.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Threading.Overlapped.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Threading.Tasks.Dataflow.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Threading.Tasks.Extensions.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Threading.Tasks.Parallel.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Threading.Tasks.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Threading.Thread.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Threading.ThreadPool.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Threading.Timer.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Threading.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Transactions.Local.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Transactions.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.ValueTuple.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Web.HttpUtility.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Web.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Windows.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Xml.Linq.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Xml.ReaderWriter.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Xml.Serialization.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Xml.XDocument.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Xml.XPath.XDocument.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Xml.XPath.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Xml.XmlDocument.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Xml.XmlSerializer.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Xml.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\WindowsBase.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\mscorlib.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\netstandard.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\SOS_README.md
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Private.CoreLib.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\api-ms-win-core-console-l1-1-0.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\api-ms-win-core-datetime-l1-1-0.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\api-ms-win-core-debug-l1-1-0.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\api-ms-win-core-errorhandling-l1-1-0.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\api-ms-win-core-file-l1-1-0.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\api-ms-win-core-file-l1-2-0.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\api-ms-win-core-file-l2-1-0.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\api-ms-win-core-handle-l1-1-0.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\api-ms-win-core-heap-l1-1-0.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\api-ms-win-core-interlocked-l1-1-0.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\api-ms-win-core-libraryloader-l1-1-0.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\api-ms-win-core-localization-l1-2-0.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\api-ms-win-core-memory-l1-1-0.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\api-ms-win-core-namedpipe-l1-1-0.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\api-ms-win-core-processenvironment-l1-1-0.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\api-ms-win-core-processthreads-l1-1-0.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\api-ms-win-core-processthreads-l1-1-1.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\api-ms-win-core-profile-l1-1-0.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\api-ms-win-core-rtlsupport-l1-1-0.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\api-ms-win-core-string-l1-1-0.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\api-ms-win-core-synch-l1-1-0.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\api-ms-win-core-synch-l1-2-0.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\api-ms-win-core-sysinfo-l1-1-0.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\api-ms-win-core-timezone-l1-1-0.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\api-ms-win-core-util-l1-1-0.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\api-ms-win-crt-conio-l1-1-0.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\api-ms-win-crt-convert-l1-1-0.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\api-ms-win-crt-environment-l1-1-0.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\api-ms-win-crt-filesystem-l1-1-0.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\api-ms-win-crt-heap-l1-1-0.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\api-ms-win-crt-locale-l1-1-0.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\api-ms-win-crt-math-l1-1-0.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\api-ms-win-crt-multibyte-l1-1-0.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\api-ms-win-crt-private-l1-1-0.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\api-ms-win-crt-process-l1-1-0.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\api-ms-win-crt-runtime-l1-1-0.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\api-ms-win-crt-stdio-l1-1-0.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\api-ms-win-crt-string-l1-1-0.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\api-ms-win-crt-time-l1-1-0.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\api-ms-win-crt-utility-l1-1-0.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\clrcompression.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\clretwrc.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\clrjit.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\coreclr.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\dbgshim.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\hostfxr.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\hostpolicy.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\mscordaccore.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\mscordaccore_amd64_amd64_4.700.21.51404.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\mscordbi.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\mscorrc.debug.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\mscorrc.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\ucrtbase.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.AspNetCore.Antiforgery.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.AspNetCore.Authentication.Abstractions.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.AspNetCore.Authentication.Cookies.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.AspNetCore.Authentication.Core.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.AspNetCore.Authentication.OAuth.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.AspNetCore.Authentication.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.AspNetCore.Authorization.Policy.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.AspNetCore.Authorization.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.AspNetCore.Components.Authorization.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.AspNetCore.Components.Forms.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.AspNetCore.Components.Server.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.AspNetCore.Components.Web.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.AspNetCore.Components.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.AspNetCore.Connections.Abstractions.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.AspNetCore.CookiePolicy.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.AspNetCore.Cors.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.AspNetCore.DataProtection.Abstractions.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.AspNetCore.DataProtection.Extensions.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.AspNetCore.DataProtection.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.AspNetCore.Diagnostics.Abstractions.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.AspNetCore.Diagnostics.HealthChecks.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.AspNetCore.Diagnostics.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.AspNetCore.HostFiltering.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.AspNetCore.Hosting.Abstractions.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.AspNetCore.Hosting.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.AspNetCore.Html.Abstractions.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.AspNetCore.Http.Abstractions.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.AspNetCore.Http.Connections.Common.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.AspNetCore.Http.Connections.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.AspNetCore.Http.Extensions.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.AspNetCore.Http.Features.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.AspNetCore.Http.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.AspNetCore.HttpOverrides.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.AspNetCore.HttpsPolicy.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.AspNetCore.Identity.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.AspNetCore.Localization.Routing.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.AspNetCore.Localization.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.AspNetCore.Metadata.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.AspNetCore.Mvc.Abstractions.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.AspNetCore.Mvc.ApiExplorer.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.AspNetCore.Mvc.Core.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.AspNetCore.Mvc.Cors.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.AspNetCore.Mvc.DataAnnotations.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.AspNetCore.Mvc.Formatters.Json.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.AspNetCore.Mvc.Formatters.Xml.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.AspNetCore.Mvc.Localization.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.AspNetCore.Mvc.Razor.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.AspNetCore.Mvc.RazorPages.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.AspNetCore.Mvc.TagHelpers.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.AspNetCore.Mvc.ViewFeatures.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.AspNetCore.Mvc.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.AspNetCore.Razor.Runtime.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.AspNetCore.Razor.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.AspNetCore.ResponseCaching.Abstractions.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.AspNetCore.ResponseCaching.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.AspNetCore.ResponseCompression.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.AspNetCore.Rewrite.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.AspNetCore.Routing.Abstractions.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.AspNetCore.Routing.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.AspNetCore.Server.HttpSys.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.AspNetCore.Server.IIS.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.AspNetCore.Server.IISIntegration.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.AspNetCore.Server.Kestrel.Core.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.AspNetCore.Server.Kestrel.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.AspNetCore.Session.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.AspNetCore.SignalR.Common.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.AspNetCore.SignalR.Core.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.AspNetCore.SignalR.Protocols.Json.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.AspNetCore.SignalR.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.AspNetCore.StaticFiles.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.AspNetCore.WebSockets.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.AspNetCore.WebUtilities.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.AspNetCore.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.Extensions.Configuration.CommandLine.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.Extensions.Configuration.EnvironmentVariables.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.Extensions.Configuration.Ini.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.Extensions.Configuration.KeyPerFile.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.Extensions.Configuration.UserSecrets.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.Extensions.Configuration.Xml.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.Extensions.Configuration.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.Extensions.Diagnostics.HealthChecks.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.Extensions.FileProviders.Composite.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.Extensions.FileProviders.Embedded.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.Extensions.Hosting.Abstractions.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.Extensions.Hosting.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.Extensions.Http.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.Extensions.Identity.Core.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.Extensions.Localization.Abstractions.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.Extensions.Localization.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.Extensions.Logging.Configuration.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.Extensions.Logging.Console.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.Extensions.Logging.Debug.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.Extensions.Logging.EventLog.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.Extensions.Logging.EventSource.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.Extensions.Logging.TraceSource.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.Extensions.Logging.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.Extensions.ObjectPool.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.Extensions.Options.ConfigurationExtensions.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.Extensions.Options.DataAnnotations.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.Extensions.Options.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.Extensions.Primitives.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.Extensions.WebEncoders.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.JSInterop.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.Net.Http.Headers.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\Microsoft.Win32.SystemEvents.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Diagnostics.EventLog.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Drawing.Common.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.IO.Pipelines.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Security.Cryptography.Pkcs.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Security.Cryptography.Xml.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Security.Permissions.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\System.Windows.Extensions.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\bin\release\netcoreapp3.1\win-x64\aspnetcorev2_inprocess.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\obj\release\netcoreapp3.1\win-x64\botmico.csprojAssemblyReference.cache
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\obj\release\netcoreapp3.1\win-x64\botmico.AssemblyInfoInputs.cache
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\obj\release\netcoreapp3.1\win-x64\botmico.AssemblyInfo.cs
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\obj\release\netcoreapp3.1\win-x64\botmico.csproj.CoreCompileInputs.cache
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\obj\release\netcoreapp3.1\win-x64\botmico.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\obj\release\netcoreapp3.1\win-x64\botmico.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\obj\release\netcoreapp3.1\win-x64\botmico.RazorTargetAssemblyInfo.cache
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\obj\release\netcoreapp3.1\win-x64\botmico.csproj.CopyComplete
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\obj\release\netcoreapp3.1\win-x64\staticwebassets\botmico.StaticWebAssets.Manifest.cache
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\obj\release\netcoreapp3.1\win-x64\staticwebassets\botmico.StaticWebAssets.xml
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\obj\release\netcoreapp3.1\win-x64\botmico.dll
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\obj\release\netcoreapp3.1\win-x64\botmico.pdb
+C:\Users\v-edaayan\OneDrive - Microsoft\Desktop\mico_send\botmico\botmico\botmico\obj\release\netcoreapp3.1\win-x64\botmico.genruntimeconfig.cache

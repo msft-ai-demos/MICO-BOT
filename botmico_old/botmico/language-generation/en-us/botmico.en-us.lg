@@ -1,0 +1,1177 @@
+[import](common.lg)
+
+# SendActivity_ErrorOccured()
+[Activity
+    Text = Üzgünüm, takıldım. Başka bir şekilde sormayı dener misin?
+]
+
+# SendActivity_DidNotUnderstand()
+[Activity
+    Text = Pardon, anlamadım. Tekrar söyler misin?
+]
+
+# SendActivity_pBVszj()
+[Activity
+    Text = denemedesin
+]
+
+# SendActivity_3PqPlq()
+[Activity
+    Attachments = ${json(SendActivity_3PqPlq_attachment_YmFzdJ())}
+]
+
+# SendActivity_3PqPlq_attachment_YmFzdJ()
+> To learn more Adaptive Cards format, read the documentation at
+> https://docs.microsoft.com/en-us/adaptive-cards/getting-started/bots
+- ```{
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "type": "AdaptiveCard",
+    "version": "1.3",
+    "body": [
+        {
+            "type": "TextBlock",
+            "size": "Medium",
+            "weight": "Bolder",
+            "wrap": true,
+            "text": "Bing ile Çevir "
+        },
+        {
+            "type": "TextBlock",
+            "text": "Çevirmek istediğin kelime:",
+            "wrap": true
+        },
+        {
+            "type": "Input.Text",
+            "placeholder": "Kalem...",
+            "id": "1"
+        },
+        {
+            "type": "TextBlock",
+            "wrap": true,
+            "text": "Hangi dile çevirmek istersin?"
+        },
+        {
+            "type": "Input.ChoiceSet",
+            "choices": [
+                {
+                    "title": "İngilizce",
+                    "value": "en"
+                },
+                {
+                    "title": "Almanca",
+                    "value": "de"
+                },
+                {
+                    "title": "İspanyolca",
+                    "value": "es"
+                },
+                {
+                    "title": "Fransızca",
+                    "value": "fr"
+                },
+                {
+                    "title": "Flemenkçe",
+                    "value": "nl"
+                },
+                {
+                    "title": "Arapça",
+                    "value": "ar"
+                },
+                {
+                    "title": "Yunanca",
+                    "value": "el"
+                },
+                {
+                    "title": "Rusça",
+                    "value": "ru"
+                },
+                {
+                    "title": "İtalyanca",
+                    "value": "it"
+                }
+            ],
+            "placeholder": "Dil seç",
+            "id": "2"
+        }
+    ]
+}```
+# SendActivity_qN33UJ()
+[Activity
+    Text = Tamam! Sana bir fıkra anlatabilirim.
+]
+
+# SendActivity_0OSN0F()
+[Activity
+    Attachments = ${json(SendActivity_0OSN0F_attachment_dLxvfL())}
+    AttachmentLayout = carousel
+]
+
+# SendActivity_0OSN0F_attachment_dLxvfL()
+[HeroCard
+  images = https://micoyedeksa.blob.core.windows.net/thumbnails/karli.PNG
+]
+
+# SendActivity_ceDSDR()
+[Activity
+    Attachments = ${json(SendActivity_ceDSDR_attachment_tFdoik())} | ${json(SendActivity_ceDSDR_attachment_Y1qdtl())} | ${json(SendActivity_ceDSDR_attachment_Lg2iIb())}
+    AttachmentLayout = carousel
+]
+
+# SendActivity_ceDSDR_attachment_tFdoik()
+> To learn more Adaptive Cards format, read the documentation at
+> https://docs.microsoft.com/en-us/adaptive-cards/getting-started/bots
+- ```{
+    "type": "AdaptiveCard",
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "version": "1.3",
+    "body": [
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "items": [
+                        {
+                            "type": "Image",
+                            "url": "https://cdn-icons-png.flaticon.com/512/732/732221.png"
+                        }
+                    ],
+                    "width": "50px"
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "Kuruluşumuz",
+                            "wrap": true,
+                            "size": "Medium",
+                            "weight": "Bolder"
+                        }
+                    ],
+                    "verticalContentAlignment": "Center"
+                }
+            ]
+        },
+        {
+            "type": "TextBlock",
+            "wrap": true,
+            "text": "Kuruluşumuz, şirketlerimiz ve daha fazlasıyla ilgili haberlerle Microsoft hakkında bilgi sahibi olun."
+        },
+        {
+            "type": "ActionSet",
+            "actions": [
+                {
+                    "type": "Action.OpenUrl",
+                    "title": "Microsoft dünyasını keşfedin",
+                    "url": "https://www.microsoft.com/tr-tr/about/company"
+                }
+            ]
+        }
+    ]
+}```
+# SendActivity_ceDSDR_attachment_Y1qdtl()
+> To learn more Adaptive Cards format, read the documentation at
+> https://docs.microsoft.com/en-us/adaptive-cards/getting-started/bots
+- ```{
+    "type": "AdaptiveCard",
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "version": "1.3",
+    "body": [
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": "50px",
+                    "items": [
+                        {
+                            "type": "Image",
+                            "url": "https://cdn-icons-png.flaticon.com/512/1256/1256650.png"
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "Biz kimiz",
+                            "wrap": true,
+                            "size": "Medium",
+                            "weight": "Bolder"
+                        }
+                    ],
+                    "verticalContentAlignment": "Center"
+                }
+            ]
+        },
+        {
+            "type": "TextBlock",
+            "wrap": true,
+            "text": "Topluluğumuzdaki kişileri tanıyın, ilginç hikayeleri keşfedin ve vizyonumuzu şekillendiren liderlerle tanışın."
+        },
+        {
+            "type": "ActionSet",
+            "actions": [
+                {
+                    "type": "Action.OpenUrl",
+                    "title": "Microsoft topluluğuyla tanışın",
+                    "url": "https://www.microsoft.com/tr-tr/about/people"
+                }
+            ]
+        }
+    ]
+}```
+# SendActivity_ceDSDR_attachment_Lg2iIb()
+> To learn more Adaptive Cards format, read the documentation at
+> https://docs.microsoft.com/en-us/adaptive-cards/getting-started/bots
+- ```{
+    "type": "AdaptiveCard",
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "version": "1.3",
+    "body": [
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": "50px",
+                    "items": [
+                        {
+                            "type": "Image",
+                            "url": "https://cdn-icons-png.flaticon.com/512/3362/3362022.png"
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "Değerlerimiz",
+                            "wrap": true,
+                            "size": "Medium",
+                            "weight": "Bolder"
+                        }
+                    ],
+                    "verticalContentAlignment": "Center"
+                }
+            ]
+        },
+        {
+            "type": "TextBlock",
+            "wrap": true,
+            "text": "Teknolojimizi ve kaynaklarımızı, kalıcı olumlu etki yaratmak için nasıl paylaştığımızı görün."
+        },
+        {
+            "type": "ActionSet",
+            "actions": [
+                {
+                    "type": "Action.OpenUrl",
+                    "title": "Değerlerimiz hakkında bilgi edinin",
+                    "url": "https://www.microsoft.com/tr-tr/about/values"
+                }
+            ]
+        }
+    ]
+}```
+# SendActivity_HPiGMX()
+[Activity
+    Attachments = ${json(SendActivity_HPiGMX_attachment_XuvuRO())} | ${json(SendActivity_HPiGMX_attachment_YvFR0w())} | ${json(SendActivity_HPiGMX_attachment_hanZkO())}
+    AttachmentLayout = carousel
+]
+
+# SendActivity_HPiGMX_attachment_XuvuRO()
+> To learn more Adaptive Cards format, read the documentation at
+> https://docs.microsoft.com/en-us/adaptive-cards/getting-started/bots
+- ```{
+    "type": "AdaptiveCard",
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "version": "1.3",
+    "body": [
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": "25px",
+                    "items": [
+                        {
+                            "type": "Image",
+                            "url": "https://cdn-icons-png.flaticon.com/512/2738/2738177.png",
+                            "size": "Small"
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.ay} ${dialog.yil}",
+                            "wrap": true,
+                            "size": "Medium",
+                            "color": "Dark",
+                            "weight": "Bolder"
+                        }
+                    ],
+                    "verticalContentAlignment": "Center"
+                }
+            ]
+        },
+        {
+            "type": "TextBlock",
+            "text": "School Data Sync – Partner Technical Training",
+            "wrap": true,
+            "size": "Medium",
+            "color": "Accent",
+            "weight": "Bolder"
+        },
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "Image",
+                            "url": "https://msp1151126154693.blob.core.windows.net/wpmediauploads/Event_Hero_DefaultEvent_273-5e839e6069064.jpg"
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.ay} 07 ${dialog.yil} @ 13.00 PST",
+                            "wrap": true
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "Online",
+                            "wrap": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "New TeMicrosoft School Data Sync can synchronize identity and roster information from a school’s Student Information System (SIS) into Azure Active Directory.",
+                            "wrap": true
+                        },
+                        {
+                            "type": "ActionSet",
+                            "actions": [
+                                {
+                                    "type": "Action.OpenUrl",
+                                    "title": "ŞİMDİ KAYDOLUN",
+                                    "style": "positive",
+                                    "url": "https://www.microsoft.com/tr-tr/education/training-and-events/events-calendar"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}```
+# SendActivity_HPiGMX_attachment_YvFR0w()
+> To learn more Adaptive Cards format, read the documentation at
+> https://docs.microsoft.com/en-us/adaptive-cards/getting-started/bots
+- ```{
+    "type": "AdaptiveCard",
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "version": "1.3",
+    "body": [
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": "25px",
+                    "items": [
+                        {
+                            "type": "Image",
+                            "url": "https://cdn-icons-png.flaticon.com/512/2738/2738177.png",
+                            "size": "Small"
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.ay} ${dialog.yil}",
+                            "wrap": true,
+                            "size": "Medium",
+                            "color": "Dark",
+                            "weight": "Bolder"
+                        }
+                    ],
+                    "verticalContentAlignment": "Center"
+                }
+            ]
+        },
+        {
+            "type": "TextBlock",
+            "text": "Online Learning Now and in the Future",
+            "wrap": true,
+            "size": "Medium",
+            "color": "Accent",
+            "weight": "Bolder"
+        },
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "Image",
+                            "url": "https://msp1151126154693.blob.core.windows.net/wpmediauploads/remote-learning_uk.jpg"
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.ay} 15 ${dialog.yil} @ 10:30 PST",
+                            "wrap": true
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "Online, Replay",
+                            "wrap": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "The panel will discuss how online education is transforming and revolutionising the way students are learning, with students sharing their experience and anecdotes on the benefits and challenges, and what this could mean for the future.",
+                            "wrap": true
+                        },
+                        {
+                            "type": "ActionSet",
+                            "actions": [
+                                {
+                                    "type": "Action.OpenUrl",
+                                    "title": "ŞİMDİ KAYDOLUN",
+                                    "style": "positive",
+                                    "url": "https://www.microsoft.com/tr-tr/education/training-and-events/events-calendar"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}```
+# SendActivity_HPiGMX_attachment_hanZkO()
+> To learn more Adaptive Cards format, read the documentation at
+> https://docs.microsoft.com/en-us/adaptive-cards/getting-started/bots
+- ```{
+    "type": "AdaptiveCard",
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "version": "1.3",
+    "body": [
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": "25px",
+                    "items": [
+                        {
+                            "type": "Image",
+                            "url": "https://cdn-icons-png.flaticon.com/512/2738/2738177.png",
+                            "size": "Small"
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.ay2} ${dialog.yil}",
+                            "wrap": true,
+                            "size": "Medium",
+                            "color": "Dark",
+                            "weight": "Bolder"
+                        }
+                    ],
+                    "verticalContentAlignment": "Center"
+                }
+            ]
+        },
+        {
+            "type": "TextBlock",
+            "text": "Remote Learning Tips and Tricks",
+            "wrap": true,
+            "size": "Medium",
+            "color": "Accent",
+            "weight": "Bolder"
+        },
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "Image",
+                            "url": "https://msp1151126154693.blob.core.windows.net/wpmediauploads/Tips-and-Tricks.jpg"
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.ay2} 12 ${dialog.yil} @ 12:00 PST",
+                            "wrap": true
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "Online",
+                            "wrap": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "Hear tips and tricks from MIE Experts in Portugal, Sweden, and the United States as they share what they have been doing to support students and teachers in their countries through remote learning.",
+                            "wrap": true
+                        },
+                        {
+                            "type": "ActionSet",
+                            "actions": [
+                                {
+                                    "type": "Action.OpenUrl",
+                                    "title": "ŞİMDİ KAYDOLUN",
+                                    "style": "positive",
+                                    "url": "https://www.microsoft.com/tr-tr/education/training-and-events/events-calendar"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}```
+# SendActivity_bvdlGX()
+[Activity
+    Attachments = ${json(SendActivity_bvdlGX_attachment_vcbYVB())}
+]
+
+# SendActivity_bvdlGX_attachment_vcbYVB()
+> To learn more Adaptive Cards format, read the documentation at
+> https://docs.microsoft.com/en-us/adaptive-cards/getting-started/bots
+- ```{
+    "type": "AdaptiveCard",
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "version": "1.3",
+    "body": [
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "Image",
+                            "url": "https://mortgagemomradio.com/clients/3144/uploads/2019/12/welcome_1.jpg"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "wrap": true,
+                            "size": "Medium",
+                            "color": "Accent",
+                            "weight": "Bolder",
+                            "text": "Yeni ekip arkadaşlarımızla tanış: Eray ve Zeynep!"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "wrap": true,
+                            "text": "Eray Budak, 5 Temmuz'dan itibaren Customer Success ekibinde Cloud Solutions Architect olarak görev alacak.\n"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "TextBlock",
+            "text": "Zeynep Alıç, 6 Ekim'den itibaren Azure ekibinde Solution Sales Intern olarak görev alacak.",
+            "wrap": true
+        }
+    ]
+}```
+# SendActivity_vul08k()
+[Activity
+    Text = İşte senin için bulduğum yemek tarifleri!
+]
+
+# SendActivity_LAGwWh_attachment_otM4Wb()
+> To learn more Adaptive Cards format, read the documentation at
+> https://docs.microsoft.com/en-us/adaptive-cards/getting-started/bots
+- ```{
+    "type": "AdaptiveCard",
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "version": "1.3",
+    "body": [
+        {
+            "type": "Image",
+            "url": "https://cdn.yemek.com/mncrop/940/625/uploads/2021/08/mercimek-manti-one-cikan.jpg"
+        },
+        {
+            "type": "TextBlock",
+            "wrap": true,
+            "text": " "
+        },
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "Hafifleyelim: Mercimek Mantı",
+                            "wrap": true,
+                            "size": "Medium",
+                            "weight": "Bolder",
+                            "spacing": "Medium"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "Mercimekleri 2 su bardağı kaynar suyla yumuşayana kadar haşlayın.",
+                            "wrap": true
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "Haşlanan mercimekleri geniş bir kaba alın. Üzerine bulguru ve 1 su bardağı kaynar suyu ve baharatları ekleyip karıştırın. Üzerini streç filmle kapatarak 15-20 dakika dinlenmeye bırakın.",
+                            "wrap": true
+                        },
+                        {
+                            "type": "TextBlock",
+                            "wrap": true,
+                            "text": "Haşlanan mercimekleri geniş bir kaba alın. Üzerine bulguru ve 1 su bardağı kaynar suyu ve baharatları ekleyip karıştırın. Üzerini streç filmle kapatarak 15-20 dakika dinlenmeye bırakın."
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "Dinlenen mercimek karışımını 1-2 dakika boyunca yoğurduktan sonra ceviz büyüklüğünde parçalar alarak yuvarlayın.",
+                            "wrap": true
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "Tabağın altına mercimek mantılarını dizin ve üzerine önce yoğurtlu-sarımsaklı sosu ardından salçalı sosu dökün. İsteğe göre üzerine doğranmış maydanoz serperek servis edebilirsiniz. Afiyet olsun!",
+                            "wrap": true
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "backgroundImage": {
+        "url": "https://st3.depositphotos.com/1558912/19061/i/450/depositphotos_190618704-stock-photo-italian-food-background-on-white.jpg"
+    }
+}```
+# SendActivity_LAGwWh_attachment_5BXXRu()
+> To learn more Adaptive Cards format, read the documentation at
+> https://docs.microsoft.com/en-us/adaptive-cards/getting-started/bots
+- ```{
+    "type": "AdaptiveCard",
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "version": "1.3",
+    "body": [
+        {
+            "type": "Image",
+            "url": "https://cdn.yemek.com/mncrop/940/625/uploads/2020/05/patatesli-graten-yemekcom-buyuk.jpg"
+        },
+        {
+            "type": "TextBlock",
+            "wrap": true,
+            "text": " "
+        },
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "Az Eforla Çok Lezzet: Mantarlı Patates Graten",
+                            "wrap": true,
+                            "size": "Medium",
+                            "weight": "Bolder",
+                            "spacing": "Medium"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "4 adet patatesin kabuklarını soyun. Sonra bir parmak kalınlığında dilimleyip 20 dakika soğuk suda bekletin. Pişirme öncesinde suyunu süzdürüp, kağıt havluyla kurulayın.",
+                            "wrap": true
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "Mantarların sap kısmını çıkarıp zar kısmını aşağıdan yukarı doğru soyun, dörde bölün.",
+                            "wrap": true
+                        },
+                        {
+                            "type": "TextBlock",
+                            "wrap": true,
+                            "text": "Patatesleri kızgın yağda 6 dakika kızartın."
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "Ayrı bir tavada 2 yemek kaşığı sıvı yağı kızdırın. Mantarları ekleyin. Mantarları suyunu salıp çekene kadar pişirin. Ardından ezilmiş sarımsak ve 1 çay kaşığı tuz ile tatlandırın.",
+                            "wrap": true
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "Beşamel sos için çukur bir tencereye 1 yemek kaşığı sıvı yağ ve terayağını koyun. Tereyağı eridikten sonra unu ekleyin ve iki dakika boyunca kavurun. Ardından karıştırarak sütü ekleyin.",
+                            "wrap": true
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "Tuz ve karabiberi ekledikten sonra kaynayana kadar pişirin.",
+                            "wrap": true
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "Küçük boy borcama kızarttığınız patatesleri ve mantarları yerleştirin. Üzerine beşamel sosu döküp kaşar peynirini serpiştirin.",
+                            "wrap": true
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "185 derece fırında 15 dakika pişirin. Fırından çıkardıktan sonra bir müddet dinlendirerek servis edin, afiyet olsun!",
+                            "wrap": true
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "backgroundImage": {
+        "url": "https://st3.depositphotos.com/1558912/19061/i/450/depositphotos_190618704-stock-photo-italian-food-background-on-white.jpg"
+    }
+}```
+# SendActivity_LAGwWh_attachment_TaQ4vv()
+> To learn more Adaptive Cards format, read the documentation at
+> https://docs.microsoft.com/en-us/adaptive-cards/getting-started/bots
+- ```{
+    "type": "AdaptiveCard",
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "version": "1.3",
+    "body": [
+        {
+            "type": "Image",
+            "url": "https://cdn.yemek.com/mncrop/940/625/uploads/2015/06/muhallebi-yemekcom.jpg"
+        },
+        {
+            "type": "TextBlock",
+            "wrap": true,
+            "text": " "
+        },
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "Çocukluğumuzun Tatlısı: Muhallebi",
+                            "wrap": true,
+                            "size": "Medium",
+                            "weight": "Bolder",
+                            "spacing": "Medium"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "5 su bardağı soğuk sütü geniş bir tencereye aktarın. Yarım çay bardağı un, 3 yemek kaşığı buğday nişastası ve 1 su bardağı toz şekeri ilave ettikten sonra ocağın altını açın.",
+                            "wrap": true
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "Ara ara karıştırarak koyu bir kıvam alana kadar pişirin.",
+                            "wrap": true
+                        },
+                        {
+                            "type": "TextBlock",
+                            "wrap": true,
+                            "text": "Kıvam alan muhallebinin altını kapatın."
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "Henüz sıcakken içerisine 1 tatlı kaşığı tereyağı ve 1 paket vanilya ilave ederek çırpın.",
+                            "wrap": true
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "Ardından servis kaselerine paylaştırın ve soğutun.",
+                            "wrap": true
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "Antep fıstığıyla süsleyip tatlandırdığınız muhallebileri soğuk olarak sevdiklerinizle paylaşın.",
+                            "wrap": true
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "backgroundImage": {
+        "url": "https://st3.depositphotos.com/1558912/19061/i/450/depositphotos_190618704-stock-photo-italian-food-background-on-white.jpg"
+    }
+}```
+# SendActivity_LAGwWh_attachment_ojfkBW()
+> To learn more Adaptive Cards format, read the documentation at
+> https://docs.microsoft.com/en-us/adaptive-cards/getting-started/bots
+- ```{
+    "type": "AdaptiveCard",
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "version": "1.3",
+    "body": [
+        {
+            "type": "Image",
+            "url": "https://cdn.yemek.com/mncrop/940/625/uploads/2014/07/pacanga-boregi-tarifi-yenii.jpg"
+        },
+        {
+            "type": "TextBlock",
+            "wrap": true,
+            "text": " "
+        },
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "Sabah Akşam Farketmez: Paçanga Böreği",
+                            "wrap": true,
+                            "size": "Medium",
+                            "weight": "Bolder",
+                            "spacing": "Medium"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "Yufkaları üst üste serdikten sonra dört eşit parçaya bölün ve  sekiz eşit, üçgen yufka parçası elde edin.",
+                            "wrap": true
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "Çemensiz ya da tercihe göre yemeklik pastırmayı küçük parçalar halinde kesin. Kaşar peynirini rendeleyin.",
+                            "wrap": true
+                        },
+                        {
+                            "type": "TextBlock",
+                            "wrap": true,
+                            "text": "Kabuğunu soyduğunuz domatesleri küçük küpler halinde doğrayın. Yeşil biberleri halka şeklinde doğrayın.
+Bir kasede pastırma, kaşar peyniri, domates ve biberi karıştırın."
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "Üçgen yufka parçalarını mutfak tezgahının üzerine açın.",
+                            "wrap": true
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "Kasede karıştırdığınız malzemeleri 1-2 kaşık olacak şekilde üçgen yufka parçasının geniş kısmına doğru yerleştirin ve önce kenarlardan katladıktan sonra rulo şeklinde sarın. Yufkanın ucunu su ile ıslatıp kapatın.",
+                            "wrap": true
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "Ayçiçek yağını kızdırın. Sardığınız börekleri kızgın yağda kızartın.",
+                            "wrap": true
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "Fazla yağını bırakmaları için kağıt havlu serili bir servis tabağında 2- 3 dakika kadar beklettikten sonra sıcak olarak servis edin. Sevdiklerinizle paylaşın.",
+                            "wrap": true
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "backgroundImage": {
+        "url": "https://st3.depositphotos.com/1558912/19061/i/450/depositphotos_190618704-stock-photo-italian-food-background-on-white.jpg"
+    }
+}```
+# SendActivity_LAGwWh()
+[Activity
+    Attachments = ${json(SendActivity_LAGwWh_attachment_otM4Wb())} | ${json(SendActivity_LAGwWh_attachment_5BXXRu())} | ${json(SendActivity_LAGwWh_attachment_TaQ4vv())} | ${json(SendActivity_LAGwWh_attachment_ojfkBW())}
+    AttachmentLayout = carousel
+]
+
+# SendActivity_JIoqzX_attachment_jnhGWa()
+> To learn more Adaptive Cards format, read the documentation at
+> https://docs.microsoft.com/en-us/adaptive-cards/getting-started/bots
+- ```{
+    "type": "AdaptiveCard",
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "version": "1.3",
+    "body": [
+        {
+            "type": "TextBlock",
+            "wrap": true,
+            "text": " "
+        },
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.gun} ${dialog.ay} ${dialog.yil} ",
+                            "wrap": true,
+                            "size": "Large",
+                            "weight": "Bolder",
+                            "spacing": "Medium"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "- ${dialog.corba}",
+                            "wrap": true,
+                            "size": "Medium"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "- ${dialog.anayemek}",
+                            "wrap": true,
+                            "size": "Medium"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "wrap": true,
+                            "text": "- ${dialog.yan1}",
+                            "size": "Medium"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "- ${dialog.yan2}",
+                            "wrap": true,
+                            "size": "Medium"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "backgroundImage": {
+        "url": "https://media.istockphoto.com/photos/traditional-french-breakfast-background-copy-space-picture-id865839662?k=6&m=865839662&s=612x612&w=0&h=STVvXBn7T8QwuecrMJq2Z8eIO-xEYCWwrsBhUMhkHDM="
+    }
+}```
+# SendActivity_JIoqzX()
+[Activity
+    Text = Bugünün yemek menüsü:
+    Attachments = ${json(SendActivity_JIoqzX_attachment_jnhGWa())}
+]
+
+# SendActivity_Hc9Gsc_attachment_jnhGWa()
+> To learn more Adaptive Cards format, read the documentation at
+> https://docs.microsoft.com/en-us/adaptive-cards/getting-started/bots
+- ```{
+    "type": "AdaptiveCard",
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "version": "1.3",
+    "body": [
+        {
+            "type": "TextBlock",
+            "wrap": true,
+            "text": " "
+        },
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "${dialog.gun} ${dialog.ayarray[int(dialog.ay)]} ${dialog.yil} ${dialog.haftaarray[dialog.dayoftheweek]}",
+                            "wrap": true,
+                            "size": "Large",
+                            "weight": "Bolder",
+                            "spacing": "Medium"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "- ${dialog.corba}",
+                            "wrap": true,
+                            "size": "Medium"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "- ${dialog.anayemek}",
+                            "wrap": true,
+                            "size": "Medium"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "wrap": true,
+                            "text": "- ${dialog.yan1}",
+                            "size": "Medium"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "- ${dialog.yan2}",
+                            "wrap": true,
+                            "size": "Medium"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "backgroundImage": {
+        "url": "https://media.istockphoto.com/photos/traditional-french-breakfast-background-copy-space-picture-id865839662?k=6&m=865839662&s=612x612&w=0&h=STVvXBn7T8QwuecrMJq2Z8eIO-xEYCWwrsBhUMhkHDM="
+    }
+}```
+# SendActivity_Hc9Gsc()
+[Activity
+    Text = Bugünün yemek menüsü:
+    Attachments = ${json(SendActivity_Hc9Gsc_attachment_jnhGWa())}
+]
+
+# SendActivity_AzJlah()
+[Activity
+    Text = tekel intentindeyim
+]
