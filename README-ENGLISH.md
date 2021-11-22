@@ -31,14 +31,14 @@ Miço is a virtual assistant that can help you in many ways and chat. You can as
 
 ## [Installation](#how-can-i-use-mico--requirements)
 *Miço installation steps.*
-1. [Miço'yu Kurun!](#1-miçoyu-kurun)
-2. [Miço'yu Publish Edin](#2-miçoyu-publish-edin)
-3. [Miço'yu Teams'e Ekleyin](#3-miçoyu-teamse-ekleyin)
+1. [Install Micç!](#1-install-mico)
+2. [Publish Miço](#2-miçoyu-publish-edin)
+3. [Add Miço to your Teams](#3-miçoyu-teamse-ekleyin)
 
 
 ## [How to Add a New Intent?](#yeni-bir-niyet-ve-dialog-nasıl-eklenir)
-1. [Hava Durumu Niyeti](#1-niyet--hava-durumu-niyeti)
-2. [Hava Durumu Dialoğu](#2-dialog--hava-durumu-dialoğu)
+1. [Weather Intent](#1-niyet--hava-durumu-niyeti)
+2. [Weather Dialog](#2-dialog--hava-durumu-dialoğu)
 
 
 # How can I use Miço: Requirements
