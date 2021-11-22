@@ -76,7 +76,7 @@ Bing Maps is a web map service search engine. Get started with [Bing Maps](https
 ## 6. Bing Search - Optional
 Bing is Microsoft's multilingual search engine. To use Bing on your bot, you can create [Bing Search Resource](https://docs.microsoft.com/en-us/bing/search-apis/bing-web-search/create-bing-search-service-resource) via Azure Portal.
 
-## 7. Merkez Bankası API -Optional
+## 7. Central Bank API -Optional
 You can create a key by following [Central Bank EVDS Web Service Documentation](https://evds2.tcmb.gov.tr/help/videos/EVDS_Web_Servis_Usim_Kilavuzu.pdf) so that the bot can access up-to-date currency information.
 
 
