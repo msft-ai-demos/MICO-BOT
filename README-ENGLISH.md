@@ -7,11 +7,16 @@ Miço is your virtual assistant in Microsoft Teams.
 
 Miço is a virtual assistant that can help you in many ways and chat. You can ask a lot of things; From weather information in Turkey, to exchange rates and conversions, from current news on a subject, to a person or thing you are curious about the definition in encyclopedia. You can do short translations and give feedback to him without leaving Teams. Moreover, you can install Miço in your own Teams.
 
-<img src="https://user-images.githubusercontent.com/14835957/133957964-bb5dc633-1aa5-4924-affc-0d50433030b9.jpeg" width=25% height=25%>
-<img src="https://user-images.githubusercontent.com/14835957/133957977-61e3c06c-6e31-4b71-b36a-adc002e70fe8.jpeg" width=25% height=25%>
-<img src="https://user-images.githubusercontent.com/14835957/133957989-b65c0daa-d799-4b90-9acf-147d525bc60e.jpeg" width=25% height=25%>
-<img src="https://user-images.githubusercontent.com/14835957/133958000-b8bac881-d2cb-4b77-a27c-c8c0075b09c5.jpeg" width=25% height=25%>
-<img src="https://user-images.githubusercontent.com/14835957/133958007-8dff7f60-0c35-4545-acf8-c974dc00e0a0.jpeg" width=25% height=25%>
+<p align="middle">
+  <img src="https://user-images.githubusercontent.com/14835957/133957977-61e3c06c-6e31-4b71-b36a-adc002e70fe8.jpeg" width=32% height=32% /> 
+  <img src="https://user-images.githubusercontent.com/14835957/133958007-8dff7f60-0c35-4545-acf8-c974dc00e0a0.jpeg" width=32% height=32% /> 
+  <img src="https://user-images.githubusercontent.com/14835957/133957989-b65c0daa-d799-4b90-9acf-147d525bc60e.jpeg" width=32% height=32% /> 
+</p>
+
+<p align="left">
+  <img src="https://user-images.githubusercontent.com/14835957/133957964-bb5dc633-1aa5-4924-affc-0d50433030b9.jpeg" width=32% height=32% />
+  <img src="https://user-images.githubusercontent.com/14835957/133958000-b8bac881-d2cb-4b77-a27c-c8c0075b09c5.jpeg" width=32% height=32% />
+</p>
 
 ## [Requirements](#miçoyu-nasıl-kullanabilirim-gereksinimler)
 *Services required to use Miço.*
