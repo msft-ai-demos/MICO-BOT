@@ -18,7 +18,7 @@ Miço is a virtual assistant that can help you in many ways and chat. You can as
   <img src="https://user-images.githubusercontent.com/14835957/133958000-b8bac881-d2cb-4b77-a27c-c8c0075b09c5.jpeg" width=32% height=32% />
 </p>
 
-## [Requirements](#miçoyu-nasıl-kullanabilirim-gereksinimler)
+## [Requirements](#how-can-I-use-Mico--requirements)
 *Services required to use Miço.*
 
 1. [Azure Hesabı](#1-azure-hesabı-oluşturma)
