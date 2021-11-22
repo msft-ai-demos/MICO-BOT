@@ -3,7 +3,7 @@
 
 Miço is your virtual assistant in Microsoft Teams.
 
-<img src="https://raw.githubusercontent.com/msft-ai-demos/MICO-BOT/media/micologo_small.png" width=15% height=15%>
+<img src="https://github.com/eda-ayan/MICO-BOT/blob/main/media/micologo_small.png?raw=true" width=15% height=15%>
 
 Miço is a virtual assistant that can help you in many ways and chat. You can ask a lot of things; From weather information in Turkey, to exchange rates and conversions, from current news on a subject, to a person or thing you are curious about the definition in encyclopedia. You can do short translations and give feedback to him without leaving Teams. Moreover, you can install Miço in your own Teams.
 
