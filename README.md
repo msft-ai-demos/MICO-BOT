@@ -110,7 +110,7 @@ Daha sonra Publishing Profile'ınızı seçerek Publish selected bots seçeneği
 
 ## 3. Miço'yu Teams'e Ekleyin
 
-Publish etmiş olduğunuz botu Teams'e ekleyebilmeniz için tamamlamanız gereken bir kaç adım kaldı. Bu adımları Azure Portal içerisinden tamamlayacağız. Publish edilmiş botunuzu Azure Portal'dan açtığınızda Channels tabında botunuzu entegre edebileceğiniz kanalları görebilirsiniz. Bu kanallardan Teams'i seçerek botunuzu Teams üzerinde konumlandırabilirsiniz. 
+Publish etmiş olduğunuz botu Teams'e ekleyebilmeniz için tamamlamanız gereken bir kaç adım kaldı. Bu adımları Azure Portal içerisinden tamamlayacağız. Publish edilmiş botunuzu Azure Portal'dan açtığınızda Channels tabında botunuzu entegre edebileceğiniz kanalları görebilirsiniz. Bu kanallardan Teams'i seçerek botunuzu Teams üzerinde konumlandırabilirsiniz. Arayüzdeki "Open in Teams" linkine tıklayıp bot ile konuşmaya başlayabilirsiniz, ya da bu linki kurumunuzdaki diğer kullanıcılara duyurabilirsiniz.
 
 ![image](https://user-images.githubusercontent.com/25666677/142224934-07e6cc97-d9e0-4304-927d-08ca9c905fad.png)
 
