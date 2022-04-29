@@ -8,8 +8,8 @@
     "Checking the Existence of the Resource Group ...",
     "Use the Resource Group: ChatBotDemosRG at westeurope",
     "> Creating App Registration ...",
-    "Start to add password for App, Id : 7a03359b-ae63-4cac-8fcc-c85610a59866",
-    "> Create App Registration Success! ID: 7a03359b-ae63-4cac-8fcc-c85610a59866",
+    "Start to add password for App, Id : ",
+    "> Create App Registration Success! ID: ",
     "Deploying Web App Resource ...",
     "Deploying Bot Resource ...",
     "Provisioning completed successfully!"
